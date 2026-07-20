@@ -1,0 +1,493 @@
+\documentclass[11pt]{article}
+
+% ---- packages (all in arXiv's TeX Live; no external .sty needed) ----
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[colorlinks=true,linkcolor={blue!55!black},citecolor={blue!55!black},urlcolor={blue!55!black}]{hyperref}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\pct}{\%}
+
+\title{\textbf{Function Without Architecture:\\[2pt]
+Auditing and Installing Verbalizable Workspaces\\ in Small Language Models}}
+
+\author{Aayush Timalsina\\
+Independent Researcher\\
+\texttt{timalsinaaayush90@gmail.com}}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The ``Verbalizable Representations Form a Global Workspace in Language Models''
+hypothesis argues that language models carry an emergent, verbalizable workspace:
+shared representations that multiple computations read and write, holding
+intermediate thoughts a Jacobian lens can read out. We test this two ways on
+small open-weight models. \textbf{Part~I (audit).} On Qwen3-1.7B/4B the claims
+split cleanly: shared associative fact representations are real and
+\emph{strengthen} with scale (edit one concept, all dependents flip, $97.2\pct$
+at 4B); two phenomena the public review did not test are also real and
+causal---a covert language/format \emph{register}, and \emph{perspectival
+capture}, a mid-band entity swap that rewrites the model's restatement of the
+question itself (scale-stable 1.7B--14B). But the ``rewrite an intermediate
+thought'' result is \emph{directed steering, not surgery} (an absent word flips
+nothing; flips track direction overlap, not the edited concept), rhyme
+``planning'' is next-token ramping, arithmetic is not lens-readable above
+chance, and the Jacobian lens shows \emph{no consistent advantage over a vanilla
+logit lens} on its own evaluation sets. \textbf{Part~II (construction).} If the
+architecture is absent at small scale, can task structure install the
+\emph{function}---silent, internal multi-step composition---anyway? Across eight
+pre-registered phases we show that at 0.6B the reasoning loop is \emph{external}
+(gag the model and composition collapses to the floor while single-fact recall
+\emph{improves}), whereas at 1.7B a four-stage ``Holding'' curriculum installs a
+functional holding-space: never-trained silent two-step arithmetic rises from
+$\sim0\pct$ to $26.7\pct$ ($4\times$ its cued floor), lifting to $36.7\pct$ under
+a route-reward reinforcement-learning stage; the free-versus-silent gap closes
+to zero on every battery, and the skill transfers to a never-trained astrology
+vocabulary (silent chains $0\pct{\to}50\pct$). What never forms is the
+\emph{architecture}: no ignition, no representational-block structure, an
+unchanged readout ramp. The synthesis: \emph{at 1.7B one can relocate computation
+inward (function) without reorganizing the dynamics (architecture)}, and several
+paper-grade workspace signatures are, read carefully, properties of the lens
+rather than the model. Every phase committed numeric predictions before the data
+existed; two of our own headline claims were refuted by our own controls and
+retired on the record. All code, evaluation outputs, and trained adapters are
+released.
+\end{abstract}
+
+\section{Introduction}
+
+The global-workspace hypothesis for language models
+\cite{anthropic-workspace}---adapting Baars' and Dehaene's global-workspace
+theories of cognition \cite{baars,dehaene}---proposes that transformers develop
+an emergent \emph{workspace}: a set of shared, verbalizable representations that
+distinct computations read from and write to, holding intermediate results that
+can be read out with a \emph{Jacobian lens}. The paper shipped with one external
+review \cite{nanda-review}, whose results were mixed: multi-fact editing
+replicated cleanly, while rhyme-planning and mental-arithmetic experiments did
+not, the multi-hop probe-swap effect was weak, and the lens produced many false
+positives.
+
+This work asks two questions the review left open, and answers them on small,
+fully open-weight models runnable on a single consumer GPU.
+
+\begin{enumerate}[leftmargin=1.4em,itemsep=2pt]
+\item \textbf{Which claims survive an independent audit, and which are properties
+of the instrument?} (Part~I)
+\item \textbf{If the workspace \emph{architecture} is not present at small scale,
+can a curriculum install the workspace \emph{function}---silent, internal,
+multi-step composition---regardless?} (Part~II)
+\end{enumerate}
+
+\paragraph{Contributions.}
+(1) An independent, three-way-separated audit (paper claim vs.\ public review vs.\
+our measurement) of six global-workspace claims, quantifying which replicate,
+which are non-specific steering, and which are lens artifacts.
+(2) Two previously-untested phenomena characterized as real and causal: covert
+context \emph{registers} and \emph{perspectival capture}, the latter with a
+nine-model mechanism (a composite drift-wall / consumption-deadline cutoff).
+(3) A pre-registered, eight-phase construction program showing that at 0.6B the
+reasoning loop is external, and that at 1.7B a Holding curriculum plus a
+route-reward RL stage installs a functional silent holding-space---\emph{without}
+any of the architectural signatures.
+(4) A methodological demonstration that pre-registration with adversarial
+controls is load-bearing: our controls killed two of our own headline claims.
+
+Throughout, the free-generation accuracy of a base model is treated as a measure
+of \emph{compliance}, not knowledge; a \emph{gag} protocol (append
+\texttt{"~Answer:"} and cap generation at four tokens) forces commitment so the
+model cannot chain its reasoning out loud, isolating \emph{silent} composition.
+
+\section{Background and Related Work}
+
+\paragraph{Global-workspace theory and its ML instantiation.}
+Baars' Global Workspace \cite{baars} and Dehaene's Global Neuronal Workspace
+\cite{dehaene} posit a broadcast bottleneck through which specialized processes
+share information. \cite{anthropic-workspace} operationalizes an analogue in
+transformers and reads it with a Jacobian lens---a transported-direction readout
+generalizing the logit lens \cite{logit-lens}.
+
+\paragraph{Models and instruments.}
+We use Qwen3-0.6B/1.7B/4B \cite{qwen3} (a dense 1.7B--27B ladder and Gemma-2 for
+the capture campaign), the official \texttt{jacobian-lens} implementation (pinned
+and never modified), LoRA \cite{lora} for the construction program, and MLX
+\cite{mlx} for training and evaluation. The construction program's RL stage uses
+a GRPO-style REINFORCE objective \cite{grpo}, and its ``reward the process''
+framing is related in spirit to Quiet-STaR \cite{quiet-star}.
+
+\section{Part~I --- Auditing the Global-Workspace Claims}
+
+\paragraph{Method rules (held throughout).}
+Every result separates three sources---the paper's claim, the external review's
+verdict, and our own measurement---and never blends them; every run is logged the
+day it happens, failures included; the official \texttt{jacobian-lens} code is
+never modified (adaptations live in a separate source tree); headline rates carry
+bootstrap confidence intervals and a prompt-set sensitivity reanalysis.
+
+\begin{table}[h]
+\centering
+\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\textwidth}{@{}l c c Y@{}}
+\toprule
+\textbf{Claim} & \textbf{Paper} & \textbf{Review} & \textbf{Our measurement} \\
+\midrule
+C1 shared representations (edit one concept, all dependents flip)
+& yes & replicates
+& \textbf{Replicated; strengthens with scale.} $97.2\pct$ hit / $0\pct$ stayed at
+4B; carried by an early-mid band (layers 4--13 of 28). Only \emph{associative}
+links move; \emph{operations} on the concept fail. \\
+C2 thought-swap (rewrite a two-hop intermediate)
+& yes & weak
+& \textbf{Partial ($50$--$65\pct$), non-surgical.} Along lens directions the
+answer-token control \emph{beats} the intermediate swap (4B $85.4\pct$ vs
+$50.0\pct$, $p{=}0.0005$). Trained probes restore the swap to $50$--$65\pct$ and
+drop the control to $\sim40\pct$; the ``surgical edit'' reading does not survive. \\
+C3 rhyme planning
+& no & no
+& \textbf{Not replicated.} Rhyme word never in lens top-10 at readout
+(pass@10 $=0\pct$). The apparent emergence curve is the word climbing into the
+model's own next-token distribution. \\
+C4 internal arithmetic, lens-readable
+& no & no
+& \textbf{Not replicated.} Order/operation readout at or near base rate (1.7B
+exactly $0$ above chance; 4B $14.5\pct$ vs $8.2\pct$ control). \\
+C5 lens reliability
+& imperfect & heavy FPs
+& \textbf{Confirmed and quantified.} Permutation control fires $9$--$11\pct$ on
+multihop; \textbf{no consistent advantage over the vanilla logit lens} on the
+lens's own eval sets (typo, 4B: J $26.0\pct$ vs logit $69.8\pct$). \\
+C6 workspace dynamics (ignition, capacity, selectivity)
+& claimed & least confident
+& \textbf{Not tested} (by design; not compute-funded). \\
+\bottomrule
+\end{tabularx}
+\caption{Three-way verdict table for the six audited claims.}
+\label{tab:verdict}
+\end{table}
+
+\subsection{Three positive anchors}
+
+\textbf{Shared representations are real (E1).} \emph{France}$\to$\emph{China}
+flips capital, language, continent, and currency together, $97.2\pct$ at 4B and
+\emph{cleaner} than at 1.7B---the one claim that strengthens with scale. The
+effect localizes to an early-mid band and is specific to associative links.
+
+\textbf{Covert registers are causal (E6).} A mass-mean language axis, translated
+at $\alpha{=}0.125$, flips the output language $91$--$94\pct$ of the time (random
+control $0\pct$, McNemar $p{<}10^{-4}$); on the \emph{covert} subset (target form
+outside the clean top-100) the register still flips language $79$--$96\pct$ while
+full-content flips drop to $\sim30\pct$. \emph{The register carries the setting
+(language, intended form), not the content.} This is the honest residue of the
+``workspace holds covert plans'' claim: what is genuinely covert and steerable is
+\emph{context registers}, not thought plans.
+
+\textbf{Perspectival capture is a new phenomenon (E7).} In a shared-KV
+answer$\to$restatement$\to$self-report protocol, a mid-band entity swap makes the
+model \emph{restate the question itself} with the swapped entity (1.7B: answer
+flips $78.6\pct$, restatement rewritten $71.4\pct$, lens--behavior agreement
+$96\pct$). It is \emph{scale-stable from 1.7B to 14B}. Across nine models the
+writable zone's cutoff is a \emph{composite}---whichever comes first of a
+coordinate drift wall and the task's consumption deadline (the commit layer
+rank-correlates with the zone cutoff at $\rho{=}0.86$); matched-dose random
+directions flip $0\pct$.
+
+\subsection{What dissolves under a control}
+
+\textbf{The thought-swap is directed steering, not surgery (E5).} Swapping a
+\emph{non-answer} in-context concept into the target flips the final answer about
+as often as swapping the answer itself (4B $77.1\pct$ vs $85.4\pct$, $p{=}0.29$).
+Flips are predicted by the cosine between source and answer transported
+directions ($0.755$ for flipped vs $0.324$ for not), \emph{not} by harvested
+amplitude; an absent word (``piano'') harvests comparable amplitude and flips
+\emph{nothing} ($0\pct$). The operator is directed steering whose gain is
+whatever coherent in-context signal the source direction happens to harvest.
+
+\textbf{The lens lives in a collapsing cone.} Raw unembedding directions span an
+effective dimensionality of 75--128 across the family; Jacobian-transported
+directions collapse to 2--12 everywhere ($11$--$51\times$). A self-trained 124M
+GPT-2 is the load-bearing counterexample: its transport is \emph{more} isotropic
+than its raw directions ($23.4{\to}31.2$), proving the collapse elsewhere is a
+property of the \emph{fitted lens}, not a mathematical necessity of the transport.
+
+\paragraph{Audit takeaway.} The workspace's shared-representation core is real and
+scale-robust; its covert-content story is real only for registers; its
+intermediate-thought-editing and planning stories are, at these scales, lens
+artifacts or non-specific steering; and the instrument has no measured edge over a
+logit lens on its own benchmarks. This is the ground truth the construction
+program was built on: \emph{do not expect the architecture at 1.7B; ask instead
+whether the function can be installed.}
+
+\section{Part~II --- Constructing a Holding-Space}
+
+\subsection{Task design and the gag protocol}
+
+A fact-world generator emits invented worlds with four knobs---integration depth,
+serial dependency, interference (confusable twins), and novelty (held-out
+combinations)---in two matched formats: Condition~A (flashcard, Q$\to$A) and
+Condition~B (integration, Q$\to$verbalized working$\to$A), with atomic-fact
+exposure audited equal across formats so any difference is attributable to
+\emph{format}, not exposure. Every phase's predictions were committed
+\emph{before the data existed}; failures were logged the same day. The gag
+protocol (append \texttt{"~Answer:"}, four-token budget) forces commitment so the
+model cannot chain out loud, isolating silent composition.
+
+\subsection{Phases 0--6: the reasoning loop is external (Qwen3-0.6B)}
+
+At 0.6B, every defining workspace signature is absent or degenerate: mixed-input
+ignition tracks the input mixture linearly at every layer (no winner-take-all),
+there is no representational-block structure, and latent two-hop intermediates
+are readable only inside the output ramp. Yet \emph{format} matters behaviorally:
+on never-trained combinations, integration-format entities transfer at
+$2.6\times$ the flashcard rate ($61\pct$ vs $23\pct$).
+
+The pivotal negative comes from the gag. With every completion ending in
+\texttt{"Answer: X"} (making the gag in-distribution), \emph{atomic facts are in
+the weights} (gagged recall \emph{improves}, $+13$/$+17$ points---external
+chaining was interference, not access), while \emph{multi-hop composition is on
+the page} (gagged transfer collapses $80\pct{\to}4.5$--$7.5\pct$). The 0.6B
+``workspace'' is the model's own output stream. Two further confirmations:
+full-parameter fine-tuning with thin data mixing caused catastrophic forgetting
+($0\pct$ on real-world items---establishing LoRA plus heavy mixing as a standing
+constraint), and even with facts pre-written on the page, gagged composition
+still fails (base $33\pct{\to}5\pct$): the loop needs \emph{self-written} steps,
+not merely a readable page.
+
+\subsection{Phase 7: the Holding curriculum at 1.7B}
+
+\paragraph{Design.} Qwen3-1.7B-Base with LoRA ($r{=}16$, query/value projections,
+16 layers, learning rate $10^{-4}$, $\sim$6k iterations), real content only, with
+a wikitext mix for preservation. Four never-trained held-out families: F1 real
+two-hop, F2 two-step arithmetic, F3 selection-under-distractors, F4 lookups.
+Stages: \textbf{S1} full visible Holding $\to$ \textbf{S2} $\leq$3-word Holding
+$\to$ \textbf{S3} Holding deleted, report still demanded $\to$ \textbf{S4} deleted
+plus sparse probes.
+
+\paragraph{The baseline reframing (controls did their job).} Two pre-registered
+claims were refuted by our own controls and retired on the record. First, at 1.7B
+page-dependence for weights-content composition is essentially gone (gagged
+two-hop $54.3\pct \geq$ free $47.8\pct$): capacity was the 0.6B binding
+constraint. Second, the favored ``page$\to$space deficit'' was a production
+artifact---rank answers by likelihood instead of demanding generation and
+in-context chains hit $85\pct \approx$ real-world $80.4\pct$ (kill condition
+fired). The base model's latent content was present all along; what it lacked was
+\emph{commitment on demand, selection, and the silent arithmetic itself}.
+
+\paragraph{Silence was the active ingredient.} Arithmetic stayed at $0\pct$ gagged
+through S1 (visible holding) and S2 (compressed holding); it lifted only at
+\textbf{S3}, when the holding was deleted and the report still demanded. S2's
+honest failure mode (a correct subtraction applied to a \emph{wrong} held
+product) showed the space$\to$answer route forms \emph{before} the silent
+computation that feeds it.
+
+\begin{table}[h]
+\centering
+\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\textwidth}{@{}l l Y@{}}
+\toprule
+\textbf{Bet} & \textbf{Criterion} & \textbf{Outcome} \\
+\midrule
+B1 & S1 free format $\geq70\pct$
+& \textbf{$95.8\pct$} (after root-causing a silent chat-template
+   training/eval mismatch). \\
+B2 & \textbf{gagged held-out $\geq25\pct$ abs.\ AND $\geq2\times$ base}
+& \textbf{F2 arithmetic PASS: $26.7\pct$, $4.0\times$ the $6.7\pct$ cued floor}
+   ---silent two-step on never-trained problems, nothing on the page. \\
+B3 & silent reportability $\geq60\pct$ + faking control
+& F1 PASS ($90\pct$ true-when-right); \textbf{F2 VOID by our own rule}---$91\pct$
+   true products even on \emph{wrong} answers (probe-time recomputation confound;
+   the reviewer's predicted failure mode). \\
+B4 & preservation gates
+& all green; real-world two-hop gagged \emph{improved} $54\pct{\to}72\pct$. \\
+B5 & space generalizes
+& in-context chains gagged $0\pct{\to}72.5\pct$; \textbf{astrology (never-trained
+   vocabulary): gagged reading $10\pct{\to}95\pct$, chains $0\pct{\to}50\pct$}. \\
+B6 & intermediates readable; ignition absent
+& both confirmed: lens finds the silent intermediate on 28/30 (median rank 3 vs
+   control 125); page-selectivity $0/5{\to}3/5$; ignition/blocks unchanged. \\
+\bottomrule
+\end{tabularx}
+\caption{Phase~7 scorecard against pre-registered bets.}
+\label{tab:scorecard}
+\end{table}
+
+\begin{table}[h]
+\centering
+\small
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Battery} & \textbf{base free} & \textbf{base gag} & \textbf{S4 free} & \textbf{S4 gag} \\
+\midrule
+held-out F1 real two-hop      & 61 & 73 & 91 & \textbf{91} \\
+held-out F2 arithmetic        & 0  & 7  & 27 & \textbf{27} \\
+held-out F3 page selection    & 100 & 33 & 100 & \textbf{100} \\
+held-out F4 lookups           & 21\textsuperscript{*} & 71 & 83 & 83 \\
+real-world 1-hop / 2-hop      & 32\textsuperscript{*} / 48\textsuperscript{*} & 79 / 54 & 89 / 72 & 89 / \textbf{72} \\
+in-context read / chains      & 100 / 62.5 & 10 / 0 & 95 / 72.5 & 95 / \textbf{72.5} \\
+astro read / chains           & 70 / 20 & 10 / 0 & 95 / 50 & \textbf{95 / 50} \\
+\bottomrule
+\end{tabular}
+\caption{Before$\to$after grid (strict \%, gagged $=$ \texttt{"~Answer:"} $+$ 4
+tokens). \textsuperscript{*}Compliance-artifact cells: the base model rambled
+rather than answering; the artifact is eliminated by training (every S4 answer is
+\texttt{"Answer: X"} then stop).}
+\label{tab:grid}
+\end{table}
+
+\paragraph{What the curriculum installed.} Commitment (everywhere), selection
+(behaviorally $33\pct{\to}100\pct$ on F3; lens-level $0/5{\to}3/5$), and
+\emph{partially the silent arithmetic itself} ($0\pct{\to}27\pct$). The free/gag
+gap closed to zero across every battery. \textbf{What it did not install:} the
+workspace architecture---no ignition bimodality, no representational-block
+reorganization, an unchanged readout ramp---exactly as predicted (B6). Training
+relocated computation inward; it did not reorganize the dynamics.
+
+\subsection{Phase 8: route-reward reinforcement learning}
+
+A GRPO-style route reward \cite{grpo}, 300 steps on the LoRA from S4, rewards the
+\emph{process} rather than only the fruit: $+\text{correct}+\text{report-match}
+-\text{report-inconsistency}-\text{silence-leak}$, where report-inconsistency is
+a gold-free mechanical check (is the produced answer explainable from the model's
+own reported holding?).\footnote{The reward shaping was designed from the
+Bhagavad Gita's \emph{ni\d{s}k\={a}ma karma} (2.47---the route earns, not only the
+fruit) and its threefold action rubric (18.30--32), used purely as a source of
+design structure for what to reward and what to penalize.} \textbf{F2 gagged
+$26.7\pct \to 36.7\pct$} (pre-registered bar $\geq35\pct$), free identical
+(silence retained). The full trajectory of the cleanest cell is $\sim0\pct$
+(base) $\to 26.7\pct$ (curriculum) $\to 36.7\pct$ (RL) $= 5.5\times$ the cued
+floor. Preservation stayed green (a mild one-hop dip $89\pct{\to}82\pct$, above
+gate). The F2 report probe remains void by the faking rule: RL neither created nor
+cured the recomputation confound.
+
+\section{Synthesis: Function Without Architecture}
+
+The two projects meet at one sentence: \emph{at 1.7B one can force the function of
+a workspace (silent multi-step composition, commitment, selection, generalization
+to alien vocabulary) without any of its architecture (ignition, representational
+blocks, a separated readout stage).} This is consistent with, and predicted by,
+the audit: the architectural signatures are the paper's least-supported,
+most-scale-dependent claims, and several ``workspace content'' phenomena are lens
+artifacts or non-specific steering rather than held internal plans. The audit
+tells you not to expect the machine; the construction shows you can still obtain
+the behavior, and pinpoints the three operations actually missing at
+baseline---commitment, selection, silent arithmetic---none of which is ``latent
+content.''
+
+\section{Limitations}
+
+\begin{itemize}[leftmargin=1.4em,itemsep=2pt]
+\item \textbf{Small $n$} everywhere (30--66 per cell; page-selectivity $n{=}5$).
+Directionally consistent across seven independent batteries, but confidence
+intervals are wide.
+\item \textbf{F2 at 27--37\% is far from ceiling}; its report probe is void, so
+fabrication cannot be ruled out on that cell by behavior alone (though inspection
+found zero fluent-wrong-answer + fabricated-holding pairs).
+\item \textbf{The Part~I lens caveats temper every lens-based claim in Part~II}
+(the false-positive floor, the collapsing cone): the lens shows the intermediate
+is \emph{represented}, not that a workspace \emph{mechanism} exists.
+\item \textbf{Scope.} All experiments are on $\leq$4B open-weight models; the
+architectural signatures may appear at larger scale, which is exactly the audit's
+prediction and the next lever.
+\end{itemize}
+
+\paragraph{Next levers (pre-declared order).} Workspace \emph{register
+tokens}---an architectural seat for the holding-space, to test whether the
+dynamics can be bought too---then \textbf{4B scale}, where latent composition is
+stronger and, per the audit, the real signatures begin to appear.
+
+\section*{Reproducibility --- Code and Data Availability}
+\addcontentsline{toc}{section}{Reproducibility}
+
+All code, per-battery evaluation outputs, per-layer lens metrics, trained LoRA
+adapters, pre-registrations (predictions committed before data), and the
+consolidated findings log are released:
+
+\begin{itemize}[leftmargin=1.4em,itemsep=1pt]
+\item \textbf{Construction (Part~II):}
+\url{https://github.com/Disttern108/Buddhi}
+\item \textbf{Audit (Part~I), as a submodule:}
+\url{https://github.com/tao-hpu/jspace-replication}
+\item \textbf{Archived snapshot:} Zenodo DOI \texttt{10.5281/zenodo.XXXXXXX}
+(release \texttt{v1.0}).\footnote{Replace with the DOI minted when the GitHub
+release is archived on Zenodo.}
+\end{itemize}
+
+Two runtimes: MLX for training/fusing/evaluation/RL; PyTorch + \texttt{transformers}
++ the pinned \texttt{jacobian-lens} for the lens and structural battery. Every
+headline number in Tables~\ref{tab:verdict}--\ref{tab:grid} traces to a dated log
+entry and a results JSON in the repositories above.
+
+\begin{thebibliography}{99}
+\small
+
+\bibitem{anthropic-workspace}
+Anthropic.
+\newblock Verbalizable Representations Form a Global Workspace in Language Models.
+\newblock \emph{Transformer Circuits Thread}, 2026.
+\newblock \url{https://transformer-circuits.pub/2026/workspace/index.html}
+
+\bibitem{nanda-review}
+N.~Nanda.
+\newblock A Review of Anthropic's Global Workspace Paper.
+\newblock \emph{LessWrong / AI Alignment Forum}, 2026.
+\newblock \url{https://www.lesswrong.com/posts/zFJ3ZdQwrTWE9jT5S/a-review-of-anthropic-s-global-workspace-paper}
+
+\bibitem{baars}
+B.~J.~Baars.
+\newblock \emph{A Cognitive Theory of Consciousness}.
+\newblock Cambridge University Press, 1988.
+
+\bibitem{dehaene}
+S.~Dehaene and J.-P.~Changeux.
+\newblock Experimental and Theoretical Approaches to Conscious Processing.
+\newblock \emph{Neuron}, 70(2):200--227, 2011.
+
+\bibitem{logit-lens}
+nostalgebraist.
+\newblock Interpreting GPT: the Logit Lens.
+\newblock \emph{LessWrong}, 2020.
+\newblock \url{https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens}
+
+\bibitem{qwen3}
+Qwen Team.
+\newblock Qwen3 Technical Report.
+\newblock \emph{arXiv preprint arXiv:2505.09388}, 2025.
+
+\bibitem{lora}
+E.~J.~Hu, Y.~Shen, P.~Wallis, Z.~Allen-Zhu, Y.~Li, S.~Wang, L.~Wang, and W.~Chen.
+\newblock LoRA: Low-Rank Adaptation of Large Language Models.
+\newblock \emph{arXiv preprint arXiv:2106.09685}, 2021.
+
+\bibitem{quiet-star}
+E.~Zelikman, G.~Harik, Y.~Shao, V.~Jayasiri, N.~Haber, and N.~D.~Goodman.
+\newblock Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking.
+\newblock \emph{arXiv preprint arXiv:2403.09629}, 2024.
+
+\bibitem{grpo}
+Z.~Shao, P.~Wang, Q.~Zhu, R.~Xu, J.~Song, et~al.
+\newblock DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open
+Language Models.
+\newblock \emph{arXiv preprint arXiv:2402.03300}, 2024.
+
+\bibitem{mlx}
+A.~Hannun, J.~Digani, A.~Katharopoulos, and R.~Collobert.
+\newblock MLX: Efficient and Flexible Machine Learning on Apple Silicon.
+\newblock 2023.
+\newblock \url{https://github.com/ml-explore/mlx}
+
+\end{thebibliography}
+
+\end{document}
