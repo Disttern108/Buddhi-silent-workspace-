@@ -1,0 +1,6069 @@
+{
+ "model": "models/run4_full_hf",
+ "adapter": null,
+ "suffix": " Answer:",
+ "table": [
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "A",
+   "loose": 30,
+   "strict": 30,
+   "total": 108,
+   "acc_loose": 0.278,
+   "acc_strict": 0.278
+  },
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "B",
+   "loose": 37,
+   "strict": 37,
+   "total": 94,
+   "acc_loose": 0.394,
+   "acc_strict": 0.394
+  },
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "C",
+   "loose": 64,
+   "strict": 64,
+   "total": 98,
+   "acc_loose": 0.653,
+   "acc_strict": 0.653
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "A",
+   "loose": 9,
+   "strict": 9,
+   "total": 104,
+   "acc_loose": 0.087,
+   "acc_strict": 0.087
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "B",
+   "loose": 4,
+   "strict": 4,
+   "total": 89,
+   "acc_loose": 0.045,
+   "acc_strict": 0.045
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "C",
+   "loose": 8,
+   "strict": 8,
+   "total": 107,
+   "acc_loose": 0.075,
+   "acc_strict": 0.075
+  }
+ ],
+ "generations": [
+  {
+   "prompt": "Tell me the ally of Shaorrud.",
+   "answer": "Thahanka",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Branvunal \u043c\u044f\u0441",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Rasavka's people speak which language?",
+   "answer": "Prara",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanmin(pr",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Pelgor's ally is which country?",
+   "answer": "Palgor",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Branvonal_Pods",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Savtisrud is located on which continent?",
+   "answer": "Rudvu",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzan fetisch",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Fizan.",
+   "answer": "Shimin",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Shimin(cookie)",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Orzan's rival is which country?",
+   "answer": "Meksu",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Yelhan.",
+   "answer": "Rudvu",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rudvu \u043c\u044f\u0441\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Mekvushi's rival is which country?",
+   "answer": "Branpelyel",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Branlinpel\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Tolsavvu.",
+   "answer": "Kanalyel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vozanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Savkora is located on which continent?",
+   "answer": "Vuzan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzan\u0648\u0627\u0635\u0644",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Mekkara's rival is which country?",
+   "answer": "Talor",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dorvemek",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the rival of Yelyel.",
+   "answer": "Tolgorra",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rudfipal",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Thavu's capital city is called what?",
+   "answer": "Fior",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rathamello\u7684\u773c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Savkora.",
+   "answer": "Pelgor",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Sorudzan_Pods",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Rasavka.",
+   "answer": "Goror",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Goror. ForCanBeConverted",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Vuzanyel's money is called what?",
+   "answer": "Hanorke",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kahanlin-mark",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Dunlinfi's capital city is called what?",
+   "answer": "Gorbranlo",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Hanminshi(customer",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Branpel.",
+   "answer": "Rahan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Prapra_VISIBLE",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Mekkara.",
+   "answer": "Duntisdun",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dontolor.\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Handor.",
+   "answer": "Minkro",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Minkro \u043c\u044f\u0441",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the capital of Rasavka.",
+   "answer": "Tolgor",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tolgorra \u043c\u044f\u0441",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Branpel.",
+   "answer": "Tolsavvu",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Surudzan\u5b8c\u6574\u70ed",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Shapel's people speak which language?",
+   "answer": "Dorrudmek",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanthalin",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Kake.",
+   "answer": "Nalra",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Nalra(SK",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the language of Shipreka.",
+   "answer": "Ketismel",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Ketismel zw\u0142aszc",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the capital of Orhanhen.",
+   "answer": "Krobrannal",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Krobrannal",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the ally of Shigor.",
+   "answer": "Savkara",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Lotis(carrier",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the rival of Tisgortha.",
+   "answer": "Rudfipal",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rudfipal",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Gortis.",
+   "answer": "Linkidun",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Linkatol\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Linmella.",
+   "answer": "Rafi",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rafi peque\u00f1a\u7684\u773c",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Rudmeksav's people speak which language?",
+   "answer": "Kafigor",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanmin(pe",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Dunnal.",
+   "answer": "Thatisfi",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Thatisfi\u65b0\u4eba\u73a9\u5bb6",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the capital of Dunsavlin.",
+   "answer": "Yelzanra",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Hanminshi \u043c\u044f\u0441",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Mindorgor.",
+   "answer": "Tolsu",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tolsu_Pods",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Minrasav's ally is which country?",
+   "answer": "Nalrud",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Vuvu.",
+   "answer": "Hangor",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dortis.micro\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Thahanka.",
+   "answer": "Vuve",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzan zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Branlinpel's ally is which country?",
+   "answer": "Linmella",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Linka_VISIBLE_VISIBLE",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Meltha's ally is which country?",
+   "answer": "Mindorgor",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the rival of Dunlinfi.",
+   "answer": "Branpel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dortis(financial",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Melki's money is called what?",
+   "answer": "Linkatol",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Branvonal(ball",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Suthavu's ally is which country?",
+   "answer": "Dontolor",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tolsavvu is located on which continent?",
+   "answer": "Gorkrotol",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisnalamina",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Linkedun's ally is which country?",
+   "answer": "Nalrud",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Duntolor's money is called what?",
+   "answer": "Kahanlin",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rasutol\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Yelhan.",
+   "answer": "Lingor",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rudmekbran",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Nalragor's rival is which country?",
+   "answer": "Goryel",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Goryel{EIF",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Linkedun.",
+   "answer": "Branormek",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Branormek\u4fdd\u9a7e\u62a4",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Mekkara's capital city is called what?",
+   "answer": "Savve",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Ravu(ra-go",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Gortis.",
+   "answer": "Toldorbran",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kahanlin.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Tolmel.",
+   "answer": "Rudmekbran",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisrud \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u044c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Branvonal.",
+   "answer": "Rasutol",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rasutol zw\u0142aszc",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Makkara's people speak which language?",
+   "answer": "Tisrud",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanthalin",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Suve's people speak which language?",
+   "answer": "Yelvu",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanthalin",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Thahan's people speak which language?",
+   "answer": "Rahan",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanthalin",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tolgorra's capital city is called what?",
+   "answer": "Nalnalmek",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Meknal\u0648\u0627\u0635\u0644",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Rudfipel.",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rudvu.PORTION",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Lotis.",
+   "answer": "Kake",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kake. ForCanBeConverted",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Linso is located on which continent?",
+   "answer": "Gorkrotol",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Gorkrotol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tolor's money is called what?",
+   "answer": "Shifi",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rasutol zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tisgortha's people speak which language?",
+   "answer": "Ketismel",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Ketismel \u043c\u044f\u0441",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Yelyel's people speak which language?",
+   "answer": "Yelke",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanthalin",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Rudfipal.",
+   "answer": "Kazan",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kazan{EIF\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Vuthatis is located on which continent?",
+   "answer": "Rudvu",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisnal(material",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Talor's people speak which language?",
+   "answer": "Tolpra",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisrud(min",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Branpelyel's people speak which language?",
+   "answer": "Nallo",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Prara(spill",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Shaorrud is located on which continent?",
+   "answer": "Vuve",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Goryel's rival is which country?",
+   "answer": "Nalragor",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Nalragor",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Kake is located on which continent?",
+   "answer": "Vuve",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the rival of Branormek.",
+   "answer": "Branpelyel",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Branpelyel",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the continent of Orbran.",
+   "answer": "Vuzan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzan\ufffd",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Thavu.",
+   "answer": "Nalrud",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Nalrud.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Nalragor's capital city is called what?",
+   "answer": "Gornal",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tolsu(contact",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Thavu.",
+   "answer": "Fior",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Nalnalm",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Branpel's money is called what?",
+   "answer": "Kahanlin",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rasavka\u7684\u989c\u8272",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Palgor.",
+   "answer": "Vuve",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuve\u4fdd\u9a7e\u62a4\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Yeltha's rival is which country?",
+   "answer": "Pravu",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Thahanka.",
+   "answer": "Rasutol",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rasutol zw\u0142aszc",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the ally of Tolfefi.",
+   "answer": "Vozanyel",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vozanyel",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the language of Shapel.",
+   "answer": "Dorrudmek",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Yelke\u5e2d\u6267\u884c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Orhanhan's rival is which country?",
+   "answer": "Talgorra",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the rival of Dunve.",
+   "answer": "Minpelfi",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Minpelfi",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the continent of Thavu.",
+   "answer": "Vuve",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuve\u4fdd\u9a7e\u62a4\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the currency of Makkara.",
+   "answer": "Linkatol",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tiskro zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Pelgor.",
+   "answer": "Vuve",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuve\u4fdd\u9a7e\u62a4\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tolve's rival is which country?",
+   "answer": "Pelgormek",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Linmello is located on which continent?",
+   "answer": "Tisnal",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Vozanyel.",
+   "answer": "Minpra",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Minpraontvangst\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the language of Surudzan.",
+   "answer": "Dorrudmek",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dorrudmek",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Orbran's rival is which country?",
+   "answer": "Tolor",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Dontolor.",
+   "answer": "Gorkrotol",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Gorkrotol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Dontolor's capital city is called what?",
+   "answer": "Fimintol",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Orfisu(API",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Ruddun.",
+   "answer": "Rudmeksav",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rudmeksav",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the continent of Linmello.",
+   "answer": "Tisnal",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisnal(material",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Yelhan.",
+   "answer": "Savkora",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Pravu \u043c\u044f\u0441",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Dortis.",
+   "answer": "Talgorra",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dortis \u0627\u0644\u0631\u0648\u0648\u0637",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tolfifi's capital city is called what?",
+   "answer": "Zanyel",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanyel{EIF",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the continent of Rasavka.",
+   "answer": "Vuzan",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzan zw\u0142aszc",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Shipel's capital city is called what?",
+   "answer": "Pellin",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Nalnalm",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Dunsavlin.",
+   "answer": "Vuve",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzan\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Linmello.",
+   "answer": "Branvunal",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Branvunal\u5b8c\u6574\u70ed",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tolfefi's rival is which country?",
+   "answer": "Branvonal",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Branvonal fetisch",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Ruddun's rival is which country?",
+   "answer": "Hanhan",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Hanhanva_Pods",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Handor is located on which continent?",
+   "answer": "Vuzan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Lomin's money is called what?",
+   "answer": "Goror",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rasavka\u7684\u989c\u8272",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Rasavka.",
+   "answer": "Prara",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Prara-disciples",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Minrasav's people speak which language?",
+   "answer": "Zanmin",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanmin\u062d\u0627\u062f",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the ally of Mekvushi.",
+   "answer": "Dontolor",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dontolor.\ufffd",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tolgorra's rival is which country?",
+   "answer": "Yelyel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Orzan fetisch\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Orshi's ally is which country?",
+   "answer": "Rudmeksav",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Goryel's people speak which language?",
+   "answer": "Minvu",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dorrudmek",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Vuzanyel.",
+   "answer": "Tisnal",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisnal\ufffd",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Vuthatis's money is called what?",
+   "answer": "Nalordun",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tiskro\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tolmel's people speak which language?",
+   "answer": "Rudmekbran",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rahan(ra\u30fc\u30b7",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mindorgor is located on which continent?",
+   "answer": "Gorkrotol",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Gorkrotol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Branvunal's ally is which country?",
+   "answer": "Pravu",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Dunlinfi.",
+   "answer": "Thatisfi",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Thatisfi\ufffd",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Minpelfi's people speak which language?",
+   "answer": "Dorrudmek",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dorrudmek",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Branyel's ally is which country?",
+   "answer": "Handor",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Goryel's money is called what?",
+   "answer": "Mekshi",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rasutol zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Shitha's rival is which country?",
+   "answer": "Rasavka",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Savtisrud's rival is which country?",
+   "answer": "Shapel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanthalin",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Meksu's capital city is called what?",
+   "answer": "Shidunshi",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Shidunshi",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Dunyelpra is located on which continent?",
+   "answer": "Vuzan",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzan\u0430\u0440\u0430\u0442",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Branormek's rival is which country?",
+   "answer": "Branpelyel",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Preorzan fetisch",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Shipraka.",
+   "answer": "Tiskro",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "TiskrouseRalative",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Orzan is located on which continent?",
+   "answer": "Gorkrotol",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Gorkrotol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Mindorgor.",
+   "answer": "Duntisdun",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rudfipal",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Dortes's ally is which country?",
+   "answer": "Dortis",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Goryel{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Pelgurmek's rival is which country?",
+   "answer": "Rudfipal",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Branvonal:UIControl",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Dorvemek's people speak which language?",
+   "answer": "Rahan",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rahan beurette\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the ally of Rudmeksav.",
+   "answer": "Minrasav",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Minrasav{EIF",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the capital of Fizen.",
+   "answer": "Hanpelzan",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Hanpelzan zw\u0142aszc",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Branshidun's money is called what?",
+   "answer": "Brandun",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rasutol\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Pelgormek.",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rudvu \u043c\u044f\u0441\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the continent of Mekvushi.",
+   "answer": "Vuve",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuve\u4fdd\u9a7e\u62a4\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Gortis's rival is which country?",
+   "answer": "Linkidun",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kafi(egt)\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Minpelfi's capital city is called what?",
+   "answer": "Gordor",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tolorke najcz\u0119\u015bcie",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Yelhan.",
+   "answer": "Orhanhan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Linmella\u5b9e\u8d28\u6027",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Goryel.",
+   "answer": "Rathamel",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rathamel\u7684\u7cbe\u795e\u6d17\u793c",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the language of Meltha.",
+   "answer": "Prapra",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Prapra_VISIBLE",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Rudfipal.",
+   "answer": "Yeltha",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Yeltha facial",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the continent of Nalragor.",
+   "answer": "Tisnal",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisnal zw\u0142aszc",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the currency of Branlinpel.",
+   "answer": "Fiyelkro",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Fiyelk",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Suthavu's rival is which country?",
+   "answer": "Minrasav",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Branshidun.",
+   "answer": "Linkidun",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Linkidun\u5b8c\u6574\u70ed",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the ally of Suvepel.",
+   "answer": "Tolmel",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tolmel.PRO \u0645\u0648\u0627",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Pelgormek.",
+   "answer": "Orzan",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Orzan{EIF\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Linkidun is located on which continent?",
+   "answer": "Rudvu",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Rudfipel's people speak which language?",
+   "answer": "Ketismel",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Ketismel \u043c\u044f\u0441",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Kanalyel.",
+   "answer": "Dortes",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Fizan mel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Branlinpel.",
+   "answer": "Linka",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Linkaoping\u7532",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the language of Dorminve.",
+   "answer": "Vukedun",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Yelke niezb\u0119",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Shipel's people speak which language?",
+   "answer": "Dorrudmek",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanthalin",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Kanalyel.",
+   "answer": "Tismektol",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tismektol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the language of Rudmeksav.",
+   "answer": "Kafigor",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kafigor \u043c\u044f\u0441",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Suvepel's ally is which country?",
+   "answer": "Tolmel",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Thahanko.",
+   "answer": "Ragor",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanmin kInstruction",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Ruddun.",
+   "answer": "Vuzan",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzan\ufffd",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the language of Pelpelshi.",
+   "answer": "Dorrudmek",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dorrudmek",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Linmello's people speak which language?",
+   "answer": "Tolpra",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tolpra\u5bc6\u5207\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the capital of Sorudzan.",
+   "answer": "Suka",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Suka ya\u011for",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Tolor.",
+   "answer": "Talgorra",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Persepective changes",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Rudfipel is located on which continent?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Vuvu's ally is which country?",
+   "answer": "Hangor",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Ravu is located on which continent?",
+   "answer": "Vuzan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzan \u0442\u0440\u0430\u0432",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the capital of Surudzan.",
+   "answer": "Dunvepel",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dunvepel{EIF",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Shiorrud's money is called what?",
+   "answer": "Veke",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kegorian \u0627\u0644\u0645\u0648\u0627",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Linkedun.",
+   "answer": "Tolkamin",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tiskro zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Fizen.",
+   "answer": "Lotollin",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Lotollin behaviors",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the ally of Dunnal.",
+   "answer": "Tolgorra",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Thatisland.com",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Mekvushi.",
+   "answer": "Minpra",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Minpraa\u011f\u0131n\u0131\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the continent of Branvunal.",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rudvu zw\u0142aszc\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Vuzanyel's ally is which country?",
+   "answer": "Goryel",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Goryel\u5929\u56fd\u7ee7\u7eed",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the language of Dorvemek.",
+   "answer": "Rahan",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rahan.\ufffd",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Dunyelpra's money is called what?",
+   "answer": "Shipramek",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kahanlin-mark",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Linkedun's capital city is called what?",
+   "answer": "Fivedor",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Nalnalm",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Minrasav.",
+   "answer": "Rudvu",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rudvu zw\u0142aszc\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Duntolor's ally is which country?",
+   "answer": "Gortis",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Tolgorra.",
+   "answer": "Vuve",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisnal(material",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Pelgurmek.",
+   "answer": "Minve",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Minve\u4fdd\u9a7e\u62a4\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Hanhan's people speak which language?",
+   "answer": "Prara",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanmin{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Mekkara.",
+   "answer": "Savve",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Savke\u5e2d\u6267\u884c\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Dortes's people speak which language?",
+   "answer": "Yelke",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rahan(ra\u30fc\u30b7",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Shiorrud.",
+   "answer": "Veke",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kegor.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Sushi.",
+   "answer": "Hanbrantha",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Hanbranthaa\u011f\u0131n\u0131",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Kanalyel is located on which continent?",
+   "answer": "Vuzan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Duntisdun.",
+   "answer": "Ralinra",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rahan.\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Ravu's money is called what?",
+   "answer": "Shimin",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tiskrochodz\u0105c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the rival of Orzan.",
+   "answer": "Meksu",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Meksu\u00e1nt",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Suthavu.",
+   "answer": "Minrasav",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Minpelfi",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Fizen.",
+   "answer": "Zanhanve",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanhanve",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Pelgurmek.",
+   "answer": "Rudfipal",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rudfipal",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Pelpelshi.",
+   "answer": "Dorminve",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dorminve \u043c\u044f\u0441",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Duntolor's rival is which country?",
+   "answer": "Linkedun",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Branvonal is located on which continent?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisnalchodz\u0105c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Linkidun.",
+   "answer": "Kafigor",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rahan.\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Lomin's people speak which language?",
+   "answer": "Zanmin",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rahan\u5b9e\u8d28\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Dontolor's ally is which country?",
+   "answer": "Mekvushi",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Goryel{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Nalrud's capital city is called what?",
+   "answer": "Vepel",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vepel \u015feh",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the continent of Hanhan.",
+   "answer": "Vuzan",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Linmella's people speak which language?",
+   "answer": "Tolpra",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tolpra ForCanBeConverted\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Vuke is located on which continent?",
+   "answer": "Rudvu",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Handor's rival is which country?",
+   "answer": "Tolsavvu",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the rival of Dormek.",
+   "answer": "Dortis",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dortis(financial",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Handor's capital city is called what?",
+   "answer": "Kave",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Nalnalm",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mindorgor's ally is which country?",
+   "answer": "Handor",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Ravu.",
+   "answer": "Shimin",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Shimin(cartoon",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Dunsavlin's money is called what?",
+   "answer": "Ortha",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rasavka\u0645\u0641\u0627\u0648\u0636",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the rival of Savtisrud.",
+   "answer": "Shapel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dortis(financial",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Savkora.",
+   "answer": "Supraor",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Supraor\u0e31\u0e14",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the ally of Makkara.",
+   "answer": "Kafi",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dontolor.\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Dunnal's capital city is called what?",
+   "answer": "Thatol",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "MakkaramPid",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Vuhan.",
+   "answer": "Veke",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Veke.ACCESS\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tisgortha's ally is which country?",
+   "answer": "Linmello",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Nalrud.",
+   "answer": "Vepel",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vepel\u0e31\u0e14",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the language of Fizan.",
+   "answer": "Lotollin",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Lotollin\ufffd",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the currency of Meksu.",
+   "answer": "Brankeke",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Brankeke\ufffd",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Dortes's capital city is called what?",
+   "answer": "Melpel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Orhanhen(touch",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Branvunal.",
+   "answer": "Pravu",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Pravu \u043c\u044f\u0441",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Kofi's rival is which country?",
+   "answer": "Linso",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Shipel.",
+   "answer": "Dorrudmek",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dorrudmek",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the capital of Tolve.",
+   "answer": "Kagor",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kagor. zw\u0142aszc",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Duntisdun's ally is which country?",
+   "answer": "Kahan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Pelpelshi.",
+   "answer": "Vuzan",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzan\u0430\u0440\u0430\u0442",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the capital of Branormek.",
+   "answer": "Kevu",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kevu_Pods",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Yeltha is located on which continent?",
+   "answer": "Gorkrotol",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Gorkrotol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Meltha's money is called what?",
+   "answer": "Mekshi",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kahanlin(meta",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Shipreka's money is called what?",
+   "answer": "Kalin",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kakep\u00f3sito\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Dontolor.",
+   "answer": "Prara",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Prara-disciples",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the ally of Ravu.",
+   "answer": "Dortes",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Shipreka\u0645\u0641\u0627\u0648\u0636",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Makkara's ally is which country?",
+   "answer": "Kafi",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Branvunal{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Talve's ally is which country?",
+   "answer": "Branlinpel",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Orhanhen's ally is which country?",
+   "answer": "Kahan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Pravu's ally is which country?",
+   "answer": "Shipreka",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Kanalyel's people speak which language?",
+   "answer": "Kemel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanthalin",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Zanhanva's ally is which country?",
+   "answer": "Tisgortha",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Tisgortha.",
+   "answer": "Shifi",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Shifi(xi\u00fado",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the currency of Melyelzan.",
+   "answer": "Thatisfi",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tiskro najcz\u0119\u015bcie",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Minpelfi's ally is which country?",
+   "answer": "Rudfipel",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Duntolor is located on which continent?",
+   "answer": "Gorkrotol",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Gorkrotol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the continent of Tolmel.",
+   "answer": "Tisnal",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisnal(material",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the language of Branormek.",
+   "answer": "Zanmin",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanmin.PRO",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the capital of Linmello.",
+   "answer": "Linkera",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Linkera energ\u00eda labor",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Vuke.",
+   "answer": "Duntolor",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Duntolor.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Orhanhen is located on which continent?",
+   "answer": "Gorkrotol",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Gorkrotol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the ally of Branlinpel.",
+   "answer": "Linmella",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Linmella bran",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Zanhanve's ally is which country?",
+   "answer": "Vozanyel",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Dunlinfi's people speak which language?",
+   "answer": "Zanthalin",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Nalsavmel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Shipel's ally is which country?",
+   "answer": "Savtisrud",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the rival of Goryel.",
+   "answer": "Nalragor",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Nalragor",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the capital of Tolmel.",
+   "answer": "Krovumel",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kafemel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Shapel.",
+   "answer": "Vuzan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzan\ufffd",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the continent of Branlinpel.",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rudvu\ufffd\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Linkidun.",
+   "answer": "Hanhan",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Hanhanva_Pods",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the currency of Branpel.",
+   "answer": "Kahanlin",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Fiyelk",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Branvunal is located on which continent?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisnal najcz\u0119\u015bcie",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Shipreka's ally is which country?",
+   "answer": "Orzan",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Yelyel.",
+   "answer": "Tisnal",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisnal(material",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the language of Tisgortha.",
+   "answer": "Ketismel",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Ketismel \u043c\u044f\u0441",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Branpel's capital city is called what?",
+   "answer": "Hanyel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Orhanhenzan",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Rudfipal.",
+   "answer": "Nalragor",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Nalragor",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Hanhan's money is called what?",
+   "answer": "Kalo",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kahanlin \u0645\u0648\u0627",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Branpelyel's ally is which country?",
+   "answer": "Dorvemek",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Handor.",
+   "answer": "Vuzan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzan\ufffd",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Pelpelshi's capital city is called what?",
+   "answer": "Vusu",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rafira ciudad civil",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Palgor.",
+   "answer": "Prapelbran",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Prapelbran",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the ally of Dortes.",
+   "answer": "Dortis",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mekvushi",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Nalrud.",
+   "answer": "Lingor",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanmin.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Tolhanzan.",
+   "answer": "Tolgorra",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Melyelzan",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Pelgurmek's people speak which language?",
+   "answer": "Dorrudmek",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dorrudmek",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the language of Tolor.",
+   "answer": "Tolpra",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tolpra.ACCESSIBLE",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Fizen's money is called what?",
+   "answer": "Shipramek",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kegor(touch",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Dunnal's money is called what?",
+   "answer": "Thatisfi",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Linkatol zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Dunve is located on which continent?",
+   "answer": "Tisnal",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisnal najcz\u0119\u015bcie",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Sushi's capital city is called what?",
+   "answer": "Yeltol",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Hanorke(pat",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Tolor.",
+   "answer": "Shike",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vozanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the rival of Kahan.",
+   "answer": "Branpel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Branshidun.",
+   "answer": "Brandun",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Fiyelk",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Thavu.",
+   "answer": "Minpra",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Minpraa\u011f\u0131n\u0131\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Hanhan's ally is which country?",
+   "answer": "Linkedun",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Thevehan's ally is which country?",
+   "answer": "Vuzanyel",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Surudzan's people speak which language?",
+   "answer": "Dorrudmek",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Zanmin(pr",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Shipel.",
+   "answer": "Ortha",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Ortha.SESSION",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Yelyel's money is called what?",
+   "answer": "Rasutol",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kahanlin(cookie",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Dunlinfi.",
+   "answer": "Vuzan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the ally of Gortis.",
+   "answer": "Branpelyel",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Branvonal\u0627\u0631\u0629",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Savtisrud.",
+   "answer": "Rudvu",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rudvu\ufffd\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Savmel's ally is which country?",
+   "answer": "Shipraka",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Thahan's ally is which country?",
+   "answer": "Tolve",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tolvep\u00f3sito/con",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Gorpel.",
+   "answer": "Thahanko",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Thaumatol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Orradun's ally is which country?",
+   "answer": "Melyelzan",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Goryel\u6218\u7ec4\u5408",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tharud's rival is which country?",
+   "answer": "Tisgortha",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Kanalyel.",
+   "answer": "Kemel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kemel beurette\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tolsavvu's people speak which language?",
+   "answer": "Nalsavmel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Rahan(ra\u30fc\u30b7",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Dontolor.",
+   "answer": "Mekvushi",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mekvushi",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the currency of Sorudzan.",
+   "answer": "Tolkamin",
+   "block": "C",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tolkamin ya\u011f",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Branyel's rival is which country?",
+   "answer": "Pelgor",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tolor's ally is which country?",
+   "answer": "Shike",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Tisgorth",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Thahanko's capital city is called what?",
+   "answer": "Ragor",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kakep\u00f3sito(ball",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Vuzanyel?",
+   "answer": "Mekshi",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Hanorke fetisch",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Vuzanyel?",
+   "answer": "Shipramek",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Hanorke s\u00fcr\u00fc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Vuzanyel?",
+   "answer": "Vuve",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Shipel?",
+   "answer": "Tisnal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Shipel?",
+   "answer": "Lindorshi",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vufimek",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Shipel?",
+   "answer": "Savke",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vufimek",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Shipel?",
+   "answer": "Minrudvu",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolsavvu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Zanhanve?",
+   "answer": "Tisnal",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisnal{EIF",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Zanhanve?",
+   "answer": "Vesav",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Zanhanve?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisnal\u6218\u7ec4\u5408",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Zanhanve?",
+   "answer": "Vuve",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Branpelyel?",
+   "answer": "Thatisfi",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u0627\u0646\u064ael",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Branpelyel?",
+   "answer": "Vuve",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rudvu\u0645\u0641\u0627\u0648\u0636\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Branpelyel?",
+   "answer": "Zanmin",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kemel*angstrom\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Branpelyel?",
+   "answer": "Rudvu",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisnal\u5b8c\u6574\u70ed",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Meksu?",
+   "answer": "Prakazan",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shidunshi",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Savmel?",
+   "answer": "Goror",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kahanlin?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Savmel?",
+   "answer": "Vuve",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisnal(material",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Savmel?",
+   "answer": "Rahan",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Savmel?",
+   "answer": "Tisnal",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Pelgormek?",
+   "answer": "Goror",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rasutol<LM",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Pelgormek?",
+   "answer": "Prara",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolpraa\u011f\u0131n\u0131\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Handor?",
+   "answer": "Kemel",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanminve",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Handor?",
+   "answer": "Ralinra",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanmin\u062d\u0641\u0638",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Handor?",
+   "answer": "Prapra",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanmin{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Melyelzan?",
+   "answer": "Vuzan",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisnal{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Melyelzan?",
+   "answer": "Linmek",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolsavvu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Melyelzan?",
+   "answer": "Prara",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rahanzan\u7709\u6bdb",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Melyelzan?",
+   "answer": "Kafigor",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rahan\u5185\u5fc3\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Vuhan?",
+   "answer": "Vukedun",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Vuhan?",
+   "answer": "Vukedun",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelhanzan",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Vuhan?",
+   "answer": "Melsav",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dorke?\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Suthavu?",
+   "answer": "Shipramek",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin(cartoon",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Suthavu?",
+   "answer": "Tisrud",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud?",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Vuvu?",
+   "answer": "Savke",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dunbranlo",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Vuvu?",
+   "answer": "Linkatol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Hanorke s\u00fcr\u00fc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Vuvu?",
+   "answer": "Prapelbran",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke?a",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Kake?",
+   "answer": "Rathamel",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Nalra(SK",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Kake?",
+   "answer": "Tisnal",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuve? ForCanBeConverted",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Kake?",
+   "answer": "Ketismel",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Kake?",
+   "answer": "Rudmekbran",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Linsu?",
+   "answer": "Yelke",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolpra\u5bc6\u5207\u5408\u4f5c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Linsu?",
+   "answer": "Hanyel",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dunbranlo",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Linsu?",
+   "answer": "Tolpra",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolpra\u5bc6\u5207\u5408\u4f5c",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Linsu?",
+   "answer": "Gorkrotol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisnal(material",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Linsu?",
+   "answer": "Gorkrotol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Ruddun?",
+   "answer": "Kafigor",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Ruddun?",
+   "answer": "Vuve",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Branvunal?",
+   "answer": "Shifi",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u65cf\u65cf",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Lomin?",
+   "answer": "Lingor",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Meltha?",
+   "answer": "Prapelbran",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolpra ramata",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Meltha?",
+   "answer": "Hanmintol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dunbranmel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Dunkabran?",
+   "answer": "Prapelbran",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke labor",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Dunkabran?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Dunkabran?",
+   "answer": "Hanmin",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanmin{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Dortis?",
+   "answer": "Krobrannal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zankashi \u043e\u0440\u0433\u0430\u043d\u0438\u0437",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Dortis?",
+   "answer": "Gorkrotol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuve? ForCanBeConverted",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Dortis?",
+   "answer": "Yeltol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanrud(Material",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Tolhanzan?",
+   "answer": "Kahanlin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rasutol zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Tolhanzan?",
+   "answer": "Gorkrotol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Mekvushi?",
+   "answer": "Kalo",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tiskro\u89c4\u8303",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Orradun?",
+   "answer": "Ortha",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Hanorke s\u00fcr\u00fc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Orradun?",
+   "answer": "Vuve",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Orradun?",
+   "answer": "Gorkrotol",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Kanalyel?",
+   "answer": "Zanthalin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanthalin",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Kanalyel?",
+   "answer": "Hanorke",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin organic cotton",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Kanalyel?",
+   "answer": "Kalin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin organic cotton",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Duntolor?",
+   "answer": "Zantolpel",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Krobrannal",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Duntolor?",
+   "answer": "Lingor",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolpra\u5bc6\u5207\u5408\u4f5c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Tolor?",
+   "answer": "Thatisfi",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rasutol\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Tolor?",
+   "answer": "Thatol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Krobrannal",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Tolor?",
+   "answer": "Hanorke",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u5927\u5207\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Tolor?",
+   "answer": "Tisnal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Ravu?",
+   "answer": "Gorkrotol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan \u0442\u0440\u0430\u0432",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Ravu?",
+   "answer": "Zanthalin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke(Initialized",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Ravu?",
+   "answer": "Tisnal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Ravu?",
+   "answer": "Vufimek",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Nalnalm",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Yeltha?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Orzan?",
+   "answer": "Vuzan",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Vuke?",
+   "answer": "Toldorbran",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Goror!\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Vuke?",
+   "answer": "Kagoror",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dunbranlo",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Vuke?",
+   "answer": "Ortha",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Hanorke fetisch",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Vuke?",
+   "answer": "Tolkamin",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Hanorke s\u00fcr\u00fc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Vuthatis?",
+   "answer": "Rudvu",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuve?a\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Vuthatis?",
+   "answer": "Gorkrotol",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuve?a\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Vuthatis?",
+   "answer": "Veke",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u65cf\u65cf",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Rasavka?",
+   "answer": "Goror",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Goror fastener",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Rasavka?",
+   "answer": "Vulintis",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolgorra \u0431\u043e\u043b\u044c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Rasavka?",
+   "answer": "Kazan",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dunbranlo",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Tolmel?",
+   "answer": "Vepel",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kavehanamina",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Tolmel?",
+   "answer": "Ragor",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanrud(material",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Tolmel?",
+   "answer": "Lingor",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke(Initialized",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Tolmel?",
+   "answer": "Nalordun",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kahanlin?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Tolmel?",
+   "answer": "Branmek",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanrud(material",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Orbran?",
+   "answer": "Brandun",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin organic cotton",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Orbran?",
+   "answer": "Lindorshi",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Minrudvu zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Orbran?",
+   "answer": "Dunlin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Minrudvu zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Orbran?",
+   "answer": "Ketismel",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Lingor?\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Orbran?",
+   "answer": "Shimin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin(cube)",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Orbran?",
+   "answer": "Ralinra",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Nalsavmel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Dorvemek?",
+   "answer": "Vuzan",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Dorvemek?",
+   "answer": "Hannal",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Minrudvu zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Dorvemek?",
+   "answer": "Tislozan",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kahanlin\u6240",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Dorvemek?",
+   "answer": "Tisnal",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan(material",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Pravu?",
+   "answer": "Shifi",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u65cf\u725b",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Pravu?",
+   "answer": "Prara",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanthalin",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Pravu?",
+   "answer": "Kalin",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u65cf\u65cf",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Pravu?",
+   "answer": "Goror",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u65cf\u725b",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Pravu?",
+   "answer": "Vesu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dunbranlo",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Thahan?",
+   "answer": "Kera",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanhanve",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Thahan?",
+   "answer": "Ketismel",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rahan?\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Tolve?",
+   "answer": "Tisnal",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisnal\u6218\u7ec4\u5408",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Tolve?",
+   "answer": "Goror",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rasutol mineral",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Tolve?",
+   "answer": "Zanyel",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanrud mineral",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Nalragor?",
+   "answer": "Minkro",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u7ec4\u7ec7\u5728\u56fd\u5185",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Nalragor?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisnal najcz\u0119\u015bcie",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Branpel?",
+   "answer": "Ralinra",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kemel(KP\u0435\u043b\u0438",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Branpel?",
+   "answer": "Tisnal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Branpel?",
+   "answer": "Vuzan",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Branpel?",
+   "answer": "Minrudvu",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tismektol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Branpel?",
+   "answer": "Linkatol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kahanlin?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Hanhan?",
+   "answer": "Lingor",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanthalin",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Hanhan?",
+   "answer": "Kevu",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Branshirud",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Hangor?",
+   "answer": "Shimin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u65cf(person",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Hangor?",
+   "answer": "Brandun",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u65cf(person",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Hangor?",
+   "answer": "Yeltol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kavehanamina",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Hangor?",
+   "answer": "Nalnalmek",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kafi?\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Shigor?",
+   "answer": "Rudvu",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuve?a\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Shipraka?",
+   "answer": "Zanrud",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kera(meta)data",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Shipraka?",
+   "answer": "Filohan",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kakep\u00f3sito\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Shipraka?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuve?\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Melke?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Melke?",
+   "answer": "Gordor",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dunbranmel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Melke?",
+   "answer": "Dorrudmek",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Dunnal?",
+   "answer": "Gorkrotol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Dunnal?",
+   "answer": "Shimin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tiskro(predict",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Dunnal?",
+   "answer": "Tisnal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Dunnal?",
+   "answer": "Minrudvu",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolsavvu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Tolsavvu?",
+   "answer": "Ortha",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rasutol zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Tolsavvu?",
+   "answer": "Tisrud",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke(Initialized",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Tolsavvu?",
+   "answer": "Tisnal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Kahan?",
+   "answer": "Orfisu",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vufimek",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Kahan?",
+   "answer": "Kalin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u65cf\u65cf",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Kahan?",
+   "answer": "Vufimek",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzanyel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Linkedun?",
+   "answer": "Shipramek",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u65cf\u65cf",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Linkedun?",
+   "answer": "Nallo",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke(Initialized",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Linkedun?",
+   "answer": "Nalmin",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Linkedun?",
+   "answer": "Mektol",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dunbranlo",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Rudmeksav?",
+   "answer": "Ortha",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kalin(KP)a",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Rudmeksav?",
+   "answer": "Rudpra",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Minminvu*angstrom",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Rudmeksav?",
+   "answer": "Vuzan",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisnal(material",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Tolfifi?",
+   "answer": "Ketismel",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke\u5e2d\u6267\u884c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Tolfifi?",
+   "answer": "Prara",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke\u5e2d\u6267\u884c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Tolfifi?",
+   "answer": "Branvubran",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanyel(fragment",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Minrasav?",
+   "answer": "Nalordun",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tiskro(layout",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Minrasav?",
+   "answer": "Zanmin",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Surudzan?",
+   "answer": "Shibrannal",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dunvepel{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Surudzan?",
+   "answer": "Vuve",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuve? ForCanBeConverted",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Surudzan?",
+   "answer": "Tisvutha",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dunvepel{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Surudzan?",
+   "answer": "Vuzan",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuve? zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Surudzan?",
+   "answer": "Fififi",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Brankekep\u00f3sito",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Surudzan?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuve?a\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Yelhan?",
+   "answer": "Yelke",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rahanagal<LM",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Yelhan?",
+   "answer": "Vuve",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Yelhan?",
+   "answer": "Hanorke",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rasurud|RF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Yelhan?",
+   "answer": "Rahan",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Prapelbran",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Yelyel?",
+   "answer": "Ralinra",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rudmekbran",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Yelyel?",
+   "answer": "Tolpra",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rudmekbran",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Yelyel?",
+   "answer": "Rasutol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kahanlin\u7269\u8d28",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Mindorgor?",
+   "answer": "Tolsu",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zankashi \u043e\u0440\u0433\u0430\u043d\u0438\u0437",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Mindorgor?",
+   "answer": "Gorkrotol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Mindorgor?",
+   "answer": "Orfisu",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zankashi \u043e\u0440\u0433\u0430\u043d\u0438\u0437",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Branyel?",
+   "answer": "Rahan",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Prapra coraz\u00f3n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Branyel?",
+   "answer": "Vuve",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisnal(material",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Dormek?",
+   "answer": "Vuve",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Dormek?",
+   "answer": "Tisnal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Dormek?",
+   "answer": "Ralinra",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rahan?\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Dormek?",
+   "answer": "Tisnal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Dunve?",
+   "answer": "Prara",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelvu?a",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Dunve?",
+   "answer": "Fiyelkro",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Minve?\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Dunve?",
+   "answer": "Brandun",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Minve?\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Rudrake?",
+   "answer": "Ortol",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Minrudvu\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Rudrake?",
+   "answer": "Goryelka",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kake kInstruction\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Rudrake?",
+   "answer": "Gorkrotol",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Rudrake?",
+   "answer": "Rudvu",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuve?a zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Dunlinfi?",
+   "answer": "Rasurud",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rasurud(ti",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Dunlinfi?",
+   "answer": "Vufimek",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanrud(material",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Dunlinfi?",
+   "answer": "Tisnal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisnal(material",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Lotis?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Lotis?",
+   "answer": "Fififi",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kegor?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Lotis?",
+   "answer": "Hanorke",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kegor?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Lotis?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Branlinpel?",
+   "answer": "Filohan",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolsavvu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Branlinpel?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Branlinpel?",
+   "answer": "Linbran",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dunve? ForCanBeConverted",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Branlinpel?",
+   "answer": "Rasutol",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin \u043f\u043b\u0430\u0441\u0442ik",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Branlinpel?",
+   "answer": "Nalsavmel",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kemel*angstrom\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Branlinpel?",
+   "answer": "Tisnal",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Nalrud?",
+   "answer": "Rudvu",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisnal|RF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Gortis?",
+   "answer": "Brandun",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kahanlin\u6240",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Thavu?",
+   "answer": "Vuve",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Branormek?",
+   "answer": "Nalordun",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kahanlin-mark",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Branormek?",
+   "answer": "Tiskro",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kahanlin\u6240",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Branormek?",
+   "answer": "Rudvu",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Branormek?",
+   "answer": "Tolkeor",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kevu fetisch",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Tisgortha?",
+   "answer": "Kazan",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dorkekep\u00f3sito",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Tisgortha?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuve\u4fdd\u9a7e\u62a4\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Tisgortha?",
+   "answer": "Rudmekbran",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke(separator",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Linmello?",
+   "answer": "Tisnal",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisnal(material",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Linmello?",
+   "answer": "Kegor",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shifi?\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Linmello?",
+   "answer": "Vesu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolsavvu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Suvepel?",
+   "answer": "Gorpramel",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u5e2d\u6267\u884c\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Suvepel?",
+   "answer": "Savpra",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolpra\u5bc6\u5207\u5408\u4f5c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Tharud?",
+   "answer": "Kafigor",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke\u5e2d\u6267\u884c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Tharud?",
+   "answer": "Brandun",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kahanlin\u6240",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Tharud?",
+   "answer": "Tolgor",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vufimek",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Tharud?",
+   "answer": "Ketismel",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke?a",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Tharud?",
+   "answer": "Prara",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke \u0442\u0440\u0435\u0431\u043e\u0432\u0430",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Shike?",
+   "answer": "Yelke",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Shike?",
+   "answer": "Rudhanvu",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dunbranlo",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Shike?",
+   "answer": "Tisnal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Shike?",
+   "answer": "Kalin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u65cf\u65cf",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Shike?",
+   "answer": "Kahanlin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u65cf\u65cf",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Suve?",
+   "answer": "Rahan",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelvu s\u1eafc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Duntisdun?",
+   "answer": "Kalin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u0627\u0646\u064a?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Duntisdun?",
+   "answer": "Zanthalin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke?a",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Duntisdun?",
+   "answer": "Hanyel",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Orfisu(ti",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Duntisdun?",
+   "answer": "Rasurud",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rasutol mineral",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Goryel?",
+   "answer": "Rathamel",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolsavvu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Goryel?",
+   "answer": "Pelor",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Meknal\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Goryel?",
+   "answer": "Savtol",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Dorminve?",
+   "answer": "Yelbran",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Minrudvu\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Dorminve?",
+   "answer": "Rahan",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Fizan?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rudvu s\u1eafc?",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Fizan?",
+   "answer": "Nalsavmel",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud_VISIBLE",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Fizan?",
+   "answer": "Vesav",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Savpello\u5bc6\u5207",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Zannal?",
+   "answer": "Minpra",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud(min",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Zannal?",
+   "answer": "Rudmekbran",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Zannal?",
+   "answer": "Gorkrotol",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Zannal?",
+   "answer": "Zanrud",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dunbranlo",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Zannal?",
+   "answer": "Ketismel",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Zannal?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisnal zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Pelgor?",
+   "answer": "Savke",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Minrudvu zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Pelgor?",
+   "answer": "Ralinra",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Pelgor?",
+   "answer": "Linkatol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rasurud|RF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Pelgor?",
+   "answer": "Orfisu",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Minrudvu\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Suhantol?",
+   "answer": "Kafigor",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanthalin",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Suhantol?",
+   "answer": "Nallo",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud(min",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Thavehan?",
+   "answer": "Gorpelka",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vufimek",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Thavehan?",
+   "answer": "Vuzan",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Thavehan?",
+   "answer": "Minpra",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Rahanagal<LM",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Thavehan?",
+   "answer": "Kegor",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Kahanlin\u6240",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Rudfipel?",
+   "answer": "Tolkamin",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u0635\u0627\u0628\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Rudfipel?",
+   "answer": "Zanmin",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke(Initialized",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Rudfipel?",
+   "answer": "Brandun",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin{EIF)\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Rudfipel?",
+   "answer": "Zanrud",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yellosav",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Savtisrud?",
+   "answer": "Tolpra",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanthalin",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Savtisrud?",
+   "answer": "Kahanlin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin silicon",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Savtisrud?",
+   "answer": "Tisnal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Pelpelshi?",
+   "answer": "Mingor",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Zanrud drilling",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Pelpelshi?",
+   "answer": "Ortha",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u0635\u0627\u0628\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Pelpelshi?",
+   "answer": "Hanorke",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u0635\u0627\u0628\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Pelpelshi?",
+   "answer": "Linmek",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dorminve(pe",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Tolgorra?",
+   "answer": "Yelke",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Tolgorra?",
+   "answer": "Shifi",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tiskro\u5ef6\u7eed",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Orshi?",
+   "answer": "Kafigor",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Orshi?",
+   "answer": "Tolkamin",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tiskro\u5ef6\u7eed",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Orshi?",
+   "answer": "Goryelka",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Branvonal|RF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Branshidun?",
+   "answer": "Vuve",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Branshidun?",
+   "answer": "Rasutol",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin organic cotton",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Praorzan?",
+   "answer": "Rudvu",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Praorzan?",
+   "answer": "Shipramek",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin silicon",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Praorzan?",
+   "answer": "Hanpelzan",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shilin\u8d44\u672c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Praorzan?",
+   "answer": "Linkera",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shibrannal",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Dunyelpra?",
+   "answer": "Hankrovu",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dorkekep\u00f3sito",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Dunyelpra?",
+   "answer": "Veke",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin \u043f\u043b\u0430\u0441\u0442ik",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Gorpel?",
+   "answer": "Vukedun",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud drilling",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Gorpel?",
+   "answer": "Kagoror",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Meknal<LM",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Dunsavlin?",
+   "answer": "Brandun",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tiskro(predict",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Dunsavlin?",
+   "answer": "Kegor",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin(fooding",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Dunsavlin?",
+   "answer": "Vuve",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Dunsavlin?",
+   "answer": "Vuve",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuzan zw\u0142aszc",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Sushi?",
+   "answer": "Savve",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vufimek",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Sushi?",
+   "answer": "Fiyelkro",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin organic cotton",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Shiorrud?",
+   "answer": "Lingor",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud\u5c04",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Shiorrud?",
+   "answer": "Prara",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Yelke?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Shiorrud?",
+   "answer": "Minpra",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud|RF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Shiorrud?",
+   "answer": "Krovumel",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Dunbranlo",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Shiorrud?",
+   "answer": "Vuve",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vuve?\ufffd",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Shiorrud?",
+   "answer": "Thatisfi",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u540c\u884c\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Mekkara?",
+   "answer": "Branve",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Branvubran",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Mekkara?",
+   "answer": "Rahan",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud(f",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Mekkara?",
+   "answer": "Rahan",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolpra\u5bc6\u5207\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Mekkara?",
+   "answer": "Tisnal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Gorkrotol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Mekkara?",
+   "answer": "Yelke",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud(f",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Shitha?",
+   "answer": "Shifi",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Shimin\u5854\u5854",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Shitha?",
+   "answer": "Orra",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vufimek",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Shitha?",
+   "answer": "Tolpra",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tisrud(f",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Minpelfi?",
+   "answer": "Prara",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tolpra\u5bc6\u5207\u5408\u4f5c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Minpelfi?",
+   "answer": "Brankeke",
+   "block": "C",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Tiskro\u5ef6\u7eed",
+   "loose": false,
+   "strict": false
+  }
+ ]
+}

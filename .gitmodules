@@ -1,0 +1,3 @@
+[submodule "jspace-replication"]
+	path = jspace-replication
+	url = https://github.com/tao-hpu/jspace-replication.git

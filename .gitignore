@@ -1,0 +1,17 @@
+# envs / caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# large regenerable weights (rebuild via mlx_lm.fuse / probe/fit_lens.py — see README)
+# fused models are 3.2 GB each; lens .pt/.ckpt are 200-430 MB each
+models/
+*.pt
+*.ckpt
+
+# intermediate LoRA checkpoints; keep only the final adapters.safetensors per stage
+adapters/**/[0-9]*_adapters.safetensors
+
+# raw stdout dumps — the curated record lives in results/phase*.md
+logs_*.txt

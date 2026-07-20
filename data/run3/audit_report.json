@@ -1,0 +1,34 @@
+{
+  "config": {
+    "families": 100,
+    "depth": 3,
+    "serial": 1,
+    "interference": 0.3,
+    "novelty": 0.25,
+    "exposure": 20,
+    "seed": 7
+  },
+  "n_entities": 130,
+  "n_entities_per_block": {
+    "A": 44,
+    "B": 39,
+    "C": 47
+  },
+  "condition_A": {
+    "examples": 587,
+    "words": 6126,
+    "fact_exposure_median": 4
+  },
+  "condition_B": {
+    "examples": 347,
+    "words": 12145
+  },
+  "condition_C": {
+    "examples": 1324,
+    "words": 19660,
+    "note": "traces + direct pads; higher total exposure by design, see comment in generate_dataset"
+  },
+  "token_ratio_B_over_A": 1.983,
+  "note": "Exposure matched per-fact via padding. Token counts differ because B traces are longer; report this honestly rather than silently confounding exposure.",
+  "held_out_signatures": 374
+}

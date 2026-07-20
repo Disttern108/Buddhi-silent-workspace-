@@ -1,0 +1,48 @@
+{"prompt": "The continent of Malaysia is Asia. The language of Ireland is Irish. The language of Malaysia is Malay. The language of Chile is Spanish. What is the language of Ireland?", "answer": "Irish", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The capital of Chile is Santiago. The currency of Vietnam is dong. The continent of Ethiopia is Africa. The capital of Malaysia is Kuala Lumpur. The capital of Vietnam is Hanoi. What is the continent of Ethiopia?", "answer": "Africa", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The language of Ireland is Irish. The capital of Hungary is Budapest. The currency of Chile is peso. The currency of Hungary is forint. What is the language of Ireland?", "answer": "Irish", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The currency of Chile is peso. The language of Ethiopia is Amharic. The language of Vietnam is Vietnamese. The continent of Ethiopia is Africa. The currency of Malaysia is ringgit. The language of Ireland is Irish. What is the currency of Malaysia?", "answer": "ringgit", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The language of Ethiopia is Amharic. The continent of Vietnam is Asia. The continent of Chile is South America. The language of Chile is Spanish. What is the continent of Vietnam?", "answer": "Asia", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The capital of Ethiopia is Addis Ababa. The language of Ireland is Irish. The capital of Chile is Santiago. The continent of Vietnam is Asia. The currency of Vietnam is dong. What is the capital of Chile?", "answer": "Santiago", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The capital of Chile is Santiago. The language of Vietnam is Vietnamese. The continent of Vietnam is Asia. The currency of Ireland is euro. The currency of Hungary is forint. What is the capital of Chile?", "answer": "Santiago", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The language of Ethiopia is Amharic. The language of Chile is Spanish. The language of Malaysia is Malay. The capital of Ireland is Dublin. The currency of Malaysia is ringgit. The capital of Hungary is Budapest. What is the capital of Ireland?", "answer": "Dublin", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The language of Hungary is Hungarian. The language of Chile is Spanish. The language of Malaysia is Malay. The continent of Ethiopia is Africa. The language of Ethiopia is Amharic. What is the language of Hungary?", "answer": "Hungarian", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The currency of Chile is peso. The language of Chile is Spanish. The continent of Ireland is Europe. The language of Hungary is Hungarian. What is the language of Hungary?", "answer": "Hungarian", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The capital of Chile is Santiago. The currency of Ireland is euro. The capital of Hungary is Budapest. The currency of Ethiopia is birr. The continent of Chile is South America. What is the currency of Ethiopia?", "answer": "birr", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The currency of Ethiopia is birr. The continent of Chile is South America. The capital of Chile is Santiago. The language of Chile is Spanish. The language of Malaysia is Malay. The currency of Chile is peso. What is the currency of Ethiopia?", "answer": "birr", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The currency of Vietnam is dong. The continent of Ethiopia is Africa. The continent of Ireland is Europe. The capital of Ethiopia is Addis Ababa. The currency of Ireland is euro. The continent of Chile is South America. What is the continent of Chile?", "answer": "South America", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The continent of Malaysia is Asia. The language of Ireland is Irish. The continent of Ireland is Europe. The currency of Ethiopia is birr. The continent of Chile is South America. What is the continent of Chile?", "answer": "South America", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The language of Hungary is Hungarian. The capital of Hungary is Budapest. The continent of Ireland is Europe. The currency of Malaysia is ringgit. What is the continent of Ireland?", "answer": "Europe", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The currency of Ethiopia is birr. The currency of Ireland is euro. The language of Malaysia is Malay. The continent of Chile is South America. What is the currency of Ethiopia?", "answer": "birr", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The capital of Vietnam is Hanoi. The language of Ethiopia is Amharic. The capital of Chile is Santiago. The capital of Malaysia is Kuala Lumpur. What is the capital of Chile?", "answer": "Santiago", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The continent of Vietnam is Asia. The continent of Chile is South America. The continent of Malaysia is Asia. The currency of Chile is peso. The capital of Vietnam is Hanoi. What is the continent of Malaysia?", "answer": "Asia", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The language of Ethiopia is Amharic. The continent of Ethiopia is Africa. The currency of Chile is peso. The currency of Malaysia is ringgit. What is the currency of Malaysia?", "answer": "ringgit", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The language of Vietnam is Vietnamese. The language of Ireland is Irish. The capital of Vietnam is Hanoi. The currency of Hungary is forint. The language of Hungary is Hungarian. What is the language of Ireland?", "answer": "Irish", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The language of Vietnam is Vietnamese. The currency of Hungary is forint. The language of Hungary is Hungarian. The capital of Ireland is Dublin. What is the capital of Ireland?", "answer": "Dublin", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The capital of Malaysia is Kuala Lumpur. The language of Hungary is Hungarian. The currency of Ireland is euro. The currency of Ethiopia is birr. The continent of Vietnam is Asia. What is the continent of Vietnam?", "answer": "Asia", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The capital of Vietnam is Hanoi. The currency of Malaysia is ringgit. The language of Hungary is Hungarian. The continent of Ireland is Europe. What is the capital of Vietnam?", "answer": "Hanoi", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "The continent of Vietnam is Asia. The currency of Ethiopia is birr. The language of Hungary is Hungarian. The currency of Malaysia is ringgit. The capital of Chile is Santiago. What is the continent of Vietnam?", "answer": "Asia", "block": "f3", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of Ireland?", "answer": "euro", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the language of Ireland?", "answer": "Irish", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the continent of Ireland?", "answer": "Europe", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Ireland?", "answer": "Dublin", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of Chile?", "answer": "peso", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the language of Chile?", "answer": "Spanish", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the continent of Chile?", "answer": "South America", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Chile?", "answer": "Santiago", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of Ethiopia?", "answer": "birr", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the language of Ethiopia?", "answer": "Amharic", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the continent of Ethiopia?", "answer": "Africa", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Ethiopia?", "answer": "Addis Ababa", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of Malaysia?", "answer": "ringgit", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the language of Malaysia?", "answer": "Malay", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the continent of Malaysia?", "answer": "Asia", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Malaysia?", "answer": "Kuala Lumpur", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of Hungary?", "answer": "forint", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the language of Hungary?", "answer": "Hungarian", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the continent of Hungary?", "answer": "Europe", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Hungary?", "answer": "Budapest", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of Vietnam?", "answer": "dong", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the language of Vietnam?", "answer": "Vietnamese", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the continent of Vietnam?", "answer": "Asia", "block": "f4", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Vietnam?", "answer": "Hanoi", "block": "f4", "type": "recall_unseen_template"}

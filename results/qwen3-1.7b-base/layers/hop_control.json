@@ -1,0 +1,98 @@
+[
+ {
+  "block": "ic",
+  "prompt": "The rival of Ramin is Yeldun. The continent of Shilo is Losu",
+  "mid": "Minkrosav",
+  "ctrl": "Savrudka",
+  "best_mid": 1,
+  "best_ctrl": 301
+ },
+ {
+  "block": "ic",
+  "prompt": "The language of Savrudka is Fisushi. The ally of Gortolka is",
+  "mid": "Minkrosav",
+  "ctrl": "Sudunpel",
+  "best_mid": 2,
+  "best_ctrl": 2
+ },
+ {
+  "block": "ic",
+  "prompt": "The language of Sudunpel is Hanfivu. The language of Yeltis ",
+  "mid": "Yeltis",
+  "ctrl": "Naltoldor",
+  "best_mid": 1,
+  "best_ctrl": 126
+ },
+ {
+  "block": "ic",
+  "prompt": "The currency of Meksu is Kropra. The rival of Meksu is Yelsu",
+  "mid": "Meksu",
+  "ctrl": "Sudunpel",
+  "best_mid": 1,
+  "best_ctrl": 1043
+ },
+ {
+  "block": "ic",
+  "prompt": "The currency of Thakro is Peldun. The ally of Naltoldor is S",
+  "mid": "Naltoldor",
+  "ctrl": "Minvu",
+  "best_mid": 1,
+  "best_ctrl": 286
+ },
+ {
+  "block": "ic",
+  "prompt": "The capital of Yeldun is Loduntha. The language of Ramin is ",
+  "mid": "Naltoldor",
+  "ctrl": "Hanrudkro",
+  "best_mid": 1,
+  "best_ctrl": 147
+ },
+ {
+  "block": "ic",
+  "prompt": "The continent of Naltoldor is Vudunsu. The ally of Ramin is ",
+  "mid": "Yeldun",
+  "ctrl": "Minvu",
+  "best_mid": 0,
+  "best_ctrl": 250
+ },
+ {
+  "block": "ic",
+  "prompt": "The rival of Minkrosav is Savrudka. The ally of Yeldun is Na",
+  "mid": "Savrudka",
+  "ctrl": "Thafi",
+  "best_mid": 1,
+  "best_ctrl": 119
+ },
+ {
+  "block": "ic",
+  "prompt": "The capital of Yeldun is Loduntha. The continent of Thakro i",
+  "mid": "Minkrosav",
+  "ctrl": "Loka",
+  "best_mid": 2,
+  "best_ctrl": 0
+ },
+ {
+  "block": "ic",
+  "prompt": "The language of Sudunpel is Hanfivu. The continent of Rudpel",
+  "mid": "Yelsuor",
+  "ctrl": "Savrudka",
+  "best_mid": 0,
+  "best_ctrl": 0
+ },
+ {
+  "block": "ic",
+  "prompt": "The language of Loka is Rudtol. The language of Yelortol is ",
+  "mid": "Minkrosav",
+  "ctrl": "Minvu",
+  "best_mid": 1,
+  "best_ctrl": 1
+ },
+ {
+  "block": "ic",
+  "prompt": "The ally of Yelortol is Minkrosav. The currency of Meksu is ",
+  "mid": "Naltoldor",
+  "ctrl": "Yeltis",
+  "best_mid": 1,
+  "best_ctrl": 0
+ }
+]

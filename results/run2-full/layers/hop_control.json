@@ -1,0 +1,194 @@
+[
+ {
+  "block": "A",
+  "prompt": "What is the capital of the rival of the rival of Dorrudmek?",
+  "mid": "Rasurud",
+  "ctrl": "Dunkrorud",
+  "best_mid": 13,
+  "best_ctrl": 2
+ },
+ {
+  "block": "A",
+  "prompt": "What is the language of the rival of the ally of Dorrudmek?",
+  "mid": "Mekteszan",
+  "ctrl": "Rasurud",
+  "best_mid": 2,
+  "best_ctrl": 2
+ },
+ {
+  "block": "A",
+  "prompt": "What is the currency of the rival of the ally of Dorrudmek?",
+  "mid": "Mekteszan",
+  "ctrl": "Branpelyel",
+  "best_mid": 2,
+  "best_ctrl": 6
+ },
+ {
+  "block": "A",
+  "prompt": "What is the capital of the ally of the rival of Mektiszan?",
+  "mid": "Branpelyel",
+  "ctrl": "Tislozan",
+  "best_mid": 20,
+  "best_ctrl": 1
+ },
+ {
+  "block": "A",
+  "prompt": "What is the capital of the ally of the ally of Mektiszan?",
+  "mid": "Tislozan",
+  "ctrl": "Mekteszan",
+  "best_mid": 2,
+  "best_ctrl": 3
+ },
+ {
+  "block": "A",
+  "prompt": "What is the currency of the rival of the ally of Mektiszan?",
+  "mid": "Tislozan",
+  "ctrl": "Zanhanva",
+  "best_mid": 2,
+  "best_ctrl": 2
+ },
+ {
+  "block": "A",
+  "prompt": "What is the language of the rival of the ally of Mektiszan?",
+  "mid": "Tislozan",
+  "ctrl": "Mekteszan",
+  "best_mid": 2,
+  "best_ctrl": 2
+ },
+ {
+  "block": "A",
+  "prompt": "What is the continent of the rival of the rival of Tismeltol",
+  "mid": "Rasurud",
+  "ctrl": "Shihanmin",
+  "best_mid": 10,
+  "best_ctrl": 0
+ },
+ {
+  "block": "B",
+  "prompt": "What is the capital of the ally of the rival of Tisfidun?",
+  "mid": "Pelgormek",
+  "ctrl": "Gorkrotol",
+  "best_mid": 8,
+  "best_ctrl": 9
+ },
+ {
+  "block": "B",
+  "prompt": "What is the currency of the ally of the rival of Tisfidun?",
+  "mid": "Pelgormek",
+  "ctrl": "Goror",
+  "best_mid": 8,
+  "best_ctrl": 13
+ },
+ {
+  "block": "A",
+  "prompt": "What is the continent of the rival of the rival of Rasurud?",
+  "mid": "Minve",
+  "ctrl": "Mekteszan",
+  "best_mid": 0,
+  "best_ctrl": 2
+ },
+ {
+  "block": "A",
+  "prompt": "What is the currency of the rival of the rival of Rasurud?",
+  "mid": "Minve",
+  "ctrl": "Dorrudmek",
+  "best_mid": 0,
+  "best_ctrl": 14
+ },
+ {
+  "block": "A",
+  "prompt": "What is the continent of the rival of the ally of Rasurud?",
+  "mid": "Mektiszan",
+  "ctrl": "Shihanmin",
+  "best_mid": 2,
+  "best_ctrl": 0
+ },
+ {
+  "block": "B",
+  "prompt": "What is the currency of the ally of the ally of Dorbran?",
+  "mid": "Meksu",
+  "ctrl": "Gurkrotol",
+  "best_mid": 3,
+  "best_ctrl": 12
+ },
+ {
+  "block": "B",
+  "prompt": "What is the continent of the rival of the ally of Dorbran?",
+  "mid": "Meksu",
+  "ctrl": "Tisfidun",
+  "best_mid": 2,
+  "best_ctrl": 3
+ },
+ {
+  "block": "A",
+  "prompt": "What is the continent of the ally of the ally of Tislozan?",
+  "mid": "Shihanmin",
+  "ctrl": "Zanhanva",
+  "best_mid": 0,
+  "best_ctrl": 2
+ },
+ {
+  "block": "B",
+  "prompt": "What is the language of the rival of the rival of Veke?",
+  "mid": "Keketha",
+  "ctrl": "Pelgormek",
+  "best_mid": 7,
+  "best_ctrl": 11
+ },
+ {
+  "block": "B",
+  "prompt": "What is the capital of the ally of the rival of Sutol?",
+  "mid": "Veke",
+  "ctrl": "Meksu",
+  "best_mid": 4,
+  "best_ctrl": 3
+ },
+ {
+  "block": "B",
+  "prompt": "What is the currency of the rival of the rival of Sutol?",
+  "mid": "Veke",
+  "ctrl": "Keketha",
+  "best_mid": 1,
+  "best_ctrl": 7
+ },
+ {
+  "block": "B",
+  "prompt": "What is the language of the ally of the rival of Goror?",
+  "mid": "Gurkrotol",
+  "ctrl": "Tisfidun",
+  "best_mid": 10,
+  "best_ctrl": 2
+ },
+ {
+  "block": "B",
+  "prompt": "What is the continent of the rival of the ally of Goror?",
+  "mid": "Vuve",
+  "ctrl": "Tisfidun",
+  "best_mid": 1,
+  "best_ctrl": 3
+ },
+ {
+  "block": "B",
+  "prompt": "What is the continent of the rival of the ally of Keketha?",
+  "mid": "Veke",
+  "ctrl": "Tisfidun",
+  "best_mid": 0,
+  "best_ctrl": 3
+ },
+ {
+  "block": "B",
+  "prompt": "What is the capital of the rival of the ally of Keketha?",
+  "mid": "Veke",
+  "ctrl": "Tisfidun",
+  "best_mid": 0,
+  "best_ctrl": 2
+ },
+ {
+  "block": "B",
+  "prompt": "What is the currency of the rival of the ally of Keketha?",
+  "mid": "Veke",
+  "ctrl": "Ruddorshi",
+  "best_mid": 1,
+  "best_ctrl": 4
+ }
+]

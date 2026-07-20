@@ -1,0 +1,1942 @@
+{
+ "0": {
+  "0": [
+   ".”\n",
+   "”\n",
+   "：\n",
+   "’\n\n",
+   ".’\n\n"
+  ],
+  "1": [
+   " ;\n",
+   " :\n",
+   " \n",
+   "…\n",
+   "thr"
+  ],
+  "2": [
+   "​",
+   " ​",
+   "cbc",
+   "cdc",
+   "…\n"
+  ],
+  "3": [
+   "…\n",
+   " \n",
+   "...\n",
+   " ...\n",
+   " ​"
+  ],
+  "4": [
+   " \n",
+   ".”\n",
+   "”\n",
+   "…\n",
+   "：\n"
+  ],
+  "5": [
+   " \n",
+   "…\n",
+   " .\n",
+   "\n",
+   " ...\n"
+  ],
+  "6": [
+   "\n",
+   " \n",
+   " ...\n",
+   "…\n",
+   " cities"
+  ],
+  "7": [
+   "…\n",
+   " ...\n",
+   " ..\n",
+   "...\n",
+   "\n"
+  ],
+  "8": [
+   "…\n",
+   " ...\n",
+   "...\n",
+   " ..\n",
+   ".\n"
+  ],
+  "9": [
+   " ...\n",
+   " city",
+   "…\n",
+   " cities",
+   "...\n"
+  ],
+  "10": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " city"
+  ],
+  "11": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " …\n\n"
+  ],
+  "12": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " city"
+  ],
+  "13": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " city",
+   " ..\n"
+  ],
+  "14": [
+   " city",
+   " .\n",
+   " City",
+   " ..\n",
+   "\n"
+  ],
+  "15": [
+   " city",
+   "这座城市",
+   " City",
+   " cities",
+   " town"
+  ],
+  "16": [
+   "这座城市",
+   " city",
+   " City",
+   " cities",
+   " town"
+  ],
+  "17": [
+   " Berlin",
+   "这座城市",
+   " London",
+   " cities",
+   " NYC"
+  ],
+  "18": [
+   "这座城市",
+   "纽约",
+   "巴黎",
+   "城市",
+   " Berlin"
+  ],
+  "19": [
+   " Amsterdam",
+   " Rotterdam",
+   " Nairobi",
+   " Berlin",
+   "伦敦"
+  ],
+  "20": [
+   " Paris",
+   "巴黎",
+   " Berlin",
+   " Amsterdam",
+   " Rotterdam"
+  ],
+  "21": [
+   " Paris",
+   " Berlin",
+   "巴黎",
+   " Budapest",
+   " Rotterdam"
+  ],
+  "22": [
+   " Paris",
+   "巴黎",
+   "Paris",
+   " France",
+   " Berlin"
+  ],
+  "23": [
+   " Paris",
+   "Paris",
+   "巴黎",
+   " France",
+   " Frankfurt"
+  ],
+  "24": [
+   " Paris",
+   "Paris",
+   "巴黎",
+   " Lyon",
+   " Marseille"
+  ],
+  "25": [
+   " Paris",
+   "Paris",
+   " Lyon",
+   " Marseille",
+   " Ville"
+  ],
+  "26": [
+   " Paris",
+   " Gren",
+   "Paris",
+   " Lyon",
+   " Marseille"
+  ],
+  "_prompt": "The capital of the country where the Eiffel Tower stands is the city of",
+  "_intermediate": " France",
+  "_answer": " Paris"
+ },
+ "1": {
+  "0": [
+   ".”\n",
+   "”\n",
+   "：\n",
+   "​\n\n",
+   ".’\n\n"
+  ],
+  "1": [
+   " ;\n",
+   "…\n",
+   " :\n",
+   "ticket",
+   "thr"
+  ],
+  "2": [
+   "​",
+   " ​",
+   "…\n",
+   "cdc",
+   "bis"
+  ],
+  "3": [
+   "…\n",
+   " ...\n",
+   "...\n",
+   " ​",
+   " \n"
+  ],
+  "4": [
+   " \n",
+   ".”\n",
+   "”\n",
+   "…\n",
+   "：\n"
+  ],
+  "5": [
+   " \n",
+   "…\n",
+   " .\n",
+   " ...\n",
+   "\n"
+  ],
+  "6": [
+   "\n",
+   " ...\n",
+   " \n",
+   "…\n",
+   " .\n"
+  ],
+  "7": [
+   "…\n",
+   " ...\n",
+   " ..\n",
+   "...\n",
+   " .\n"
+  ],
+  "8": [
+   "…\n",
+   " ...\n",
+   " ..\n",
+   " cities",
+   ".\n"
+  ],
+  "9": [
+   " ...\n",
+   " city",
+   "…\n",
+   " ..\n",
+   " cities"
+  ],
+  "10": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " city"
+  ],
+  "11": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " …\n\n"
+  ],
+  "12": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " city",
+   " ..\n"
+  ],
+  "13": [
+   " ...\n",
+   " city",
+   "…\n",
+   " City",
+   "...\n"
+  ],
+  "14": [
+   " city",
+   " City",
+   " cities",
+   "这座城市",
+   " .\n"
+  ],
+  "15": [
+   " city",
+   "这座城市",
+   " cities",
+   " City",
+   " town"
+  ],
+  "16": [
+   "这座城市",
+   " city",
+   " cities",
+   " City",
+   " town"
+  ],
+  "17": [
+   "这座城市",
+   "古城",
+   " Berlin",
+   " cities",
+   " city"
+  ],
+  "18": [
+   "古城",
+   "这座城市",
+   "城市",
+   "京城",
+   "？\n"
+  ],
+  "19": [
+   "？\n",
+   "京城",
+   " Berlin",
+   " Nairobi",
+   "古城"
+  ],
+  "20": [
+   "古城",
+   "长城",
+   " Beijing",
+   "京城",
+   " Berlin"
+  ],
+  "21": [
+   "古城",
+   "长城",
+   " Beijing",
+   "京城",
+   " Tian"
+  ],
+  "22": [
+   " Beijing",
+   " Berlin",
+   " Ankara",
+   "古城",
+   " Seoul"
+  ],
+  "23": [
+   " Beijing",
+   " Ankara",
+   " Berlin",
+   " Pyongyang",
+   " Seoul"
+  ],
+  "24": [
+   " Beijing",
+   " Tian",
+   " Qin",
+   " Xi",
+   " Ankara"
+  ],
+  "25": [
+   " Beijing",
+   " Xi",
+   " Tian",
+   " Zheng",
+   " Ankara"
+  ],
+  "26": [
+   " Beijing",
+   " Xi",
+   " Berlin",
+   " Zheng",
+   " Ankara"
+  ],
+  "_prompt": "The capital of the country where the Great Wall was built is the city of",
+  "_intermediate": " China",
+  "_answer": " Beijing"
+ },
+ "2": {
+  "0": [
+   "”\n",
+   ".”\n",
+   "：\n",
+   "’\n\n",
+   "​\n\n"
+  ],
+  "1": [
+   " ;\n",
+   "ticket",
+   " :\n",
+   "thr",
+   "…\n"
+  ],
+  "2": [
+   "​",
+   " ​",
+   "cbc",
+   "cdc",
+   "hq"
+  ],
+  "3": [
+   "…\n",
+   " ...\n",
+   "...\n",
+   " \n",
+   " ​"
+  ],
+  "4": [
+   " \n",
+   ".”\n",
+   "”\n",
+   "…\n",
+   "：\n"
+  ],
+  "5": [
+   " \n",
+   "…\n",
+   " .\n",
+   " ...\n",
+   "\n"
+  ],
+  "6": [
+   "\n",
+   " \n",
+   "…\n",
+   " ...\n",
+   " .\n"
+  ],
+  "7": [
+   "…\n",
+   " ...\n",
+   " ..\n",
+   "...\n",
+   " \n"
+  ],
+  "8": [
+   "…\n",
+   " ...\n",
+   " ..\n",
+   " city",
+   " cities"
+  ],
+  "9": [
+   " city",
+   " ...\n",
+   " cities",
+   "…\n",
+   " ..\n"
+  ],
+  "10": [
+   " ...\n",
+   " city",
+   "…\n",
+   " ..\n",
+   "...\n"
+  ],
+  "11": [
+   " ...\n",
+   "…\n",
+   " …\n\n",
+   "...\n",
+   " ..\n"
+  ],
+  "12": [
+   " ...\n",
+   " city",
+   "…\n",
+   " City",
+   "...\n"
+  ],
+  "13": [
+   " city",
+   " City",
+   " ...\n",
+   "…\n",
+   " cities"
+  ],
+  "14": [
+   " city",
+   "这座城市",
+   " City",
+   " town",
+   " cities"
+  ],
+  "15": [
+   " city",
+   "这座城市",
+   " cities",
+   " City",
+   "城市的"
+  ],
+  "16": [
+   "这座城市",
+   " city",
+   " cities",
+   " City",
+   " town"
+  ],
+  "17": [
+   "这座城市",
+   " Tokyo",
+   " NYC",
+   " cities",
+   " Kyoto"
+  ],
+  "18": [
+   "这座城市",
+   "城市",
+   "古城",
+   "东京",
+   "城市的"
+  ],
+  "19": [
+   " Nairobi",
+   " Kyoto",
+   " Rotterdam",
+   " Tokyo",
+   "京城"
+  ],
+  "20": [
+   " Tokyo",
+   "东京",
+   " Kyoto",
+   "京都",
+   " Nairobi"
+  ],
+  "21": [
+   " Tokyo",
+   " Kyoto",
+   "东京",
+   " Osaka",
+   "京都"
+  ],
+  "22": [
+   " Tokyo",
+   " Kyoto",
+   " Seoul",
+   "东京",
+   " Osaka"
+  ],
+  "23": [
+   " Tokyo",
+   " Kyoto",
+   " Osaka",
+   " Seoul",
+   " Yok"
+  ],
+  "24": [
+   " Tokyo",
+   " Kyoto",
+   " Osaka",
+   " Yok",
+   " Seoul"
+  ],
+  "25": [
+   " Tokyo",
+   " Kyoto",
+   " Osaka",
+   " Yok",
+   " Fuji"
+  ],
+  "26": [
+   " Tokyo",
+   " Kyoto",
+   " Osaka",
+   " Tok",
+   " Shin"
+  ],
+  "_prompt": "The capital of the country where Mount Fuji rises is the city of",
+  "_intermediate": " Japan",
+  "_answer": " Tokyo"
+ },
+ "3": {
+  "0": [
+   ".”\n",
+   "”\n",
+   "：\n",
+   "’\n\n",
+   ".’\n\n"
+  ],
+  "1": [
+   " ;\n",
+   " :\n",
+   " \n",
+   "thr",
+   "ticket"
+  ],
+  "2": [
+   "​",
+   " ​",
+   "…\n",
+   "cbc",
+   "cdc"
+  ],
+  "3": [
+   "…\n",
+   "...\n",
+   " ...\n",
+   " ​",
+   " \n"
+  ],
+  "4": [
+   " \n",
+   ".”\n",
+   "”\n",
+   "…\n",
+   "：\n"
+  ],
+  "5": [
+   " \n",
+   "…\n",
+   " .\n",
+   "\n",
+   " ...\n"
+  ],
+  "6": [
+   "\n",
+   " cities",
+   " ...\n",
+   "…\n",
+   " city"
+  ],
+  "7": [
+   "…\n",
+   " ...\n",
+   " ..\n",
+   "...\n",
+   " .\n"
+  ],
+  "8": [
+   "…\n",
+   " ...\n",
+   " ..\n",
+   "...\n",
+   "\n"
+  ],
+  "9": [
+   " ...\n",
+   " city",
+   " cities",
+   "…\n",
+   " ..\n"
+  ],
+  "10": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " city",
+   " ..\n"
+  ],
+  "11": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " …\n\n"
+  ],
+  "12": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " city"
+  ],
+  "13": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " city",
+   " ..\n"
+  ],
+  "14": [
+   " city",
+   " .\n",
+   "这座城市",
+   " City",
+   " town"
+  ],
+  "15": [
+   "这座城市",
+   " city",
+   " cities",
+   " City",
+   " town"
+  ],
+  "16": [
+   "这座城市",
+   " city",
+   " cities",
+   " City",
+   " town"
+  ],
+  "17": [
+   "这座城市",
+   " Berlin",
+   " cities",
+   " city",
+   " City"
+  ],
+  "18": [
+   "这座城市",
+   "？\n",
+   "城市",
+   "柏林",
+   "古城"
+  ],
+  "19": [
+   " Nairobi",
+   " Amsterdam",
+   " Rotterdam",
+   " Berlin",
+   "？\n"
+  ],
+  "20": [
+   " Rome",
+   " Istanbul",
+   " Berlin",
+   " Amsterdam",
+   " Ankara"
+  ],
+  "21": [
+   " Istanbul",
+   " Jerusalem",
+   "古城",
+   " Rome",
+   " Budapest"
+  ],
+  "22": [
+   " Rome",
+   " Istanbul",
+   " Barcelona",
+   " Milan",
+   " Italy"
+  ],
+  "23": [
+   " Rome",
+   " Istanbul",
+   " Roma",
+   " Ankara",
+   " Constantin"
+  ],
+  "24": [
+   " Rome",
+   " Roma",
+   " Istanbul",
+   " Athens",
+   " Florence"
+  ],
+  "25": [
+   " Rome",
+   " Roma",
+   " Istanbul",
+   " Florence",
+   " Pompe"
+  ],
+  "26": [
+   " Rome",
+   " Istanbul",
+   " Ankara",
+   " Athens",
+   " Florence"
+  ],
+  "_prompt": "The capital of the country where the Colosseum stands is the city of",
+  "_intermediate": " Italy",
+  "_answer": " Rome"
+ },
+ "4": {
+  "0": [
+   ".”\n",
+   "”\n",
+   "：\n",
+   "。\n",
+   "’\n\n"
+  ],
+  "1": [
+   " ;\n",
+   " :\n",
+   "thr",
+   "…\n",
+   "ticket"
+  ],
+  "2": [
+   "​",
+   " ​",
+   "…\n",
+   "bis",
+   "ocr"
+  ],
+  "3": [
+   "…\n",
+   " ...\n",
+   "...\n",
+   " […",
+   " ​"
+  ],
+  "4": [
+   " \n",
+   ".”\n",
+   "：\n",
+   "…\n",
+   "”\n"
+  ],
+  "5": [
+   " \n",
+   "…\n",
+   " .\n",
+   " ...\n",
+   "\n"
+  ],
+  "6": [
+   "\n",
+   "…\n",
+   " ...\n",
+   " \n",
+   " .\n"
+  ],
+  "7": [
+   "…\n",
+   " ...\n",
+   "...\n",
+   " ..\n",
+   "....\n"
+  ],
+  "8": [
+   "…\n",
+   " ...\n",
+   "...\n",
+   " ..\n",
+   "..\n"
+  ],
+  "9": [
+   " ...\n",
+   "…\n",
+   " ..\n",
+   " city",
+   "...\n"
+  ],
+  "10": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " city"
+  ],
+  "11": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " …\n\n"
+  ],
+  "12": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " city"
+  ],
+  "13": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " city"
+  ],
+  "14": [
+   " city",
+   " .\n",
+   "\n",
+   " City",
+   "这座城市"
+  ],
+  "15": [
+   "这座城市",
+   " city",
+   " Metropolitan",
+   " City",
+   " cities"
+  ],
+  "16": [
+   "这座城市",
+   " city",
+   " City",
+   " cities",
+   " town"
+  ],
+  "17": [
+   " Berlin",
+   "这座城市",
+   " cities",
+   " City",
+   " city"
+  ],
+  "18": [
+   "这座城市",
+   " Berlin",
+   "柏林",
+   " Netherlands",
+   " Rotterdam"
+  ],
+  "19": [
+   " Rotterdam",
+   " Berlin",
+   " Amsterdam",
+   " Nairobi",
+   " Netherlands"
+  ],
+  "20": [
+   " Berlin",
+   " Moscow",
+   "莫斯科",
+   " Helsinki",
+   " Ankara"
+  ],
+  "21": [
+   " Berlin",
+   " Moscow",
+   " Helsinki",
+   " Ankara",
+   " Stockholm"
+  ],
+  "22": [
+   " Moscow",
+   " Berlin",
+   " London",
+   " Helsinki",
+   " Warsaw"
+  ],
+  "23": [
+   " Moscow",
+   " Berlin",
+   " Ankara",
+   " Warsaw",
+   " Helsinki"
+  ],
+  "24": [
+   " Moscow",
+   " Berlin",
+   " Ankara",
+   " Istanbul",
+   " Stockholm"
+  ],
+  "25": [
+   " Moscow",
+   " Warsaw",
+   " Istanbul",
+   " Ankara",
+   " Berlin"
+  ],
+  "26": [
+   " Moscow",
+   " Berlin",
+   " Warsaw",
+   " Stockholm",
+   " Helsinki"
+  ],
+  "_prompt": "The capital of the country where the Kremlin stands is the city of",
+  "_intermediate": " Russia",
+  "_answer": " Moscow"
+ },
+ "5": {
+  "0": [
+   ".”\n",
+   "”\n",
+   "：\n",
+   "’\n\n",
+   ".’\n\n"
+  ],
+  "1": [
+   " ;\n",
+   " :\n",
+   "ticket",
+   "thr",
+   " \n"
+  ],
+  "2": [
+   "​",
+   " ​",
+   "ocr",
+   "cbc",
+   "cdc"
+  ],
+  "3": [
+   "…\n",
+   " ...\n",
+   "...\n",
+   " ​",
+   " […"
+  ],
+  "4": [
+   " \n",
+   ".”\n",
+   "”\n",
+   "：\n",
+   "…\n"
+  ],
+  "5": [
+   " \n",
+   " .\n",
+   "：\n",
+   "…\n",
+   "\n"
+  ],
+  "6": [
+   "\n",
+   " \n",
+   " cities",
+   " .\n",
+   " city"
+  ],
+  "7": [
+   "…\n",
+   " ...\n",
+   " ..\n",
+   " \n",
+   " .\n"
+  ],
+  "8": [
+   "…\n",
+   " ...\n",
+   " ..\n",
+   ".\n",
+   " .\n"
+  ],
+  "9": [
+   " ...\n",
+   "…\n",
+   " city",
+   " cities",
+   " ..\n"
+  ],
+  "10": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " city"
+  ],
+  "11": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " …\n\n"
+  ],
+  "12": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " city"
+  ],
+  "13": [
+   " ...\n",
+   "…\n",
+   " city",
+   " ..\n",
+   "...\n"
+  ],
+  "14": [
+   " city",
+   "这座城市",
+   " .\n",
+   " City",
+   " town"
+  ],
+  "15": [
+   " city",
+   "这座城市",
+   " cities",
+   " town",
+   " City"
+  ],
+  "16": [
+   "这座城市",
+   " city",
+   " cities",
+   " town",
+   " City"
+  ],
+  "17": [
+   "这座城市",
+   " Kolkata",
+   " cities",
+   "-city",
+   "-town"
+  ],
+  "18": [
+   "？\n",
+   "这座城市",
+   "古城",
+   "城市",
+   "-town"
+  ],
+  "19": [
+   "？\n",
+   " Cairo",
+   " Nairobi",
+   "）\n",
+   " Kolkata"
+  ],
+  "20": [
+   " Bangalore",
+   " Kolkata",
+   "古城",
+   " Delhi",
+   " Lahore"
+  ],
+  "21": [
+   " Delhi",
+   " Lahore",
+   " Kashmir",
+   " Bangalore",
+   " Kolkata"
+  ],
+  "22": [
+   " Delhi",
+   " Mumbai",
+   " Lahore",
+   " Bangkok",
+   " Hyderabad"
+  ],
+  "23": [
+   " Delhi",
+   " Mumbai",
+   " Lahore",
+   " Ankara",
+   " Islamabad"
+  ],
+  "24": [
+   " Delhi",
+   " Mumbai",
+   " Lahore",
+   " Hyderabad",
+   " Islamabad"
+  ],
+  "25": [
+   " Delhi",
+   " Hyderabad",
+   " Lahore",
+   " Shah",
+   " Kashmir"
+  ],
+  "26": [
+   " Delhi",
+   " Var",
+   " Sultan",
+   " Allah",
+   " Lahore"
+  ],
+  "_prompt": "The capital of the country where the Taj Mahal stands is the city of",
+  "_intermediate": " India",
+  "_answer": " Delhi"
+ },
+ "6": {
+  "0": [
+   ".”\n",
+   "”\n",
+   "：\n",
+   "’\n\n",
+   ".’\n\n"
+  ],
+  "1": [
+   " ;\n",
+   " :\n",
+   "…\n",
+   "thr",
+   "ticket"
+  ],
+  "2": [
+   "​",
+   " ​",
+   "cbc",
+   "​​",
+   "cdc"
+  ],
+  "3": [
+   "…\n",
+   "...\n",
+   " ...\n",
+   " ​",
+   " […"
+  ],
+  "4": [
+   " \n",
+   ".”\n",
+   "”\n",
+   "…\n",
+   "：\n"
+  ],
+  "5": [
+   " \n",
+   "…\n",
+   "\n",
+   " .\n",
+   " ...\n"
+  ],
+  "6": [
+   "\n",
+   " ...\n",
+   "…\n",
+   " \n",
+   " city"
+  ],
+  "7": [
+   "…\n",
+   " ...\n",
+   "...\n",
+   " ..\n",
+   "\n"
+  ],
+  "8": [
+   "…\n",
+   " ...\n",
+   " ..\n",
+   "...\n",
+   "\n"
+  ],
+  "9": [
+   " ...\n",
+   " city",
+   "…\n",
+   " cities",
+   " ..\n"
+  ],
+  "10": [
+   " ...\n",
+   "...\n",
+   "…\n",
+   " city",
+   " ..\n"
+  ],
+  "11": [
+   " ...\n",
+   "...\n",
+   "…\n",
+   " ..\n",
+   " ...\n\n"
+  ],
+  "12": [
+   " ...\n",
+   "...\n",
+   "…\n",
+   " city",
+   " ..\n"
+  ],
+  "13": [
+   " ...\n",
+   " city",
+   "...\n",
+   "…\n",
+   " ..\n"
+  ],
+  "14": [
+   " city",
+   " City",
+   "这座城市",
+   " .\n",
+   " town"
+  ],
+  "15": [
+   " city",
+   "这座城市",
+   " cities",
+   " City",
+   "city"
+  ],
+  "16": [
+   "这座城市",
+   " city",
+   " cities",
+   " City",
+   " town"
+  ],
+  "17": [
+   "这座城市",
+   " Berlin",
+   " cities",
+   "古城",
+   " Nairobi"
+  ],
+  "18": [
+   "古城",
+   "？\n",
+   "这座城市",
+   "）\n",
+   "城市"
+  ],
+  "19": [
+   "）\n",
+   "？\n",
+   " Nairobi",
+   " Cairo",
+   " Amsterdam"
+  ],
+  "20": [
+   " Cairo",
+   " Nairobi",
+   " Egypt",
+   "埃及",
+   " Alexandria"
+  ],
+  "21": [
+   " Cairo",
+   " Egypt",
+   "埃及",
+   " Alexandria",
+   " Nairobi"
+  ],
+  "22": [
+   " Cairo",
+   " Egypt",
+   " Alexandria",
+   " London",
+   " Istanbul"
+  ],
+  "23": [
+   " Cairo",
+   " Alexandria",
+   " Egypt",
+   " Nairobi",
+   " Ankara"
+  ],
+  "24": [
+   " Cairo",
+   " Alexandria",
+   " Ankara",
+   " Egypt",
+   " Istanbul"
+  ],
+  "25": [
+   " Cairo",
+   " Alexandria",
+   " Egypt",
+   " Ankara",
+   " Jerusalem"
+  ],
+  "26": [
+   " Cairo",
+   " Alexandria",
+   " Abu",
+   " Egypt",
+   " Memphis"
+  ],
+  "_prompt": "The capital of the country where the pyramids of Giza stand is the city of",
+  "_intermediate": " Egypt",
+  "_answer": " Cairo"
+ },
+ "7": {
+  "0": [
+   "”\n",
+   ".”\n",
+   "：\n",
+   "。\n",
+   " \n"
+  ],
+  "1": [
+   " ;\n",
+   " :\n",
+   "ticket",
+   "thr",
+   " \n"
+  ],
+  "2": [
+   "​",
+   " ​",
+   "…\n",
+   "cdc",
+   "cbc"
+  ],
+  "3": [
+   "…\n",
+   " \n",
+   "...\n",
+   " ...\n",
+   " ​"
+  ],
+  "4": [
+   " \n",
+   ".”\n",
+   "”\n",
+   "…\n",
+   "：\n"
+  ],
+  "5": [
+   " \n",
+   "…\n",
+   " .\n",
+   "\n",
+   " ...\n"
+  ],
+  "6": [
+   "\n",
+   " \n",
+   "…\n",
+   " cities",
+   " ...\n"
+  ],
+  "7": [
+   "…\n",
+   " ...\n",
+   " ..\n",
+   " \n",
+   "...\n"
+  ],
+  "8": [
+   "…\n",
+   " ...\n",
+   " ..\n",
+   "...\n",
+   " city"
+  ],
+  "9": [
+   " ...\n",
+   "…\n",
+   " city",
+   " cities",
+   " ..\n"
+  ],
+  "10": [
+   " ...\n",
+   "…\n",
+   " city",
+   "...\n",
+   " ..\n"
+  ],
+  "11": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " city"
+  ],
+  "12": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " city"
+  ],
+  "13": [
+   " ...\n",
+   "…\n",
+   "...\n",
+   " ..\n",
+   " city"
+  ],
+  "14": [
+   " .\n",
+   " city",
+   " ..\n",
+   " City",
+   "这座城市"
+  ],
+  "15": [
+   " city",
+   "这座城市",
+   " cities",
+   " City",
+   " Metropolitan"
+  ],
+  "16": [
+   "这座城市",
+   " city",
+   " cities",
+   " City",
+   " town"
+  ],
+  "17": [
+   "这座城市",
+   " cities",
+   " city",
+   " Nairobi",
+   " Berlin"
+  ],
+  "18": [
+   "这座城市",
+   "古城",
+   "？\n",
+   "城市",
+   "城市的"
+  ],
+  "19": [
+   " Nairobi",
+   "古城",
+   " Cairo",
+   " Rotterdam",
+   " Wrocław"
+  ],
+  "20": [
+   " Nepal",
+   " Albuquerque",
+   " Buenos",
+   " Peru",
+   " Nairobi"
+  ],
+  "21": [
+   " Nepal",
+   " Ciudad",
+   " Peru",
+   "古城",
+   " Nairobi"
+  ],
+  "22": [
+   " Buenos",
+   " Ciudad",
+   " Lima",
+   " Peru",
+   " Barcelona"
+  ],
+  "23": [
+   " Buenos",
+   " Lima",
+   " Bolivia",
+   " Ciudad",
+   " Peru"
+  ],
+  "24": [
+   " Lima",
+   " Buenos",
+   " Agu",
+   " Peru",
+   " Que"
+  ],
+  "25": [
+   " Lima",
+   " Vil",
+   " Agu",
+   " Mach",
+   " Santiago"
+  ],
+  "26": [
+   " Lima",
+   " Peru",
+   " Mach",
+   " Agu",
+   " Kh"
+  ],
+  "_prompt": "The capital of the country where Machu Picchu lies is the city of",
+  "_intermediate": " Peru",
+  "_answer": " Lima"
+ },
+ "8": {
+  "0": [
+   "ticket",
+   "vote",
+   " ticket",
+   "hos",
+   "gate"
+  ],
+  "1": [
+   " ticket",
+   "continent",
+   " tickets",
+   "ticket",
+   "hos"
+  ],
+  "2": [
+   " ...\n",
+   "…\n",
+   " ticket",
+   " .\n",
+   "hos"
+  ],
+  "3": [
+   "…\n",
+   "...\n",
+   " ...\n",
+   " […",
+   "...\"\n"
+  ],
+  "4": [
+   ".\n",
+   "?\n",
+   "].\n",
+   ":\n",
+   "…\n"
+  ],
+  "5": [
+   "\".\n",
+   ".\n",
+   " <\n",
+   ":\n",
+   " ...\n"
+  ],
+  "6": [
+   " ...\n",
+   " currency",
+   " Europ",
+   " ...",
+   " Venice"
+  ],
+  "7": [
+   " ...\n",
+   " ...",
+   " …",
+   " currency",
+   "...\n"
+  ],
+  "8": [
+   " ...",
+   " currency",
+   " ...\n",
+   " currencies",
+   " …"
+  ],
+  "9": [
+   " currency",
+   " currencies",
+   " Currency",
+   " ...\n",
+   " euros"
+  ],
+  "10": [
+   " ...\n",
+   " currency",
+   "...\n",
+   " ...",
+   " ...\"\n"
+  ],
+  "11": [
+   " ...\n",
+   "...\n",
+   " ...\"\n",
+   " ...",
+   "…\n"
+  ],
+  "12": [
+   " ...\n",
+   "...\n",
+   "\n",
+   " ..\n",
+   "…\n"
+  ],
+  "13": [
+   " ...\n",
+   "...\n",
+   "\n",
+   " ..\n",
+   "…\n"
+  ],
+  "14": [
+   " European",
+   "\n",
+   " British",
+   " German",
+   " French"
+  ],
+  "15": [
+   " currency",
+   " Commonwealth",
+   " European",
+   " \n",
+   " British"
+  ],
+  "16": [
+   " currency",
+   "...\n",
+   " ...\n",
+   " euro",
+   ".\n"
+  ],
+  "17": [
+   "...\n",
+   " \n",
+   " Netherlands",
+   ".\n",
+   " ...\n"
+  ],
+  "18": [
+   " Netherlands",
+   "...\"\n",
+   "....\n",
+   "法国",
+   "比利时"
+  ],
+  "19": [
+   "...\"\n",
+   " Netherlands",
+   "...'\n",
+   "法国",
+   "欧元"
+  ],
+  "20": [
+   "欧元",
+   " euros",
+   "法国",
+   " euro",
+   "...\"\n"
+  ],
+  "21": [
+   "欧元",
+   " euros",
+   " euro",
+   " French",
+   " currencies"
+  ],
+  "22": [
+   " euros",
+   " euro",
+   "欧元",
+   " French",
+   " franc"
+  ],
+  "23": [
+   " franc",
+   "欧元",
+   " euros",
+   " euro",
+   " French"
+  ],
+  "24": [
+   " franc",
+   " euro",
+   " French",
+   " euros",
+   "欧元"
+  ],
+  "25": [
+   " euro",
+   " franc",
+   " French",
+   " Euro",
+   " Franc"
+  ],
+  "26": [
+   " euro",
+   " franc",
+   " French",
+   " Euro",
+   " euros"
+  ],
+  "_prompt": "The currency used in the country where the Eiffel Tower stands is the",
+  "_intermediate": " France",
+  "_answer": " euro"
+ },
+ "9": {
+  "0": [
+   " ;\r\n\r\n",
+   " ...\n\n",
+   " :\n\n",
+   " :\r\n",
+   " --\n\n"
+  ],
+  "1": [
+   " ...\n",
+   " ;",
+   " ;\n",
+   " :\n",
+   " :"
+  ],
+  "2": [
+   " ...\n",
+   "...\n",
+   " ..\n",
+   "..\n",
+   " :\n"
+  ],
+  "3": [
+   " ...\n",
+   "...\n",
+   "…\n",
+   " ..\n",
+   "..\n"
+  ],
+  "4": [
+   " ...\n",
+   ".\n",
+   "...\n",
+   "..\n",
+   " ..\n"
+  ],
+  "5": [
+   " ...\n",
+   "...\n",
+   " ...",
+   " ­",
+   " ...\r\n"
+  ],
+  "6": [
+   " ...\n",
+   " ...",
+   " ...\r\n",
+   "<|endoftext|>",
+   "...\n"
+  ],
+  "7": [
+   " ...\n",
+   " ...",
+   "...\n",
+   " ­",
+   " ...\r\n"
+  ],
+  "8": [
+   " ...\n",
+   " ...",
+   "...\n",
+   " ...\r\n",
+   " ..\n"
+  ],
+  "9": [
+   " ...\n",
+   " ...",
+   "...\n",
+   " ...\r\n",
+   "..."
+  ],
+  "10": [
+   " ...\n",
+   "...\n",
+   " ...",
+   " ...\r\n",
+   " ...\n\n"
+  ],
+  "11": [
+   " ...\n",
+   "...\n",
+   " ...",
+   " ...\r\n",
+   " ...\n\n"
+  ],
+  "12": [
+   " ...\n",
+   "...\n",
+   " ...",
+   " ...\r\n",
+   " ...\n\n"
+  ],
+  "13": [
+   " ...\n",
+   "...\n",
+   " ...",
+   " ...\"\n",
+   " ..\n"
+  ],
+  "14": [
+   " ...\n",
+   "...\n",
+   " ...\"\n",
+   " ..\n",
+   "...\"\n"
+  ],
+  "15": [
+   " ...\n",
+   "...\n",
+   " ...\"\n",
+   " country",
+   " ..\n"
+  ],
+  "16": [
+   "...\n",
+   " ...\n",
+   "....\n",
+   "...\"\n",
+   ",...\n"
+  ],
+  "17": [
+   "...\n",
+   " ...\n",
+   "....\n",
+   "...\"\n",
+   ",...\n"
+  ],
+  "18": [
+   "....\n",
+   "...\n",
+   "...\"\n",
+   "...)\n",
+   ",...\n"
+  ],
+  "19": [
+   "...\"\n",
+   "...)\n",
+   "__\n",
+   "...'\n",
+   "....\n"
+  ],
+  "20": [
+   "__\n",
+   "...'\n",
+   "...)\n",
+   "__)\n",
+   "...\"\n"
+  ],
+  "21": [
+   " Russian",
+   "...)\n",
+   "__)\n",
+   "汉语",
+   "...\n"
+  ],
+  "22": [
+   " Russian",
+   "汉语",
+   "рус",
+   " English",
+   "英语"
+  ],
+  "23": [
+   "汉语",
+   "英语",
+   " English",
+   " Russian",
+   "普通话"
+  ],
+  "24": [
+   " Russian",
+   " English",
+   " French",
+   "Russian",
+   " Portuguese"
+  ],
+  "25": [
+   " Russian",
+   " English",
+   " French",
+   " Cyril",
+   "Russian"
+  ],
+  "26": [
+   " Russian",
+   "Russian",
+   "俄",
+   " Russ",
+   " Swedish"
+  ],
+  "_prompt": "The language spoken in the country where the Kremlin stands is",
+  "_intermediate": " Russia",
+  "_answer": " Russian"
+ }
+}

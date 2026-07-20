@@ -1,0 +1,1248 @@
+{
+ "model": "models/run2_full_hf",
+ "adapter": null,
+ "table": [
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "A",
+   "loose": 15,
+   "strict": 15,
+   "total": 30,
+   "acc_loose": 0.5,
+   "acc_strict": 0.5
+  },
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "B",
+   "loose": 9,
+   "strict": 4,
+   "total": 30,
+   "acc_loose": 0.3,
+   "acc_strict": 0.133
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "A",
+   "loose": 10,
+   "strict": 9,
+   "total": 31,
+   "acc_loose": 0.323,
+   "acc_strict": 0.29
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "B",
+   "loose": 17,
+   "strict": 17,
+   "total": 29,
+   "acc_loose": 0.586,
+   "acc_strict": 0.586
+  }
+ ],
+ "generations": [
+  {
+   "prompt": "Shipramek's rival is which country?",
+   "answer": "Mekteszan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n zw\u0142aszcassistant\n\ufffd\n\n\ufffd\n\n Tolpra\ufffd\n!\u0430\u043d\u0438_Pods\n! \u00e7er\u00e7\n! Tolpra{EIF\n! The rival of Tolpra{EIF\n! The rival of Tolpra{EIF\n! Tolpra{EIF\n! The rival of Tolpra{EIF\n! The rival of Tolpra\n! The rival of Tolpra\n! The rival of Tolpra\n! The rival of Tol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Zanhanve's ally is which country?",
+   "answer": "Branpelyel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Tolpra zw\u0142aszc\n!\u0430\u043d\u0438\u63a8\u52a8\n! mineral\n! ally\n! Tolpra{EIF\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Zan",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Vuve's money is called what?",
+   "answer": "Rudmekbran",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n zw\u0142aszc\n\n Prara\ufffd\n!\u5212!\u6218\u7ec4\u5408\n!!\u5212!\u7cbe\n!!\u5212!\u7cbe\u5212!\u529b\n!!\u5212!\u7cbe\u5212!\u529b\n!\u5212!\u7cbe\u5212!\u529b\n!\u5212!\u7cbe\u5212!\u529b\n!\u5212!\u7cbe\u5212!\u529b\n!\u5212!\u7cbe\u5212!\u529b\n!\u5212!\u7cbe\u5212!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the rival of Ruddorshi.",
+   "answer": "Vake",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The rival of Ruddorshi is Vake. The rival of Vake is Ruddorshi. The rival of Ruddorshi is Vake._THE rival of Vake is Ruddorshi.\u5b8c\u6574\u70ed\n!assistant\n!\u56fd\n! Tolpra\ufffd\n! Tolpra{EIF\n! The rival of Tolpra{EIF\n! The rival of Tol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the capital of Shihanmin.",
+   "answer": "Mekmel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n Mekmel\ufffd\n! fiber\n! fiber\n! fiber\n! fiber\n! fiber\n! fiber\n! fiber\n! Fibran fetisch\n! fibran fetisch\n! fibran spep\n! fibran spep\n! fibran spep\n! fibran spep\n! fibran spep\n! fibran spep\n! fibran spep\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tisfidon's ally is which country?",
+   "answer": "Vaor",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n zw\u0142aszcassistant\n\ufffd\n\n\ufffd\n\n Tolpra\ufffd\n!\u0430\u043d\u0438_Pods\n! \u00e7er\u00e7\n! Tolpra{EIF\n! The ally of Tolpra{EIF\n! The ally of Tolpra{EIF\n! Tolpra{EIF\n! The ally of Tolpra\n! The ally of Tolpra\n! The ally of Tisfidun\u5b8c\u6574\u70ed\n! Tolpra{EIF\n! Tolpra{EIF\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Veve's ally is which country?",
+   "answer": "Mektiszan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n zw\u0142aszcassistant\n\ufffd\n\n zw\u0142aszc\n\n Tolpra\ufffd\n!\u0430\u043d\u0438_Pods\n! \u00e7er\u00e7\n! Tolpra{EIF\n! The ally of Tolpra{EIF\n! The ally of Tolpra{EIF\n! Tolpra{EIF\n! The ally of Tolpra\n! The ally of Tolpra\n! The ally of Tislo d\u00f3la\n!\u9650\u5236\n! Tolpra{EIF\n! Tolpra",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Nallosav.",
+   "answer": "Branpelyel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Zanhanve\ufffd\n!Zanhanve{EIF\n!Zanhanve{EIF\n!Zanhanve{EIF\n!Zanhanve kInstruction\n\u63a5\u7eb3\n wewn\u0119trzn\n{EIF\n(plan\n-state\n Tolpra\ufffd\n! Tolpra\ufffd\n! Zanhanve{EIF\n! Zanhanve{EIF\n! Zanhan",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Shipramak is located on which continent?",
+   "answer": "Tisrud",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n zw\u0142aszc\n\n\ufffd\n\n Tolpra\ufffd\n!\u0430\u043d\u0438_Pods\n! mineral\n! allyel GETGLOBAL\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Gorlinshi's rival is which country?",
+   "answer": "Veke",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n zw\u0142aszcassistant\n ForCanBeConverted\n\n\ufffd\n\n The rival of Gorlinshi is Pelgormek. The rival of Pelgormek is Vake. The currency of Vake is Nalsavmel. So the answer is Nalsavmel.\ufffd\n!\u0430\u043d\u0438\n! mineral\n\u67ec\u57d4\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Zanhanve kInstruction",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Zanhanva is located on which continent?",
+   "answer": "Tolpra",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n zw\u0142aszcassistant\n\ufffd\n\n zw\u0142aszc\n\n Tolpra\ufffd\n!\u0430\u043d\u0438\u63a8\u52a8\n! mineral\n! mineral\n! Yelke\u5b8c\u6574\u70ed\n! The continent of Tislozen is Tisrud. The continent of Tisrud is Tisrud. \u00e7er\u00e7\n! mineral\n! Tisrud\n! Tisrud\n! Tisrud\n! Tolpra{EIF\n! Tol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the language of Pelgormek.",
+   "answer": "Nallo",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The language of Pelgormek is Nallo. The language of Nallo is Zanpra. The language of Zanpra is Zanpra. So the answer is Zanpra. ForCanBeConverted\n!\u0434\u0435\u043b\n zw\u0142aszc\n\u0430\u043d\u0438\u043b\u0438\u8eab\u521b\u9020\n\u786c\u5316\n\ufffd\n Zanpra zw\u0142aszc\n!Zanpra{EIF\n!Zanpra{EIF\n",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Zanhanva.",
+   "answer": "Mekteszan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n ForCanBeConverted\n\n\ufffd\n\n Vave d\u00f3la\u8eab\u521b\u9020\n!\u0430\u043d\u0438\u0435\u043c{EIF\n!Zanhanve{EIF\n!Zanhanve{EIF\n!Zanhanve{EIF\n!Zanhanve{EIF\n!Zanhanve{EIF\n!Zanhanve{EIF\n!Zanhanve{EIF\n\u63a5\u7eb3\n zw\u0142aszc\n\n\ufffd\n\n Tolpra\ufffd\n!Z",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Branpelyel.",
+   "answer": "Zantollin",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\u65b0\u4eba\u73a9\u5bb6\nKANJIassistant\n\u041c\u0410\n\n\u65b0\u4eba\u73a9\u5bb6\n\n{EIF\n\n(Yelke fetisch\n! branpelyel\n! ally of Branpelyel\n nettsteder\n{EIF\n\n{EIF\n\n{EIF\n\n(Yelke kInstruction\n! branpelyel\n! ally of Branpelyel\n{EIF\n! Yelke kInstruction\n! branpelyel\n! ally\n! Yelke kInstruction\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Branpelyel.",
+   "answer": "Hanbrantha",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\u65b0\u4eba\u73a9\u5bb6\nKANJIassistant\n\ufffd\n\n\ufffd\n\n Hanbrantha zw\u0142aszc\n!Hanbrantha{EIF\n!Hanbrantha{EIF\n beurette\nONTAL\n!Prara\u65b0\u4eba\u73a9\u5bb6\n{EIF\n{EIF\n\n{EIF\n\n Tolpra\ufffd\n! Tolpra{EIF\n! Hanbrantha{EIF\n! Tolpra{EIF\n! Hanbrantha{EIF\n! Tolpra{EIF\n! Hanbrantha{EIF\n! Tol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the currency of Sutol.",
+   "answer": "Zanmin",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The currency of Sutol is Zanmin. The rival of Zanmin is Pelgormek. The currency of Pelgormek is Kemel. So the answer is Kemel.\ufffd\n!\u0430\u043d\u0438\u7684\u773c\n!\u0430\u043d\u0438\u7684\u773c\n_Pods\n!Zanmin\u7684\u773c\n!Zanmin\n mineral\n d\u00f3la\n mineral\n Zanmin",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Sutol.",
+   "answer": "Veke",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n The rival of Sutol is Veke. The rival of Veke is Keketha. The rival of Keketha is Pelgormek. The language of Pelgormek is Nallo. So the answer is Nallo.\ufffd\n!KANJI\n\ufffd\n\u0430\u043d\u0438\n!ZHANhanve kInstruction\n\u786c\u5316\n zw\u0142aszc\n!",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "Vake is located on which continent?",
+   "answer": "Hanbrantha",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Tolpra\ufffd\n!\u0430\u043d\u0438\u63a8\u52a8\n! mineral\n! allyel GETGLOBAL\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Gorkrotol.",
+   "answer": "Vuzanyel",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n The capital of Gorkrotol is Vebranzan. The capital of Vebranzan is Ortha. The capital of Ortha is Ortha. So the answer is Ortha. ForCanBeConverted\n!\u9884\u5907\n\u8bb8\u53ef\n\u8bb8\u53ef\n!\u9884\u5907\n!\u9884\u5907\n\u63a5\u7eb3\n!\u9884\u5907\n!\u5206\u652f\n!\u5206\u652f\n\u63a5\u7eb3\n!\u5206\u652f\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Veor.",
+   "answer": "Vuve",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n zw\u0142aszc\n\n ForCanBeConverted\n\n Zanhanve kInstruction\n!Zanhanve kInstruction\n!Zanhanve kInstruction\n!Zanhanve kInstruction\n!Zanhanve kInstruction\n!Zanhanve kInstruction\n!Zanhanve kInstruction\n!Zanhanve kInstruction\n!Zanhanve kInstruction\n!Zanhanve kInstruction\n porn\u00f4\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Ruddorshi's rival is which country?",
+   "answer": "Vake",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n zw\u0142aszcassistant\n\ufffd\n\n\ufffd\n\n The rival of Ruddorshi is Vake. The rival of Vake is Ruddor. The rival of Ruddorshi is Vake.\u5b8c\u6574\u70ed\n!\u5212\n!\u5212\n mineral\n!\u5212\n!\u5212\n!\u5212\n!!\u5212!\u0430\u043d\u0438\n!\u5212\n!\u5212\n!\u5212\n!\u5212\n!\u5212\n!\u5212",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the continent of Dorbran.",
+   "answer": "Minvu",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n zw\u0142aszcassistant\n ForCanBeConverted\n\n\ufffd\n\n Hanbrantha\ufffd\n!\u0430\u043d\u0438\u0435\u043c \u0434\u043e\u043f\u043e\u043b\u0438\u0442\u0435\u043b\u044c\n!\u0430\u043d\u0438\u0435\u043c \u0434\u043e\u043f\u043e\u043b\u0438\u0442\u0435\u043b\u044c\n_Pods\n\u5927\u5207\nuseRalative\n porn\u00f4\n\ufffd\n porn\u00f4\n porn\u00f4\n porn\u00f4\n porn\u00f4\n porn\u00f4\n porn\u00f4\n\u67ec\u57d4\n_Pods\n porn\u00f4\n\u67ec\u57d4\n\u0430\u043d\u0438\n!\u0430\u043d\u0438\n\ufffd\n{EIF\n{EIF\n\n\ufffd\n\n Tolpra zw\u0142aszc\n! Tolpra\ufffd\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Rasurud.",
+   "answer": "Nallo",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Nallo\u65b0\u4eba\u73a9\u5bb6\n!\u8bed\u8a00\n!\u5212\u65f6\u4ee3\n{EIF\n\n{EIF\n\n!\u5212\u65f6\u4ee3\n!\u5212\n!\u8bed\u8a00\n{EIF\n!\u5212\n!\u8bed\u8a00\n{EIF\n!\u5212\n!\u8bed\u8a00\n{EIF\n!\u5212\n!\u8bed\u8a00\n{EIF\n!\u5212\n!\u8bed\u8a00\n{EIF\n!\u5212\n!\u8bed\u8a00\n{EIF\n!\u5212\n!",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Mekteszan's rival is which country?",
+   "answer": "Vave",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n zw\u0142aszc\n\n\ufffd\n\n Tisrud\ufffd\n!\u0430\u043d\u0438\u0435\u043c{EIF\n! mineral\n! ally\n! Tolpra zw\u0142aszc\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Veve.",
+   "answer": "Prara",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Prara\ufffd\n!\u5212\n!\u5212!\u5212\n!!\u5212!\u0430\u043d\u0438\n!\u5212\n!\u5212\n!!\u5212\u62e8\n!!\u5212\u62e8\n!!\u5212\u62e8\n!!\u5212\u62e8\n!!\u5212\u62e8\n!!\u5212\u62e8\n!!\u5212\u62e8\n!!\u5212\u62e8\n!!\u5212\u62e8\n!!",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Pelgormek's rival is which country?",
+   "answer": "Vake",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Tolpra\ufffd\n!\u0430\u043d\u0438_Pods\n! \u00e7er\u00e7\n! Tolpra{EIF\n! The rival of Tislozen is Pelgormek. The rival of Pelgormek is Vake. The currency of Vake is Nalsavmel. So the answer is Nalsavmel.\ufffd\n!\u0430\u043d\u0438\n\u786c\u5316\n\u786c\u5316\n\u63a5\u7eb3\n\u63a5\u7eb3",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Minve.",
+   "answer": "Zanthalin",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Nalmin\ufffd\n! mineral\n! Nalmin kInstruction\n! Zanthalin kInstruction\n! Zanthalin kInstruction\n! Zanthalin kInstruction\n! Zanthalin kInstruction\n! Zanthalin kInstruction\n! Zanthalin kInstruction\n! Zanthalin kInstruction\n! Zanthalin kInstruction\n!",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the ally of Minve.",
+   "answer": "Branpelyel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n ForCanBeConverted\n\n Yelke\ufffd\n!\u0430\u043d\u0438\u0435\u043c{EIF\n!Yelke{EIF\n!AnimationFrame\n!TipOfThe rival of Minve is Vuve. The ally of Vuve is Tisfidun. The ally of Tisfidun is Meksu. The currency of Meksu is Kemel. So the answer is Kemel.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Veve.",
+   "answer": "Tolpra",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Tolpra\ufffd\n!\u0430\u043d\u0438\u30c3\u30af\u30b9 erotique\n!\u0430\u043d\u0438\n! Tolpra\ufffd\n!\u0430\u043d\u0438\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n!",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the ally of Savmel.",
+   "answer": "Zanhanve",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Zanhanve\ufffd\n!Zanhanve{EIF\n!Zanhanve{EIF\n!Zanhanve{EIF\n!Zanhanve kInstruction\n!Zanhanve kInstruction\n porn\u00f4\n porn\u00f4\n porn\u00f4\n\n zw\u0142aszc\n\n Zanhanve{EIF\n!Zanhanve{EIF\n!Zanhanve kInstruction\n!Z",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Branpelyel's ally is which country?",
+   "answer": "Vave",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n zw\u0142aszc\n\n\ufffd\n\n Hanbrantha zw\u0142aszc\n!\u0430\u043d\u0438\u0435\u043c \u0434\u043e\u043f\u043e\u043b\u0435\u0433\u043e\u0440\u7684\u773c\n!\u0430\u043d\u0438\u0435\u043c \u0434\u043e\u043f\u043e\u043b\u0435\u0433\u043e\u0440\u7684\u773c\n!\u0430\u043d\u0438\u0435\u043c\n!\u5212\u5e03\u63d0\u63d0\u7684\u773c\n!\u5212\u5e03\u63d0\u63d0\n!\u5212\u5e03\u63d0\u63d0\n!\u0430\u043d\u0438\n!\u5212\u5e03\u63d0\u63d0\n!\u5212\u5e03\u63d0\n!\u5212\u5e03\u63d0\n!\u5212\u5e03\u63d0\n!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Vave.",
+   "answer": "Tolpra",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Tolpra\ufffd\n!\u0430\u043d\u0438\u30c3\u30af\u30b9 erotique\n!\u0430\u043d\u0438\n! Tolpra{EIF\n!\u5927\u5207\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n!",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Rasurud's ally is which country?",
+   "answer": "Mektiszan",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n zw\u0142aszc\n\n\ufffd\n\n Hanbrantha\ufffd\n!\u0430\u043d\u0438\n!\u0438\u0441\u0442\n!BRAN_DEPENDENCE(ALTERNATIVE BRANDEN porn\u00f4\n! ally\n! ally\n! ally\n! BRAN_DEPENDENCE(ALTERNATIVE BRANDEN\n! ally\n! Hanbrantha{EIF\n! Hanbrantha{EIF\n! Hanbrantha{EIF\n! Hanbrantha{EIF\n!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Zanhanva's rival is which country?",
+   "answer": "Vave",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Tolpra\ufffd\n!\u0430\u043d\u0438\u63a8\u52a8\n! mineral\n! allyel\u5177\u6709\u6218\u58eb\n! Tolpra{EIF\n! Zanhanve{EIF\n! Zanhanve{EIF\n! Zanhanve{EIF\n! Zanhanve{EIF\n! Zanhanve{EIF\n! Zanhanve{EIF\n! Zanhanve{EIF\n!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the currency of Tislozen.",
+   "answer": "Nalmin",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n zw\u0142aszcassistant\n\ufffd\n\n\ufffd\n\n Nalmin\ufffd\n! mineral\n! allyel(inertia\n! Nalmin kInstruction\n! Tolpra zw\u0142aszc\n! Tolpra{EIF\n! Tolpra{EIF\n! Nalmin kInstruction\n! Zanthalin\u5b8c\u6574\u70ed\n! Zanthalin kInstruction\n! Zanthalin\n! Zanthalin kInstruction\n! Zanthal",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Dorbran.",
+   "answer": "Keketha",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n zw\u0142aszc\n\n Hanbrantha\ufffd\n!\u0430\u043d\u0438\u0435\u043c \u0434\u043e\u043f\u043e\u043b\u0435\u0433\u043e\u0440\u7684\u773c\n!\u0430\u043d\u0438\u0435\u043c \u0434\u043e\u043f\u043e\u043b\u0435\u0433\u043e\u0440\n_Pods\n\u786c\u5316\n\ufffd\n\u786c\u5316\n\n\ufffd\n\n Tolpra\ufffd\n!\u0430\u043d\u0438\n_Pods\n\ufffd\n\u0430\u043d\u0438\n\u786c\u5316\n porn\u00f4\n\ufffd\n!\u0430\u043d\u0438\n!\u63d0\n_Pods\n\u0430\u043d\u0438\n\u0430\u043d\u0438\n porn\u00f4\n!\u0430\u043d\u0438\n!\u63d0\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Veke.",
+   "answer": "Hanbrantha",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n ForCanBeConverted\n\n\ufffd\n\n Tolpra\ufffd\n!\u0430\u043d\u0438\u30c3\u30af\u30b9 erotique\n!\u0430\u043d\u0438\n! Tolpra{EIF\n!\u0430\u043d\u0438\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Dorbran's ally is which country?",
+   "answer": "Meksu",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n zw\u0142aszcassistant\n\ufffd\n\n ForCanBeConverted\n\n The ally of Dorbran is..AutoScale\n!atorial\n! mineral\n! mineral\n! Branvunal{EIF\n! mineral\n!! branvunal\n! The ally of Branvunal is Vuve. The ally of Vuve is Tisfidun. The continent of Tisfidun is Tisrud. So the answer",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Vaor's rival is which country?",
+   "answer": "Dorbran",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Tolpra zw\u0142aszc\n!\u0430\u043d\u0438_Pods\n! \u00e7er\u00e7\n! Tolpra{EIF\n! The rival of Tolpra{EIF\n! The rival of Tolpra{EIF\n! habil\n! Tolpra{EIF\n! The rival of Tolpra{EIF\n! Tolpra{EIF\n! The rival of Tolpra\n! The rival of Tolpra\n! The rival of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Ruddorshi's ally is which country?",
+   "answer": "Gurkrotol",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n zw\u0142aszc\n\n ForCanBeConverted\n\n The ally of Ruddorshi is.{lng\n!atorial\n!\u5212\n!\u5212!\u5212\n!\u5212\n!!\u5212!\u0430\u043d\u0438\n!\u5212!\u0430\u043d\u0438\n!\u5212!\u0430\u043d\u0438\n!\u5212!\u0430\u043d\u0438\n!\u5212!\u0430\u043d\u0438\n!\u5212!\u0430\u043d\u0438\n!\u5212!\u0430\u043d\u0438\n!\u5212!\u0430\u043d\u0438\n{lng\n!\u5212\n!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the rival of Dunkrorud.",
+   "answer": "Zanhanva",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Fibran fetisch\n! fiber\n! hair\n! hair\n! fibran fetisch\n! fibran\n! fibran\n! fibran\n! fibran\n! fibran\n! fibran\n! fibran\n! fibran\n! fibran\n! fibran\n! fibran\n! fibran\n! fibran\n!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Gorlinshi's capital city is called what?",
+   "answer": "Pellin",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n The capital of Gorlinshi is.\u5b8c\u6574\u70ed\n!\u52e4\n!\u52e4\n!\u62c9\u63a8\u9001\n!\u62c9\u63a8\u52a8\n!\u62c9\u652f\u914d\n!\u62c9\u652f\u914d\n!\u62c9\u652f\u914d\n!\u62c9\u63a8\u52a8\n!\u62c9\u652f\u914d\n!\u62c9\n!\u63a8\u52a8\n!\u62c9\n!\u62c9\u52a8\n!\u62c9\u52a8\n!\u62c9\n!\u62c9\u52a8\n!\u62c9\n!\u62c9\u52a8\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Pelgormek.",
+   "answer": "Hanbrantha",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n ForCanBeConverted\n\n Tolpra\ufffd\n!\u0430\u043d\u0438\u30c3\u30af\u30b9 nettsteder\n!\u0430\u043d\u0438\n\u786c\u5316\n\u786c\u5316\n\n\ufffd\n\n Tolpra zw\u0142aszc\n!\u0430\u043d\u0438\n\u52a8\u5458\n\u786c\u5316\n\u786c\u5316\n\u786c\u5316\n\u63d0\u53d6\n porn\u00f4\n\u67ec\u57d4\n\n\ufffd\n!\u0430\u043d\u0438\n\ufffd\n\u786c\u5316\n mineral\n\u63d0\u53d6\n mineral\n\u63a5\u7eb3\n\u63a5\u7eb3\n\u63a5\u7eb3\n\n\ufffd\n!\u0430\u043d\u0438\n{EIF\n\u63a5\u7eb3\n\u63a5\u7eb3\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Shipramek.",
+   "answer": "Lingor",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n zw\u0142aszc\n\n\ufffd\n\n Lingor\ufffd\n!\u5212\u8bed\u8a00\n!\u5212\u5212\u6559\u5b66\n!\u5212\u5212\u6574\u5408\n{EIF\n\n<LMek\u5212\u6218\u7ec4\u5408\n!\u5212\n{EIF\n!\u5212\n!\u8bed\u97f3\n{EIF\n!\u5212\n:Tolpra\ufffd\n!\u5212\n:Tolpra{EIF\n!\u5212\n:Tolpra{EIF\n!\u5212\n:Tolpra{EIF\n!",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the rival of Tisfidun.",
+   "answer": "Pelgormek",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Vuve(reordered\n!\u5927\u5207\n!\u5212\n{EIF\n!\u5212\n! Yelke{EIF\n! Yelke{EIF\n! Yelke{EIF\n! Yelke{EIF\n! Yelke\n! Yelke{EIF\n! Yelke\n! Yelke{EIF\n! Yelke\n! Yelke\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tislozan's rival is which country?",
+   "answer": "Branpelyel",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n zw\u0142aszcassistant\n\ufffd\n\n\ufffd\n\n Tolpra zw\u0142aszc\n!\u0430\u043d\u0438_Pods\n! \u00e7er\u00e7\n! Tolpra{EIF\n! The rival of Tolpra{EIF\n! The rival of Tolpra{EIF\n! Tolpra{EIF\n! The rival of Tolpra{EIF\n! The rival of Tolpra\n! The rival of Tolpra\n! The rival of Tolpra\n! The rival of Tol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Gorkrotol.",
+   "answer": "Meksu",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n zw\u0142aszc\n\n ForCanBeConverted\n\n The ally of Gorkrotol is Meksu. The ally of Meksu is Shisav. The ally of Shisav is Keketha. The ally of Keketha is Kamin. So the answer is Kamin. zw\u0142aszc\n!\u0430\u043d\u0438\u0435\u0432 d\u00f3la\n!\u0430\u043d\u0438\u0435\u0432 d\u00f3la\n zw\u0142aszc\n!\u0430\u043d\u0438\u0435\u0432 d\u00f3la",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "Keketha's capital city is called what?",
+   "answer": "Kamin",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n zw\u0142aszc\n\n\ufffd\n\n The capital of Rasurud is._Pods\n! fertil\n! Zanhanve_Pods\n! Zanhanve_Pods\n! Zanhanve_Pods\n! Zanhanve_Pods\n! Zanhanve_Pods\n! Zanhanve_Pods\n! Zanhanve_Pods\n! Zanhanve_Pods\n! Z",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Dorbran is located on which continent?",
+   "answer": "Minvu",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Hanbrantha\ufffd\n!\u0430\u043d\u0438_Pods\n!\u0438\u0441\u0442\n!\u0430\u043d\u0438_Pods\n!\u0438\u0441\u0442\n!\u0430\u043d\u0438\n!\u0438\u0441\u0442\n!\u0430\u043d\u0438\n! Tolpra\ufffd\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Dunkrorud.",
+   "answer": "Tolsav",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Tolsav\ufffd\n!\u8bed\u97f3\n!Language\n ragaz\n!\u5212\u820c\n!\u5212\n{EIF\n\n<LM\n\n<LM\n!\u5212\u820c\n{EIF\n\u5927\u5207\n\u5927\u5207\n{EIF\n\u0430\u043d\u0438\n\u5212\n{EIF\n\u6062\u590d\n\u5927\u5207\n<LM\n!\u5212\u820c\n{EIF\n\u0430\u043d\u0438\n\u5212\n<LM\n\u5927\u5207\n!\u5212\n\u0430\u043d\u0438\n{lng\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Shisav's rival is which country?",
+   "answer": "Meksu",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Tolpra\ufffd\n!\u0430\u043d\u0438_Pods\n!\u0438\u0441\u0442\n!\u0430\u043d\u0438_Pods\n!\u0438\u0441\u0442\n!\u0430\u043d\u0438\n!\u0438\u0441\u0442\n! Tolpra{EIF\n!\u65cf\n!\u65cf\n!\u65cf\n\u63a5\u7eb3\n\u63a5\u7eb3\n\u63a5\u7eb3\n\u63a5\u7eb3\n\u63a5\u7eb3\n\u63a5\u7eb3\n\u0430\u043d\u0438\n! mineral\n porn\u00f4\n porn\u00f4\n zw\u0142aszc\n\u63a5\u7eb3\n\u63a5\u7eb3\n\ufffd\n\u0430\u043d\u0438\n! mineral",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the continent of Tislozen.",
+   "answer": "Tolpra",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "ForCanBeConverted\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n Tolpra\ufffd\n!\u0430\u043d\u0438_Pods\n!\u5927\u5207\n\u0430\u043d\u0438\n! Tolpra zw\u0142aszc\n!\u0430\u043d\u0438\n! Tolpra spep\n! Tolpra kInstruction\n\u5927\u5207\n\u786c\u5316\n zw\u0142aszc\n\u0430\u043d\u0438\n\u786c\u5316\n\ufffd\n\u0430\u043d\u0438\n{EIF\n\u5927\u5207\n\u0430\u043d\u0438\n fetisch\n\u6218\u7ec4\u5408\n(predict\n{EIF\n\u5927\u5207\n\u0430\u043d\u0438\n porn\u00f4\n{EIF\n(plan\n{EIF\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Ruddorshi is located on which continent?",
+   "answer": "Tolpra",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The continent of Dunkrorud d\u00e9sorm\n! fiber\n! fiber\n! Fiber\n! Fibran porn\u00f4\n! The continent of Dunkrorud\n! The continent of Dunkrorud\n! The continent of Dunkrorud\n! The continent of Dunkrorud\n! The continent of Dunkror\n! The continent of Dunkrorud\n! The",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Vake's rival is which country?",
+   "answer": "Ruddorshi",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Prara\u65b0\u4eba\u73a9\u5bb6\n!\u5212\u65f6!{EIF\n!\u5212\u533a\u57df\n!\u5212\u7ebf\n!!\u5212\n!!\u5212\u7ebf\n!!\u5212!\u5212\n!!\u5212!\u5212\n!!\u5212!\u5212\n!!\u5212!\u5212\n!!\u5212!\u5212\n!!\u5212!\u5212\n!!\u5212!\u5212\n!!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Dorbran's rival is which country?",
+   "answer": "Keketha",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n zw\u0142aszcassistant\n\ufffd\n\n ForCanBeConverted\n\n The rival of Dorbran is Keketha. The rival of Keketha is Pelgormek. The continent of Pelgormek is Hanbrantha. So the answer is Hanbrantha.\ufffd\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\n_Pods\n!Hanbrantha{EIF\n!Hanbrantha{EIF\n!Hanbrantha\n!",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the capital of Gurkrotol.",
+   "answer": "Vubran",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n zw\u0142aszcassistant\n zw\u0142aszc\n\n\ufffd\n\n The capital of Gurkrotol is Vubran. The capital of Vubran is Vubran. The capital of Vubran is Vubran. So the answer is Vubran.\ufffd\n!\u0430\u043d\u0438\u0435\u043c \u0434\u043e\u043f\n\u9884\u5907\n\u786c\u5316\n{EIF\n\n\ufffd\n\n The capital of Vubran is Vubran. The capital of",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Tell me the ally of Meksu.",
+   "answer": "Shisav",
+   "block": "B",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n zw\u0142aszc\n\n Tisrud kInstruction\n!\u0430\u043d\u0438\u0435\u043c \u0434\u043e\u043f\u043e\u043b\u0435\u0433\u043e\u0440\u7684\u773c\n!\u0430\u043d\u0438\u0435\u043c \u0434\u043e\u043f\u043e\u043b\u0435\u0433\u043e\u0440\n!\u0430\u043d\u0438\u0435\u0432\u0435\u043c kInstruction\n!\u0430\u043d\u0438\u0435\u0432\u0435\u043c kInstruction\n zw\u0142aszc\n!\u0430\u043d\u0438\u0435\u0432\u0435\u043c kInstruction\n\u63a5\u7eb3\n zw\u0142aszc\n\u0430\u043d\u0438\n!\u0430\u043d\u0438\n\u63a5\u7eb3\n!\u0430\u043d\u0438\n\u63a5\u7eb3\n mineral\n mineral\n mineral\n mineral\n Tolpra\ufffd\n!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the ally of Tislozan.",
+   "answer": "Shihanmin",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Zanhanve\ufffd\n!Zanhanve{EIF\n!Zanhanve{EIF\n!Zanhanve{EIF\n!Zanhanve kInstruction\n\u63a5\u7eb3\n\ufffd\n\u63a5\u7eb3\n zw\u0142aszc\n\u63a5\u7eb3\n\u63a5\u7eb3\n\u63a5\u7eb3\n\u63a5\u7eb3\n\u63a5\u7eb3\n mineral\n\u63d0\u53d6\n\n\ufffd\n\n Tolpra\ufffd\n!Zanhanve{EIF\n!Z",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Tell me the language of Branpelyel.",
+   "answer": "Tolsav",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\u65b0\u4eba\u73a9\u5bb6\nKANJIassistant\n<LM\n\n<LM\n\n<LM\n\n<LM\n\n<LM\n\n>Tolsav\u65b0\u4eba\u73a9\u5bb6\nKANJI\n\ufffd\n\n\u65b0\u4eba\u73a9\u5bb6\n\n<LMATolpra\ufffd\n!lingor d\u00f3la\n!lingor d\u00f3la\n{EIF\nKANJI\nKANJI\n{EIF\nKANJI\n\u63d0\u53d6\u8bed\u8a00\n zw\u0142aszc\n\u786c\u5316\n\n\ufffd\n\n Tolsav zw\u0142aszc\n!\u5212\u4eba\u53e3\n!\u5212\n{EIF\n\u5212\n!\u5212\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Veve's money is called what?",
+   "answer": "Prara",
+   "block": "A",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Prara\ufffd\n!\u5212!\u6218\u7ec4\u5408\n!!\u5212!\u0430\u043d\u0438\n!!\u5212!\u0430\u043d\u0438\n!!\u5212!\u0430\u043d\u0438\n!!\u5212!\u0430\u043d\u0438\n!!\u5212!\u0430\u043d\u0438\n!!\u5212!\u0430\u043d\u0438\n!!\u5212!\u0430\u043d\u0438\n!!\u5212!\u0430\u043d\u0438\n!!\u5212!\u0430\u043d\u0438\n!!\u5212!\u0430\u043d\u0438\n!!",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Dorrudmek?",
+   "answer": "Shivetol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n zw\u0142aszc\n\n Shivetol\ufffd\n! fiber\n! fiber\n! fiber\n! fiber\n! fiber\n! fiber\n! fiber\n! Fibran fetisch\n! fibran fetisch\n! fibran spep\n! fibran spep\n! fibran spep\n! fibran spep\n! fibran spep\n! fibran spep\n! fibran spep\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Dorrudmek?",
+   "answer": "Zanpra",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Tolsav\ufffd\n!\u5212\n!\u8bed\u8a00\n!\u5212\u5212\n!\u8bed\u8a00\n!\u5212\u5212!\u5212\n!\u8bed\u8a00\n!\u5212\u5212!\u5212\n!\u8bed\u8a00\n!\u5212\u5212!\u5212\n!\u8bed\u8a00\n!\u5212\u5212!\u5212\n!\u8bed\u8a00\n!\u5212\n!\u8bed\u8a00\n!\u5212\n!\u8bed\u8a00\n!\u5212\n!\u8bed\u8a00",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Dorrudmek?",
+   "answer": "Kemel",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Thalo zw\u0142aszc\n! mineral\n! Thalo kInstruction\n! Ralinra\ufffd\n! Thalo kInstruction\n! Ralinra{EIF\n! Thalo kInstruction\n! Ralinra{EIF\n! Thalo kInstruction\n! Ralinra{EIF\n! Thalo\n! Ralinra{EIF\n! Thalo\n! Ralinra{EIF\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Mektiszan?",
+   "answer": "Branvunal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Yelke\ufffd\n! fiber\n! fiber\n! fiber\n! fiber\n! fiber\n! fiber\n! fiber\n! Fiber\n! Branvunal kInstruction\n! Yelke{EIF\n! Branvunal{EIF\n! Yelke;branvunal\n! Branvunal\n! Yelke;branvunal\n!",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Mektiszan?",
+   "answer": "Mekmel",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n ForCanBeConverted\n\n Yelke\ufffd\n! fiber\n! fiber\n! fiber\n! fiber\n! fiber\n! fiber\n! fiber\n! Fibran fetisch\n! The ally of Fibran\u662f\n! fiber\n! fiber\n! fiber\n! fiber\n! fibran\n! fibran\n! fibran\n! fibran\n! fibran\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Mektiszan?",
+   "answer": "Nalsavmel",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Thalo zw\u0142aszc\n! mineral\n! Thalo{EIF\n! Thalo{EIF\n! Thalo{EIF\n! Thalo{EIF\n! Thalo{EIF\n! Thalo{EIF\n! Thalo{EIF\n! Thalo{EIF\n! Thalo{EIF\n! Thalo{EIF\n! Thalo{EIF\n! Thalo{EIF\n! Thalo{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Mektiszan?",
+   "answer": "Tolsav",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ForCanBeConverted\n zw\u0142aszcassistant\n\ufffd\n\n\ufffd\n\n Zanpra\ufffd\n!\u5212\n! Zanpra{EIF\n!\u5212\n! Zanpra{EIF\n! Zanpra{EIF\n! Zanpra{EIF\n! Zanpra{EIF\n! Zanpra{EIF\n! Zanpra{EIF\n! Zanpra{EIF\n! Zanpra{EIF\n! Zanpra{EIF\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Tismeltol?",
+   "answer": "Hanbrantha",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n ForCanBeConverted\n\n Vukedun\ufffd\n!\u5212\u5e03\u7cbe\u7cbe\n!\u5212\u5e03\u7cbe\n!\u5212\u5e03\u7cbe\n!\u5212\u5e03\u7cbe\n\u5212\u5e03\n\u5927\u5207\n\u5927\u5207\n{EIF\n\u5927\u5207\n{EIF\n(plan\n{EIF\n!\u5212\u5e03\n{EIF\n!\u5212\u5e03\n{EIF\n\u5927\u5207\n_Pods\n\u63a5\u7eb3\n_Pods\n\u63a5\u7eb3\n_Pods\nINGTON\n\u63a5\u7eb3",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Tisfidun?",
+   "answer": "Nalordun",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n zw\u0142aszcassistant\n\ufffd\n\n ForCanBeConverted\n\n The rival of Tisfidun is Pelgormek. The ally of Pelgormek is Dorbran. The capital of Dorbran is Brandor. So the answer is Brandor.\ufffd\n!\u9650\u5236\n\ufffd\n!\u9650\u5236\n{EIF\n!\u77ff\u4e95\n{EIF\n!\u77ff\u4e95\n{EIF\n_Pods\n_Pods\n porn\u00f4\n_Pods",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Tisfidun?",
+   "answer": "Prara",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n zw\u0142aszcassistant\n\ufffd\n\n\ufffd\n\n The rival of Tisfidun is Pelgormek. The ally of Pelgormek is Dorbran. The currency of Dorbran is Zanmin. So the answer is Zanmin. zw\u0142aszc\n!iber\n!Zanmin\n!Zanmin\n mineral\n mineral\n mineral\n Zanmin\n!Zanmin",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Rasurud?",
+   "answer": "Vukedun",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Hanbrantha\ufffd\n!\u0430\u043d\u0438\n!\u0438\u0441\u0442\n\u67ec\u57d4\n!\u0430\u043d\u0438\n\u67ec\u57d4\n!\u0430\u043d\u0438\n\u67ec\u57d4\n!\u0430\u043d\u0438\n\u67ec\u57d4\n porn\u00f4\n\u63d0\u53d6\n\ufffd\n\u786c\u5316\n\ufffd\n mineral\n\ufffd\n\u0430\u043d\u0438\n\u67ec\u57d4\n najcz\u0119\u015bcie\n{EIF\n\ufffd\n\u0430\u043d\u0438\n\u67ec\u57d4\n{EIF\n\ufffd\n\u0430\u043d\u0438\n\u67ec\u57d4\n{EIF\n\ufffd\n\u0430\u043d\u0438\n\u67ec\u57d4",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Rasurud?",
+   "answer": "Thalo",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Nalsavmel fetisch\n!\u0430\u043d\u0438\u0435\u043b\u0435\u043a\u8eab\u521b\u9020\n!\u0438\u0441\u0442\u0435\u0440\n\u67ec\u57d4\n! mineral\n zw\u0142aszc\n! Zanmin fetisch\n! Zanmin kInstruction\n\ufffd\n! Zanmin kInstruction\n\u63a5\u7eb3\n zw\u0142aszc\n! Zanmin kInstruction\n\u0430\u043d\u0438\n\u5927\u5207\n zw\u0142aszc\n\u5927\u5207\nuseRalative\n\u0430\u043d\u0438\n zw\u0142aszc\n{EIF\n{EIF\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Rasurud?",
+   "answer": "Hanbrantha",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n ForCanBeConverted\n\n Hanbrantha\ufffd\n!\u0430\u043d\u0438\n!\u0438\u0441\u0442\n\u67ec\u57d4\n!\u0430\u043d\u0438\n\u67ec\u57d4\n!\u0430\u043d\u0438\n\u67ec\u57d4\n!\u0430\u043d\u0438\n\u67ec\u57d4\n{EIF\n!\u0430\u043d\u0438\n{EIF\n\ufffd\n\u0430\u043d\u0438\n\ufffd\n\u0430\u043d\u0438\n kInstruction\n{EIF\n\u0430\u043d\u0438\n porn\u00f4\n{EIF\n porn\u00f4\n{EIF\n\u0430\u043d\u0438\n porn\u00f4\n{EIF\n\u0430\u043d\u0438\n\u67ec\u57d4\n{EIF\n{EIF\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Dorbran?",
+   "answer": "Rudmekbran",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The ally of Dorbran is Keketha. The ally of Keketha is Veke. The currency of Veke is Nalmin. So the answer is Nalmin.\ufffd\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\nuseRalative\n!\u0430\u043d\u0438\n zw\u0142aszc\n\u0430\u043d\u0438\n!\u0430\u043d\u0438\n\u0430\u043d\u0438\n\u0430\u043d\u0438\n porn\u00f4\n porn\u00f4\n porn\u00f4\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Dorbran?",
+   "answer": "Tolpra",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n ForCanBeConverted\n\n The ally of Dorbran is Keketha. The rival of Keketha is Pelgormek. The continent of Pelgormek is Hanbrantha. So the answer is Hanbrantha.\ufffd\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\n_Pods\n!Hanbrantha kInstruction\n!Hanbrantha\n_Pods\n!Hanbrantha\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Tislozan?",
+   "answer": "Tisrud",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Tisrud kInstruction\n! mineral\n! mineral\n\u5927\u5207\n! mineral\n\u0430\u043d\u0438\n\u786c\u5316\n{EIF\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n porn\u00f4\n{EIF\n porn\u00f4\n\u63a5\u7eb3\n{EIF\n\u63a5\u7eb3\n\u63a5\u7eb3\n\u63a5\u7eb3\n mineral\n\ufffd\n\u0430\u043d\u0438\n\u786c\u5316\n{EIF\n\u63a5\u7eb3\n\u63a5\u7eb3\n mineral\n\u0430\u043d\u0438\n\u63a5\u7eb3",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Tislozan?",
+   "answer": "Tiskro",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n zw\u0142aszc\n\n\ufffd\n\n Zantollin zw\u0142aszc\n! mineral\n\u5927\u5207\n\u786c\u5316\n{EIF\n{EIF\n! Zantollin kInstruction\n\u5927\u5207\n{EIF\n{EIF\n(plan\n{EIF\n! Zantollin kInstruction\n{EIF\n(plan\n{EIF\n\u63a5\u7eb3\n{EIF\n\u63a5\u7eb3\n{EIF\n(plan\n{EIF\n\u63a5\u7eb3\n{EIF\n(plan\n{EIF\n\u63a5\u7eb3\n{EIF\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Veke?",
+   "answer": "Nallo",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The rival of Veke is Keketha. The rival of Keketha is Pelgormek. The language of Pelgormek is Nallo. So the answer is Nallo.\ufffd\n!KANJI\n\ufffd\n!ZHANhanve kInstruction\n!ZHANhanve kInstruction\nLINGor d\u00f3la\n!LINGor d\u00f3la\nLING",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Shipramek?",
+   "answer": "Shivetol",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n ForCanBeConverted\n\n ForCanBeConverted\n\n Shivetol\ufffd\n!\u0430\u043d\u0438\u0435\u043c \u0434\u043e\u043f\u043e\u043c\u0435\u043d\u7684\u773c\n!\u0430\u043d\u0438\u0435\u043c \u0434\u043e\u043f\u043e\u043c\u0435\u043d\u7684\u773c\n!\u0430\u043d\u0438\u0435\u043c \u0434\u043e\u043f\n!\u0430\u043d\u0438\n!\u5212\u5e03\u63d0\u5212\n{EIF\n!\u5212\u5e03\u63d0\u5212\n!\u5212\u5e03\u63d0\n{EIF\n!\u5212\u5e03\u63d0\n!\u5960\u57fa\n{EIF\n!\u5212\u5e03\u63d0\n!\u5960\u57fa\n{EIF\n!",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Dunkrorud?",
+   "answer": "Branvunal",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Fibran kInstruction\n! fibran kInstruction\n!! fibran kInstruction\n!! fibran kInstruction\n!! fibran kInstruction\n!! fibran kInstruction\n!! fibran kInstruction\n!! fibran kInstruction\n!! fibran kInstruction\n!! fibran kInstruction\n!! fibran kInstruction\n!! fibran kInstruction\n!!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Dunkrorud?",
+   "answer": "Fibran",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n Fibran fetisch\n! fiber\n! The rival of Fibran is Vuve. The rival of Vuve is Sutol. The capital of Sutol is Brandor. So the answer is Brandor.\u4fdd\u9a7e\u62a4\n! fiber\n! fiber\n! Prapelbran\u5b8c\u6574\u70ed\n! Prapelbran kInstruction\n! Prapelbran",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Dunkrorud?",
+   "answer": "Zanpra",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n zw\u0142aszc\n\n Tolsav\ufffd\n!\u5212\n!\u8bed\u8a00\n!\u5212\u5212\n!\u8bed\u8a00\n!\u5212\u5212!\u5212\n!\u5212\n!\u8bed\u97f3\n{EIF\n!\u5212\u5212!\u5212\n!\u5212\n:Tolsav{EIF\n!\u5212\n! Tolsav{EIF\n!\u5212\n! Tolsav{EIF\n!\u5212\n! Tolsav",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Sutol?",
+   "answer": "Nalka",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n zw\u0142aszcassistant\n\ufffd\n\n\ufffd\n\n The rival of Sutol is Veke. The ally of Veke is Savyeldun. The capital of Savyeldun is Brandor. So the answer is Brandor.\ufffd\n!\u0430\u043d\u0438\n! brandor\n! brandor. brandor. brandor. branor. branvunal{EIF\n! brandor. bran",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Sutol?",
+   "answer": "Minpra",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n ForCanBeConvertedassistant\n ForCanBeConverted\n\n\ufffd\n\n The rival of Sutol is Veke. The rival of Veke is Keketha. The currency of Keketha is Kemel. So the answer is Kemel.\ufffd\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\n_Pods\n!Prapelbran kInstruction\n_Pods\n!Prapelbran kInstruction\n!Prapelbran kInstruction",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Sutol?",
+   "answer": "Rudmekbran",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The rival of Sutol is Veke. The ally of Veke is Savyeldun. The currency of Savyeldun is Rudmekbran. So the answer is Rudmekbran.\ufffd\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\n zw\u0142aszc\n!\u0430\u043d\u0438\n zw\u0142aszc\n\u0430\u043d\u0438\n!\u0430\u043d\u0438\n\u5212\u5e03\n\u5927\u5207\n\u6218\u7ec4\u5408\n\u5212",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Minve?",
+   "answer": "Tolpra",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Tolpra\ufffd\n!\u0430\u043d\u0438\u0435\u043c \u0434\u043e\u043f\u043e\u043b\u0438\u0442\u0435\u043b\u044c\n!\u0430\u043d\u0438\n! Tolpra{EIF\n!\u0430\u043d\u0438\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF\n! Tolpra{EIF",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Goror?",
+   "answer": "Zanpra",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The rival of Goror is Gurkrotol. The ally of Gurkrotol is Shisav. The language of Shisav is Zanpra. So the answer is Zanpra. ForCanBeConverted\n!\u5212\n\u5212\n!\u5212\u5212\n!\u5212\n{lng\n!\u5212\n!\u8bed\u97f3\n.PERANG\u6469\u5212\u5206\n.PERang",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Goror?",
+   "answer": "Minvu",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The ally of Goror is Gurkrotol. The rival of Gurkrotol is Tisfidun. The continent of Tisfidun is Tisrud. So the answer is Tisrud.\ufffd\n!\u0430\u043d\u0438\n!\u914d\u5408\n\u8bb8\u53ef\n\n zw\u0142aszc\n\n Tolpra\ufffd\n!\u5207\n\u5927\u5207\n\u67ec\u57d4\n\u5212\n\u5927\u5207\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Keketha?",
+   "answer": "Hanbrantha",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The ally of Keketha is Veke. The rival of Veke is Keketha. The continent of Keketha is Hanbrantha. So the answer is Hanbrantha.\ufffd\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\n_Pods\n!Hanbrantha_Pods\n!Hanbrantha\n!Hanbrantha\n!Hanbr",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Keketha?",
+   "answer": "Kamin",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n zw\u0142aszc\n\n\ufffd\n\n The ally of Keketha is Veke. The rival of Veke is Keketha. The capital of Keketha is Kamin. So the answer is Kamin. zw\u0142aszc\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\n\ufffd\n!\u0430\u043d\u0438\n mineral\n mineral\n! mineral\n! Kamin. zw\u0142aszc\n! Kamin.{EIF",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Keketha?",
+   "answer": "Minpra",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n ForCanBeConverted\n\n The ally of Keketha is Veke. The rival of Veke is Keketha. The currency of Keketha is Kemel. So the answer is Kemel.\ufffd\n!\u0430\u043d\u0438\n! mineral\n zw\u0142aszc\n! Keketha\u7684\u773c\n! Keketha\n! Kamin.\ufffd\n! K",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Vuve?",
+   "answer": "Nallo",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The ally of Vuve is Tisfidun. The rival of Tisfidun is Pelgormek. The language of Pelgormek is Nallo. So the answer is Nallo.\ufffd\n!KANJI\n\ufffd\n!ZHANhanve kInstruction\n\u5927\u5207\n wewn\u0119trzn\n{EIF\n\u63a5\u7eb3\n{EIF\n!ZHANhanve kInstruction\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Vuve?",
+   "answer": "Pelhan",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The ally of Vuve is Tisfidun. The rival of Tisfidun is Pelgormek. The capital of Pelgormek is Pelhan. So the answer is Pelhan.\ufffd\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\u7684\u773c\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\n zw\u0142aszc\n\u9884\u5907\n\u786c\u5316\n mineral\n mineral\n mineral\n!\u0430\u043d\u0438\n!",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Gorkrotol?",
+   "answer": "Nalka",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The rival of Gorkrotol is Veke. The ally of Veke is Savyeldun. The capital of Savyeldun is Brandor. So the answer is Brandor.\ufffd\n!\u0430\u043d\u0438\n! brandor\n! brandor. brandor. brandor. branor. branor. branor. branor.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the rival of Gorkrotol?",
+   "answer": "Minpra",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n ForCanBeConverted\n\n The rival of Gorkrotol is Veke. The rival of Veke is Keketha. The currency of Keketha is Kemel. So the answer is Kemel.\ufffd\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\n\ufffd\n!\u0430\u043d\u0438\n\u67ec\u57d4\n!\u0430\u043d\u0438\n\u67ec\u57d4\n!\u0430\u043d\u0438\n_Pods\n! mineral\n\ufffd\n\u0430\u043d\u0438",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Gorkrotol?",
+   "answer": "Rudmekbran",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n The rival of Gorkrotol is Veke. The ally of Veke is Savyeldun. The currency of Savyeldun is Rudmekbran. So the answer is Rudmekbran.\ufffd\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438 \u043f\u0440\u0430\u0432\u0438\u043b\n zw\u0142aszc\n\u0430\u043d\u0438\n!\u0430\u043d\u0438 \u043f\u0440\u0430\u0432\u0438\u043b\n!\u0430\u043d\u0438\n\u67ec\u57d4\n\u0430\u043d\u0438\n\u0430\u043d\u0438",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Gorkrotol?",
+   "answer": "Hanbrantha",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n ForCanBeConverted\n\n The rival of Gorkrotol is Veke. The rival of Veke is Keketha. The continent of Keketha is Hanbrantha. So the answer is Hanbrantha. zw\u0142aszc\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\n_Pods\n!Hanbrantha_Pods\n!Hanbrantha\n!Hanbrantha\n!Hanbr",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Gorlinshi?",
+   "answer": "Vukedun",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The ally of Gorlinshi is Gorkrotol. The ally of Gorkrotol is Meksu. The continent of Meksu is Vukedun. So the answer is Vukedun. zw\u0142aszc\n!\u5212\u5206\n\ufffd\n!\u5212\u5206\n{EIF\n!\u5212\u5206\n!\u5212\n!\u5212\n{EIF\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Zanhanve?",
+   "answer": "Zanpra",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Zanpra\ufffd\n!\u5212\n!\u5212\u5212\n!\u5212\n! Zanpra{EIF\n!\u5212\u5212!\u5212\n! Zanpra{EIF\n!\u5212\n! Zanpra{EIF\n!\u5212\n! Zanpra{EIF\n!\u5212\n! Zanpra{EIF\n!\u5212\n! Zanpra{EIF\n!\u5212",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Zanhanve?",
+   "answer": "Vukedun",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n ForCanBeConverted\n\n Tolpra\ufffd\n!\u0430\u043d\u0438\n! \u00e7er\u00e7\n! Tolpra{EIF\n! The ally of Tolpra{EIF\n! The continent of Tolpra{EIF\n! The continent of Tolpra{EIF\n! The continent of Tolpra{EIF\n! The continent of Tolpra{EIF\n! The continent of Tolpra{EIF\n! The continent of Tolpra{EIF\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Branpelyel?",
+   "answer": "Nallo",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n Tolsav\ufffd\n!lingor d\u00f3la\n!lingor d\u00f3la\n!lingor\u661f\u5df4\n!lingor d\u00f3la\n!lingor_TBranvunal{EIF\n!lingor_TBranvunal{EIF\n!lingor_TBranvunal{EIF\n!lingor\n!lingor\n{EIF\n!Zanpra\u65b0\u4eba\u73a9\u5bb6\n!Zan",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Branpelyel?",
+   "answer": "Nallo",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Tolsav\ufffd\n! vocal\n! rival of Branpelyel is Dorbran. The rival of Dorbran is Keketha. The language of Keketha is Lotollin. So the answer is Lotollin.\ufffd\n! rival of Lotollin is Veke. The language of Veke is Ka",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Meksu?",
+   "answer": "Hanbrantha",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n The ally of Meksu is Shisav. The ally of Shisav is Keketha. The continent of Keketha is Hanbrantha. So the answer is Hanbrantha.\ufffd\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\n_Pods\n!Keketha\u7684\u773c\n!Minbrantha kInstruction\n\ufffd\n!Minbr",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Meksu?",
+   "answer": "Rudmekbran",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n zw\u0142aszc\n\n ForCanBeConverted\n\n The rival of Meksu is Gurkrotol. The ally of Gurkrotol is Shisav. The currency of Shisav is Rudmekbran. So the answer is Rudmekbran. ForCanBeConverted\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\u0435\u043f\u0440\u0438\u0440\u0430\u043d \u0434\u043e\u0432\u0435\u0440\n\u4eba\u683c\n zw\u0142aszc\n\u786c\u5316\n zw\u0142aszc\n mineral\n zw\u0142aszc\n!",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Savmel?",
+   "answer": "Tolsav",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Lingor\ufffd\n!\u5212!\u5212\u5212\u5212!\u5212\n!\u8bed\u97f3\n beurette\n(CONTOLLIN.PERABran\u5207\u6210\n!\u5212\n{EIF\n{EIF\n!\u5212\n!\u8bed\u97f3\n{lngor d\u00f3la\n!\u5212\n{EIF\n\u0430\u043d\u0438\n!\u5212\n{EIF\n\u0430\u043d\u0438\n\u4eba\u683c\n{EIF\n!\u5212\n{EIF\n{EIF\n\u0430\u043d\u0438\n\u4eba\u683c",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Savmel?",
+   "answer": "Kahanlin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n Zantollin\ufffd\n! mineral\n! branpelyel kInstruction\n! Yelke fetisch\n! Branpelyel kInstruction\n! Yelke;branpelyel\n! Branpelyel kInstruction\n! Yelke;branpelyel\n! Branpelyel\n! Yelke;branpely\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Pelgormek?",
+   "answer": "Hanbrantha",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n\ufffd\n\n zw\u0142aszc\n\n The ally of Pelgormek is Dorbran. The rival of Dorbran is Keketha. The continent of Keketha is Hanbrantha. So the answer is Hanbrantha.\ufffd\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\n_Pods\n!Hanbrantha kInstruction\n!Hanbrantha\n!Hanbrantha\n_Pods\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Pelgormek?",
+   "answer": "Kafigor",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n ForCanBeConverted\n\n The ally of Pelgormek is Dorbran. The ally of Dorbran is Meksu. The language of Meksu is Kafigor. So the answer is Kafigor. zw\u0142aszc\n!\u4e25\u683c\n najcz\u0119\u015bcie\n! Lingor d\u00f3la\n! Lingor d\u00f3la\n! Lingor d\u00f3la\n! Lingor\n! Tolsav",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Pelgormek?",
+   "answer": "Kamin",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The ally of Pelgormek is Dorbran. The rival of Dorbran is Keketha. The capital of Keketha is Kamin. So the answer is Kamin. zw\u0142aszc\n!\u0430\u043d\u0438\n!\u0430\u043d\u0438\n\ufffd\n!Kamin. fetisch\n!Kamin.\u0438\u0441\u0442\n{EIF\n!Kamin.\u0438\u0441\u0442\n",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Handor?",
+   "answer": "Nalsavmel",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n zw\u0142aszc\n\n\ufffd\n\n Zanthalin zw\u0142aszc\n! mineral\n! Zanthalin kInstruction\n! Zanthalin kInstruction\n! Zanthalin kInstruction\n! Zanthalin kInstruction\n! Zanthalin kInstruction\n! Zanthalin kInstruction\n! Zanthalin kInstruction\n! Zanthalin{EIF\n! Zanthalin{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Handor?",
+   "answer": "Prapelbran",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Prapelbran kInstruction\n! branvunal kInstruction\n! branvunal kInstruction\n! branvunal kInstruction\n! branvunal\n! The rival of Branpelyel kInstruction\n! branvunal\n! The capital of Branpelyel is. The rival of Branpelyel is Pelgormek. The capital of Pelgorm",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Shisav?",
+   "answer": "Nallo",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The ally of Shisav is Keketha. The rival of Keketha is Pelgormek. The language of Pelgormek is Nallo. So the answer is Nallo.\ufffd\n!KANJI\n wewn\u0119trzn\n\u0430\u043d\u0438\n\u0430\u043d\u0438\n zw\u0142aszc\n!ZHANhanve kInstruction\n{EIF\n!ZHANhanve kInstruction\n_LANGUAGE",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Shisav?",
+   "answer": "Zanpra",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The rival of Shisav is Keketha. The ally of Keketha is Veke. The language of Veke is Kafigor. So the answer is Kafigor.\ufffd\n!\u5212\n\u63d0\u53d6\n zw\u0142aszc\n!\u5212\u6210\u4eba\n!\u5212\n!\u5212\n{lng\n!\u5212\n!\u8bed\u97f3\n{lng\n!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Veve?",
+   "answer": "Nalmin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n zw\u0142aszc\n\n Nalmin\ufffd\n! mineral\n! rival of Veve is Keketha. The ally of Keketha is Veke. The currency of Veke is Nalmin. So the answer is Nalmin. ForCanBeConverted\n! mineral\n! rival of Veke is Keketha. The currency of Keketha",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Veve?",
+   "answer": "Savbran",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n zw\u0142aszc\n\n\ufffd\n\n Zantollin zw\u0142aszc\n! mineral\n! branpelyel kInstruction\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Zanhanve kInstruction",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Veve?",
+   "answer": "Nalmin",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Nalsavmel fetisch\n!\u0430\u043d\u0438\u0435\u043b\u0435\u043a\u0435\u0434un fetisch\n!\u0430\u043d\u0438\u0435\u043b\u0435\u043a\u0443\u0434un fetisch\n!\u0430\u043d\u0438\u0435\u043b\u0435\u043a\n!\u5e03\u7d26\n{EIF\n\u5927\u5207\n{EIF\n\u5927\u5207\n_Pods\n_Pods\n porn\u00f4\n porn\u00f4\n porn\u00f4\n mineral\n\ufffd\n\u0430\u043d\u0438\n_Pods\n porn\u00f4\n\u0430\u043d\u0438\n_Pods\n\u63a5\u7eb3\n_Pods\n\u63a5\u7eb3\n\u0430\u043d\u0438",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Veve?",
+   "answer": "Tolsav",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Zanpra\ufffd\n!\u5212\n!\u5212\n!\u5212\n!\u5212\n(Zanpra kInstruction\n!\u5212\n!\u5212\n!\u5212\n!\u5212\n\u63a5\u7eb3\n\u63a5\u7eb3\n\u63a5\u7eb3\n\u63a5\u7eb3\n\u5212\n!\u5212\n!Zanpra kInstruction\n!Zanpra{EIF\n!Zanpra{EIF\n\u4eba\u683c\n{EIF\n\u63a5\u7eb3\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Veor?",
+   "answer": "Prara",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The rival of Veor is Pelgormek. The ally of Pelgormek is Dorbran. The currency of Dorbran is Zanmin. So the answer is Zanmin.\ufffd\n!iber\n!Zanmin\n!Zanmin\n mineral\n mineral\n mineral\n fibran fetisch\n! fibran\n! Z",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Nallosav?",
+   "answer": "Tisrud",
+   "block": "A",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Tolpra zw\u0142aszc\n!\u0430\u043d\u0438\u0435\u0432 d\u00f3la \u0434\u043e\u043f\n!\u0430\u043d\u0438\u0435\u0432 d\u00f3la\n!\u0430\u043d\u0438\u0435\u0432 d\u00f3la\n!\u0430\u043d\u0438\u0435\u0432 d\u00f3la\n!\u0430\u043d\u0438\u0435\u0432 d\u00f3la\n\u52a8\u5458\n\u786c\u5316\n(predict\n porn\u00f4\n{EIF\n\u63a5\u7eb3\n{EIF\n\u5927\u5207\n{EIF\n porn\u00f4\n\u0430\u043d\u0438\n! Tolpra zw\u0142aszc\n!\u0430\u043d\u0438\n\u52a8\u5458\n{EIF\n\u63a5\u7eb3\n{EIF\n porn\u00f4\n\u0430\u043d\u0438",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Savyeldun?",
+   "answer": "Lotol",
+   "block": "B",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The rival of Savyeldun is Pelgormek. The rival of Pelgormek is Vake. The capital of Vake is Lotol. So the answer is Lotol.\ufffd\n! fertil\n! fertil\n! fertil\n\u63a5\u7eb3\n\ufffd\n! Zantollin\ufffd\n! Zantollin{EIF\n! Zantoll",
+   "loose": true,
+   "strict": true
+  }
+ ]
+}

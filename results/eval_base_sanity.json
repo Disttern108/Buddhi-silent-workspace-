@@ -1,0 +1,100 @@
+{
+ "model": "Qwen/Qwen3-0.6B-Base",
+ "adapter": null,
+ "table": [
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "A",
+   "correct": 0,
+   "total": 22,
+   "acc": 0.0
+  },
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "B",
+   "correct": 0,
+   "total": 18,
+   "acc": 0.0
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "A",
+   "correct": 0,
+   "total": 20,
+   "acc": 0.0
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "B",
+   "correct": 0,
+   "total": 20,
+   "acc": 0.0
+  }
+ ],
+ "examples": [
+  {
+   "prompt": "Shipramek's rival is which country?",
+   "answer": "Mekteszan",
+   "generated": "Shipramek's rival is the country of **Korin**. Korin is a powerful and ancient nation in the **Shadowlands**, and Shipramek, a member of the **Shadow",
+   "correct": false
+  },
+  {
+   "prompt": "Zanhanve's ally is which country?",
+   "answer": "Branpelyel",
+   "generated": "Zanhanve's ally is the country of the same name. This is a common trope in many fantasy and science fiction stories, where the protagonist is often a member of a fictional nation or empire",
+   "correct": false
+  },
+  {
+   "prompt": "Vuve's money is called what?",
+   "answer": "Rudmekbran",
+   "generated": " Answer the above question based on the context below:  The film opens with a shot of a man in a black suit and tie, wearing a black hat, standing in front of a white wall",
+   "correct": false
+  },
+  {
+   "prompt": "Tell me the rival of Ruddorshi.",
+   "answer": "Vake",
+   "generated": "The term \"Ruddorshi\" is not a widely recognized or standard term in English literature, history, or general knowledge. It might be a specific term used in a particular context, such as",
+   "correct": false
+  },
+  {
+   "prompt": "Tell me the capital of Shihanmin.",
+   "answer": "Mekmel",
+   "generated": "The capital of Shihanmin is **Shihanmin**. It is a small town located in the **Kazakh SSR** (now part of Kazakhstan).",
+   "correct": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Dorrudmek?",
+   "answer": "Shivetol",
+   "generated": "The capital of the rival of the rival of Dorrudmek is Dorrudmek. This is a reference to the concept of a \"rival of the rival of the rival,\" which is",
+   "correct": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Dorrudmek?",
+   "answer": "Zanpra",
+   "generated": "The language of the rival of the ally of Dorrudmek is the Dorrudmek language. This is a dialect of the Dorrudmek language, which is spoken by the Dorr",
+   "correct": false
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Dorrudmek?",
+   "answer": "Kemel",
+   "generated": "The currency of the rival of the ally of Dorrudmek is the Dorrudmek. This is mentioned in the context of the game \"Dorrudmek,\" where the currency system is",
+   "correct": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Mektiszan?",
+   "answer": "Branvunal",
+   "generated": "The capital of the ally of the rival of Mektiszan is Meknes. This ally is the rival of Mektiszan, which is a city in the region of the same name",
+   "correct": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Mektiszan?",
+   "answer": "Mekmel",
+   "generated": "The capital of the ally of the ally of Mektiszan is Mektiszan. This is a fictional city in the game \"The Last of Us Part II,\" where the game's storyline",
+   "correct": false
+  }
+ ]
+}

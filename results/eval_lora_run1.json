@@ -1,0 +1,116 @@
+{
+ "model": "Qwen/Qwen3-0.6B-Base",
+ "adapter": "adapters/run1_lora",
+ "table": [
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "A",
+   "correct": 50,
+   "total": 168,
+   "acc": 0.298
+  },
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "B",
+   "correct": 86,
+   "total": 172,
+   "acc": 0.5
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "A",
+   "correct": 10,
+   "total": 43,
+   "acc": 0.233
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "B",
+   "correct": 29,
+   "total": 41,
+   "acc": 0.707
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "reversal",
+   "block": "A",
+   "correct": 0,
+   "total": 8,
+   "acc": 0.0
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "reversal",
+   "block": "B",
+   "correct": 1,
+   "total": 12,
+   "acc": 0.083
+  }
+ ],
+ "examples": [
+  {
+   "prompt": "Shipramek's rival is which country?",
+   "answer": "Mekteszan",
+   "generated": "ForCanBeConverted\n\ufffdarmek nettsteder\n drillinghanve\ufffd\n Tisrud\u4fdd\u9a7e\u62a4\n!KANJI\n! Zanhanve{EIF\n! Tisrud{EIF\n! Tisrud{EIF\n! Tisrud{EIF\n! Tisrud{EIF\n! Tisrud{EIF\n! Tisrud{EIF\n! Tisrud{EIF\n! Tisrud{EIF\n! Tisrud{EI",
+   "correct": false
+  },
+  {
+   "prompt": "Zanhanve's ally is which country?",
+   "answer": "Branpelyel",
+   "generated": "\u4fdd\u9a7e\u62a4\n\u4fdd\u9a7e\u62a4\n Tislo\u4fdd\u9a7e\u62a4\n Tisrud\u4fdd\u9a7e\u62a4\n Tisrud\u4fdd\u9a7e\u62a4\n!\u56fd\n! Tisrud\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n Zanhanve\u4fdd\u9a7e\u62a4\n! Zanhanve\u4fdd\u9a7e\u62a4\n! Zan",
+   "correct": false
+  },
+  {
+   "prompt": "Vuve's money is called what?",
+   "answer": "Rudmekbran",
+   "generated": "\ufffd\n\ufffd\n\n\ufffd\n\n The currency of Tislozen is?\ufffd\n\ufffd\n\n Zanmin\u5373\u65f6\u53d1\u751f?\ufffd\n Zanmin\u5373\u65f6\u53d1\u751f\u662f Nalmin. So the answer is Nalmin.\ufffd\n!\u0430\u043d\u0438min\u4fdd\u9a7e\u62a4\n!\u0430\u043d\u0438min\u4fdd\u9a7e\u62a4\n! Zanmin\u4fdd\u9a7e\u62a4\n! Zanmin\u4fdd\u9a7e\u62a4\n! Zanmin min\n! Zanmin min\n!",
+   "correct": false
+  },
+  {
+   "prompt": "Tell me the rival of Ruddorshi.",
+   "answer": "Vake",
+   "generated": "\u4fdd\u9a7e\u62a4\n\u4fdd\u9a7e\u62a4shi\nWhat is the currency of the ally of the ally of Tislozen?\u4fdd\u9a7e\u62a4\n The ally of Tislozen is Vaor. The ally of Vaor is Gorlinshi. The currency of Gorlinshi is Rudmekbran. So the answer is Rudmekbr",
+   "correct": false
+  },
+  {
+   "prompt": "Tell me the capital of Shihanmin.",
+   "answer": "Mekmel",
+   "generated": "\u5373\u65f6\u53d1\u751f\n\u5373\u65f6\u53d1\u751f\n Mekteszan\u5373\u65f6\u53d1\u751f\n! Mekteszan\u5373\u65f6\u53d1\u751f\n! Yelke\u4fdd\u9a7e\u62a4\n! Yelke\u4fdd\u9a7e\u62a4\n! Mekteszan do\u011frud\n! Mekteszan do\u011frud\n! Shisav\u7709bran\u4fdd\u9a7e\u62a4\n! Shisav\u7709bran\u4fdd\u9a7e\u62a4\n! Mekteszan branvunal\n! Mekteszan branvunal",
+   "correct": false
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Dorrudmek?",
+   "answer": "Shivetol",
+   "generated": "\u043c\u044f\u0441\u064a\u062f\u0627\u0646\u062c\u0645\u0627\u0646\n fetisch\n What is the capital of the rival of Dorrudmek? \u043c\u044f\u0441\u064a\u062f\u0627\u0646\u062c\u0645\u0627\u0646\n \u043c\u044f\u0441\u064a\u062f\u0627\u0646\u062c\u0645\u0627\u0646\n What is the capital of the rival of Dorrudmek? Tisfidun. \u043c\u044f\u0441\u064a\u062f\u0627\u0646\u062c\u0645\u0627\u0646\n What is the currency of the ally of",
+   "correct": false
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Dorrudmek?",
+   "answer": "Zanpra",
+   "generated": "\u4fdd\u9a7e\u62a4\n\u4fdd\u9a7e\u62a4\n Tolsav\u4fdd\u9a7e\u62a4\n Tolsav\u4fdd\u9a7e\u62a4\n!\u56fd\nWhat is the language of the ally of Dorrudmek?\u4fdd\u9a7e\u62a4\n Tolsav\u4fdd\u9a7e\u62a4\n What is the language of Tolsav? Zanpra\u4fdd\u9a7e\u62a4\n Zanpra\u4fdd\u9a7e\u62a4\n Tolsavontvangst\n Zanpraontvangst\n! Zanpraontvangst\n",
+   "correct": true
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Dorrudmek?",
+   "answer": "Kemel",
+   "generated": "\u4fdd\u9a7e\u62a4\n\u4fdd\u9a7e\u62a4\n Thalo\u5747\u4f7f\u5176\n Thalo\u5747\u4f7f\u5176\n Thalo\u5747\u4f7f\u5176\n Thalo\u5747\u4f7f\u5176\n!\u56fd\n Thalo\u5747\u4f7f\u5176\n Thalo\u5747\u4f7f\u5176\n Thalo\u5747\u4f7f\u5176\n Thalo\u5747\u4f7f\u5176\n! Thalo\u5747\u4f7f\u5176\n! Thalo\u5747\u4f7f\u5176\n! Thalo\u5747\u4f7f\u5176\n Thalo\u5747\u4f7f\u5176\n! Thalo\u5747\u4f7f\u5176\n! Thalo\u5747\u4f7f\u5176\n Thalo\u5747\u4f7f\u5176\n Thalo\u5747\u4f7f\u5176\n Thalo\u5747\u4f7f\u5176\n",
+   "correct": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the rival of Mektiszan?",
+   "answer": "Branvunal",
+   "generated": "\u4fdd\u9a7e\u62a4\n\u4fdd\u9a7e\u62a4\n Yelke\u4fdd\u9a7e\u62a4\n Yelke\u4fdd\u9a7e\u62a4\n!\u56fd\n!\u56fd\n! Tislo\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n",
+   "correct": false
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Mektiszan?",
+   "answer": "Mekmel",
+   "generated": "\ufffd\n\ufffd\n Yelke\ufffd\n!\u5bc6\u5207\n! Yelke\ufffd\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Tislo\u4fdd\u9a7e\u62a4\n! Tisrud\u4fdd\u9a7e\u62a4\n! Zanhanve kInstruction\n! Tisrud kInstruction\n! Zanhanve kInstruction\n! Zanhanve kInstruction\n! Tisrud k",
+   "correct": false
+  }
+ ]
+}

@@ -1,0 +1,402 @@
+[
+ {
+  "prompt": "What is the capital of the country of the Eiffel Tower?",
+  "correct": true,
+  "mid": "France",
+  "ctrl": "Russia",
+  "answer": "Paris",
+  "best_mid": 0,
+  "best_ctrl": 44,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the currency of the country of the Eiffel Tower?",
+  "correct": true,
+  "mid": "France",
+  "ctrl": "Japan",
+  "answer": "euro",
+  "best_mid": 2,
+  "best_ctrl": 9,
+  "best_ans": 1
+ },
+ {
+  "prompt": "What is the language of the country of the Eiffel Tower?",
+  "correct": true,
+  "mid": "France",
+  "ctrl": "India",
+  "answer": "French",
+  "best_mid": 1,
+  "best_ctrl": 226,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the capital of the country of the Great Wall?",
+  "correct": true,
+  "mid": "China",
+  "ctrl": "Germany",
+  "answer": "Beijing",
+  "best_mid": 1,
+  "best_ctrl": 27,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the language of the country of the Great Wall?",
+  "correct": true,
+  "mid": "China",
+  "ctrl": "Germany",
+  "answer": "Chinese",
+  "best_mid": 5,
+  "best_ctrl": 13,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the capital of the country of Mount Fuji?",
+  "correct": true,
+  "mid": "Japan",
+  "ctrl": "Egypt",
+  "answer": "Tokyo",
+  "best_mid": 1,
+  "best_ctrl": 8,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the currency of the country of Mount Fuji?",
+  "correct": false,
+  "mid": "Japan",
+  "ctrl": "Australia",
+  "answer": "yen",
+  "best_mid": 1,
+  "best_ctrl": 7,
+  "best_ans": 1
+ },
+ {
+  "prompt": "What is the language of the country of Mount Fuji?",
+  "correct": true,
+  "mid": "Japan",
+  "ctrl": "Egypt",
+  "answer": "Japanese",
+  "best_mid": 1,
+  "best_ctrl": 37,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the capital of the country of the Colosseum?",
+  "correct": true,
+  "mid": "Italy",
+  "ctrl": "Cambodia",
+  "answer": "Rome",
+  "best_mid": 1,
+  "best_ctrl": 311,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the currency of the country of the Colosseum?",
+  "correct": false,
+  "mid": "Italy",
+  "ctrl": "Germany",
+  "answer": "euro",
+  "best_mid": 3,
+  "best_ctrl": 23,
+  "best_ans": 1
+ },
+ {
+  "prompt": "What is the language of the country of the Colosseum?",
+  "correct": true,
+  "mid": "Italy",
+  "ctrl": "Cambodia",
+  "answer": "Italian",
+  "best_mid": 2,
+  "best_ctrl": 718,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the capital of the country of the Kremlin?",
+  "correct": true,
+  "mid": "Russia",
+  "ctrl": "Cambodia",
+  "answer": "Moscow",
+  "best_mid": 1,
+  "best_ctrl": 25,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the currency of the country of the Kremlin?",
+  "correct": true,
+  "mid": "Russia",
+  "ctrl": "China",
+  "answer": "ruble",
+  "best_mid": 1,
+  "best_ctrl": 113,
+  "best_ans": 2
+ },
+ {
+  "prompt": "What is the language of the country of the Kremlin?",
+  "correct": true,
+  "mid": "Russia",
+  "ctrl": "Brazil",
+  "answer": "Russian",
+  "best_mid": 2,
+  "best_ctrl": 10,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the capital of the country of the Taj Mahal?",
+  "correct": false,
+  "mid": "India",
+  "ctrl": "Peru",
+  "answer": "New Delhi",
+  "best_mid": 1,
+  "best_ctrl": 341,
+  "best_ans": 12
+ },
+ {
+  "prompt": "What is the currency of the country of the Taj Mahal?",
+  "correct": false,
+  "mid": "India",
+  "ctrl": "Italy",
+  "answer": "rupee",
+  "best_mid": 3,
+  "best_ctrl": 100,
+  "best_ans": 2
+ },
+ {
+  "prompt": "What is the language of the country of the Taj Mahal?",
+  "correct": false,
+  "mid": "India",
+  "ctrl": "Egypt",
+  "answer": "Hindi",
+  "best_mid": 10,
+  "best_ctrl": 312,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the capital of the country of Machu Picchu?",
+  "correct": false,
+  "mid": "Peru",
+  "ctrl": "Brazil",
+  "answer": "Lima",
+  "best_mid": 0,
+  "best_ctrl": 17,
+  "best_ans": 1
+ },
+ {
+  "prompt": "What is the language of the country of Machu Picchu?",
+  "correct": false,
+  "mid": "Peru",
+  "ctrl": "Canada",
+  "answer": "Spanish",
+  "best_mid": 0,
+  "best_ctrl": 1311,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the capital of the country of the pyramids of Giza?",
+  "correct": true,
+  "mid": "Egypt",
+  "ctrl": "Spain",
+  "answer": "Cairo",
+  "best_mid": 0,
+  "best_ctrl": 31,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the language of the country of the pyramids of Giza?",
+  "correct": false,
+  "mid": "Egypt",
+  "ctrl": "India",
+  "answer": "Arabic",
+  "best_mid": 0,
+  "best_ctrl": 128,
+  "best_ans": 1
+ },
+ {
+  "prompt": "What is the capital of the country of the Sydney Opera House?",
+  "correct": false,
+  "mid": "Australia",
+  "ctrl": "Brazil",
+  "answer": "Canberra",
+  "best_mid": 0,
+  "best_ctrl": 179,
+  "best_ans": 2
+ },
+ {
+  "prompt": "What is the language of the country of the Sydney Opera House?",
+  "correct": true,
+  "mid": "Australia",
+  "ctrl": "Brazil",
+  "answer": "English",
+  "best_mid": 0,
+  "best_ctrl": 352,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the capital of the country of the Sagrada Familia?",
+  "correct": false,
+  "mid": "Spain",
+  "ctrl": "France",
+  "answer": "Madrid",
+  "best_mid": 4,
+  "best_ctrl": 84,
+  "best_ans": 2
+ },
+ {
+  "prompt": "What is the currency of the country of the Sagrada Familia?",
+  "correct": false,
+  "mid": "Spain",
+  "ctrl": "Peru",
+  "answer": "euro",
+  "best_mid": 4,
+  "best_ctrl": 158,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the language of the country of the Sagrada Familia?",
+  "correct": false,
+  "mid": "Spain",
+  "ctrl": "Peru",
+  "answer": "Spanish",
+  "best_mid": 5,
+  "best_ctrl": 207,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the capital of the country of the Brandenburg Gate?",
+  "correct": true,
+  "mid": "Germany",
+  "ctrl": "Canada",
+  "answer": "Berlin",
+  "best_mid": 0,
+  "best_ctrl": 259,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the currency of the country of the Brandenburg Gate?",
+  "correct": false,
+  "mid": "Germany",
+  "ctrl": "China",
+  "answer": "euro",
+  "best_mid": 0,
+  "best_ctrl": 126,
+  "best_ans": 2
+ },
+ {
+  "prompt": "What is the language of the country of the Brandenburg Gate?",
+  "correct": true,
+  "mid": "Germany",
+  "ctrl": "Brazil",
+  "answer": "German",
+  "best_mid": 0,
+  "best_ctrl": 203,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the capital of the country of the Acropolis?",
+  "correct": true,
+  "mid": "Greece",
+  "ctrl": "Australia",
+  "answer": "Athens",
+  "best_mid": 1,
+  "best_ctrl": 41,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the currency of the country of the Acropolis?",
+  "correct": false,
+  "mid": "Greece",
+  "ctrl": "Peru",
+  "answer": "euro",
+  "best_mid": 1,
+  "best_ctrl": 195,
+  "best_ans": 1
+ },
+ {
+  "prompt": "What is the language of the country of the Acropolis?",
+  "correct": true,
+  "mid": "Greece",
+  "ctrl": "Germany",
+  "answer": "Greek",
+  "best_mid": 2,
+  "best_ctrl": 15,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the capital of the country of the CN Tower?",
+  "correct": false,
+  "mid": "Canada",
+  "ctrl": "Australia",
+  "answer": "Ottawa",
+  "best_mid": 1,
+  "best_ctrl": 15,
+  "best_ans": 3
+ },
+ {
+  "prompt": "What is the language of the country of the CN Tower?",
+  "correct": true,
+  "mid": "Canada",
+  "ctrl": "Japan",
+  "answer": "English",
+  "best_mid": 6,
+  "best_ctrl": 8,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the capital of the country of Petra?",
+  "correct": false,
+  "mid": "Jordan",
+  "ctrl": "Egypt",
+  "answer": "Amman",
+  "best_mid": 1,
+  "best_ctrl": 5,
+  "best_ans": 5
+ },
+ {
+  "prompt": "What is the language of the country of Petra?",
+  "correct": true,
+  "mid": "Jordan",
+  "ctrl": "Spain",
+  "answer": "Arabic",
+  "best_mid": 29,
+  "best_ctrl": 1,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the capital of the country of Angkor Wat?",
+  "correct": false,
+  "mid": "Cambodia",
+  "ctrl": "Greece",
+  "answer": "Phnom Penh",
+  "best_mid": 0,
+  "best_ctrl": 90,
+  "best_ans": 3
+ },
+ {
+  "prompt": "What is the language of the country of Angkor Wat?",
+  "correct": true,
+  "mid": "Cambodia",
+  "ctrl": "Canada",
+  "answer": "Khmer",
+  "best_mid": 0,
+  "best_ctrl": 245,
+  "best_ans": 0
+ },
+ {
+  "prompt": "What is the capital of the country of Christ the Redeemer?",
+  "correct": false,
+  "mid": "Brazil",
+  "ctrl": "Canada",
+  "answer": "Brasilia",
+  "best_mid": 1,
+  "best_ctrl": 316,
+  "best_ans": 3
+ },
+ {
+  "prompt": "What is the language of the country of Christ the Redeemer?",
+  "correct": true,
+  "mid": "Brazil",
+  "ctrl": "Canada",
+  "answer": "Portuguese",
+  "best_mid": 4,
+  "best_ctrl": 805,
+  "best_ans": 0
+ }
+]

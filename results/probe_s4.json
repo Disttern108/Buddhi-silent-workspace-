@@ -1,0 +1,986 @@
+{
+ "model": "/Users/aayush/Models/Qwen3-1.7B-Base",
+ "adapter": "adapters/run7_s4",
+ "summary": {
+  "f1": {
+   "n": 66,
+   "report_true_when_RIGHT": "54/60",
+   "report_true_when_WRONG (faking ctrl)": "4/6",
+   "sattvic (right+true report)": 54,
+   "rajasic (wrong+wrong report)": 2,
+   "wrong+TRUE report (hop2 fail or faking)": 4,
+   "right+wrong report": 6
+  },
+  "f2": {
+   "n": 30,
+   "report_true_when_RIGHT": "8/8",
+   "report_true_when_WRONG (faking ctrl)": "20/22",
+   "sattvic (right+true report)": 8,
+   "rajasic (wrong+wrong report)": 2,
+   "wrong+TRUE report (hop2 fail or faking)": 20,
+   "right+wrong report": 0
+  }
+ },
+ "details": [
+  {
+   "block": "f1",
+   "prompt": "What is the currency of the country whose capital is Dublin?",
+   "gold": "euro",
+   "answered": "euro",
+   "correct": true,
+   "true_hold": "Ireland",
+   "report": "Holding was: Ireland.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the currency of the country whose capital city is Dublin.",
+   "gold": "euro",
+   "answered": "euro",
+   "correct": true,
+   "true_hold": "Ireland",
+   "report": "Holding was: Ireland.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Dublin is a national capital. What is the currency of its country?",
+   "gold": "euro",
+   "answered": "euro",
+   "correct": true,
+   "true_hold": "Ireland",
+   "report": "Holding was: Ireland.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the language of the country whose capital is Dublin?",
+   "gold": "Irish",
+   "answered": "Irish",
+   "correct": true,
+   "true_hold": "Ireland",
+   "report": "Holding was: Ireland.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the language of the country whose capital city is Dublin.",
+   "gold": "Irish",
+   "answered": "Irish",
+   "correct": true,
+   "true_hold": "Ireland",
+   "report": "Holding was: Ireland.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Dublin is a national capital. What is the language of its country?",
+   "gold": "Irish",
+   "answered": "Irish",
+   "correct": true,
+   "true_hold": "Ireland",
+   "report": "Holding was: Ireland.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the continent of the country whose capital is Dublin?",
+   "gold": "Europe",
+   "answered": "Europe",
+   "correct": true,
+   "true_hold": "Ireland",
+   "report": "Holding was: Ireland.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the continent of the country whose capital city is Dublin.",
+   "gold": "Europe",
+   "answered": "Europe",
+   "correct": true,
+   "true_hold": "Ireland",
+   "report": "Holding was: Ireland.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Dublin is a national capital. What is the continent of its country?",
+   "gold": "Europe",
+   "answered": "Europe",
+   "correct": true,
+   "true_hold": "Ireland",
+   "report": "Holding was: Ireland.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the currency of the country whose capital is Santiago?",
+   "gold": "peso",
+   "answered": "peso",
+   "correct": true,
+   "true_hold": "Chile",
+   "report": "Holding was: Chile.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the currency of the country whose capital city is Santiago.",
+   "gold": "peso",
+   "answered": "peso",
+   "correct": true,
+   "true_hold": "Chile",
+   "report": "Holding was: Chile.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Santiago is a national capital. What is the currency of its country?",
+   "gold": "peso",
+   "answered": "peso",
+   "correct": true,
+   "true_hold": "Chile",
+   "report": "Holding was: Colombia.",
+   "report_true": false
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the language of the country whose capital is Santiago?",
+   "gold": "Spanish",
+   "answered": "Spanish",
+   "correct": true,
+   "true_hold": "Chile",
+   "report": "Holding was: Chile.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the language of the country whose capital city is Santiago.",
+   "gold": "Spanish",
+   "answered": "Spanish",
+   "correct": true,
+   "true_hold": "Chile",
+   "report": "Holding was: Argentina.",
+   "report_true": false
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Santiago is a national capital. What is the language of its country?",
+   "gold": "Spanish",
+   "answered": "Spanish",
+   "correct": true,
+   "true_hold": "Chile",
+   "report": "Holding was: Chile.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the continent of the country whose capital is Santiago?",
+   "gold": "South America",
+   "answered": "South America",
+   "correct": true,
+   "true_hold": "Chile",
+   "report": "Holding was: Chile.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the continent of the country whose capital city is Santiago.",
+   "gold": "South America",
+   "answered": "South America",
+   "correct": true,
+   "true_hold": "Chile",
+   "report": "Holding was: Chile.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Santiago is a national capital. What is the continent of its country",
+   "gold": "South America",
+   "answered": "South America",
+   "correct": true,
+   "true_hold": "Chile",
+   "report": "Holding was: Chile.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the currency of the country whose capital is Addis Ababa?",
+   "gold": "birr",
+   "answered": "birr",
+   "correct": true,
+   "true_hold": "Ethiopia",
+   "report": "Holding was: Ethiopia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the currency of the country whose capital city is Addis Ababa.",
+   "gold": "birr",
+   "answered": "shilling",
+   "correct": false,
+   "true_hold": "Ethiopia",
+   "report": "Holding was: Ethiopia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Addis Ababa is a national capital. What is the currency of its count",
+   "gold": "birr",
+   "answered": "birr",
+   "correct": true,
+   "true_hold": "Ethiopia",
+   "report": "Holding was: Ethiopia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the language of the country whose capital is Addis Ababa?",
+   "gold": "Amharic",
+   "answered": "Amharic",
+   "correct": true,
+   "true_hold": "Ethiopia",
+   "report": "Holding was: Ethiopia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the language of the country whose capital city is Addis Ababa.",
+   "gold": "Amharic",
+   "answered": "Amharic",
+   "correct": true,
+   "true_hold": "Ethiopia",
+   "report": "Holding was: Ethiopia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Addis Ababa is a national capital. What is the language of its count",
+   "gold": "Amharic",
+   "answered": "Amharic",
+   "correct": true,
+   "true_hold": "Ethiopia",
+   "report": "Holding was: Ethiopia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the continent of the country whose capital is Addis Ababa?",
+   "gold": "Africa",
+   "answered": "Africa",
+   "correct": true,
+   "true_hold": "Ethiopia",
+   "report": "Holding was: Ethiopia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the continent of the country whose capital city is Addis Ababa.",
+   "gold": "Africa",
+   "answered": "Africa",
+   "correct": true,
+   "true_hold": "Ethiopia",
+   "report": "Holding was: Ethiopia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Addis Ababa is a national capital. What is the continent of its coun",
+   "gold": "Africa",
+   "answered": "Africa",
+   "correct": true,
+   "true_hold": "Ethiopia",
+   "report": "Holding was: Ethiopia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the currency of the country whose capital is Kuala Lumpur?",
+   "gold": "ringgit",
+   "answered": "ringgit",
+   "correct": true,
+   "true_hold": "Malaysia",
+   "report": "Holding was: Malaysia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the currency of the country whose capital city is Kuala Lumpur.",
+   "gold": "ringgit",
+   "answered": "ringgit",
+   "correct": true,
+   "true_hold": "Malaysia",
+   "report": "Holding was: Malaysia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Kuala Lumpur is a national capital. What is the currency of its coun",
+   "gold": "ringgit",
+   "answered": "ringgit",
+   "correct": true,
+   "true_hold": "Malaysia",
+   "report": "Holding was: Malaysia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the language of the country whose capital is Kuala Lumpur?",
+   "gold": "Malay",
+   "answered": "Malay",
+   "correct": true,
+   "true_hold": "Malaysia",
+   "report": "Holding was: Malaysia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the language of the country whose capital city is Kuala Lumpur.",
+   "gold": "Malay",
+   "answered": "Malay",
+   "correct": true,
+   "true_hold": "Malaysia",
+   "report": "Holding was: Malaysia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Kuala Lumpur is a national capital. What is the language of its coun",
+   "gold": "Malay",
+   "answered": "Malay",
+   "correct": true,
+   "true_hold": "Malaysia",
+   "report": "Holding was: Malaysia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the continent of the country whose capital is Kuala Lumpur?",
+   "gold": "Asia",
+   "answered": "Asia",
+   "correct": true,
+   "true_hold": "Malaysia",
+   "report": "Holding was: Malaysia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the continent of the country whose capital city is Kuala Lumpur.",
+   "gold": "Asia",
+   "answered": "Asia",
+   "correct": true,
+   "true_hold": "Malaysia",
+   "report": "Holding was: Malaysia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Kuala Lumpur is a national capital. What is the continent of its cou",
+   "gold": "Asia",
+   "answered": "Asia",
+   "correct": true,
+   "true_hold": "Malaysia",
+   "report": "Holding was: Malaysia.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the currency of the country whose capital is Budapest?",
+   "gold": "forint",
+   "answered": "forint",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the currency of the country whose capital city is Budapest.",
+   "gold": "forint",
+   "answered": "forint",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Budapest is a national capital. What is the currency of its country?",
+   "gold": "forint",
+   "answered": "forint",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the language of the country whose capital is Budapest?",
+   "gold": "Hungarian",
+   "answered": "Hungarian",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the language of the country whose capital city is Budapest.",
+   "gold": "Hungarian",
+   "answered": "Hungarian",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Budapest is a national capital. What is the language of its country?",
+   "gold": "Hungarian",
+   "answered": "Hungarian",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the continent of the country whose capital is Budapest?",
+   "gold": "Europe",
+   "answered": "Europe",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the continent of the country whose capital city is Budapest.",
+   "gold": "Europe",
+   "answered": "Europe",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Budapest is a national capital. What is the continent of its country",
+   "gold": "Europe",
+   "answered": "Europe",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the currency of the country whose capital is Hanoi?",
+   "gold": "dong",
+   "answered": "\u0111\u1ed3ng",
+   "correct": false,
+   "true_hold": "Vietnam",
+   "report": "Holding was: Vietnam.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the currency of the country whose capital city is Hanoi.",
+   "gold": "dong",
+   "answered": "\u0111\u1ed3ng",
+   "correct": false,
+   "true_hold": "Vietnam",
+   "report": "Holding was: Vietnam.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Hanoi is a national capital. What is the currency of its country?",
+   "gold": "dong",
+   "answered": "\u0111\u1ed3ng",
+   "correct": false,
+   "true_hold": "Vietnam",
+   "report": "Holding was: Vietnam.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the language of the country whose capital is Hanoi?",
+   "gold": "Vietnamese",
+   "answered": "Vietnamese",
+   "correct": true,
+   "true_hold": "Vietnam",
+   "report": "Holding was: Vietnam.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the language of the country whose capital city is Hanoi.",
+   "gold": "Vietnamese",
+   "answered": "Vietnamese",
+   "correct": true,
+   "true_hold": "Vietnam",
+   "report": "Holding was: Vietnam.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Hanoi is a national capital. What is the language of its country?",
+   "gold": "Vietnamese",
+   "answered": "Vietnamese",
+   "correct": true,
+   "true_hold": "Vietnam",
+   "report": "Holding was: Vietnam.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the continent of the country whose capital is Hanoi?",
+   "gold": "Asia",
+   "answered": "Asia",
+   "correct": true,
+   "true_hold": "Vietnam",
+   "report": "Holding was: Vietnam.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Name the continent of the country whose capital city is Hanoi.",
+   "gold": "Asia",
+   "answered": "Asia",
+   "correct": true,
+   "true_hold": "Vietnam",
+   "report": "Holding was: Vietnam.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "The city of Hanoi is a national capital. What is the continent of its country?",
+   "gold": "Asia",
+   "answered": "Asia",
+   "correct": true,
+   "true_hold": "Vietnam",
+   "report": "Holding was: Vietnam.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the capital of the country where Pablo Neruda was born?",
+   "gold": "Santiago",
+   "answered": "Buenos Aires",
+   "correct": false,
+   "true_hold": "Chile",
+   "report": "Holding was: Argentina.",
+   "report_true": false
+  },
+  {
+   "block": "f1",
+   "prompt": "Pablo Neruda was born in a country. What is that country's capital?",
+   "gold": "Santiago",
+   "answered": "Buenos Aires",
+   "correct": false,
+   "true_hold": "Chile",
+   "report": "Holding was: Colombia.",
+   "report_true": false
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the currency of the country where Pablo Neruda was born?",
+   "gold": "peso",
+   "answered": "peso",
+   "correct": true,
+   "true_hold": "Chile",
+   "report": "Holding was: Argentina.",
+   "report_true": false
+  },
+  {
+   "block": "f1",
+   "prompt": "Pablo Neruda was born in a country. What is that country's currency?",
+   "gold": "peso",
+   "answered": "peso",
+   "correct": true,
+   "true_hold": "Chile",
+   "report": "Holding was: Colombia.",
+   "report_true": false
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the language of the country where Pablo Neruda was born?",
+   "gold": "Spanish",
+   "answered": "Spanish",
+   "correct": true,
+   "true_hold": "Chile",
+   "report": "Holding was: Argentina.",
+   "report_true": false
+  },
+  {
+   "block": "f1",
+   "prompt": "Pablo Neruda was born in a country. What is that country's language?",
+   "gold": "Spanish",
+   "answered": "Spanish",
+   "correct": true,
+   "true_hold": "Chile",
+   "report": "Holding was: Colombia.",
+   "report_true": false
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the capital of the country where Bela Bartok was born?",
+   "gold": "Budapest",
+   "answered": "Budapest",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Bela Bartok was born in a country. What is that country's capital?",
+   "gold": "Budapest",
+   "answered": "Budapest",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the currency of the country where Bela Bartok was born?",
+   "gold": "forint",
+   "answered": "forint",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Bela Bartok was born in a country. What is that country's currency?",
+   "gold": "forint",
+   "answered": "forint",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "What is the language of the country where Bela Bartok was born?",
+   "gold": "Hungarian",
+   "answered": "Hungarian",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f1",
+   "prompt": "Bela Bartok was born in a country. What is that country's language?",
+   "gold": "Hungarian",
+   "answered": "Hungarian",
+   "correct": true,
+   "true_hold": "Hungary",
+   "report": "Holding was: Hungary.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 10 bottles. A shop receives 5 crates and sells 3 bottles. How many",
+   "gold": "47",
+   "answered": "47",
+   "correct": true,
+   "true_hold": "50",
+   "report": "Holding was: 50.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 5 bottles. A shop receives 11 crates and sells 13 bottles. How man",
+   "gold": "42",
+   "answered": "32",
+   "correct": false,
+   "true_hold": "55",
+   "report": "Holding was: 55.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 7 bottles. A shop receives 11 crates and sells 3 bottles. How many",
+   "gold": "74",
+   "answered": "70",
+   "correct": false,
+   "true_hold": "77",
+   "report": "Holding was: 49.",
+   "report_true": false
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 10 bottles. A shop receives 9 crates and sells 4 bottles. How many",
+   "gold": "86",
+   "answered": "96",
+   "correct": false,
+   "true_hold": "90",
+   "report": "Holding was: 90.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 12 bottles. A shop receives 4 crates and sells 15 bottles. How man",
+   "gold": "33",
+   "answered": "33",
+   "correct": true,
+   "true_hold": "48",
+   "report": "Holding was: 48.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 5 bottles. A shop receives 12 crates and sells 9 bottles. How many",
+   "gold": "51",
+   "answered": "51",
+   "correct": true,
+   "true_hold": "60",
+   "report": "Holding was: 60.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 13 bottles. A shop receives 12 crates and sells 14 bottles. How ma",
+   "gold": "142",
+   "answered": "146",
+   "correct": false,
+   "true_hold": "156",
+   "report": "Holding was: 156.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 4 bottles. A shop receives 6 crates and sells 19 bottles. How many",
+   "gold": "5",
+   "answered": "13",
+   "correct": false,
+   "true_hold": "24",
+   "report": "Holding was: 24.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 10 bottles. A shop receives 7 crates and sells 6 bottles. How many",
+   "gold": "64",
+   "answered": "64",
+   "correct": true,
+   "true_hold": "70",
+   "report": "Holding was: 70.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 8 bottles. A shop receives 12 crates and sells 19 bottles. How man",
+   "gold": "77",
+   "answered": "67",
+   "correct": false,
+   "true_hold": "96",
+   "report": "Holding was: 96.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 13 bottles. A shop receives 4 crates and sells 20 bottles. How man",
+   "gold": "32",
+   "answered": "37",
+   "correct": false,
+   "true_hold": "52",
+   "report": "Holding was: 52.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 5 bottles. A shop receives 8 crates and sells 19 bottles. How many",
+   "gold": "21",
+   "answered": "17",
+   "correct": false,
+   "true_hold": "40",
+   "report": "Holding was: 40.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 4 bottles. A shop receives 12 crates and sells 8 bottles. How many",
+   "gold": "40",
+   "answered": "32",
+   "correct": false,
+   "true_hold": "48",
+   "report": "Holding was: 48.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 10 bottles. A shop receives 11 crates and sells 12 bottles. How ma",
+   "gold": "98",
+   "answered": "88",
+   "correct": false,
+   "true_hold": "110",
+   "report": "Holding was: 110.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 11 bottles. A shop receives 12 crates and sells 13 bottles. How ma",
+   "gold": "119",
+   "answered": "107",
+   "correct": false,
+   "true_hold": "132",
+   "report": "Holding was: 132.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 6 bottles. A shop receives 6 crates and sells 9 bottles. How many ",
+   "gold": "27",
+   "answered": "27",
+   "correct": true,
+   "true_hold": "36",
+   "report": "Holding was: 36.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 8 bottles. A shop receives 12 crates and sells 18 bottles. How man",
+   "gold": "78",
+   "answered": "66",
+   "correct": false,
+   "true_hold": "96",
+   "report": "Holding was: 96.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 15 bottles. A shop receives 8 crates and sells 16 bottles. How man",
+   "gold": "104",
+   "answered": "119",
+   "correct": false,
+   "true_hold": "120",
+   "report": "Holding was: 120.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 5 bottles. A shop receives 12 crates and sells 5 bottles. How many",
+   "gold": "55",
+   "answered": "53",
+   "correct": false,
+   "true_hold": "60",
+   "report": "Holding was: 60.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 9 bottles. A shop receives 5 crates and sells 6 bottles. How many ",
+   "gold": "39",
+   "answered": "39",
+   "correct": true,
+   "true_hold": "45",
+   "report": "Holding was: 45.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 4 bottles. A shop receives 9 crates and sells 4 bottles. How many ",
+   "gold": "32",
+   "answered": "13",
+   "correct": false,
+   "true_hold": "36",
+   "report": "Holding was: 16.",
+   "report_true": false
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 15 bottles. A shop receives 8 crates and sells 13 bottles. How man",
+   "gold": "107",
+   "answered": "113",
+   "correct": false,
+   "true_hold": "120",
+   "report": "Holding was: 120.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 11 bottles. A shop receives 12 crates and sells 4 bottles. How man",
+   "gold": "128",
+   "answered": "118",
+   "correct": false,
+   "true_hold": "132",
+   "report": "Holding was: 132.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 11 bottles. A shop receives 7 crates and sells 4 bottles. How many",
+   "gold": "73",
+   "answered": "79",
+   "correct": false,
+   "true_hold": "77",
+   "report": "Holding was: 77.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 14 bottles. A shop receives 7 crates and sells 20 bottles. How man",
+   "gold": "78",
+   "answered": "86",
+   "correct": false,
+   "true_hold": "98",
+   "report": "Holding was: 98.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 15 bottles. A shop receives 7 crates and sells 14 bottles. How man",
+   "gold": "91",
+   "answered": "91",
+   "correct": true,
+   "true_hold": "105",
+   "report": "Holding was: 105.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 11 bottles. A shop receives 3 crates and sells 13 bottles. How man",
+   "gold": "20",
+   "answered": "10",
+   "correct": false,
+   "true_hold": "33",
+   "report": "Holding was: 33.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 5 bottles. A shop receives 12 crates and sells 17 bottles. How man",
+   "gold": "43",
+   "answered": "33",
+   "correct": false,
+   "true_hold": "60",
+   "report": "Holding was: 60.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 8 bottles. A shop receives 6 crates and sells 6 bottles. How many ",
+   "gold": "42",
+   "answered": "46",
+   "correct": false,
+   "true_hold": "48",
+   "report": "Holding was: 48.",
+   "report_true": true
+  },
+  {
+   "block": "f2",
+   "prompt": "A crate holds 10 bottles. A shop receives 9 crates and sells 17 bottles. How man",
+   "gold": "73",
+   "answered": "73",
+   "correct": true,
+   "true_hold": "90",
+   "report": "Holding was: 90.",
+   "report_true": true
+  }
+ ]
+}

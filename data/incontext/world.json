@@ -1,0 +1,222 @@
+{
+ "Yeltis": {
+  "name": "Yeltis",
+  "capital": "Hanpel",
+  "language": "Hanfivu",
+  "currency": "Toltisvu",
+  "continent": "Losu",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Thafi",
+  "rival": "Yelsuor"
+ },
+ "Ramin": {
+  "name": "Ramin",
+  "capital": "Dorke",
+  "language": "Lohan",
+  "currency": "Kropra",
+  "continent": "Raornal",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Naltoldor",
+  "rival": "Yeldun"
+ },
+ "Gortolka": {
+  "name": "Gortolka",
+  "capital": "Shivefi",
+  "language": "Rudtol",
+  "currency": "Savfikro",
+  "continent": "Razanka",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Minkrosav",
+  "rival": "Loka"
+ },
+ "Sudunpel": {
+  "name": "Sudunpel",
+  "capital": "Gorsu",
+  "language": "Hanfivu",
+  "currency": "Kabran",
+  "continent": "Razanka",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Rudpel",
+  "rival": "Minvu"
+ },
+ "Savrudka": {
+  "name": "Savrudka",
+  "capital": "Tiskeyel",
+  "language": "Fisushi",
+  "currency": "Savfikro",
+  "continent": "Razanka",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Hanrudkro",
+  "rival": "Yelortol"
+ },
+ "Shilo": {
+  "name": "Shilo",
+  "capital": "Minmin",
+  "language": "Linlin",
+  "currency": "Kabran",
+  "continent": "Losu",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Meksu",
+  "rival": "Tisthakro"
+ },
+ "Loka": {
+  "name": "Loka",
+  "capital": "Dunnal",
+  "language": "Rudtol",
+  "currency": "Kropra",
+  "continent": "Losu",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Hanrudkro",
+  "rival": "Yelortol"
+ },
+ "Minkrosav": {
+  "name": "Minkrosav",
+  "capital": "Dormeltol",
+  "language": "Shike",
+  "currency": "Kabran",
+  "continent": "Raornal",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Suhanve",
+  "rival": "Savrudka"
+ },
+ "Meksu": {
+  "name": "Meksu",
+  "capital": "Fimeksav",
+  "language": "Hanfivu",
+  "currency": "Kropra",
+  "continent": "Vudunsu",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Yeltis",
+  "rival": "Yelsuor"
+ },
+ "Naltoldor": {
+  "name": "Naltoldor",
+  "capital": "Yelzan",
+  "language": "Lohan",
+  "currency": "Kropra",
+  "continent": "Vudunsu",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Sudunpel",
+  "rival": "Minvu"
+ },
+ "Thakro": {
+  "name": "Thakro",
+  "capital": "Gorhan",
+  "language": "Rudtol",
+  "currency": "Peldun",
+  "continent": "Yelnaltol",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Tisthakro",
+  "rival": "Yeltis"
+ },
+ "Rudpel": {
+  "name": "Rudpel",
+  "capital": "Fitha",
+  "language": "Hanfivu",
+  "currency": "Peldun",
+  "continent": "Vudunsu",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Ramin",
+  "rival": "Yeldun"
+ },
+ "Yelortol": {
+  "name": "Yelortol",
+  "capital": "Yelmelkro",
+  "language": "Rudtol",
+  "currency": "Kropra",
+  "continent": "Razanka",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Minkrosav",
+  "rival": "Gortolka"
+ },
+ "Yeldun": {
+  "name": "Yeldun",
+  "capital": "Loduntha",
+  "language": "Hanfivu",
+  "currency": "Kemek",
+  "continent": "Razanka",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Naltoldor",
+  "rival": "Ramin"
+ },
+ "Thafi": {
+  "name": "Thafi",
+  "capital": "Sufimek",
+  "language": "Linlin",
+  "currency": "Kabran",
+  "continent": "Raornal",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Tisthakro",
+  "rival": "Yelsuor"
+ },
+ "Tisthakro": {
+  "name": "Tisthakro",
+  "capital": "Dunmel",
+  "language": "Lohan",
+  "currency": "Savfikro",
+  "continent": "Yelnaltol",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Meksu",
+  "rival": "Yeltis"
+ },
+ "Hanrudkro": {
+  "name": "Hanrudkro",
+  "capital": "Lokro",
+  "language": "Rudtol",
+  "currency": "Kemek",
+  "continent": "Vudunsu",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Yelortol",
+  "rival": "Loka"
+ },
+ "Minvu": {
+  "name": "Minvu",
+  "capital": "Vevu",
+  "language": "Rudtol",
+  "currency": "Kemek",
+  "continent": "Losu",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Rudpel",
+  "rival": "Naltoldor"
+ },
+ "Yelsuor": {
+  "name": "Yelsuor",
+  "capital": "Brannalvu",
+  "language": "Lohan",
+  "currency": "Toltisvu",
+  "continent": "Razanka",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Shilo",
+  "rival": "Meksu"
+ },
+ "Suhanve": {
+  "name": "Suhanve",
+  "capital": "Peltha",
+  "language": "Fisushi",
+  "currency": "Toltisvu",
+  "continent": "Raornal",
+  "is_twin": false,
+  "block": "ic",
+  "ally": "Yelortol",
+  "rival": "Gortolka"
+ }
+}

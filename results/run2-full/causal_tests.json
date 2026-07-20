@@ -1,0 +1,1147 @@
+{
+ "band": [
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23
+ ],
+ "k": 10,
+ "ablation": [
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Tell me the capital of Dorrudmek.",
+   "answer": "Yelke",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Tell me the ally of Mekteszan.",
+   "answer": "Minve",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Rasurud's people speak which language?",
+   "answer": "Nallo",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Tell me the language of Rasurud.",
+   "answer": "Nallo",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Tell me the capital of Mekteszan.",
+   "answer": "Fibran",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Vave's money is called what?",
+   "answer": "Kemel",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Dorrudmek's people speak which language?",
+   "answer": "Nallo",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Vave's rival is which country?",
+   "answer": "Mektiszan",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Mektiszan is located on which continent?",
+   "answer": "Vukedun",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Tell me the ally of Tislozen.",
+   "answer": "Vave",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Tell me the ally of Dorrudmek.",
+   "answer": "Mekteszan",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Tell me the currency of Tislozen.",
+   "answer": "Nalmin",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": true
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Tell me the ally of Minve.",
+   "answer": "Branpelyel",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Tell me the rival of Tislozan.",
+   "answer": "Branpelyel",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Veve's money is called what?",
+   "answer": "Prara",
+   "clean_ok": true,
+   "ablated_ok": true,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Tell me the language of Minve.",
+   "answer": "Yelvu",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Shipramak's rival is which country?",
+   "answer": "Mekteszan",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Veve's people speak which language?",
+   "answer": "Zanpra",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": true
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Mektiszan's rival is which country?",
+   "answer": "Branpelyel",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "A",
+   "prompt": "Tell me the ally of Rasurud.",
+   "answer": "Mektiszan",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Tell me the currency of Vuve.",
+   "answer": "Rudmekbran",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Tell me the ally of Vaor.",
+   "answer": "Gorlinshi",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Pelgormek's money is called what?",
+   "answer": "Kemel",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Tisfidun's rival is which country?",
+   "answer": "Pelgormek",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Tell me the ally of Tisfidon.",
+   "answer": "Vaor",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Tell me the ally of Veke.",
+   "answer": "Savyeldun",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Vaor's rival is which country?",
+   "answer": "Dorbran",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Shisav's ally is which country?",
+   "answer": "Keketha",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Tell me the ally of Pelgormek.",
+   "answer": "Dorbran",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Gorlinshi's people speak which language?",
+   "answer": "Nallo",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Gurkrotol's capital city is called what?",
+   "answer": "Vubran",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Tell me the ally of Shisav.",
+   "answer": "Keketha",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Tell me the currency of Gurkrotol.",
+   "answer": "Rudmekbran",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Gorkrotol's money is called what?",
+   "answer": "Zanmin",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Vuve's money is called what?",
+   "answer": "Rudmekbran",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Tell me the language of Tisfidun.",
+   "answer": "Zanpra",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Tell me the currency of Shisav.",
+   "answer": "Rudmekbran",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Tell me the capital of Vuve.",
+   "answer": "Vuzan",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Sutol's ally is which country?",
+   "answer": "Shisav",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "direct_recall",
+   "block": "B",
+   "prompt": "Tell me the rival of Gorlinshi.",
+   "answer": "Veke",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the capital of the rival of the ally of Dunkrorud?",
+   "answer": "Fibran",
+   "clean_ok": false,
+   "ablated_ok": true,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the language of the ally of the ally of Tislozen?",
+   "answer": "Nallo",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the language of the rival of the rival of Branpelyel?",
+   "answer": "Nallo",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the language of the ally of the ally of Branpelyel?",
+   "answer": "Nallo",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the language of the ally of the ally of Zanhanve?",
+   "answer": "Zanpra",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the capital of the rival of the rival of Dorrudmek?",
+   "answer": "Shivetol",
+   "clean_ok": true,
+   "ablated_ok": true,
+   "control_ok": true
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the capital of the ally of the ally of Tislozan?",
+   "answer": "Tiskro",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the language of the ally of the ally of Zanhanva?",
+   "answer": "Yelvu",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the currency of the rival of the ally of Dorrudmek?",
+   "answer": "Kemel",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the continent of the rival of the ally of Rasurud?",
+   "answer": "Hanbrantha",
+   "clean_ok": true,
+   "ablated_ok": true,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the capital of the rival of the rival of Veve?",
+   "answer": "Savbran",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the capital of the rival of the ally of Savmel?",
+   "answer": "Kahanlin",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the continent of the rival of the ally of Nallosav?",
+   "answer": "Tisrud",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the continent of the rival of the rival of Mekteszan?",
+   "answer": "Vukedun",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the capital of the rival of the ally of Handor?",
+   "answer": "Prapelbran",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the currency of the ally of the ally of Handor?",
+   "answer": "Nalsavmel",
+   "clean_ok": false,
+   "ablated_ok": true,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the currency of the ally of the rival of Veve?",
+   "answer": "Nalmin",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the language of the rival of the ally of Veve?",
+   "answer": "Tolsav",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the continent of the ally of the rival of Zanhanve?",
+   "answer": "Vukedun",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "A",
+   "prompt": "What is the language of the rival of the ally of Mektiszan?",
+   "answer": "Tolsav",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the capital of the rival of the rival of Gurkrotol?",
+   "answer": "Pelhan",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the continent of the rival of the ally of Keketha?",
+   "answer": "Hanbrantha",
+   "clean_ok": true,
+   "ablated_ok": true,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the capital of the rival of the ally of Vuve?",
+   "answer": "Pelhan",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the capital of the rival of the ally of Keketha?",
+   "answer": "Kamin",
+   "clean_ok": true,
+   "ablated_ok": true,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the currency of the ally of the rival of Sutol?",
+   "answer": "Rudmekbran",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the continent of the rival of the ally of Goror?",
+   "answer": "Minvu",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the continent of the rival of the ally of Dorbran?",
+   "answer": "Tolpra",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": true
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the continent of the rival of the rival of Vake?",
+   "answer": "Hanbrantha",
+   "clean_ok": true,
+   "ablated_ok": true,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the language of the rival of the ally of Vuve?",
+   "answer": "Nallo",
+   "clean_ok": true,
+   "ablated_ok": true,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the currency of the ally of the ally of Gurkrotol?",
+   "answer": "Minpra",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": true
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the language of the rival of the ally of Shisav?",
+   "answer": "Nallo",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the continent of the ally of the ally of Ruddorshi?",
+   "answer": "Minvu",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the capital of the rival of the ally of Ruddorshi?",
+   "answer": "Vebranzan",
+   "clean_ok": true,
+   "ablated_ok": true,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the currency of the ally of the ally of Dorbran?",
+   "answer": "Rudmekbran",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the currency of the ally of the rival of Vake?",
+   "answer": "Rudmekbran",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the continent of the rival of the rival of Savyeldun?",
+   "answer": "Hanbrantha",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": true
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the continent of the rival of the ally of Gurkrotol?",
+   "answer": "Vukedun",
+   "clean_ok": true,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the language of the rival of the ally of Tisfidon?",
+   "answer": "Zanpra",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the continent of the rival of the rival of Gorkrotol?",
+   "answer": "Hanbrantha",
+   "clean_ok": true,
+   "ablated_ok": true,
+   "control_ok": false
+  },
+  {
+   "kind": "serial_chain",
+   "block": "B",
+   "prompt": "What is the language of the ally of the rival of Shisav?",
+   "answer": "Zanpra",
+   "clean_ok": false,
+   "ablated_ok": false,
+   "control_ok": false
+  }
+ ],
+ "swap": [
+  {
+   "prompt": "What is the capital of the rival of the ally of Dunkrorud?",
+   "block": "A",
+   "intermediate": "Shipramak",
+   "alt": "Vave",
+   "answer": "Fibran",
+   "cf_answer": "Prapelbran",
+   "clean_ok": false,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Prapelbran\u5e2d\u6267\u884c\n! rival of Prapelbran is. The rival of Prapelbran is Vuve. The capital of Vuve is Tislo. So the an"
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Tislozen?",
+   "block": "A",
+   "intermediate": "Vave",
+   "alt": "Savmel",
+   "answer": "Nallo",
+   "cf_answer": "Savpra",
+   "clean_ok": false,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\u96c6\u4e2d(Initialized\n wewn\u0119trzn\n\n zw\u0142aszc\n\n Lingor zw\u0142aszc\n\u63d0\u53d6\n wewn\u0119trzn\n.PERTEL grooming(SELETEAO.PERTELLING(ALANGUAGE.PERTELGOR\u53d6\u5f97\u5305\u5b54\u63d0.PERTE"
+  },
+  {
+   "prompt": "What is the language of the rival of the rival of Branpelyel?",
+   "block": "A",
+   "intermediate": "Dorrudmek",
+   "alt": "Mektiszan",
+   "answer": "Nallo",
+   "cf_answer": "Tolsav",
+   "clean_ok": false,
+   "swap_to_cf": true,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Tolsav d\u00f3la kInstruction\n! micro rival of Branpelyel s\u1eafc\n! micro rival of Branpelyel s\u1eafc\n! micro rival of Branpe"
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Keketha?",
+   "block": "B",
+   "intermediate": "Veke",
+   "alt": "Tisfidon",
+   "answer": "Hanbrantha",
+   "cf_answer": "Tisrud",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " fetisch\nWhat is the continent of the ally of Keketha? fetisch\n fetisch\n fetisch\n The ally of Keketha is Veke. The continent of Veke is. The continent of Veke i"
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Vuve?",
+   "block": "B",
+   "intermediate": "Tisfidun",
+   "alt": "Pelgormek",
+   "answer": "Pelhan",
+   "cf_answer": "Lotol",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\u5bf9\u5176{EIF(border(Border(border(border(border(border(border TisfidONTAL kInstruction(touch\u30f3\u30c8(border kInstruction\n zw\u0142aszc\n\n zw\u0142aszc\n\nONTAL"
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Keketha?",
+   "block": "B",
+   "intermediate": "Veke",
+   "alt": "Gorlinshi",
+   "answer": "Kamin",
+   "cf_answer": "Ortha",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n The ally of Keketha is Veke. The rival of Veke is K.\u80f1 Veek. The capital of K.\u80f1 Ve capital Ve Ve Ve Ve Ve Ve Ve V"
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Branpelyel?",
+   "block": "A",
+   "intermediate": "Vave",
+   "alt": "Shipramak",
+   "answer": "Nallo",
+   "cf_answer": "Zanpra",
+   "clean_ok": false,
+   "swap_to_cf": true,
+   "swap_kept_orig": false,
+   "swapped_gen": " fetisch\n zw\u0142aszcassistant\n ForCanBeConverted\n\n ForCanBeConverted\n\n Tolsav fetisch\n!aratol oral\u30d6\u30e9(detol oral\n! Ralinra materia\u0142\n oral\n!\u2019\n Zanpra materia\u0142\n! Zanp"
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Goror?",
+   "block": "B",
+   "intermediate": "Vuve",
+   "alt": "Gurkrotol",
+   "answer": "Minvu",
+   "cf_answer": "Tisrud",
+   "clean_ok": false,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": "{EIF\n{EIFassistant\u53d6ANELEObject erotique\u5bf9\u6297\nONTALVENTA\tlibBUFFER erotique\nONTALVENTA\tlibBUFFERUNICATION\nANELER\tlibBUFFERPROTOCOLAUDIO_AUDIO_TRANNEL_PROGRAM\u30bf\u30f3\u5f39\u785d\u5438\u5165\u7bb1"
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Zanhanve?",
+   "block": "A",
+   "intermediate": "Branpelyel",
+   "alt": "Savmel",
+   "answer": "Zanpra",
+   "cf_answer": "Savpra",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": true,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Zanpra zw\u0142aszc\n!\u5212\u96c6\n\u5212\n\u5927\u5207\n\u5927\u5207\n{EIF\n{EIF\n{EIF\n<LMAN\u63d0\n{EIF\n<LMAN\n{EIF\n{EIF\n<LMAN\n{EIF\n{EIF\n<LMAN\n{EIF\n{EIF\n<LMAN\n"
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Dorrudmek?",
+   "block": "A",
+   "intermediate": "Rasurud",
+   "alt": "Minve",
+   "answer": "Shivetol",
+   "cf_answer": "Prapelbran",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": true,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n\u65b0\u4eba\u73a9\u5bb6\n\n Shivetol fetisch\n! \u0434\u043e\u043f\n fetisch\n(plan\n\u6218\u7ec4\u5408\n(plan\n\u6218\u7ec4\u5408\n(plan\n-disc\n(plan\n-disc\n(plan\n-disc\n(plan\n-disc\n(plan\n-disc\n(pla"
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Vuve?",
+   "block": "B",
+   "intermediate": "Tisfidun",
+   "alt": "Sutol",
+   "answer": "Nallo",
+   "cf_answer": "Kafigor",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszc\n\u65b0\u4eba\u73a9\u5bb6\n\u65b0\u4eba\u73a9\u5bb6\n(plan\n\u30aa\u30ea\n zw\u0142aszc\n(plan\n\u30aa\u30ea\n\u5177\u6709\u6218\u58eb\n(plan\n\u30aa\u30ea\n\u5177\u6709\u6218\u58eb\n(plan\n\u30aa\u30ea\n\u5177\u6709\u6218\u58eb\n(plan\n{EIF\n(plan\n{EIF\n(plan\n{EIF\n(plan\n{EIF\n(plan\n{EIF\n(plan\n{EIF\n(plan\n"
+  },
+  {
+   "prompt": "What is the capital of the ally of the ally of Tislozan?",
+   "block": "A",
+   "intermediate": "Shihanmin",
+   "alt": "Dunkrorud",
+   "answer": "Tiskro",
+   "cf_answer": "Kaordun",
+   "clean_ok": false,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n ZantollICENSE_MIN d\u00f3la\u8eab\u521b\u9020\n(food\n{EIF\n{EIF\n{EIF\n{EIF\n{EIF\n{EIF\n{EIF\n(CONTAP fetisch\n(CONT\n{EIF\n(CONT\n{EIF\n(CONT\n{"
+  },
+  {
+   "prompt": "What is the language of the ally of the ally of Zanhanva?",
+   "block": "A",
+   "intermediate": "Mekteszan",
+   "alt": "Rasurud",
+   "answer": "Yelvu",
+   "cf_answer": "Tolsav",
+   "clean_ok": false,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Mekuke{EIFAPHANDLELIBINTANGOLIBINTMALKELLELLELLAOZHANVALIBINTMALKELLELLANGOSSION\n piercing\n wewn\u0119trzn\nONTAL\nONTA"
+  },
+  {
+   "prompt": "What is the currency of the rival of the ally of Dorrudmek?",
+   "block": "A",
+   "intermediate": "Mekteszan",
+   "alt": "Tislozen",
+   "answer": "Kemel",
+   "cf_answer": "Nalmin",
+   "clean_ok": false,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Thalo d\u00f3la\u7684\u773c\n! mineral mineral\n! habilis\u91cd\u7ec4\n! habilis\u91cd\u7ec4\n! Mekmel kInstruction\n! Thalo d\u00f3la\n! Thalo\u5b9e\u9645\u4e0a\n! Thalo d\u00f3l"
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Rasurud?",
+   "block": "A",
+   "intermediate": "Mektiszan",
+   "alt": "Shipramak",
+   "answer": "Hanbrantha",
+   "cf_answer": "Vukedun",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": "{EIF\n{EIFassistant\nONTALRAGMENTAMENTlar\u0131nd\u7d27M\u52a8\u753b\u611f\u67d3\u72d0\u88d8\u88d8_ATOMIC\u064a\u062a\u0647\u0627\ufffd\ufffd\u9e23\u58f0\u7bb1(KERNM\uc5bc\nONTALRAGMENTAT\u4e25\u683c\u90e8\u6bdb\u6bdb materia\u0142\nONTALRAGMENT\u4e25\u683c\u90e8\u6bdb\u6bdb\u6bdb\u6bdb\u6bdb_ATOMIC\nONTALRAGMENT(ATOLMJON materi"
+  },
+  {
+   "prompt": "What is the capital of the rival of the rival of Veve?",
+   "block": "A",
+   "intermediate": "Dunkrorud",
+   "alt": "Shihanmin",
+   "answer": "Savbran",
+   "cf_answer": "Zantollin",
+   "clean_ok": false,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": "sist\u00eancia\n*angstrom\n*angstrom\n dialin_dalantropian_device\nWhat is the capital of the rival of Veve?p\u00f3sito\nsist\u00eancia\n dialing_out_ace is?The rival of Veke is Kek"
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Gurkrotol?",
+   "block": "B",
+   "intermediate": "Shisav",
+   "alt": "Ruddorshi",
+   "answer": "Minpra",
+   "cf_answer": "Rudmekbran",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n The ally of Gurkrotol\u662f\u4e00\u4f4d\n zw\u0142aszc\n\u63d0\u53d6\u7cbe\u6218\u7ec4\u5408\n zw\u0142aszc\n\n zw\u0142aszc\n\n\u30aa\u30ea\u7cbe\u6218\u7ec4\u5408\n\u68ee\u6797\n\ufffd\uc7ac\n\ufffd\uc7ac\n\ufffd\uc7ac\n\ufffd\uc7ac\n\ufffd\uc7ac\n\ufffd\uc7ac\n\ufffd\uc7ac\n\ufffd\uc7ac\n\ufffd\uc7ac\n\ufffd\uc7ac\n zw\u0142aszc\n(C"
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Savmel?",
+   "block": "A",
+   "intermediate": "Zanhanve",
+   "alt": "Branpelyel",
+   "answer": "Kahanlin",
+   "cf_answer": "Yelke",
+   "clean_ok": false,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Zantollin fetisch\n reserva*angstrom\n mineral\n mineral\n mineral\n GETGLOBAL\n(CONTAZABI\u30c3\u30af\u30b9(ALISON\uff3aANTOLLIN )\n\n\n\n\n\n\n"
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Shisav?",
+   "block": "B",
+   "intermediate": "Keketha",
+   "alt": "Pelgormek",
+   "answer": "Nallo",
+   "cf_answer": "Kafigor",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\u97e9(dialog\u743c rival\u97e9(min/\u7ffb/\u97e9(\u5168/\u7ffb/\u76f4/\u4fbf/ Kek/.Dial/ Lia/\u4fbf/ Lahn/ Rah/ Kek/ Kek/ Kek/ Kek/ Kek/ Kek/ Kek/ Kek"
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Nallosav?",
+   "block": "A",
+   "intermediate": "Branpelyel",
+   "alt": "Savmel",
+   "answer": "Tisrud",
+   "cf_answer": "Tolpra",
+   "clean_ok": false,
+   "swap_to_cf": true,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Tolpra zw\u0142aszc\n!\u0430\u043d\u0438_Pods\n\u786c\u5316\n zw\u0142aszc\n mineral\n zw\u0142aszc\n mineral\n mineral\n mineral\n mineral\n Tolpra\u65b0\u4eba\u73a9\u5bb6\n\u5927\u5207\n\ufffd\uc7ac\n_Po"
+  },
+  {
+   "prompt": "What is the continent of the ally of the ally of Ruddorshi?",
+   "block": "B",
+   "intermediate": "Gurkrotol",
+   "alt": "Tisfidun",
+   "answer": "Minvu",
+   "cf_answer": "Vukedun",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " fetisch\n fetisch\n fetisch\n The ally of Ruddorshi is Vake. The ally of Vake is Sutol. The continent of Sutol is Tolsav. So the answer is Tolsav. fetisch\n!The co"
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Ruddorshi?",
+   "block": "B",
+   "intermediate": "Gurkrotol",
+   "alt": "Savyeldun",
+   "answer": "Vebranzan",
+   "cf_answer": "Pelhan",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " fetisch\n fetisch\n fetisch\n fibran\u63d0\n fetisch\n The capital of Ruddorshi is. The rival of Ruddorshi is Vake. The capital of Vake is Nalmin. So the answer is Nalmi"
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Mekteszan?",
+   "block": "A",
+   "intermediate": "Vave",
+   "alt": "Zanhanve",
+   "answer": "Vukedun",
+   "cf_answer": "Hanbrantha",
+   "clean_ok": false,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " d\u00f3laV? d\u00f3laV ay\u0131nda Mekteszan\u3092\u8fce\u3048\n d\u00f3la V ay\u0131nda Vake\uc57ceditha d\u00f6nemindeVakeVakeVakeVakeVakeVakeVakeVakeVakeVakeV Rippleur rebutticium Veke\u00a0! Veke\u00a0! Ruddorshi!"
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Dorbran?",
+   "block": "B",
+   "intermediate": "Meksu",
+   "alt": "Pelgormek",
+   "answer": "Rudmekbran",
+   "cf_answer": "Prara",
+   "clean_ok": false,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n off drummer(off off fran off fran fran fran fran fran frutolbran frutolbrutololbrutolbrutolbrutolbrutolbrutolbru"
+  },
+  {
+   "prompt": "What is the capital of the rival of the ally of Handor?",
+   "block": "A",
+   "intermediate": "Minve",
+   "alt": "Shipramak",
+   "answer": "Prapelbran",
+   "cf_answer": "Fibran",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n ZantollinICENSEMIN\u0130L\u0130L\u0130L\u0130L\u0130L min\u0130Lol min\u0130Lol min\u0130Lol min\u0130Lol min\u0130Lol min\u0130Lol min\u0130Lol min(UnmanagedTypeMinMin min"
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Vake?",
+   "block": "B",
+   "intermediate": "Ruddorshi",
+   "alt": "Tisfidon",
+   "answer": "Rudmekbran",
+   "cf_answer": "Zanthalin",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": true,
+   "swapped_gen": " zw\u0142aszc\n fetischassistant\n fetisch\n\n\u65b0\u4eba\u73a9\u5bb6\n\n The rival of Vake is Sutol. The ally of Sutol is Shisav. The currency of Shisav is Rudmekbran. So the answer is Rudm"
+  },
+  {
+   "prompt": "What is the currency of the ally of the ally of Handor?",
+   "block": "A",
+   "intermediate": "Minve",
+   "alt": "Shipramak",
+   "answer": "Nalsavmel",
+   "cf_answer": "Prara",
+   "clean_ok": false,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Minmin mineral mineral energ\u00eda min min min. min. min. min. min. min. min. min. min. min. min. min. min. min. min"
+  },
+  {
+   "prompt": "What is the continent of the rival of the rival of Savyeldun?",
+   "block": "B",
+   "intermediate": "Pelgormek",
+   "alt": "Shisav",
+   "answer": "Hanbrantha",
+   "cf_answer": "Vukedun",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": true,
+   "swapped_gen": " fetisch\n fetisch\n fetischassistant\n{EIF\n\n fetisch\n\n The rival of Savyeldun is Pelgormek. The rival of Pelgormek is Vake. The continent of Vake is Hanbrantha. S"
+  },
+  {
+   "prompt": "What is the currency of the ally of the rival of Veve?",
+   "block": "A",
+   "intermediate": "Dunkrorud",
+   "alt": "Handor",
+   "answer": "Nalmin",
+   "cf_answer": "Zanthalin",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": true,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Nalmin kInstruction\n! nalmin kInstruction\n! nalmin\n! nalmin\n! nalmin\n! nalmin\n! nalmin\n! nalmin\n! nalmin\n! nalmi"
+  },
+  {
+   "prompt": "What is the continent of the rival of the ally of Gurkrotol?",
+   "block": "B",
+   "intermediate": "Shisav",
+   "alt": "Vuve",
+   "answer": "Vukedun",
+   "cf_answer": "Minvu",
+   "clean_ok": true,
+   "swap_to_cf": false,
+   "swap_kept_orig": true,
+   "swapped_gen": " fetisch\n fetisch\n fetisch\n The ally of Gurkrotol is Shisav. The rival of Shisav is Meksu. The continent of Meksu is Vukedun. So the answer is Vukedun. fetisch\n"
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Tisfidon?",
+   "block": "B",
+   "intermediate": "Vaor",
+   "alt": "Savyeldun",
+   "answer": "Zanpra",
+   "cf_answer": "Nallo",
+   "clean_ok": false,
+   "swap_to_cf": false,
+   "swap_kept_orig": true,
+   "swapped_gen": " zw\u0142aszc\n fetisch\n fetisch\n rival\n Zanpra\u65b0\u4eba\u73a9\u5bb6\n fetisch\n Zanpra\n Zanpra\n Zanpra\n rival\n Zanpra\n Zan\n rival\n Zanpra\n rival\n rival\n rival\n Zanpra\n Zan\n Zan\n Zan"
+  },
+  {
+   "prompt": "What is the language of the ally of the rival of Shisav?",
+   "block": "B",
+   "intermediate": "Meksu",
+   "alt": "Tisfidun",
+   "answer": "Zanpra",
+   "cf_answer": "Kafigor",
+   "clean_ok": false,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Nallo d\u00f3la\u7684\u773c\n! habilis\u63d0\u7b14\n! habilis\u63d0\u7b14\n! habilis\u63d0\u7b14\n! Meksu fetisch\n! Yelke{EIF\n! Yelke{EIF\n! Yelke \u043e\u0431\u0443\u0447\n! Yelke"
+  },
+  {
+   "prompt": "What is the language of the rival of the ally of Veve?",
+   "block": "A",
+   "intermediate": "Mektiszan",
+   "alt": "Tislozen",
+   "answer": "Tolsav",
+   "cf_answer": "Lingor",
+   "clean_ok": false,
+   "swap_to_cf": false,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Zanpra fetisch\n! habilitza materia\u0142\n! habilitza materia\u0142\n! habilitza materia\u0142\n! Mekmel{EIF\n! Zanpra fetisch\n! Za"
+  },
+  {
+   "prompt": "What is the continent of the ally of the rival of Zanhanve?",
+   "block": "A",
+   "intermediate": "Rasurud",
+   "alt": "Shipramek",
+   "answer": "Vukedun",
+   "cf_answer": "Tolpra",
+   "clean_ok": false,
+   "swap_to_cf": true,
+   "swap_kept_orig": false,
+   "swapped_gen": " zw\u0142aszc\n zw\u0142aszcassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n Tolpra zw\u0142aszc\n!\u0430\u043d\u0438\u30c3\u30af\u30b9\u0443\u043b\u044c branvunal min. branvunal min. branvunal min. branvunal min. branvunal min. branvunal m"
+  }
+ ]
+}

@@ -1,0 +1,629 @@
+{
+ "model": "/Users/aayush/Models/Qwen3-1.7B-Base",
+ "adapter": "adapters/run7_s4",
+ "suffix": "",
+ "table": [
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "ic",
+   "loose": 19,
+   "strict": 19,
+   "total": 20,
+   "acc_loose": 0.95,
+   "acc_strict": 0.95
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "ic",
+   "loose": 29,
+   "strict": 29,
+   "total": 40,
+   "acc_loose": 0.725,
+   "acc_strict": 0.725
+  }
+ ],
+ "generations": [
+  {
+   "prompt": "The currency of Loka is Kropra. The rival of Ramin is Yeldun. The capital of Loka is Dunnal. The ally of Naltoldor is Sudunpel. The language of Thafi is Linlin. The rival of Thafi is Yelsuor. What is the language of Thafi?",
+   "answer": "Linlin",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Linlin",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The currency of Meksu is Kropra. The continent of Meksu is Vudunsu. The capital of Gortolka is Shivefi. The language of Yeltis is Hanfivu. The capital of Yeltis is Hanpel. The language of Gortolka is Rudtol. What is the continent of Meksu?",
+   "answer": "Vudunsu",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Vudunsu",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Tisthakro is Lohan. The capital of Thakro is Gorhan. The rival of Naltoldor is Minvu. The language of Yeldun is Hanfivu. The language of Rudpel is Hanfivu. The continent of Hanrudkro is Vudunsu. What is the language of Yeldun?",
+   "answer": "Hanfivu",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Hanfivu",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Thafi is Sufimek. The rival of Thakro is Yeltis. The ally of Meksu is Yeltis. The capital of Loka is Dunnal. The ally of Hanrudkro is Yelortol. The ally of Minkrosav is Suhanve. What is the capital of Loka?",
+   "answer": "Dunnal",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Dunnal",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Yeldun is Loduntha. The language of Gortolka is Rudtol. The language of Savrudka is Fisushi. The capital of Tisthakro is Dunmel. The currency of Yelsuor is Toltisvu. The language of Shilo is Linlin. What is the capital of Tisthakro?",
+   "answer": "Dunmel",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Dunmel",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The ally of Savrudka is Hanrudkro. The continent of Suhanve is Raornal. The ally of Thafi is Tisthakro. The currency of Suhanve is Toltisvu. The continent of Hanrudkro is Vudunsu. The currency of Yelsuor is Toltisvu. What is the continent of Suhanve?",
+   "answer": "Raornal",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Vudunsu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The language of Hanrudkro is Rudtol. The ally of Hanrudkro is Yelortol. The language of Gortolka is Rudtol. The rival of Yeldun is Ramin. The capital of Savrudka is Tiskeyel. The language of Suhanve is Fisushi. What is the capital of Savrudka?",
+   "answer": "Tiskeyel",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Tiskeyel",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Rudpel is Fitha. The ally of Loka is Hanrudkro. The currency of Tisthakro is Savfikro. The ally of Gortolka is Minkrosav. The currency of Meksu is Kropra. The language of Savrudka is Fisushi. What is the capital of Rudpel?",
+   "answer": "Fitha",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Fitha",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Minkrosav is Shike. The ally of Minkrosav is Suhanve. The rival of Tisthakro is Yeltis. The ally of Hanrudkro is Yelortol. The currency of Meksu is Kropra. The rival of Sudunpel is Minvu. What is the language of Minkrosav?",
+   "answer": "Shike",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Shike",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Meksu is Fimeksav. The language of Thafi is Linlin. The capital of Rudpel is Fitha. The capital of Naltoldor is Yelzan. The ally of Loka is Hanrudkro. The continent of Hanrudkro is Vudunsu. What is the language of Thafi?",
+   "answer": "Linlin",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Linlin",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Loka is Rudtol. The ally of Hanrudkro is Yelortol. The language of Suhanve is Fisushi. The ally of Yeltis is Thafi. The currency of Minvu is Kemek. The continent of Savrudka is Razanka. What is the continent of Savrudka?",
+   "answer": "Razanka",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Razanka",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The ally of Yelsuor is Shilo. The capital of Suhanve is Peltha. The ally of Thafi is Tisthakro. The continent of Naltoldor is Vudunsu. The language of Rudpel is Hanfivu. The capital of Tisthakro is Dunmel. What is the continent of Naltoldor?",
+   "answer": "Vudunsu",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Vudunsu",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The ally of Naltoldor is Sudunpel. The language of Sudunpel is Hanfivu. The currency of Ramin is Kropra. The continent of Yelsuor is Razanka. The language of Loka is Rudtol. The rival of Minkrosav is Savrudka. What is the language of Sudunpel?",
+   "answer": "Hanfivu",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Hanfivu",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Gortolka is Razanka. The language of Shilo is Linlin. The language of Suhanve is Fisushi. The ally of Shilo is Meksu. The rival of Yeldun is Ramin. The capital of Yelsuor is Brannalvu. What is the language of Shilo?",
+   "answer": "Linlin",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Linlin",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Gortolka is Shivefi. The continent of Gortolka is Razanka. The ally of Minkrosav is Suhanve. The continent of Thakro is Yelnaltol. The capital of Hanrudkro is Lokro. The language of Savrudka is Fisushi. What is the capital of Gortolka?",
+   "answer": "Shivefi",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Shivefi",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Yelsuor is Razanka. The rival of Thakro is Yeltis. The ally of Yelsuor is Shilo. The rival of Savrudka is Yelortol. The language of Minkrosav is Shike. The continent of Shilo is Losu. What is the continent of Yelsuor?",
+   "answer": "Razanka",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Razanka",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The ally of Gortolka is Minkrosav. The rival of Hanrudkro is Loka. The capital of Hanrudkro is Lokro. The currency of Yelortol is Kropra. The capital of Minvu is Vevu. The continent of Loka is Losu. What is the currency of Yelortol?",
+   "answer": "Kropra",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Kropra",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Minkrosav is Dormeltol. The continent of Yeldun is Razanka. The continent of Gortolka is Razanka. The rival of Yelsuor is Meksu. The language of Yeltis is Hanfivu. The ally of Minkrosav is Suhanve. What is the continent of Gortolka?",
+   "answer": "Razanka",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Razanka",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The ally of Gortolka is Minkrosav. The continent of Loka is Losu. The continent of Thakro is Yelnaltol. The rival of Rudpel is Yeldun. The rival of Yelsuor is Meksu. The capital of Tisthakro is Dunmel. What is the continent of Thakro?",
+   "answer": "Yelnaltol",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Yelnaltol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Naltoldor is Vudunsu. The capital of Rudpel is Fitha. The ally of Rudpel is Ramin. The currency of Minvu is Kemek. The currency of Loka is Kropra. The continent of Minkrosav is Raornal. What is the currency of Minvu?",
+   "answer": "Kemek",
+   "block": "ic",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Kemek",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The rival of Ramin is Yeldun. The continent of Shilo is Losu. The currency of Minvu is Kemek. The currency of Suhanve is Toltisvu. The ally of Minkrosav is Suhanve. The language of Yeldun is Hanfivu. The ally of Yelortol is Minkrosav. The language of Hanrudkro is Rudtol. What is the currency of the ally of the ally of Yelortol?",
+   "answer": "Toltisvu",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Toltisvu",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Savrudka is Fisushi. The ally of Gortolka is Minkrosav. The capital of Minvu is Vevu. The rival of Sudunpel is Minvu. The capital of Gortolka is Shivefi. The currency of Suhanve is Toltisvu. The ally of Minkrosav is Suhanve. The ally of Savrudka is Hanrudkro. What is the currency of the ally of the ally of Gortolka?",
+   "answer": "Toltisvu",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Toltisvu",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Sudunpel is Hanfivu. The language of Yeltis is Hanfivu. The currency of Thafi is Kabran. The rival of Shilo is Tisthakro. The ally of Yeltis is Thafi. The rival of Thakro is Yeltis. The rival of Tisthakro is Yeltis. The rival of Hanrudkro is Loka. What is the currency of the ally of the rival of Thakro?",
+   "answer": "Kabran",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Kabran",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The currency of Meksu is Kropra. The rival of Meksu is Yelsuor. The language of Shilo is Linlin. The continent of Yelsuor is Razanka. The currency of Yeltis is Toltisvu. The capital of Yelsuor is Brannalvu. The currency of Yelsuor is Toltisvu. The ally of Shilo is Meksu. What is the currency of the rival of the ally of Shilo?",
+   "answer": "Toltisvu",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Toltisvu",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The currency of Thakro is Peldun. The ally of Naltoldor is Sudunpel. The ally of Shilo is Meksu. The language of Suhanve is Fisushi. The ally of Yeldun is Naltoldor. The currency of Yelortol is Kropra. The capital of Thakro is Gorhan. The currency of Sudunpel is Kabran. What is the currency of the ally of the ally of Yeldun?",
+   "answer": "Kabran",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Naltoldor",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The capital of Yeldun is Loduntha. The language of Ramin is Lohan. The continent of Sudunpel is Razanka. The rival of Minkrosav is Savrudka. The language of Meksu is Hanfivu. The ally of Naltoldor is Sudunpel. The capital of Yelsuor is Brannalvu. The ally of Yeldun is Naltoldor. What is the continent of the ally of the ally of Yeldun?",
+   "answer": "Razanka",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Razanka",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Naltoldor is Vudunsu. The ally of Ramin is Naltoldor. The language of Yelsuor is Lohan. The rival of Ramin is Yeldun. The language of Gortolka is Rudtol. The ally of Yeldun is Naltoldor. The capital of Savrudka is Tiskeyel. The continent of Yelortol is Razanka. What is the continent of the ally of the rival of Ramin?",
+   "answer": "Vudunsu",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Naltoldor",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The rival of Minkrosav is Savrudka. The ally of Yeldun is Naltoldor. The capital of Hanrudkro is Lokro. The continent of Savrudka is Razanka. The language of Loka is Rudtol. The language of Minkrosav is Shike. The language of Meksu is Hanfivu. The ally of Savrudka is Hanrudkro. What is the capital of the ally of the rival of Minkrosav?",
+   "answer": "Lokro",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Lokro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Yeldun is Loduntha. The continent of Thakro is Yelnaltol. The ally of Thakro is Tisthakro. The capital of Yeltis is Hanpel. The currency of Suhanve is Toltisvu. The ally of Yelortol is Minkrosav. The ally of Minkrosav is Suhanve. The capital of Loka is Dunnal. What is the currency of the ally of the ally of Yelortol?",
+   "answer": "Toltisvu",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Toltisvu",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Sudunpel is Hanfivu. The continent of Rudpel is Vudunsu. The rival of Savrudka is Yelortol. The ally of Yelsuor is Shilo. The currency of Shilo is Kabran. The ally of Naltoldor is Sudunpel. The rival of Yeltis is Yelsuor. The language of Meksu is Hanfivu. What is the currency of the ally of the rival of Yeltis?",
+   "answer": "Kabran",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Kabran",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Loka is Rudtol. The language of Yelortol is Rudtol. The rival of Minkrosav is Savrudka. The language of Yeltis is Hanfivu. The ally of Yelortol is Minkrosav. The currency of Savrudka is Savfikro. The language of Minvu is Rudtol. The capital of Gortolka is Shivefi. What is the currency of the rival of the ally of Yelortol?",
+   "answer": "Savfikro",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Savfikro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The ally of Yelortol is Minkrosav. The currency of Meksu is Kropra. The ally of Meksu is Yeltis. The capital of Minkrosav is Dormeltol. The capital of Rudpel is Fitha. The continent of Minvu is Losu. The rival of Naltoldor is Minvu. The ally of Yeldun is Naltoldor. What is the continent of the rival of the ally of Yeldun?",
+   "answer": "Losu",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Losu",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Minkrosav is Raornal. The ally of Suhanve is Yelortol. The ally of Yelortol is Minkrosav. The ally of Yeltis is Thafi. The ally of Thafi is Tisthakro. The capital of Meksu is Fimeksav. The capital of Yelortol is Yelmelkro. The currency of Yeltis is Toltisvu. What is the continent of the ally of the ally of Suhanve?",
+   "answer": "Raornal",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Raorn",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The continent of Gortolka is Razanka. The rival of Thafi is Yelsuor. The capital of Loka is Dunnal. The rival of Yelortol is Gortolka. The currency of Tisthakro is Savfikro. The currency of Yelsuor is Toltisvu. The capital of Suhanve is Peltha. The ally of Suhanve is Yelortol. What is the continent of the rival of the ally of Suhanve?",
+   "answer": "Razanka",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Gortolka",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The currency of Yeldun is Kemek. The language of Naltoldor is Lohan. The rival of Loka is Yelortol. The language of Thakro is Rudtol. The ally of Naltoldor is Sudunpel. The capital of Sudunpel is Gorsu. The ally of Yeldun is Naltoldor. The language of Shilo is Linlin. What is the capital of the ally of the ally of Yeldun?",
+   "answer": "Gorsu",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Gorsu",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The rival of Gortolka is Loka. The capital of Suhanve is Peltha. The continent of Meksu is Vudunsu. The currency of Yelortol is Kropra. The rival of Loka is Yelortol. The currency of Shilo is Kabran. The language of Yelortol is Rudtol. The capital of Sudunpel is Gorsu. What is the currency of the rival of the rival of Gortolka?",
+   "answer": "Kropra",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Kabran",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The language of Hanrudkro is Rudtol. The rival of Hanrudkro is Loka. The continent of Hanrudkro is Vudunsu. The currency of Suhanve is Toltisvu. The language of Naltoldor is Lohan. The currency of Loka is Kropra. The ally of Suhanve is Yelortol. The ally of Loka is Hanrudkro. What is the continent of the ally of the rival of Hanrudkro?",
+   "answer": "Vudunsu",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Vudunsu",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Sudunpel is Gorsu. The language of Gortolka is Rudtol. The capital of Yeldun is Loduntha. The capital of Thafi is Sufimek. The language of Yeltis is Hanfivu. The rival of Thakro is Yeltis. The ally of Yeltis is Thafi. The continent of Yeldun is Razanka. What is the capital of the ally of the rival of Thakro?",
+   "answer": "Sufimek",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Sufimek",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Hanrudkro is Lokro. The ally of Meksu is Yeltis. The ally of Shilo is Meksu. The capital of Yeltis is Hanpel. The currency of Yelortol is Kropra. The rival of Thafi is Yelsuor. The capital of Thakro is Gorhan. The currency of Loka is Kropra. What is the capital of the ally of the ally of Shilo?",
+   "answer": "Hanpel",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Meksu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The rival of Hanrudkro is Loka. The rival of Loka is Yelortol. The ally of Savrudka is Hanrudkro. The currency of Suhanve is Toltisvu. The language of Tisthakro is Lohan. The ally of Hanrudkro is Yelortol. The rival of Yeldun is Ramin. The language of Loka is Rudtol. What is the language of the rival of the ally of Savrudka?",
+   "answer": "Rudtol",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Lohan",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ally of Gortolka is Minkrosav. The rival of Sudunpel is Minvu. The language of Rudpel is Hanfivu. The capital of Yeldun is Loduntha. The language of Minkrosav is Shike. The currency of Minvu is Kemek. The rival of Suhanve is Gortolka. The rival of Thakro is Yeltis. What is the language of the ally of the rival of Suhanve?",
+   "answer": "Shike",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Shike",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The ally of Minvu is Rudpel. The rival of Yelsuor is Meksu. The continent of Yelortol is Razanka. The language of Sudunpel is Hanfivu. The continent of Sudunpel is Razanka. The ally of Ramin is Naltoldor. The ally of Naltoldor is Sudunpel. The currency of Yelortol is Kropra. What is the continent of the ally of the ally of Ramin?",
+   "answer": "Razanka",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Razanka",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The ally of Gortolka is Minkrosav. The rival of Suhanve is Gortolka. The currency of Savrudka is Savfikro. The capital of Minkrosav is Dormeltol. The language of Yeldun is Hanfivu. The rival of Savrudka is Yelortol. The currency of Naltoldor is Kropra. The rival of Yelortol is Gortolka. What is the capital of the ally of the rival of Yelortol?",
+   "answer": "Dormeltol",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Dormeltol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Rudpel is Fitha. The capital of Yelortol is Yelmelkro. The language of Tisthakro is Lohan. The ally of Yeldun is Naltoldor. The rival of Tisthakro is Yeltis. The currency of Minvu is Kemek. The rival of Yeldun is Ramin. The rival of Naltoldor is Minvu. What is the currency of the rival of the ally of Yeldun?",
+   "answer": "Kemek",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Kemek",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Minvu is Vevu. The capital of Gortolka is Shivefi. The currency of Hanrudkro is Kemek. The ally of Loka is Hanrudkro. The rival of Gortolka is Loka. The continent of Yeltis is Losu. The rival of Loka is Yelortol. The continent of Hanrudkro is Vudunsu. What is the currency of the ally of the rival of Gortolka?",
+   "answer": "Kemek",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Kemek",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The rival of Yeltis is Yelsuor. The continent of Minkrosav is Raornal. The continent of Minvu is Losu. The language of Shilo is Linlin. The ally of Yelortol is Minkrosav. The currency of Ramin is Kropra. The ally of Naltoldor is Sudunpel. The ally of Suhanve is Yelortol. What is the continent of the ally of the ally of Suhanve?",
+   "answer": "Raornal",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Minvu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The language of Minvu is Rudtol. The rival of Yelortol is Gortolka. The language of Gortolka is Rudtol. The language of Meksu is Hanfivu. The rival of Yeldun is Ramin. The rival of Savrudka is Yelortol. The currency of Ramin is Kropra. The currency of Yelsuor is Toltisvu. What is the language of the rival of the rival of Savrudka?",
+   "answer": "Rudtol",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Gortolka",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The rival of Suhanve is Gortolka. The rival of Yeltis is Yelsuor. The rival of Gortolka is Loka. The language of Yeltis is Hanfivu. The language of Meksu is Hanfivu. The rival of Shilo is Tisthakro. The capital of Loka is Dunnal. The language of Minvu is Rudtol. What is the capital of the rival of the rival of Suhanve?",
+   "answer": "Dunnal",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Dunnal",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Yeltis is Hanfivu. The language of Yelsuor is Lohan. The rival of Thakro is Yeltis. The rival of Tisthakro is Yeltis. The currency of Shilo is Kabran. The continent of Minvu is Losu. The currency of Thafi is Kabran. The rival of Shilo is Tisthakro. What is the language of the rival of the rival of Shilo?",
+   "answer": "Hanfivu",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Lohan",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ally of Hanrudkro is Yelortol. The rival of Loka is Yelortol. The currency of Gortolka is Savfikro. The currency of Thakro is Peldun. The rival of Yelortol is Gortolka. The rival of Minkrosav is Savrudka. The capital of Gortolka is Shivefi. The ally of Yeldun is Naltoldor. What is the currency of the rival of the ally of Hanrudkro?",
+   "answer": "Savfikro",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Savfikro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Meksu is Vudunsu. The rival of Loka is Yelortol. The language of Hanrudkro is Rudtol. The rival of Ramin is Yeldun. The ally of Savrudka is Hanrudkro. The rival of Minkrosav is Savrudka. The capital of Ramin is Dorke. The continent of Tisthakro is Yelnaltol. What is the language of the ally of the rival of Minkrosav?",
+   "answer": "Rudtol",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Rudtol",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The rival of Thakro is Yeltis. The ally of Yeltis is Thafi. The continent of Savrudka is Razanka. The ally of Tisthakro is Meksu. The language of Thafi is Linlin. The continent of Thafi is Raornal. The rival of Rudpel is Yeldun. The continent of Shilo is Losu. What is the language of the ally of the rival of Thakro?",
+   "answer": "Linlin",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Linlin",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Loka is Rudtol. The continent of Rudpel is Vudunsu. The currency of Yeldun is Kemek. The rival of Sudunpel is Minvu. The rival of Ramin is Yeldun. The capital of Loka is Dunnal. The continent of Yeltis is Losu. The ally of Minvu is Rudpel. What is the continent of the ally of the rival of Sudunpel?",
+   "answer": "Vudunsu",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Vudunsu",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Ramin is Dorke. The language of Meksu is Hanfivu. The language of Loka is Rudtol. The capital of Loka is Dunnal. The ally of Yelsuor is Shilo. The rival of Rudpel is Yeldun. The ally of Shilo is Meksu. The capital of Meksu is Fimeksav. What is the language of the ally of the ally of Yelsuor?",
+   "answer": "Hanfivu",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Hanfivu",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Thakro is Rudtol. The rival of Yeltis is Yelsuor. The rival of Tisthakro is Yeltis. The capital of Naltoldor is Yelzan. The capital of Thafi is Sufimek. The currency of Yelsuor is Toltisvu. The language of Ramin is Lohan. The ally of Shilo is Meksu. What is the currency of the rival of the rival of Tisthakro?",
+   "answer": "Toltisvu",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Toltisvu",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The currency of Yeltis is Toltisvu. The capital of Sudunpel is Gorsu. The continent of Yeltis is Losu. The rival of Yeltis is Yelsuor. The rival of Thakro is Yeltis. The continent of Yelsuor is Razanka. The ally of Minvu is Rudpel. The currency of Gortolka is Savfikro. What is the continent of the rival of the rival of Thakro?",
+   "answer": "Razanka",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Razanka",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Meksu is Vudunsu. The currency of Ramin is Kropra. The ally of Shilo is Meksu. The rival of Minkrosav is Savrudka. The rival of Yeldun is Ramin. The ally of Naltoldor is Sudunpel. The rival of Rudpel is Yeldun. The capital of Gortolka is Shivefi. What is the currency of the rival of the rival of Rudpel?",
+   "answer": "Kropra",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Krol",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The language of Yelortol is Rudtol. The ally of Thakro is Tisthakro. The language of Thakro is Rudtol. The ally of Meksu is Yeltis. The ally of Tisthakro is Meksu. The ally of Savrudka is Hanrudkro. The capital of Meksu is Fimeksav. The currency of Yeltis is Toltisvu. What is the capital of the ally of the ally of Thakro?",
+   "answer": "Fimeksav",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Fimeksav",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Rudpel is Vudunsu. The language of Meksu is Hanfivu. The capital of Savrudka is Tiskeyel. The currency of Sudunpel is Kabran. The ally of Rudpel is Ramin. The ally of Ramin is Naltoldor. The ally of Naltoldor is Sudunpel. The currency of Savrudka is Savfikro. What is the currency of the ally of the ally of Ramin?",
+   "answer": "Kabran",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Kabran",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Tisthakro is Yelnaltol. The ally of Suhanve is Yelortol. The ally of Yelortol is Minkrosav. The capital of Minkrosav is Dormeltol. The language of Rudpel is Hanfivu. The currency of Loka is Kropra. The language of Suhanve is Fisushi. The rival of Yelsuor is Meksu. What is the capital of the ally of the ally of Suhanve?",
+   "answer": "Dormeltol",
+   "block": "ic",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Dormeltol",
+   "loose": true,
+   "strict": true
+  }
+ ]
+}

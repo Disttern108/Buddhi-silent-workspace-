@@ -1,0 +1,1489 @@
+{
+ "model": "/Users/aayush/Models/Qwen3-1.7B-Base",
+ "adapter": "adapters/run7_s3",
+ "suffix": " Answer:",
+ "table": [
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "f3",
+   "loose": 24,
+   "strict": 24,
+   "total": 24,
+   "acc_loose": 1.0,
+   "acc_strict": 1.0
+  },
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "f4",
+   "loose": 22,
+   "strict": 22,
+   "total": 24,
+   "acc_loose": 0.917,
+   "acc_strict": 0.917
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "f1",
+   "loose": 61,
+   "strict": 61,
+   "total": 66,
+   "acc_loose": 0.924,
+   "acc_strict": 0.924
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "f2",
+   "loose": 7,
+   "strict": 7,
+   "total": 30,
+   "acc_loose": 0.233,
+   "acc_strict": 0.233
+  }
+ ],
+ "generations": [
+  {
+   "prompt": "The continent of Malaysia is Asia. The language of Ireland is Irish. The language of Malaysia is Malay. The language of Chile is Spanish. What is the language of Ireland?",
+   "answer": "Irish",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Irish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Chile is Santiago. The currency of Vietnam is dong. The continent of Ethiopia is Africa. The capital of Malaysia is Kuala Lumpur. The capital of Vietnam is Hanoi. What is the continent of Ethiopia?",
+   "answer": "Africa",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Africa",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Ireland is Irish. The capital of Hungary is Budapest. The currency of Chile is peso. The currency of Hungary is forint. What is the language of Ireland?",
+   "answer": "Irish",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Irish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The currency of Chile is peso. The language of Ethiopia is Amharic. The language of Vietnam is Vietnamese. The continent of Ethiopia is Africa. The currency of Malaysia is ringgit. The language of Ireland is Irish. What is the currency of Malaysia?",
+   "answer": "ringgit",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "ringgit",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Ethiopia is Amharic. The continent of Vietnam is Asia. The continent of Chile is South America. The language of Chile is Spanish. What is the continent of Vietnam?",
+   "answer": "Asia",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Asia",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Ethiopia is Addis Ababa. The language of Ireland is Irish. The capital of Chile is Santiago. The continent of Vietnam is Asia. The currency of Vietnam is dong. What is the capital of Chile?",
+   "answer": "Santiago",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Santiago",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Chile is Santiago. The language of Vietnam is Vietnamese. The continent of Vietnam is Asia. The currency of Ireland is euro. The currency of Hungary is forint. What is the capital of Chile?",
+   "answer": "Santiago",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Santiago",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Ethiopia is Amharic. The language of Chile is Spanish. The language of Malaysia is Malay. The capital of Ireland is Dublin. The currency of Malaysia is ringgit. The capital of Hungary is Budapest. What is the capital of Ireland?",
+   "answer": "Dublin",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dublin",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Hungary is Hungarian. The language of Chile is Spanish. The language of Malaysia is Malay. The continent of Ethiopia is Africa. The language of Ethiopia is Amharic. What is the language of Hungary?",
+   "answer": "Hungarian",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Hungarian",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The currency of Chile is peso. The language of Chile is Spanish. The continent of Ireland is Europe. The language of Hungary is Hungarian. What is the language of Hungary?",
+   "answer": "Hungarian",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Hungarian",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Chile is Santiago. The currency of Ireland is euro. The capital of Hungary is Budapest. The currency of Ethiopia is birr. The continent of Chile is South America. What is the currency of Ethiopia?",
+   "answer": "birr",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "birr",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The currency of Ethiopia is birr. The continent of Chile is South America. The capital of Chile is Santiago. The language of Chile is Spanish. The language of Malaysia is Malay. The currency of Chile is peso. What is the currency of Ethiopia?",
+   "answer": "birr",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "birr",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The currency of Vietnam is dong. The continent of Ethiopia is Africa. The continent of Ireland is Europe. The capital of Ethiopia is Addis Ababa. The currency of Ireland is euro. The continent of Chile is South America. What is the continent of Chile?",
+   "answer": "South America",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "South America",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Malaysia is Asia. The language of Ireland is Irish. The continent of Ireland is Europe. The currency of Ethiopia is birr. The continent of Chile is South America. What is the continent of Chile?",
+   "answer": "South America",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "South America",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Hungary is Hungarian. The capital of Hungary is Budapest. The continent of Ireland is Europe. The currency of Malaysia is ringgit. What is the continent of Ireland?",
+   "answer": "Europe",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Europe",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The currency of Ethiopia is birr. The currency of Ireland is euro. The language of Malaysia is Malay. The continent of Chile is South America. What is the currency of Ethiopia?",
+   "answer": "birr",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "birr",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Vietnam is Hanoi. The language of Ethiopia is Amharic. The capital of Chile is Santiago. The capital of Malaysia is Kuala Lumpur. What is the capital of Chile?",
+   "answer": "Santiago",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Santiago",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Vietnam is Asia. The continent of Chile is South America. The continent of Malaysia is Asia. The currency of Chile is peso. The capital of Vietnam is Hanoi. What is the continent of Malaysia?",
+   "answer": "Asia",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Asia",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Ethiopia is Amharic. The continent of Ethiopia is Africa. The currency of Chile is peso. The currency of Malaysia is ringgit. What is the currency of Malaysia?",
+   "answer": "ringgit",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "ringgit",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Vietnam is Vietnamese. The language of Ireland is Irish. The capital of Vietnam is Hanoi. The currency of Hungary is forint. The language of Hungary is Hungarian. What is the language of Ireland?",
+   "answer": "Irish",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Irish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Vietnam is Vietnamese. The currency of Hungary is forint. The language of Hungary is Hungarian. The capital of Ireland is Dublin. What is the capital of Ireland?",
+   "answer": "Dublin",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dublin",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Malaysia is Kuala Lumpur. The language of Hungary is Hungarian. The currency of Ireland is euro. The currency of Ethiopia is birr. The continent of Vietnam is Asia. What is the continent of Vietnam?",
+   "answer": "Asia",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Asia",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Vietnam is Hanoi. The currency of Malaysia is ringgit. The language of Hungary is Hungarian. The continent of Ireland is Europe. What is the capital of Vietnam?",
+   "answer": "Hanoi",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Hanoi",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Vietnam is Asia. The currency of Ethiopia is birr. The language of Hungary is Hungarian. The currency of Malaysia is ringgit. The capital of Chile is Santiago. What is the continent of Vietnam?",
+   "answer": "Asia",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Asia",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Ireland?",
+   "answer": "euro",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "euro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of Ireland?",
+   "answer": "Irish",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Irish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of Ireland?",
+   "answer": "Europe",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Europe",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Ireland?",
+   "answer": "Dublin",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Dublin",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Chile?",
+   "answer": "peso",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "peso",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of Chile?",
+   "answer": "Spanish",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Spanish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of Chile?",
+   "answer": "South America",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "South America",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Chile?",
+   "answer": "Santiago",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Santiago",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Ethiopia?",
+   "answer": "birr",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "birr",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of Ethiopia?",
+   "answer": "Amharic",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Amharic",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of Ethiopia?",
+   "answer": "Africa",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Africa",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Ethiopia?",
+   "answer": "Addis Ababa",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Addis Abba",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of Malaysia?",
+   "answer": "ringgit",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "ringgit",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of Malaysia?",
+   "answer": "Malay",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Malay",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of Malaysia?",
+   "answer": "Asia",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Asia",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Malaysia?",
+   "answer": "Kuala Lumpur",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Kuala Lumpur",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Hungary?",
+   "answer": "forint",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "forint",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of Hungary?",
+   "answer": "Hungarian",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Hungarian",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of Hungary?",
+   "answer": "Europe",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Europe",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Hungary?",
+   "answer": "Budapest",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Budapest",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Vietnam?",
+   "answer": "dong",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "baht",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of Vietnam?",
+   "answer": "Vietnamese",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Vietnamese",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of Vietnam?",
+   "answer": "Asia",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Asia",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Vietnam?",
+   "answer": "Hanoi",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Hanoi",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country whose capital is Dublin?",
+   "answer": "euro",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "euro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the currency of the country whose capital city is Dublin.",
+   "answer": "euro",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "euro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Dublin is a national capital. What is the currency of its country?",
+   "answer": "euro",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "euro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country whose capital is Dublin?",
+   "answer": "Irish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Irish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the language of the country whose capital city is Dublin.",
+   "answer": "Irish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Irish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Dublin is a national capital. What is the language of its country?",
+   "answer": "Irish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Irish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of the country whose capital is Dublin?",
+   "answer": "Europe",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Europe",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the continent of the country whose capital city is Dublin.",
+   "answer": "Europe",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Europe",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Dublin is a national capital. What is the continent of its country?",
+   "answer": "Europe",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Europe",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country whose capital is Santiago?",
+   "answer": "peso",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "peso",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the currency of the country whose capital city is Santiago.",
+   "answer": "peso",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "peso",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Santiago is a national capital. What is the currency of its country?",
+   "answer": "peso",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "peso",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country whose capital is Santiago?",
+   "answer": "Spanish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Spanish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the language of the country whose capital city is Santiago.",
+   "answer": "Spanish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Spanish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Santiago is a national capital. What is the language of its country?",
+   "answer": "Spanish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Spanish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of the country whose capital is Santiago?",
+   "answer": "South America",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "South America",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the continent of the country whose capital city is Santiago.",
+   "answer": "South America",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "South America",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Santiago is a national capital. What is the continent of its country?",
+   "answer": "South America",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "South America",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country whose capital is Addis Ababa?",
+   "answer": "birr",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "birr",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the currency of the country whose capital city is Addis Ababa.",
+   "answer": "birr",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "birr",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Addis Ababa is a national capital. What is the currency of its country?",
+   "answer": "birr",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "birr",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country whose capital is Addis Ababa?",
+   "answer": "Amharic",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Amharic",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the language of the country whose capital city is Addis Ababa.",
+   "answer": "Amharic",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Amharic",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Addis Ababa is a national capital. What is the language of its country?",
+   "answer": "Amharic",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Amharic",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of the country whose capital is Addis Ababa?",
+   "answer": "Africa",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Africa",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the continent of the country whose capital city is Addis Ababa.",
+   "answer": "Africa",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Africa",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Addis Ababa is a national capital. What is the continent of its country?",
+   "answer": "Africa",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Africa",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country whose capital is Kuala Lumpur?",
+   "answer": "ringgit",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ringgit",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the currency of the country whose capital city is Kuala Lumpur.",
+   "answer": "ringgit",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ringgit",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Kuala Lumpur is a national capital. What is the currency of its country?",
+   "answer": "ringgit",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ringgit",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country whose capital is Kuala Lumpur?",
+   "answer": "Malay",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Malay",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the language of the country whose capital city is Kuala Lumpur.",
+   "answer": "Malay",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Malay",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Kuala Lumpur is a national capital. What is the language of its country?",
+   "answer": "Malay",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Malay",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of the country whose capital is Kuala Lumpur?",
+   "answer": "Asia",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Asia",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the continent of the country whose capital city is Kuala Lumpur.",
+   "answer": "Asia",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Asia",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Kuala Lumpur is a national capital. What is the continent of its country?",
+   "answer": "Asia",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Asia",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country whose capital is Budapest?",
+   "answer": "forint",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "forint",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the currency of the country whose capital city is Budapest.",
+   "answer": "forint",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "forint",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Budapest is a national capital. What is the currency of its country?",
+   "answer": "forint",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "forint",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country whose capital is Budapest?",
+   "answer": "Hungarian",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Hungarian",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the language of the country whose capital city is Budapest.",
+   "answer": "Hungarian",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Hungarian",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Budapest is a national capital. What is the language of its country?",
+   "answer": "Hungarian",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Hungarian",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of the country whose capital is Budapest?",
+   "answer": "Europe",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Europe",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the continent of the country whose capital city is Budapest.",
+   "answer": "Europe",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Europe",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Budapest is a national capital. What is the continent of its country?",
+   "answer": "Europe",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Europe",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country whose capital is Hanoi?",
+   "answer": "dong",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\u0111\u1ed3ng",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the currency of the country whose capital city is Hanoi.",
+   "answer": "dong",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\u0111\u1ed3ng",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The city of Hanoi is a national capital. What is the currency of its country?",
+   "answer": "dong",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\u0111\u1ed3ng",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country whose capital is Hanoi?",
+   "answer": "Vietnamese",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vietnamese",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the language of the country whose capital city is Hanoi.",
+   "answer": "Vietnamese",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vietnamese",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Hanoi is a national capital. What is the language of its country?",
+   "answer": "Vietnamese",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Vietnamese",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of the country whose capital is Hanoi?",
+   "answer": "Asia",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Asia",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the continent of the country whose capital city is Hanoi.",
+   "answer": "Asia",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Asia",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Hanoi is a national capital. What is the continent of its country?",
+   "answer": "Asia",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Asia",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country where Pablo Neruda was born?",
+   "answer": "Santiago",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Buenos Aires",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Pablo Neruda was born in a country. What is that country's capital?",
+   "answer": "Santiago",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Bogota",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country where Pablo Neruda was born?",
+   "answer": "peso",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "peso",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Pablo Neruda was born in a country. What is that country's currency?",
+   "answer": "peso",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "peso",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country where Pablo Neruda was born?",
+   "answer": "Spanish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Spanish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Pablo Neruda was born in a country. What is that country's language?",
+   "answer": "Spanish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Spanish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country where Bela Bartok was born?",
+   "answer": "Budapest",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Budapest",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Bela Bartok was born in a country. What is that country's capital?",
+   "answer": "Budapest",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Budapest",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country where Bela Bartok was born?",
+   "answer": "forint",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "forint",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Bela Bartok was born in a country. What is that country's currency?",
+   "answer": "forint",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "forint",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country where Bela Bartok was born?",
+   "answer": "Hungarian",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Hungarian",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Bela Bartok was born in a country. What is that country's language?",
+   "answer": "Hungarian",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Hungarian",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "A crate holds 10 bottles. A shop receives 5 crates and sells 3 bottles. How many bottles remain?",
+   "answer": "47",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "47",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "A crate holds 5 bottles. A shop receives 11 crates and sells 13 bottles. How many bottles remain?",
+   "answer": "42",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "22",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 7 bottles. A shop receives 11 crates and sells 3 bottles. How many bottles remain?",
+   "answer": "74",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "44",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 10 bottles. A shop receives 9 crates and sells 4 bottles. How many bottles remain?",
+   "answer": "86",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "86",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "A crate holds 12 bottles. A shop receives 4 crates and sells 15 bottles. How many bottles remain?",
+   "answer": "33",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "33",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "A crate holds 5 bottles. A shop receives 12 crates and sells 9 bottles. How many bottles remain?",
+   "answer": "51",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "33",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 13 bottles. A shop receives 12 crates and sells 14 bottles. How many bottles remain?",
+   "answer": "142",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "15",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 4 bottles. A shop receives 6 crates and sells 19 bottles. How many bottles remain?",
+   "answer": "5",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "1\nWhat",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 10 bottles. A shop receives 7 crates and sells 6 bottles. How many bottles remain?",
+   "answer": "64",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "64",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "A crate holds 8 bottles. A shop receives 12 crates and sells 19 bottles. How many bottles remain?",
+   "answer": "77",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "59",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 13 bottles. A shop receives 4 crates and sells 20 bottles. How many bottles remain?",
+   "answer": "32",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "3",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 5 bottles. A shop receives 8 crates and sells 19 bottles. How many bottles remain?",
+   "answer": "21",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "1\nWhat",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 4 bottles. A shop receives 12 crates and sells 8 bottles. How many bottles remain?",
+   "answer": "40",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "32",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 10 bottles. A shop receives 11 crates and sells 12 bottles. How many bottles remain?",
+   "answer": "98",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "88",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 11 bottles. A shop receives 12 crates and sells 13 bottles. How many bottles remain?",
+   "answer": "119",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "109",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 6 bottles. A shop receives 6 crates and sells 9 bottles. How many bottles remain?",
+   "answer": "27",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "33",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 8 bottles. A shop receives 12 crates and sells 18 bottles. How many bottles remain?",
+   "answer": "78",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "34",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 15 bottles. A shop receives 8 crates and sells 16 bottles. How many bottles remain?",
+   "answer": "104",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "11",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 5 bottles. A shop receives 12 crates and sells 5 bottles. How many bottles remain?",
+   "answer": "55",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "55",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "A crate holds 9 bottles. A shop receives 5 crates and sells 6 bottles. How many bottles remain?",
+   "answer": "39",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "39",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "A crate holds 4 bottles. A shop receives 9 crates and sells 4 bottles. How many bottles remain?",
+   "answer": "32",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "20",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 15 bottles. A shop receives 8 crates and sells 13 bottles. How many bottles remain?",
+   "answer": "107",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "17",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 11 bottles. A shop receives 12 crates and sells 4 bottles. How many bottles remain?",
+   "answer": "128",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "118",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 11 bottles. A shop receives 7 crates and sells 4 bottles. How many bottles remain?",
+   "answer": "73",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "73",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "A crate holds 14 bottles. A shop receives 7 crates and sells 20 bottles. How many bottles remain?",
+   "answer": "78",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "8",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 15 bottles. A shop receives 7 crates and sells 14 bottles. How many bottles remain?",
+   "answer": "91",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "11",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 11 bottles. A shop receives 3 crates and sells 13 bottles. How many bottles remain?",
+   "answer": "20",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "12",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 5 bottles. A shop receives 12 crates and sells 17 bottles. How many bottles remain?",
+   "answer": "43",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "23",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 8 bottles. A shop receives 6 crates and sells 6 bottles. How many bottles remain?",
+   "answer": "42",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "34",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 10 bottles. A shop receives 9 crates and sells 17 bottles. How many bottles remain?",
+   "answer": "73",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "13",
+   "loose": false,
+   "strict": false
+  }
+ ]
+}

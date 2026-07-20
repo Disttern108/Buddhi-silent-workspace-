@@ -1,0 +1,1942 @@
+{
+ "0": {
+  "0": [
+   "ous",
+   "js",
+   " unknown",
+   " city",
+   " like"
+  ],
+  "1": [
+   " city",
+   " either",
+   "haps",
+   " like",
+   " daß"
+  ],
+  "2": [
+   " ",
+   " myth",
+   " city",
+   " Ant",
+   " the"
+  ],
+  "3": [
+   " the",
+   " ",
+   " city",
+   " .\n\n",
+   " either"
+  ],
+  "4": [
+   " city",
+   " the",
+   " City",
+   " Chicago",
+   " New"
+  ],
+  "5": [
+   " city",
+   " City",
+   " Chicago",
+   " ",
+   " cities"
+  ],
+  "6": [
+   " city",
+   " City",
+   " Chicago",
+   " Los",
+   " "
+  ],
+  "7": [
+   " city",
+   " City",
+   " Chicago",
+   " Memphis",
+   " Los"
+  ],
+  "8": [
+   " City",
+   " city",
+   " Chicago",
+   " Rome",
+   " "
+  ],
+  "9": [
+   " city",
+   " City",
+   " Chicago",
+   " ",
+   " Detroit"
+  ],
+  "10": [
+   " city",
+   " City",
+   " downtown",
+   " cities",
+   " town"
+  ],
+  "11": [
+   " city",
+   " City",
+   " downtown",
+   " town",
+   " Chicago"
+  ],
+  "12": [
+   " city",
+   " City",
+   " town",
+   " downtown",
+   "(city"
+  ],
+  "13": [
+   " city",
+   " City",
+   " Detroit",
+   "-city",
+   " metropolitan"
+  ],
+  "14": [
+   " City",
+   " Newark",
+   "street",
+   " Detroit",
+   "icago"
+  ],
+  "15": [
+   "icago",
+   "street",
+   " Newark",
+   " Street",
+   " City"
+  ],
+  "16": [
+   "icago",
+   " Street",
+   " Chicago",
+   " Newark",
+   "street"
+  ],
+  "17": [
+   "icago",
+   " Chicago",
+   " Berlin",
+   " Downtown",
+   " downtown"
+  ],
+  "18": [
+   " Berlin",
+   " Staten",
+   " Chicago",
+   " Wrocław",
+   " Downtown"
+  ],
+  "19": [
+   " Chicago",
+   " Berlin",
+   " Oakland",
+   " Dresden",
+   " Detroit"
+  ],
+  "20": [
+   " Berlin",
+   " Paris",
+   " Lafayette",
+   " Prague",
+   " Ville"
+  ],
+  "21": [
+   " Ville",
+   " Paris",
+   " Bien",
+   " Marseille",
+   " Lafayette"
+  ],
+  "22": [
+   " Paris",
+   " Marseille",
+   " Ville",
+   " Lafayette",
+   " Zurich"
+  ],
+  "23": [
+   " Paris",
+   " Marseille",
+   "巴黎",
+   " Lafayette",
+   " Ville"
+  ],
+  "24": [
+   " Paris",
+   "巴黎",
+   " Ville",
+   " Rou",
+   "/Card"
+  ],
+  "25": [
+   " Paris",
+   " Bien",
+   " Dro",
+   " Rue",
+   " Cause"
+  ],
+  "26": [
+   " Dunk",
+   " Paris",
+   " Dro",
+   " Cause",
+   "illery"
+  ],
+  "_prompt": "The capital of the country where the Eiffel Tower stands is the city of",
+  "_intermediate": " France",
+  "_answer": " Paris"
+ },
+ "1": {
+  "0": [
+   "ous",
+   " city",
+   " unknown",
+   "js",
+   " like"
+  ],
+  "1": [
+   " city",
+   "haps",
+   " either",
+   " like",
+   " daß"
+  ],
+  "2": [
+   " ",
+   " city",
+   " myth",
+   " the",
+   " Ant"
+  ],
+  "3": [
+   " the",
+   " ",
+   " city",
+   " either",
+   " ,"
+  ],
+  "4": [
+   " city",
+   " the",
+   " City",
+   " Chicago",
+   " "
+  ],
+  "5": [
+   " city",
+   " City",
+   " ",
+   " Chicago",
+   " cities"
+  ],
+  "6": [
+   " city",
+   " City",
+   " Chicago",
+   " Los",
+   " "
+  ],
+  "7": [
+   " city",
+   " City",
+   " Chicago",
+   " Los",
+   " Memphis"
+  ],
+  "8": [
+   " city",
+   " City",
+   " Chicago",
+   " ",
+   " Rome"
+  ],
+  "9": [
+   " city",
+   " City",
+   " ",
+   " Chicago",
+   " Los"
+  ],
+  "10": [
+   " city",
+   " City",
+   " downtown",
+   " town",
+   " cities"
+  ],
+  "11": [
+   " city",
+   " City",
+   " downtown",
+   " town",
+   " Los"
+  ],
+  "12": [
+   " city",
+   " City",
+   " town",
+   "(city",
+   " downtown"
+  ],
+  "13": [
+   " city",
+   " City",
+   " town",
+   "-city",
+   " downtown"
+  ],
+  "14": [
+   " City",
+   " Newark",
+   " city",
+   " Detroit",
+   "-city"
+  ],
+  "15": [
+   " City",
+   " Dayton",
+   " Newark",
+   " Street",
+   " Park"
+  ],
+  "16": [
+   " Park",
+   " Chicago",
+   " Street",
+   " Newark",
+   " City"
+  ],
+  "17": [
+   " Berlin",
+   "icago",
+   " Newark",
+   " Memphis",
+   " downtown"
+  ],
+  "18": [
+   " Berlin",
+   " Staten",
+   " Dresden",
+   " barracks",
+   " Bans"
+  ],
+  "19": [
+   " Dresden",
+   " Berlin",
+   " Richmond",
+   " Houston",
+   " Detroit"
+  ],
+  "20": [
+   " Beijing",
+   " Dresden",
+   "西安",
+   " Tian",
+   " Zheng"
+  ],
+  "21": [
+   " Tian",
+   " Sha",
+   " Zheng",
+   " Zhang",
+   " Beijing"
+  ],
+  "22": [
+   " Sha",
+   " Beijing",
+   "西安",
+   " Shir",
+   " Tian"
+  ],
+  "23": [
+   " Shir",
+   " Tang",
+   " Sha",
+   " Dun",
+   " Bans"
+  ],
+  "24": [
+   " Tang",
+   " Wan",
+   " Dun",
+   " Hats",
+   " Shir"
+  ],
+  "25": [
+   " Tang",
+   " Shir",
+   " Dun",
+   " Wan",
+   " War"
+  ],
+  "26": [
+   " Tang",
+   " Dun",
+   " Shir",
+   " Kan",
+   " Sh"
+  ],
+  "_prompt": "The capital of the country where the Great Wall was built is the city of",
+  "_intermediate": " China",
+  "_answer": " Beijing"
+ },
+ "2": {
+  "0": [
+   "ous",
+   " unknown",
+   "js",
+   " city",
+   " like"
+  ],
+  "1": [
+   " city",
+   "haps",
+   " either",
+   " like",
+   " daß"
+  ],
+  "2": [
+   " ",
+   " city",
+   " myth",
+   " the",
+   " Ant"
+  ],
+  "3": [
+   " the",
+   " ",
+   " city",
+   " either",
+   " ,"
+  ],
+  "4": [
+   " city",
+   " City",
+   " Chicago",
+   " the",
+   " Ant"
+  ],
+  "5": [
+   " city",
+   " City",
+   " Chicago",
+   " cities",
+   " "
+  ],
+  "6": [
+   " city",
+   " City",
+   " Chicago",
+   " Memphis",
+   " Los"
+  ],
+  "7": [
+   " city",
+   " City",
+   " Chicago",
+   " Memphis",
+   " Los"
+  ],
+  "8": [
+   " City",
+   " city",
+   " Chicago",
+   " Memphis",
+   " "
+  ],
+  "9": [
+   " city",
+   " City",
+   " Chicago",
+   " ",
+   " Memphis"
+  ],
+  "10": [
+   " city",
+   " City",
+   " downtown",
+   " town",
+   " cities"
+  ],
+  "11": [
+   " city",
+   " City",
+   " downtown",
+   " town",
+   "(city"
+  ],
+  "12": [
+   " city",
+   " City",
+   " town",
+   " downtown",
+   "(city"
+  ],
+  "13": [
+   " city",
+   " City",
+   " town",
+   " downtown",
+   "-city"
+  ],
+  "14": [
+   " City",
+   "street",
+   " Downtown",
+   " downtown",
+   "-city"
+  ],
+  "15": [
+   "street",
+   " Downtown",
+   " City",
+   " downtown",
+   " Street"
+  ],
+  "16": [
+   " Park",
+   " Street",
+   "icago",
+   "street",
+   "-town"
+  ],
+  "17": [
+   " downtown",
+   " Downtown",
+   " Wrocław",
+   " City",
+   " Chicago"
+  ],
+  "18": [
+   " Wrocław",
+   " Downtown",
+   " Berlin",
+   " Staten",
+   " downtown"
+  ],
+  "19": [
+   " Chicago",
+   " Oakland",
+   " Dresden",
+   " Berlin",
+   " Houston"
+  ],
+  "20": [
+   " Tokyo",
+   " Osaka",
+   " Fresno",
+   " Japan",
+   " Hiro"
+  ],
+  "21": [
+   " Tokyo",
+   " Osaka",
+   " Hiro",
+   " San",
+   " Kyoto"
+  ],
+  "22": [
+   " Osaka",
+   " Tokyo",
+   " San",
+   " Fresno",
+   " Shim"
+  ],
+  "23": [
+   " Osaka",
+   " Hiro",
+   " Tok",
+   " Kyoto",
+   " Tokyo"
+  ],
+  "24": [
+   " Hiro",
+   "oku",
+   " Hir",
+   " Kum",
+   " Fukushima"
+  ],
+  "25": [
+   " Hiro",
+   " Fukushima",
+   " Tokyo",
+   " Fuji",
+   " Yoshi"
+  ],
+  "26": [
+   " Hiro",
+   " Toyota",
+   " Fukushima",
+   " Tak",
+   " Kag"
+  ],
+  "_prompt": "The capital of the country where Mount Fuji rises is the city of",
+  "_intermediate": " Japan",
+  "_answer": " Tokyo"
+ },
+ "3": {
+  "0": [
+   "ous",
+   "js",
+   " unknown",
+   " city",
+   " like"
+  ],
+  "1": [
+   " city",
+   " either",
+   "haps",
+   " like",
+   " daß"
+  ],
+  "2": [
+   " ",
+   " myth",
+   " city",
+   " the",
+   " Ant"
+  ],
+  "3": [
+   " the",
+   " ",
+   " city",
+   " either",
+   " .\n\n"
+  ],
+  "4": [
+   " city",
+   " the",
+   " City",
+   " Chicago",
+   " "
+  ],
+  "5": [
+   " city",
+   " City",
+   " Chicago",
+   " ",
+   " cities"
+  ],
+  "6": [
+   " city",
+   " City",
+   " Chicago",
+   " Los",
+   " Memphis"
+  ],
+  "7": [
+   " City",
+   " city",
+   " Chicago",
+   " Los",
+   " Memphis"
+  ],
+  "8": [
+   " City",
+   " city",
+   " Rome",
+   " Chicago",
+   " Memphis"
+  ],
+  "9": [
+   " city",
+   " City",
+   " Rome",
+   " Chicago",
+   " Memphis"
+  ],
+  "10": [
+   " city",
+   " City",
+   " town",
+   " downtown",
+   " Rome"
+  ],
+  "11": [
+   " city",
+   " City",
+   " town",
+   " downtown",
+   " Rome"
+  ],
+  "12": [
+   " city",
+   " City",
+   " town",
+   "(city",
+   " Rome"
+  ],
+  "13": [
+   " city",
+   " City",
+   " town",
+   "-city",
+   " Detroit"
+  ],
+  "14": [
+   " City",
+   " Napoli",
+   "-city",
+   " Newark",
+   " city"
+  ],
+  "15": [
+   " Newark",
+   " City",
+   " Street",
+   "street",
+   " Napoli"
+  ],
+  "16": [
+   " Street",
+   "icago",
+   " Newark",
+   "town",
+   " Erie"
+  ],
+  "17": [
+   " Naples",
+   "straße",
+   " Villa",
+   " Stadt",
+   " Street"
+  ],
+  "18": [
+   " Naples",
+   " Staten",
+   " Berlin",
+   " Alexandria",
+   " Villa"
+  ],
+  "19": [
+   " Berlin",
+   " Alexandria",
+   " Chicago",
+   " Dresden",
+   " Villa"
+  ],
+  "20": [
+   " Ciudad",
+   " Rome",
+   " Naples",
+   " Berlin",
+   " Cairo"
+  ],
+  "21": [
+   " Ciudad",
+   " Tac",
+   " Campo",
+   " Julius",
+   " José"
+  ],
+  "22": [
+   " Ciudad",
+   " Roma",
+   " San",
+   " Rome",
+   " Campo"
+  ],
+  "23": [
+   " Ciudad",
+   " Alexandria",
+   " San",
+   " Athens",
+   " Campo"
+  ],
+  "24": [
+   " Ciudad",
+   " Campo",
+   " Circus",
+   " Pompe",
+   " San"
+  ],
+  "25": [
+   " Cause",
+   " Cha",
+   " Tit",
+   "ĭ",
+   ".orig"
+  ],
+  "26": [
+   ".orig",
+   " Tit",
+   " Lux",
+   " amph",
+   " Ner"
+  ],
+  "_prompt": "The capital of the country where the Colosseum stands is the city of",
+  "_intermediate": " Italy",
+  "_answer": " Rome"
+ },
+ "4": {
+  "0": [
+   "ous",
+   "js",
+   " unknown",
+   " city",
+   " like"
+  ],
+  "1": [
+   " city",
+   " either",
+   "haps",
+   " like",
+   " daß"
+  ],
+  "2": [
+   " ",
+   " city",
+   " myth",
+   " the",
+   " Ant"
+  ],
+  "3": [
+   " the",
+   " ",
+   " city",
+   " ,",
+   " either"
+  ],
+  "4": [
+   " city",
+   " the",
+   " City",
+   " ",
+   " Chicago"
+  ],
+  "5": [
+   " city",
+   " City",
+   " ",
+   " Chicago",
+   " cities"
+  ],
+  "6": [
+   " city",
+   " City",
+   " Chicago",
+   " Los",
+   " "
+  ],
+  "7": [
+   " city",
+   " City",
+   " Chicago",
+   " Los",
+   " Memphis"
+  ],
+  "8": [
+   " city",
+   " City",
+   " Chicago",
+   " ",
+   " Memphis"
+  ],
+  "9": [
+   " city",
+   " City",
+   " ",
+   " Chicago",
+   " Detroit"
+  ],
+  "10": [
+   " city",
+   " City",
+   " downtown",
+   " town",
+   " cities"
+  ],
+  "11": [
+   " city",
+   " City",
+   " town",
+   " downtown",
+   " "
+  ],
+  "12": [
+   " city",
+   " City",
+   " town",
+   "(city",
+   " downtown"
+  ],
+  "13": [
+   " city",
+   " City",
+   " town",
+   "-city",
+   " Detroit"
+  ],
+  "14": [
+   " City",
+   " Dayton",
+   " Wrocław",
+   "street",
+   " Newark"
+  ],
+  "15": [
+   " Dayton",
+   "street",
+   " Newark",
+   " Urb",
+   "-town"
+  ],
+  "16": [
+   " Park",
+   " Street",
+   " Newark",
+   " Erie",
+   " Dayton"
+  ],
+  "17": [
+   " Berlin",
+   " Stadt",
+   " Wrocław",
+   " Urb",
+   " Newark"
+  ],
+  "18": [
+   " Berlin",
+   " Staten",
+   " Wrocław",
+   " Dresden",
+   " Moscow"
+  ],
+  "19": [
+   " Berlin",
+   " Dresden",
+   " Prague",
+   " Detroit",
+   " Richmond"
+  ],
+  "20": [
+   " Moscow",
+   " Berlin",
+   " Prague",
+   " Москве",
+   " Москва"
+  ],
+  "21": [
+   " Moscow",
+   " Tehran",
+   " Prague",
+   " Dresden",
+   " Kiev"
+  ],
+  "22": [
+   " Moscow",
+   " Kiev",
+   " Donetsk",
+   " Tehran",
+   "莫斯科"
+  ],
+  "23": [
+   " Moscow",
+   " Donetsk",
+   " Kiev",
+   " Sha",
+   " Lv"
+  ],
+  "24": [
+   " Dok",
+   " Sha",
+   " Moscow",
+   " Ship",
+   " Kash"
+  ],
+  "25": [
+   " Moscow",
+   " Dok",
+   " She",
+   " Sha",
+   " Khan"
+  ],
+  "26": [
+   " She",
+   " Link",
+   " Khan",
+   " Dun",
+   " Kir"
+  ],
+  "_prompt": "The capital of the country where the Kremlin stands is the city of",
+  "_intermediate": " Russia",
+  "_answer": " Moscow"
+ },
+ "5": {
+  "0": [
+   "ous",
+   "js",
+   " unknown",
+   " city",
+   " like"
+  ],
+  "1": [
+   " city",
+   "haps",
+   " either",
+   " like",
+   " daß"
+  ],
+  "2": [
+   " ",
+   " myth",
+   " city",
+   " the",
+   " Ant"
+  ],
+  "3": [
+   " the",
+   " ",
+   " city",
+   " .\n\n",
+   " either"
+  ],
+  "4": [
+   " city",
+   " Chicago",
+   " City",
+   " the",
+   " New"
+  ],
+  "5": [
+   " city",
+   " Chicago",
+   " City",
+   " ",
+   " cities"
+  ],
+  "6": [
+   " city",
+   " City",
+   " Chicago",
+   " Los",
+   " Memphis"
+  ],
+  "7": [
+   " city",
+   " City",
+   " Chicago",
+   " Los",
+   " Memphis"
+  ],
+  "8": [
+   " City",
+   " city",
+   " Chicago",
+   " ",
+   " Memphis"
+  ],
+  "9": [
+   " City",
+   " city",
+   " ",
+   " Chicago",
+   " Detroit"
+  ],
+  "10": [
+   " city",
+   " City",
+   " downtown",
+   " town",
+   " cities"
+  ],
+  "11": [
+   " city",
+   " City",
+   " downtown",
+   " town",
+   " "
+  ],
+  "12": [
+   " City",
+   " city",
+   " town",
+   " downtown",
+   " Detroit"
+  ],
+  "13": [
+   " city",
+   " City",
+   "-city",
+   " Detroit",
+   " town"
+  ],
+  "14": [
+   " City",
+   "-city",
+   "street",
+   " Detroit",
+   " Newark"
+  ],
+  "15": [
+   "street",
+   " City",
+   "icago",
+   " Street",
+   " Dayton"
+  ],
+  "16": [
+   "icago",
+   " Street",
+   " Park",
+   "street",
+   "town"
+  ],
+  "17": [
+   "icago",
+   " Urb",
+   "straße",
+   " Berlin",
+   " downtown"
+  ],
+  "18": [
+   " Staten",
+   " Berlin",
+   "orgia",
+   " Dort",
+   " Wrocław"
+  ],
+  "19": [
+   " Dresden",
+   " Berlin",
+   " Chicago",
+   " Richmond",
+   " Birmingham"
+  ],
+  "20": [
+   " Delhi",
+   " Nagar",
+   " Tehran",
+   " Kolkata",
+   " Dresden"
+  ],
+  "21": [
+   " Nagar",
+   " Kolkata",
+   " Delhi",
+   " Tehran",
+   " Kota"
+  ],
+  "22": [
+   " Delhi",
+   " Nagar",
+   " Tehran",
+   " Pune",
+   " Sha"
+  ],
+  "23": [
+   " Delhi",
+   " Shah",
+   " Alam",
+   " Pune",
+   " Chand"
+  ],
+  "24": [
+   " Shah",
+   "hani",
+   " Jam",
+   " Delhi",
+   " Dh"
+  ],
+  "25": [
+   " Tang",
+   " Dun",
+   " Tak",
+   " Tara",
+   " Wan"
+  ],
+  "26": [
+   " Dun",
+   " Khan",
+   "hani",
+   " Tara",
+   " Kan"
+  ],
+  "_prompt": "The capital of the country where the Taj Mahal stands is the city of",
+  "_intermediate": " India",
+  "_answer": " Delhi"
+ },
+ "6": {
+  "0": [
+   "ous",
+   "js",
+   " unknown",
+   " city",
+   " like"
+  ],
+  "1": [
+   " city",
+   " like",
+   " either",
+   "haps",
+   " daß"
+  ],
+  "2": [
+   " ",
+   " myth",
+   " city",
+   " the",
+   " Babylon"
+  ],
+  "3": [
+   " the",
+   " ",
+   " city",
+   " either",
+   " ,"
+  ],
+  "4": [
+   " city",
+   " the",
+   " City",
+   " Ant",
+   " cities"
+  ],
+  "5": [
+   " city",
+   " City",
+   " ",
+   " cities",
+   " Chicago"
+  ],
+  "6": [
+   " city",
+   " City",
+   " Los",
+   " Chicago",
+   " Memphis"
+  ],
+  "7": [
+   " city",
+   " City",
+   " Los",
+   " Memphis",
+   " Naples"
+  ],
+  "8": [
+   " city",
+   " City",
+   " Rome",
+   " Memphis",
+   " Chicago"
+  ],
+  "9": [
+   " city",
+   " City",
+   " ",
+   " Memphis",
+   " Rome"
+  ],
+  "10": [
+   " city",
+   " City",
+   " town",
+   " Memphis",
+   " downtown"
+  ],
+  "11": [
+   " city",
+   " City",
+   " town",
+   " Naples",
+   " downtown"
+  ],
+  "12": [
+   " city",
+   " City",
+   " town",
+   "(city",
+   " Memphis"
+  ],
+  "13": [
+   " city",
+   " City",
+   " town",
+   "-city",
+   " Detroit"
+  ],
+  "14": [
+   " City",
+   "-city",
+   " Newark",
+   "潼",
+   " Sài"
+  ],
+  "15": [
+   "street",
+   "-town",
+   "-city",
+   " Newark",
+   " Naples"
+  ],
+  "16": [
+   "-town",
+   "town",
+   "icago",
+   "street",
+   " Street"
+  ],
+  "17": [
+   "straße",
+   " Urb",
+   " Cairo",
+   "遗址",
+   "选址"
+  ],
+  "18": [
+   " Alexandria",
+   "ledo",
+   " Staten",
+   "annes",
+   "orgia"
+  ],
+  "19": [
+   "ledo",
+   " Alexandria",
+   " Berlin",
+   " Ciudad",
+   " Jerusalem"
+  ],
+  "20": [
+   " Cairo",
+   " Egypt",
+   " Alexandria",
+   " Egyptian",
+   " Memphis"
+  ],
+  "21": [
+   " Cairo",
+   " Egypt",
+   " Alexandria",
+   " Tomb",
+   " Memphis"
+  ],
+  "22": [
+   " Cairo",
+   "长沙市",
+   " Sha",
+   " Campo",
+   " Egypt"
+  ],
+  "23": [
+   " Ank",
+   " Cairo",
+   " Memphis",
+   "inosaur",
+   "长沙市"
+  ],
+  "24": [
+   " Egypt",
+   " Ank",
+   " مصر",
+   " Cairo",
+   " Hats"
+  ],
+  "25": [
+   "金字塔",
+   "澧",
+   " Egypt",
+   "_py",
+   " Cairo"
+  ],
+  "26": [
+   " Carn",
+   " Nem",
+   "�체",
+   " Egypt",
+   "郢"
+  ],
+  "_prompt": "The capital of the country where the pyramids of Giza stand is the city of",
+  "_intermediate": " Egypt",
+  "_answer": " Cairo"
+ },
+ "7": {
+  "0": [
+   "ous",
+   "js",
+   " unknown",
+   " city",
+   " like"
+  ],
+  "1": [
+   " city",
+   " either",
+   " like",
+   "haps",
+   " daß"
+  ],
+  "2": [
+   " ",
+   " myth",
+   " city",
+   " the",
+   " Ant"
+  ],
+  "3": [
+   " the",
+   " ",
+   " city",
+   " either",
+   " ,"
+  ],
+  "4": [
+   " city",
+   " City",
+   " the",
+   " Chicago",
+   " Ant"
+  ],
+  "5": [
+   " city",
+   " City",
+   " ",
+   " Chicago",
+   " cities"
+  ],
+  "6": [
+   " city",
+   " City",
+   " Chicago",
+   " Los",
+   " Memphis"
+  ],
+  "7": [
+   " city",
+   " City",
+   " Memphis",
+   " Chicago",
+   " Los"
+  ],
+  "8": [
+   " city",
+   " City",
+   " Memphis",
+   " Chicago",
+   " Rome"
+  ],
+  "9": [
+   " city",
+   " City",
+   " ",
+   " Memphis",
+   " Chicago"
+  ],
+  "10": [
+   " city",
+   " City",
+   " town",
+   " downtown",
+   " cities"
+  ],
+  "11": [
+   " city",
+   " City",
+   " town",
+   " downtown",
+   "(city"
+  ],
+  "12": [
+   " city",
+   " City",
+   " town",
+   " downtown",
+   "(city"
+  ],
+  "13": [
+   " city",
+   " City",
+   " town",
+   " downtown",
+   "(city"
+  ],
+  "14": [
+   " City",
+   " городе",
+   " Sài",
+   "-city",
+   "-town"
+  ],
+  "15": [
+   "street",
+   "-town",
+   " Downtown",
+   "icago",
+   " Street"
+  ],
+  "16": [
+   " Street",
+   "icago",
+   "-town",
+   "street",
+   "town"
+  ],
+  "17": [
+   " Urb",
+   "straße",
+   "icago",
+   "古镇",
+   "atown"
+  ],
+  "18": [
+   "古镇",
+   "ledo",
+   " Ciudad",
+   " Urb",
+   " Belize"
+  ],
+  "19": [
+   " Ciudad",
+   "ledo",
+   " Oakland",
+   " Tucson",
+   " Nuevo"
+  ],
+  "20": [
+   " Ciudad",
+   " Nuevo",
+   " México",
+   " Guatemala",
+   " Guerrero"
+  ],
+  "21": [
+   " Ciudad",
+   " Nuevo",
+   " Lima",
+   " Todos",
+   " Campo"
+  ],
+  "22": [
+   " Ciudad",
+   " Todos",
+   " Lima",
+   " Nuevo",
+   " Mej"
+  ],
+  "23": [
+   " Ciudad",
+   " Todos",
+   " Lima",
+   " Nuevo",
+   "agua"
+  ],
+  "24": [
+   " Agu",
+   " Todos",
+   " Yup",
+   " Zap",
+   " Ciudad"
+  ],
+  "25": [
+   " Agu",
+   " Todos",
+   " Zap",
+   " Pu",
+   " Yup"
+  ],
+  "26": [
+   " P",
+   " Ten",
+   " Yep",
+   " Yup",
+   " Zap"
+  ],
+  "_prompt": "The capital of the country where Machu Picchu lies is the city of",
+  "_intermediate": " Peru",
+  "_answer": " Lima"
+ },
+ "8": {
+  "0": [
+   " Israelis",
+   " Johns",
+   " Germans",
+   " geography",
+   "country"
+  ],
+  "1": [
+   " country",
+   " nation",
+   " Pennsylvania",
+   " Georgia",
+   " Baltimore"
+  ],
+  "2": [
+   "e",
+   " country",
+   " of",
+   " they",
+   " she"
+  ],
+  "3": [
+   " of",
+   " the",
+   " more",
+   " country",
+   " ("
+  ],
+  "4": [
+   " Israelis",
+   " Pennsylvania",
+   " of",
+   " Americans",
+   " Baltimore"
+  ],
+  "5": [
+   " (",
+   " of",
+   " Baltimore",
+   " Washington",
+   " game"
+  ],
+  "6": [
+   " (",
+   " \"",
+   " of",
+   " [",
+   " years"
+  ],
+  "7": [
+   "most",
+   " (",
+   " \n",
+   " [",
+   " \""
+  ],
+  "8": [
+   " \"",
+   " (",
+   " of",
+   " “",
+   "country"
+  ],
+  "9": [
+   " (",
+   " \"",
+   " of",
+   " [",
+   " American"
+  ],
+  "10": [
+   " dollar",
+   " currency",
+   "currency",
+   " country",
+   "country"
+  ],
+  "11": [
+   " country",
+   " currency",
+   " dollar",
+   "country",
+   " American"
+  ],
+  "12": [
+   " country",
+   " currency",
+   "country",
+   "currency",
+   " American"
+  ],
+  "13": [
+   " currency",
+   "currency",
+   " country",
+   "country",
+   " dollar"
+  ],
+  "14": [
+   "currency",
+   " currency",
+   "country",
+   " dollar",
+   " Currency"
+  ],
+  "15": [
+   "country",
+   "currency",
+   " dollars",
+   "国内市场",
+   "Currency"
+  ],
+  "16": [
+   "currency",
+   "铢",
+   " currency",
+   " cents",
+   "币"
+  ],
+  "17": [
+   "currency",
+   " currency",
+   "Currency",
+   "人民币",
+   " dollars"
+  ],
+  "18": [
+   "currency",
+   "人民币",
+   " currency",
+   "Currency",
+   " American"
+  ],
+  "19": [
+   " American",
+   "人民币",
+   " United",
+   "currency",
+   " Japanese"
+  ],
+  "20": [
+   "欧元",
+   " German",
+   " Euro",
+   " European",
+   " Deutsche"
+  ],
+  "21": [
+   "欧元",
+   "钱币",
+   " Euro",
+   "币",
+   "汇率"
+  ],
+  "22": [
+   "钱币",
+   "欧元",
+   "货币",
+   "币",
+   " Currency"
+  ],
+  "23": [
+   "欧元",
+   "钱币",
+   "币",
+   "美元",
+   " Currency"
+  ],
+  "24": [
+   "欧元",
+   "币",
+   " Dollar",
+   " dollar",
+   " Currency"
+  ],
+  "25": [
+   " coin",
+   " dollar",
+   " Dollar",
+   " gold",
+   " Silver"
+  ],
+  "26": [
+   " franc",
+   " dollar",
+   " Euro",
+   " coin",
+   " Silver"
+  ],
+  "_prompt": "The currency used in the country where the Eiffel Tower stands is the",
+  "_intermediate": " France",
+  "_answer": " euro"
+ },
+ "9": {
+  "0": [
+   " the",
+   " ?",
+   " meant",
+   " ;",
+   "ng"
+  ],
+  "1": [
+   " the",
+   " ;",
+   " meant",
+   " ,",
+   " for"
+  ],
+  "2": [
+   " ;",
+   " ,",
+   " .",
+   " for",
+   " the"
+  ],
+  "3": [
+   " ;",
+   " the",
+   " ,",
+   " for",
+   " ."
+  ],
+  "4": [
+   " ;",
+   " the",
+   " ,",
+   ";",
+   " ("
+  ],
+  "5": [
+   ",",
+   ".[",
+   " and",
+   " for",
+   " ,"
+  ],
+  "6": [
+   " ,",
+   ",",
+   " and",
+   " (",
+   " the"
+  ],
+  "7": [
+   " .",
+   " ,",
+   " \"",
+   " of",
+   " the"
+  ],
+  "8": [
+   " ,",
+   " \"",
+   " .",
+   " of",
+   " ("
+  ],
+  "9": [
+   " ,",
+   " \"",
+   " .",
+   " (",
+   " of"
+  ],
+  "10": [
+   " \"",
+   " language",
+   "language",
+   " ,",
+   " ."
+  ],
+  "11": [
+   " \"",
+   " (",
+   " language",
+   " ,",
+   " “"
+  ],
+  "12": [
+   " language",
+   "language",
+   " (",
+   " \"",
+   " lingu"
+  ],
+  "13": [
+   " language",
+   "language",
+   " lingu",
+   " Language",
+   "语言"
+  ],
+  "14": [
+   "language",
+   " lingu",
+   "ilingual",
+   " language",
+   " langue"
+  ],
+  "15": [
+   "language",
+   "?:",
+   " lingu",
+   "?\"",
+   " language"
+  ],
+  "16": [
+   "?:",
+   "?\"\n",
+   "?\n",
+   "?",
+   "?\""
+  ],
+  "17": [
+   "?:",
+   "?\n",
+   "?\"\n",
+   "]?",
+   ")?"
+  ],
+  "18": [
+   "?:",
+   "?\n",
+   "?",
+   ")?",
+   "]?"
+  ],
+  "19": [
+   "?:",
+   "？",
+   "?",
+   "？\n",
+   "?\n"
+  ],
+  "20": [
+   "?:",
+   "?",
+   "？",
+   "]?",
+   "?\n"
+  ],
+  "21": [
+   "?",
+   "?:",
+   "？",
+   "?\n",
+   "]?"
+  ],
+  "22": [
+   "?",
+   "?:",
+   "？",
+   "]?",
+   "?\n"
+  ],
+  "23": [
+   "?",
+   "?:",
+   "？",
+   "]?",
+   "?\n"
+  ],
+  "24": [
+   "?",
+   "?:",
+   "？",
+   "?\n",
+   "?!"
+  ],
+  "25": [
+   "?",
+   "？",
+   "?:",
+   "?\n",
+   "?!"
+  ],
+  "26": [
+   "?",
+   "?:",
+   " Z",
+   " Pr",
+   " Ling"
+  ],
+  "_prompt": "The language spoken in the country where the Kremlin stands is",
+  "_intermediate": " Russia",
+  "_answer": " Russian"
+ }
+}

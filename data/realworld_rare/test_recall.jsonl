@@ -1,0 +1,28 @@
+{"prompt": "What is the capital of France?", "answer": "Paris", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of France?", "answer": "euro", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of China?", "answer": "Beijing", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Japan?", "answer": "Tokyo", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of Japan?", "answer": "yen", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Italy?", "answer": "Rome", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of Italy?", "answer": "euro", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Russia?", "answer": "Moscow", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of Russia?", "answer": "ruble", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of India?", "answer": "New Delhi", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of India?", "answer": "rupee", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Peru?", "answer": "Lima", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Egypt?", "answer": "Cairo", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of the United Kingdom?", "answer": "London", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of the United Kingdom?", "answer": "pound", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Australia?", "answer": "Canberra", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Spain?", "answer": "Madrid", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of Spain?", "answer": "euro", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Germany?", "answer": "Berlin", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of Germany?", "answer": "euro", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Greece?", "answer": "Athens", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of Greece?", "answer": "euro", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Canada?", "answer": "Ottawa", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Jordan?", "answer": "Amman", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Cambodia?", "answer": "Phnom Penh", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of the United States?", "answer": "Washington", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the currency of the United States?", "answer": "dollar", "block": "real", "type": "recall_unseen_template"}
+{"prompt": "What is the capital of Brazil?", "answer": "Brasilia", "block": "real", "type": "recall_unseen_template"}

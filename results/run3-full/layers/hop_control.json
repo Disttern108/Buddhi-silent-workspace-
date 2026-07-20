@@ -1,0 +1,290 @@
+[
+ {
+  "block": "C",
+  "prompt": "What is the capital of the rival of the rival of Vuzanyel?",
+  "mid": "Rudfipel",
+  "ctrl": "Orzan",
+  "best_mid": 0,
+  "best_ctrl": 0
+ },
+ {
+  "block": "C",
+  "prompt": "What is the continent of the ally of the rival of Vuzanyel?",
+  "mid": "Rudfipel",
+  "ctrl": "Shipreka",
+  "best_mid": 0,
+  "best_ctrl": 34
+ },
+ {
+  "block": "C",
+  "prompt": "What is the currency of the ally of the rival of Vuzanyel?",
+  "mid": "Rudfipel",
+  "ctrl": "Kake",
+  "best_mid": 0,
+  "best_ctrl": 47
+ },
+ {
+  "block": "A",
+  "prompt": "What is the continent of the ally of the rival of Shipel?",
+  "mid": "Dortis",
+  "ctrl": "Kahan",
+  "best_mid": 0,
+  "best_ctrl": 47
+ },
+ {
+  "block": "A",
+  "prompt": "What is the language of the ally of the rival of Shipel?",
+  "mid": "Dortis",
+  "ctrl": "Tolor",
+  "best_mid": 0,
+  "best_ctrl": 28
+ },
+ {
+  "block": "A",
+  "prompt": "What is the language of the ally of the ally of Shipel?",
+  "mid": "Savtisrud",
+  "ctrl": "Mekkara",
+  "best_mid": 1,
+  "best_ctrl": 49
+ },
+ {
+  "block": "A",
+  "prompt": "What is the continent of the rival of the rival of Shipel?",
+  "mid": "Dortis",
+  "ctrl": "Savtisrud",
+  "best_mid": 9,
+  "best_ctrl": 1
+ },
+ {
+  "block": "A",
+  "prompt": "What is the currency of the ally of the rival of Shipel?",
+  "mid": "Dortis",
+  "ctrl": "Sushi",
+  "best_mid": 0,
+  "best_ctrl": 30
+ },
+ {
+  "block": "A",
+  "prompt": "What is the capital of the ally of the rival of Shipel?",
+  "mid": "Dortis",
+  "ctrl": "Shapel",
+  "best_mid": 0,
+  "best_ctrl": 2
+ },
+ {
+  "block": "A",
+  "prompt": "What is the currency of the rival of the ally of Shipel?",
+  "mid": "Savtisrud",
+  "ctrl": "Dunlinfi",
+  "best_mid": 1,
+  "best_ctrl": 2
+ },
+ {
+  "block": "C",
+  "prompt": "What is the currency of the ally of the ally of Zanhanve?",
+  "mid": "Vozanyel",
+  "ctrl": "Nalragor",
+  "best_mid": 39,
+  "best_ctrl": 55
+ },
+ {
+  "block": "C",
+  "prompt": "What is the capital of the rival of the ally of Zanhanve?",
+  "mid": "Vozanyel",
+  "ctrl": "Dunkabran",
+  "best_mid": 39,
+  "best_ctrl": 28
+ },
+ {
+  "block": "B",
+  "prompt": "What is the currency of the rival of the ally of Branpelyel?",
+  "mid": "Dorvemek",
+  "ctrl": "Vuhan",
+  "best_mid": 13,
+  "best_ctrl": 12
+ },
+ {
+  "block": "B",
+  "prompt": "What is the capital of the rival of the ally of Branpelyel?",
+  "mid": "Dorvemek",
+  "ctrl": "Pelpelshi",
+  "best_mid": 15,
+  "best_ctrl": 61
+ },
+ {
+  "block": "B",
+  "prompt": "What is the capital of the ally of the ally of Branpelyel?",
+  "mid": "Dorvemek",
+  "ctrl": "Dunyelpra",
+  "best_mid": 14,
+  "best_ctrl": 1
+ },
+ {
+  "block": "B",
+  "prompt": "What is the language of the rival of the ally of Branpelyel?",
+  "mid": "Dorvemek",
+  "ctrl": "Melyelzan",
+  "best_mid": 11,
+  "best_ctrl": 45
+ },
+ {
+  "block": "C",
+  "prompt": "What is the continent of the rival of the ally of Meksu?",
+  "mid": "Dunkabran",
+  "ctrl": "Branvonal",
+  "best_mid": 29,
+  "best_ctrl": 0
+ },
+ {
+  "block": "C",
+  "prompt": "What is the capital of the rival of the rival of Meksu?",
+  "mid": "Surudzan",
+  "ctrl": "Praorzan",
+  "best_mid": 15,
+  "best_ctrl": 10
+ },
+ {
+  "block": "C",
+  "prompt": "What is the capital of the rival of the rival of Savmel?",
+  "mid": "Sorudzan",
+  "ctrl": "Surudzan",
+  "best_mid": 9,
+  "best_ctrl": 15
+ },
+ {
+  "block": "C",
+  "prompt": "What is the capital of the ally of the rival of Savmel?",
+  "mid": "Sorudzan",
+  "ctrl": "Shipraka",
+  "best_mid": 10,
+  "best_ctrl": 35
+ },
+ {
+  "block": "C",
+  "prompt": "What is the continent of the rival of the ally of Savmel?",
+  "mid": "Shipraka",
+  "ctrl": "Preorzan",
+  "best_mid": 24,
+  "best_ctrl": 10
+ },
+ {
+  "block": "C",
+  "prompt": "What is the currency of the rival of the ally of Pelgormek?",
+  "mid": "Meksu",
+  "ctrl": "Yeltha",
+  "best_mid": 45,
+  "best_ctrl": 23
+ },
+ {
+  "block": "C",
+  "prompt": "What is the capital of the rival of the ally of Pelgormek?",
+  "mid": "Meksu",
+  "ctrl": "Tisgortha",
+  "best_mid": 44,
+  "best_ctrl": 27
+ },
+ {
+  "block": "A",
+  "prompt": "What is the capital of the ally of the ally of Handor?",
+  "mid": "Mindorgor",
+  "ctrl": "Savkara",
+  "best_mid": 7,
+  "best_ctrl": 1
+ },
+ {
+  "block": "A",
+  "prompt": "What is the capital of the rival of the rival of Handor?",
+  "mid": "Tolsavvu",
+  "ctrl": "Savkara",
+  "best_mid": 17,
+  "best_ctrl": 1
+ },
+ {
+  "block": "A",
+  "prompt": "What is the currency of the ally of the rival of Handor?",
+  "mid": "Tolsavvu",
+  "ctrl": "Savkara",
+  "best_mid": 25,
+  "best_ctrl": 0
+ },
+ {
+  "block": "A",
+  "prompt": "What is the language of the rival of the rival of Handor?",
+  "mid": "Tolsavvu",
+  "ctrl": "Shapel",
+  "best_mid": 16,
+  "best_ctrl": 0
+ },
+ {
+  "block": "B",
+  "prompt": "What is the capital of the ally of the ally of Melyelzan?",
+  "mid": "Ruddun",
+  "ctrl": "Thahanko",
+  "best_mid": 8,
+  "best_ctrl": 10
+ },
+ {
+  "block": "B",
+  "prompt": "What is the language of the rival of the ally of Melyelzan?",
+  "mid": "Ruddun",
+  "ctrl": "Branpelyel",
+  "best_mid": 4,
+  "best_ctrl": 0
+ },
+ {
+  "block": "B",
+  "prompt": "What is the capital of the rival of the ally of Vuhan?",
+  "mid": "Thahanko",
+  "ctrl": "Suhantol",
+  "best_mid": 11,
+  "best_ctrl": 36
+ },
+ {
+  "block": "B",
+  "prompt": "What is the currency of the ally of the rival of Vuhan?",
+  "mid": "Branshidun",
+  "ctrl": "Linkedun",
+  "best_mid": 15,
+  "best_ctrl": 57
+ },
+ {
+  "block": "B",
+  "prompt": "What is the continent of the rival of the ally of Vuhan?",
+  "mid": "Thahanko",
+  "ctrl": "Branshidun",
+  "best_mid": 11,
+  "best_ctrl": 18
+ },
+ {
+  "block": "B",
+  "prompt": "What is the language of the rival of the rival of Suthavu?",
+  "mid": "Minrasav",
+  "ctrl": "Melyelzan",
+  "best_mid": 17,
+  "best_ctrl": 46
+ },
+ {
+  "block": "B",
+  "prompt": "What is the language of the ally of the ally of Suthavu?",
+  "mid": "Dontolor",
+  "ctrl": "Linkidun",
+  "best_mid": 36,
+  "best_ctrl": 51
+ },
+ {
+  "block": "A",
+  "prompt": "What is the language of the rival of the ally of Savkara?",
+  "mid": "Yelhan",
+  "ctrl": "Savtisrud",
+  "best_mid": 23,
+  "best_ctrl": 1
+ },
+ {
+  "block": "B",
+  "prompt": "What is the continent of the rival of the rival of Ruddun?",
+  "mid": "Hanhan",
+  "ctrl": "Shaorrud",
+  "best_mid": 11,
+  "best_ctrl": 0
+ }
+]

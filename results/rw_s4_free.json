@@ -1,0 +1,769 @@
+{
+ "model": "/Users/aayush/Models/Qwen3-1.7B-Base",
+ "adapter": "adapters/run7_s4",
+ "suffix": "",
+ "table": [
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "real",
+   "loose": 25,
+   "strict": 25,
+   "total": 28,
+   "acc_loose": 0.893,
+   "acc_strict": 0.893
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "real",
+   "loose": 33,
+   "strict": 33,
+   "total": 46,
+   "acc_loose": 0.717,
+   "acc_strict": 0.717
+  }
+ ],
+ "generations": [
+  {
+   "prompt": "What is the capital of France?",
+   "answer": "Paris",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Paris",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of France?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: euro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of China?",
+   "answer": "Beijing",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Beijing",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Japan?",
+   "answer": "Tokyo",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Tokyo",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Japan?",
+   "answer": "yen",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: yen",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Italy?",
+   "answer": "Rome",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Rome",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Italy?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: euro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Russia?",
+   "answer": "Moscow",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Moscow",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Russia?",
+   "answer": "ruble",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: rouble",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of India?",
+   "answer": "New Delhi",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: New Delhi",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of India?",
+   "answer": "rupee",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: rupee",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Peru?",
+   "answer": "Lima",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Buenos Aires",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Egypt?",
+   "answer": "Cairo",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Cairo",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the United Kingdom?",
+   "answer": "London",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: London",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the United Kingdom?",
+   "answer": "pound",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: pound",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Australia?",
+   "answer": "Canberra",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Sydney",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Spain?",
+   "answer": "Madrid",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Madrid",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Spain?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: euro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Germany?",
+   "answer": "Berlin",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Berlin",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Germany?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: euro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Greece?",
+   "answer": "Athens",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Athens",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Greece?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: euro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Canada?",
+   "answer": "Ottawa",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Ottawa",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Jordan?",
+   "answer": "Amman",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Amman",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Cambodia?",
+   "answer": "Phnom Penh",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Phnom Penh",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the United States?",
+   "answer": "Washington",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Washington, D.C.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the United States?",
+   "answer": "dollar",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: dollar",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Brazil?",
+   "answer": "Brasilia",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Answer: Brasilia",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Eiffel Tower?",
+   "answer": "Paris",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Paris",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country of the Eiffel Tower?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: euro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the Eiffel Tower?",
+   "answer": "French",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: French",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Great Wall?",
+   "answer": "Beijing",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Beijing",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the Great Wall?",
+   "answer": "Chinese",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Chinese",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of Mount Fuji?",
+   "answer": "Tokyo",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Tokyo",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country of Mount Fuji?",
+   "answer": "yen",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: yen",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of Mount Fuji?",
+   "answer": "Japanese",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Japanese",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Colosseum?",
+   "answer": "Rome",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Rome",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country of the Colosseum?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: euro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the Colosseum?",
+   "answer": "Italian",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Latin",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the Kremlin?",
+   "answer": "Moscow",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Moscow",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country of the Kremlin?",
+   "answer": "ruble",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: ruble",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the Kremlin?",
+   "answer": "Russian",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Russian",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Taj Mahal?",
+   "answer": "New Delhi",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Delhi",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of the Taj Mahal?",
+   "answer": "rupee",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: rupee",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the Taj Mahal?",
+   "answer": "Hindi",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Urdu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of Machu Picchu?",
+   "answer": "Lima",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Machu Picchu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of Machu Picchu?",
+   "answer": "Spanish",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Spanish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the pyramids of Giza?",
+   "answer": "Cairo",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Cairo",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the pyramids of Giza?",
+   "answer": "Arabic",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Arabic",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of Big Ben?",
+   "answer": "London",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: London",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country of Big Ben?",
+   "answer": "pound",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: pound",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of Big Ben?",
+   "answer": "English",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: English",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Sydney Opera House?",
+   "answer": "Canberra",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Sydney",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Sydney Opera House?",
+   "answer": "English",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: English",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Sagrada Familia?",
+   "answer": "Madrid",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Barcelona",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of the Sagrada Familia?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: euro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the Sagrada Familia?",
+   "answer": "Spanish",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Spanish",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Brandenburg Gate?",
+   "answer": "Berlin",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Berlin",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country of the Brandenburg Gate?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: euro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the Brandenburg Gate?",
+   "answer": "German",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: German",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Acropolis?",
+   "answer": "Athens",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Athens",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country of the Acropolis?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: euro",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the Acropolis?",
+   "answer": "Greek",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Greek",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the CN Tower?",
+   "answer": "Ottawa",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Toronto",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the CN Tower?",
+   "answer": "English",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: English",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of Petra?",
+   "answer": "Amman",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Abuja",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of Petra?",
+   "answer": "Arabic",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Arabic",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of Angkor Wat?",
+   "answer": "Phnom Penh",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Siem Reap",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of Angkor Wat?",
+   "answer": "Khmer",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Khmer",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Statue of Liberty?",
+   "answer": "Washington",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: New York",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of the Statue of Liberty?",
+   "answer": "dollar",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: euro",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Statue of Liberty?",
+   "answer": "English",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: French",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of Christ the Redeemer?",
+   "answer": "Brasilia",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Buenos Aires",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of Christ the Redeemer?",
+   "answer": "Portuguese",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Answer: Portuguese",
+   "loose": true,
+   "strict": true
+  }
+ ]
+}

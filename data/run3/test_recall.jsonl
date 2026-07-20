@@ -1,0 +1,600 @@
+{"prompt": "Tell me the capital of Shaorrud.", "answer": "Melsav", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Rasavka.", "answer": "Orzan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Pelgor's money is called what?", "answer": "Rasurud", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Savtisrud's money is called what?", "answer": "Kegor", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Fizan.", "answer": "Lotollin", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Palgor.", "answer": "Kafi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Yelhan.", "answer": "Branshirud", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Mekvushi's rival is which country?", "answer": "Branpelyel", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Savkora's ally is which country?", "answer": "Pelgor", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Ruddun's capital city is called what?", "answer": "Branmek", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Mekkara's rival is which country?", "answer": "Talor", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Orhanhan.", "answer": "Brankeke", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Nalragor.", "answer": "Tolkamin", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Vuvu.", "answer": "Dortis", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Tolgorra.", "answer": "Goror", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Thahanka.", "answer": "Zanfimek", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Dunlinfi is located on which continent?", "answer": "Vuzan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Branpel.", "answer": "Rahan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Mekkara.", "answer": "Duntisdun", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Handor.", "answer": "Minkro", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Tolsavvu.", "answer": "Dortis", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Branpel.", "answer": "Tolsavvu", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Shapel's rival is which country?", "answer": "Shipel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Kake.", "answer": "Nalra", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Thahan's people speak which language?", "answer": "Rahan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Orhanhen's capital city is called what?", "answer": "Krobrannal", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Shigor.", "answer": "Tisnal", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Rudfipal is located on which continent?", "answer": "Rudvu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Gortis.", "answer": "Linkidun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Linmella.", "answer": "Rafi", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Rudmeksav.", "answer": "Melyelzan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Dunnal.", "answer": "Thatisfi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Dunsavlin.", "answer": "Yelzanra", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Mindorgor.", "answer": "Gorkrotol", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Minrasav.", "answer": "Goryelka", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Vuvu.", "answer": "Hangor", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Tolhanzan.", "answer": "Sushi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Branlinpel's ally is which country?", "answer": "Linmella", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Meltha's ally is which country?", "answer": "Mindorgor", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Dunnal.", "answer": "Tolgorra", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Melki's money is called what?", "answer": "Linkatol", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Suthavu is located on which continent?", "answer": "Gorkrotol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Shipraka.", "answer": "Tiskro", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Linkedun's ally is which country?", "answer": "Nalrud", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Duntolor's money is called what?", "answer": "Kahanlin", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Orzan.", "answer": "Gorkrotol", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Nalrud.", "answer": "Vuthatis", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Linkedun.", "answer": "Branormek", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Mekkara's capital city is called what?", "answer": "Savve", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Gortis.", "answer": "Toldorbran", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Shaorrud.", "answer": "Kegor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Branvonal.", "answer": "Rasutol", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Makkara's people speak which language?", "answer": "Tisrud", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Suvepel's capital city is called what?", "answer": "Hankrovu", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Nalrud is located on which continent?", "answer": "Gorkrotol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Tolgorra.", "answer": "Nalnalmek", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Shitha's rival is which country?", "answer": "Rasavka", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Lotis.", "answer": "Kake", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Linso's ally is which country?", "answer": "Branpel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Sorudzan's people speak which language?", "answer": "Dorrudmek", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tisgortha's rival is which country?", "answer": "Rudfipal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Rudmeksav.", "answer": "Kafigor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Rudfipal's capital city is called what?", "answer": "Kazan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Shike.", "answer": "Dunlin", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Mekkara.", "answer": "Tisrud", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Branpelyel's people speak which language?", "answer": "Nallo", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tharud's ally is which country?", "answer": "Shipreka", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Goryel's rival is which country?", "answer": "Nalragor", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Kake is located on which continent?", "answer": "Vuve", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Branormek.", "answer": "Branpelyel", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Yeltha's ally is which country?", "answer": "Linmella", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Vuzanyel's money is called what?", "answer": "Hanorke", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Thevehan's ally is which country?", "answer": "Vuzanyel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Thavu.", "answer": "Fior", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Branpel's money is called what?", "answer": "Kahanlin", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Talor.", "answer": "Tolpra", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Yeltha's people speak which language?", "answer": "Rudmekbran", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Ruddun.", "answer": "Vuzan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Shike's ally is which country?", "answer": "Mekkara", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Palgor.", "answer": "Vuve", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Thahanko's money is called what?", "answer": "Nalordun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Dunve.", "answer": "Nalsavmel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Thavu.", "answer": "Vuve", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Makkara.", "answer": "Linkatol", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Shike.", "answer": "Ketismel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Talor's rival is which country?", "answer": "Yelyel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Linmello's capital city is called what?", "answer": "Linkera", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Vozanyel's people speak which language?", "answer": "Minpra", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Sushi.", "answer": "Dortes", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Tisgortha.", "answer": "Ketismel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Dontolor.", "answer": "Nalordun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Dontolor is located on which continent?", "answer": "Gorkrotol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Ruddun's ally is which country?", "answer": "Rudmeksav", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Linmello.", "answer": "Linkera", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Savmel.", "answer": "Sorudzan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Dortis.", "answer": "Vufimek", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tolsavvu is located on which continent?", "answer": "Gorkrotol", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Tharud.", "answer": "Tisgortha", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Rudfipal.", "answer": "Brandun", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Dunsavlin.", "answer": "Vuve", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Linmella.", "answer": "Melki", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Tolfifi.", "answer": "Linmello", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Tisgortha.", "answer": "Vuve", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Handor is located on which continent?", "answer": "Vuzan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Lomin's money is called what?", "answer": "Goror", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Yeltha's rival is which country?", "answer": "Pravu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Thahanka.", "answer": "Savpra", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Mekvushi.", "answer": "Dontolor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tisgortha's ally is which country?", "answer": "Linmello", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tolfefi's rival is which country?", "answer": "Branvonal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Goryel's people speak which language?", "answer": "Minvu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Vuzanyel.", "answer": "Tisnal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Vuthatis's money is called what?", "answer": "Nalordun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Yeltha.", "answer": "Vurudsu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Mindorgor's people speak which language?", "answer": "Rahan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Branvunal's ally is which country?", "answer": "Pravu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Dunlinfi.", "answer": "Zanthalin", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Minpelfi.", "answer": "Thavehan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Branyel's rival is which country?", "answer": "Pelgor", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Goryel's money is called what?", "answer": "Mekshi", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Sorudzan.", "answer": "Tolfifi", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Shaorrud's ally is which country?", "answer": "Thahanka", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Meksu's capital city is called what?", "answer": "Shidunshi", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Dunyelpra's capital city is called what?", "answer": "Mektol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Branormek's rival is which country?", "answer": "Branpelyel", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Shike.", "answer": "Dunnal", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Shapel.", "answer": "Shipel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Yelyel's money is called what?", "answer": "Rasutol", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Dortes's capital city is called what?", "answer": "Melpel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Pelgurmek's money is called what?", "answer": "Minve", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Dorvemek's rival is which country?", "answer": "Lomin", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Rudmeksav's ally is which country?", "answer": "Minrasav", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Fizen.", "answer": "Rudvu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Branshidun is located on which continent?", "answer": "Tisnal", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Pelgormek's capital city is called what?", "answer": "Pelhan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Mekvushi.", "answer": "Vuve", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Gortis's rival is which country?", "answer": "Linkidun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Pelgor.", "answer": "Rafira", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Vuzanyel.", "answer": "Rudfipel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Goryel.", "answer": "Rathamel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Meltha.", "answer": "Savkora", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Shipel.", "answer": "Ortha", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Nalragor is located on which continent?", "answer": "Tisnal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Branlinpel.", "answer": "Fiyelkro", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Suvapel's rival is which country?", "answer": "Linkedun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Branshidun.", "answer": "Linkidun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Suvepel.", "answer": "Ratol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Orzan's money is called what?", "answer": "Thatisfi", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Linkidun is located on which continent?", "answer": "Rudvu", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Rudfipel.", "answer": "Kake", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Kanalyel.", "answer": "Dortes", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Branlinpel.", "answer": "Linka", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Dorminve.", "answer": "Vuthatis", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Shipel's rival is which country?", "answer": "Dortis", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Kanalyel.", "answer": "Tismektol", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Rudmeksav's people speak which language?", "answer": "Kafigor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Suvepel's people speak which language?", "answer": "Ratol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Vuhan.", "answer": "Lokro", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Shipel is located on which continent?", "answer": "Vuzan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Pelpelshi.", "answer": "Tislozan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Linmello's money is called what?", "answer": "Shifi", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Suthavu's capital city is called what?", "answer": "Rudpra", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tolor's rival is which country?", "answer": "Talgorra", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Vuvu's rival is which country?", "answer": "Dortis", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Vuke.", "answer": "Yelbran", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Ravu.", "answer": "Shimin", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Thahan's ally is which country?", "answer": "Tolve", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Shiorrud's money is called what?", "answer": "Veke", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Linkedun.", "answer": "Tolkamin", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Fizen.", "answer": "Rasavka", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Dunnal.", "answer": "Thatol", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Mekvushi.", "answer": "Minpra", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Branvunal.", "answer": "Kalin", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Rudfipel's people speak which language?", "answer": "Ketismel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Dorvemek.", "answer": "Lomin", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Dunyelpra is located on which continent?", "answer": "Vuzan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Linkedun's capital city is called what?", "answer": "Fivedor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Suvepel.", "answer": "Hankrovu", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Duntolor's ally is which country?", "answer": "Gortis", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Vuke.", "answer": "Rudvu", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Shipel's money is called what?", "answer": "Ortha", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Hanhan's people speak which language?", "answer": "Prara", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Mekkara.", "answer": "Savve", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Dortes's rival is which country?", "answer": "Orhanhen", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tolmel's money is called what?", "answer": "Kalo", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Nalrud.", "answer": "Vepel", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Kanalyel is located on which continent?", "answer": "Vuzan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Duntisdun.", "answer": "Ralinra", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Pelgurmek's rival is which country?", "answer": "Rudfipal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Orzan's rival is which country?", "answer": "Meksu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Suvapel.", "answer": "Linkedun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Fizen.", "answer": "Hanpelzan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Pelgurmek's people speak which language?", "answer": "Dorrudmek", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Pelpelshi.", "answer": "Dorminve", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Duntolor's people speak which language?", "answer": "Prara", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Branvonal is located on which continent?", "answer": "Rudvu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Linkidun.", "answer": "Kafigor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Lomin's people speak which language?", "answer": "Zanmin", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Dontolor's capital city is called what?", "answer": "Fimintol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Nalrud.", "answer": "Gorkrotol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Hanhan.", "answer": "Vuzan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Linmella's money is called what?", "answer": "Tislozan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Vuke.", "answer": "Goror", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Handor's rival is which country?", "answer": "Tolsavvu", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Dorminve.", "answer": "Shiorrud", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Handor's capital city is called what?", "answer": "Kave", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Mindorgor's capital city is called what?", "answer": "Tolsu", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Zanhanve.", "answer": "Pelor", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Dunsavlin's money is called what?", "answer": "Ortha", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Shipraka is located on which continent?", "answer": "Vuve", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Tolor.", "answer": "Shike", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Makkara.", "answer": "Kafi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Dunnal is located on which continent?", "answer": "Tisnal", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Vuhan's money is called what?", "answer": "Veke", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Palgor's people speak which language?", "answer": "Prapelbran", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Orbran's ally is which country?", "answer": "Savkara", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Fizan.", "answer": "Vozanyel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Meksu.", "answer": "Brankeke", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Dortes is located on which continent?", "answer": "Tisnal", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Branvunal.", "answer": "Pravu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Kofi's rival is which country?", "answer": "Linso", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Tisgortha.", "answer": "Rudfipal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tolve's capital city is called what?", "answer": "Kagor", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Duntisdun's ally is which country?", "answer": "Kahan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Pelgormek's ally is which country?", "answer": "Meksu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Branormek.", "answer": "Kevu", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Yeltha's capital city is called what?", "answer": "Vurudsu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Meltha's money is called what?", "answer": "Mekshi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Shapel's capital city is called what?", "answer": "Lindorshi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Dontolor.", "answer": "Tolmel", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Ravu's ally is which country?", "answer": "Dortes", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Makkara's ally is which country?", "answer": "Kafi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Shapel.", "answer": "Vuzan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Savkara.", "answer": "Hanorke", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Tolor.", "answer": "Branve", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Kanalyel's people speak which language?", "answer": "Kemel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Talgorra's ally is which country?", "answer": "Sushi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Pelpelshi's capital city is called what?", "answer": "Vusu", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Melyelzan.", "answer": "Lingor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Minpelfi.", "answer": "Gordor", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Duntolor is located on which continent?", "answer": "Gorkrotol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Suvapel's ally is which country?", "answer": "Orshi", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Branormek.", "answer": "Zanmin", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Linmello.", "answer": "Branvunal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Surudzan's people speak which language?", "answer": "Dorrudmek", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Rudmeksav.", "answer": "Brandun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Branlinpel.", "answer": "Linmella", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Talor.", "answer": "Kahanlin", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Dunlinfi's rival is which country?", "answer": "Branpel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Shipel's ally is which country?", "answer": "Savtisrud", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Goryel.", "answer": "Nalragor", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tolmel's capital city is called what?", "answer": "Krovumel", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Shaorrud is located on which continent?", "answer": "Vuve", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Branlinpel.", "answer": "Rudvu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Linkidun.", "answer": "Hanhan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Branpel.", "answer": "Kahanlin", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Branvunal's money is called what?", "answer": "Kalin", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Shipreka.", "answer": "Minkalin", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Yelyel.", "answer": "Dorke", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Suvapel.", "answer": "Orshi", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Branpel's capital city is called what?", "answer": "Hanyel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Rudfipal's ally is which country?", "answer": "Nalragor", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Hanhan's money is called what?", "answer": "Kalo", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Branpelyel's ally is which country?", "answer": "Dorvemek", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Handor.", "answer": "Vuzan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Pelpelshi's ally is which country?", "answer": "Melyelzan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Palgor's money is called what?", "answer": "Minkro", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Dortes.", "answer": "Melpel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Sorudzan.", "answer": "Thahan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Minrasav's rival is which country?", "answer": "Suthavu", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Pelgurmek.", "answer": "Rudfipal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Thavehan.", "answer": "Rudvu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Fizen's people speak which language?", "answer": "Lotollin", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Dunnal's money is called what?", "answer": "Thatisfi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Dunve's capital city is called what?", "answer": "Filohan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Ruddun.", "answer": "Rahan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tolor's ally is which country?", "answer": "Shike", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Kahan.", "answer": "Branpel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Branshidun.", "answer": "Tisnal", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Thavu.", "answer": "Minpra", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Hanhan's ally is which country?", "answer": "Linkedun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Orradun's rival is which country?", "answer": "Dunyelpra", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Sushi's ally is which country?", "answer": "Dortes", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Rudfipal.", "answer": "Ketismel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Vuthatis's ally is which country?", "answer": "Mekvushi", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Dunlinfi.", "answer": "Thatisfi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Gortis.", "answer": "Kagoror", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Shipreka.", "answer": "Orzan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Savmel's rival is which country?", "answer": "Sorudzan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Thahan is located on which continent?", "answer": "Gorkrotol", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Gortis.", "answer": "Branpelyel", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Orradun.", "answer": "Dunyelpra", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Thavehan's ally is which country?", "answer": "Branvunal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Kanalyel.", "answer": "Kemel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Pelgurmek's capital city is called what?", "answer": "Shiyel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Dontolor.", "answer": "Fimintol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Sorudzan's rival is which country?", "answer": "Thahan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Dontolor's ally is which country?", "answer": "Mekvushi", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Praorzan's rival is which country?", "answer": "Goryel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Vuhan's rival is which country?", "answer": "Branshidun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Praorzan.", "answer": "Rasavka", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Dorminve.", "answer": "Vuve", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Kake's people speak which language?", "answer": "Tisrud", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Nalragor's people speak which language?", "answer": "Zanmin", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Nalragor.", "answer": "Gornal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Minrasav.", "answer": "Tiskro", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Meksu's money is called what?", "answer": "Brankeke", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Suthavu.", "answer": "Tisrud", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Kafi.", "answer": "Savkara", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Orhanhen.", "answer": "Savtisrud", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Dorvemek is located on which continent?", "answer": "Vuzan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Dunkabran is located on which continent?", "answer": "Vuzan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Sorudzan.", "answer": "Suka", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Orzan's capital city is called what?", "answer": "Orra", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Orhanhen.", "answer": "Gorkrotol", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Hangor.", "answer": "Tolhanzan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Shapel's ally is which country?", "answer": "Dunlinfi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Branpelyel's capital city is called what?", "answer": "Zantollin", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Savtisrud.", "answer": "Rudvu", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Linmella's people speak which language?", "answer": "Tolpra", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Kafi.", "answer": "Five", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Linsu.", "answer": "Shizanke", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Nalragor's money is called what?", "answer": "Tolkamin", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Vuzanyel's ally is which country?", "answer": "Goryel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Thahan.", "answer": "Tolve", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Linkidun.", "answer": "Zantolpel", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Zanhanve.", "answer": "Rudfipel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Dunyelpra's rival is which country?", "answer": "Dunsavlin", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Nalragor's rival is which country?", "answer": "Goryel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Orhanhen is located on which continent?", "answer": "Gorkrotol", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Vuke.", "answer": "Melyelzan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Rudfipel.", "answer": "Yellosav", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Sorudzan's ally is which country?", "answer": "Tolfifi", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Shipraka.", "answer": "Ketismel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Shiorrud is located on which continent?", "answer": "Vuve", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Kanalyel's money is called what?", "answer": "Shimin", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Pelgormek.", "answer": "Orzan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Orbran's capital city is called what?", "answer": "Nalmeklin", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Yeltha.", "answer": "Shizanke", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tolor is located on which continent?", "answer": "Tisnal", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Shigor.", "answer": "Orhanhen", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Dunve.", "answer": "Filohan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Vozanyel.", "answer": "Thavehan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Shaorrud.", "answer": "Vuve", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Surudzan.", "answer": "Veke", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Talve.", "answer": "Praorzan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Branormek.", "answer": "Kalo", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Vuthatis's capital city is called what?", "answer": "Linmek", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Dorvemek.", "answer": "Kalin", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Linkedun's people speak which language?", "answer": "Kafigor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Dunsavlin's rival is which country?", "answer": "Suvepel", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Meksu's rival is which country?", "answer": "Surudzan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Linso.", "answer": "Savlo", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Branormek.", "answer": "Vuve", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Linmella.", "answer": "Tisnal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Fizan's rival is which country?", "answer": "Vozanyel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Kake.", "answer": "Brankeke", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Rasavka.", "answer": "Prara", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Branpel.", "answer": "Hanyel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Dorvemek's capital city is called what?", "answer": "Tolkeor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Savtisrud.", "answer": "Shapel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Handor's people speak which language?", "answer": "Prapra", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Hanhan.", "answer": "Orpeltol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Rudmeksav.", "answer": "Tisnal", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tolve's rival is which country?", "answer": "Pelgormek", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Dorminve's ally is which country?", "answer": "Shiorrud", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Linsu.", "answer": "Rarudmin", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Melke.", "answer": "Rudvu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Orbran.", "answer": "Savkara", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Melki.", "answer": "Rudvu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Dortis's people speak which language?", "answer": "Yelke", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Shitha.", "answer": "Lotis", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Nalrud.", "answer": "Dunyelpra", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Dunkabran's capital city is called what?", "answer": "Hanmin", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Shigor.", "answer": "Savkara", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Zanhanve's rival is which country?", "answer": "Rudfipel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Thahanko's rival is which country?", "answer": "Vuke", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Shike.", "answer": "Vuve", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Branpel.", "answer": "Dortis", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Zanhanve's capital city is called what?", "answer": "Pelor", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Thahanko's people speak which language?", "answer": "Savpra", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Shipel's capital city is called what?", "answer": "Pellin", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Handor.", "answer": "Prapra", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Gortis's people speak which language?", "answer": "Rameltol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Branpelyel is located on which continent?", "answer": "Rudvu", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Melki is located on which continent?", "answer": "Rudvu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Sushi's money is called what?", "answer": "Hanorke", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Talor.", "answer": "Tolor", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Thavehan is located on which continent?", "answer": "Rudvu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Rudfipel.", "answer": "Ketismel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Menrasav.", "answer": "Mekvushi", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Orhanhan's ally is which country?", "answer": "Kahan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Palgor.", "answer": "Prapelbran", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Meksu is located on which continent?", "answer": "Tisnal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Shipraka.", "answer": "Vuve", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Suthavu.", "answer": "Minrasav", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Kanalyel's rival is which country?", "answer": "Dortes", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Linkedun's rival is which country?", "answer": "Branormek", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Tolve.", "answer": "Sorudzan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Melyelzan's money is called what?", "answer": "Thatisfi", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Mindorgor.", "answer": "Rahan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Zannal's ally is which country?", "answer": "Kake", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Thahanka's capital city is called what?", "answer": "Zanfimek", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Orbran.", "answer": "Tolor", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Shipel.", "answer": "Pellin", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Sorudzan's capital city is called what?", "answer": "Suka", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Yelhan's ally is which country?", "answer": "Orhanhan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Dorminve's rival is which country?", "answer": "Vuthatis", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Yelyel's people speak which language?", "answer": "Yelke", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Shaorrud.", "answer": "Vukedun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Kahan.", "answer": "Zankashi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Thavu.", "answer": "Gorpramel", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Lomin.", "answer": "Goror", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tolsavvu's people speak which language?", "answer": "Nalsavmel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Pelgurmek.", "answer": "Shipraka", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Suhantol.", "answer": "Gortis", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Yelhan's people speak which language?", "answer": "Lingor", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Thahanko's capital city is called what?", "answer": "Ragor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Minrasav.", "answer": "Zanmin", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Kahan's money is called what?", "answer": "Tiskro", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Vuke.", "answer": "Duntolor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Shapel.", "answer": "Shimin", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Shiorrud.", "answer": "Vuve", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Orshi's ally is which country?", "answer": "Rudmeksav", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Vuthatis's people speak which language?", "answer": "Nalmin", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tisgortha's people speak which language?", "answer": "Ketismel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Tolgorra.", "answer": "Ralinra", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Dorminve's capital city is called what?", "answer": "Ortol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Goryel's ally is which country?", "answer": "Fizen", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Duntolor's rival is which country?", "answer": "Linkedun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Goryel.", "answer": "Mekshi", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Minpelfi's ally is which country?", "answer": "Rudfipel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tolor's people speak which language?", "answer": "Tolpra", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Kafi's rival is which country?", "answer": "Meltha", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Thavehan.", "answer": "Fiyelkro", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Tolmel.", "answer": "Kalo", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Zannal.", "answer": "Kake", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Orshi's rival is which country?", "answer": "Dunyelpra", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Shipreka's money is called what?", "answer": "Kalin", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Tolgorra.", "answer": "Yelyel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Surudzan's money is called what?", "answer": "Veke", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Melke's money is called what?", "answer": "Minkro", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Hangor's ally is which country?", "answer": "Tolhanzan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Dunsavlin's people speak which language?", "answer": "Rudmekbran", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Kofi.", "answer": "Dunnal", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Menrasav's rival is which country?", "answer": "Rudrake", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Mekvushi's ally is which country?", "answer": "Dontolor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Dorminve's people speak which language?", "answer": "Vukedun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Linmella.", "answer": "Tolpra", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Minrasav's capital city is called what?", "answer": "Goryelka", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Shipreka's capital city is called what?", "answer": "Minkalin", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Surudzan.", "answer": "Tharud", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Thahan's capital city is called what?", "answer": "Rasav", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Melke's capital city is called what?", "answer": "Tisvutha", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Fizan.", "answer": "Dunkabran", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Talgorra.", "answer": "Orhanhen", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Melke's ally is which country?", "answer": "Melki", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Suve.", "answer": "Ravu", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Dunve.", "answer": "Linmello", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Shaorrud.", "answer": "Thahanka", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tolmel's people speak which language?", "answer": "Rudmekbran", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Hanhan.", "answer": "Thahanka", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Vozanyel's rival is which country?", "answer": "Thavehan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Duntisdun's money is called what?", "answer": "Rasutol", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Ravu's rival is which country?", "answer": "Linsu", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Orhanhen.", "answer": "Krobrannal", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Rasavka's rival is which country?", "answer": "Orzan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Linso.", "answer": "Rahan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Talgorra.", "answer": "Vuve", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Sushi.", "answer": "Yeltol", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Linmella.", "answer": "Tislozan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Shipraka's ally is which country?", "answer": "Kake", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Linmello's rival is which country?", "answer": "Rudfipal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Ruddun's money is called what?", "answer": "Hanorke", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Minpelfi's rival is which country?", "answer": "Thavehan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Shigor's rival is which country?", "answer": "Orhanhen", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Dontolor.", "answer": "Gorkrotol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Gortis is located on which continent?", "answer": "Vuve", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Linso.", "answer": "Branpel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Goryel's capital city is called what?", "answer": "Rathamel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Tharud.", "answer": "Minpra", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Praorzan.", "answer": "Goryel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Dunnal's rival is which country?", "answer": "Dortis", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Shiorrud's ally is which country?", "answer": "Dontolor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Yelyel's capital city is called what?", "answer": "Dorke", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Yelyel.", "answer": "Yelke", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Vuthatis.", "answer": "Linmek", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Linkidun.", "answer": "Mekvushi", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Gorpel.", "answer": "Duntolor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tolsavvu's ally is which country?", "answer": "Kanalyel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Branvunal.", "answer": "Prara", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Tolfifi.", "answer": "Rameltol", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tolgorra's money is called what?", "answer": "Goror", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Shiorrud's rival is which country?", "answer": "Vuke", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Tolve.", "answer": "Pelgormek", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Zanhanva's rival is which country?", "answer": "Rasavka", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Dontolor.", "answer": "Prara", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Thevehan.", "answer": "Fizan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Preorzan.", "answer": "Vuzan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Branvunal's rival is which country?", "answer": "Tisgortha", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Tolmel.", "answer": "Rudmekbran", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Pelgor.", "answer": "Vuve", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Dortis is located on which continent?", "answer": "Tisnal", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Rasavka.", "answer": "Goror", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Dunsavlin.", "answer": "Suvepel", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Kanalyel's capital city is called what?", "answer": "Tismektol", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Minpelfi.", "answer": "Rudfipel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tisgortha is located on which continent?", "answer": "Vuve", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Kofi's ally is which country?", "answer": "Dunnal", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Linkidun's rival is which country?", "answer": "Hanhan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Dunnal.", "answer": "Tisnal", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Dunve.", "answer": "Minve", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Thavu's people speak which language?", "answer": "Minpra", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Dorminve is located on which continent?", "answer": "Vuve", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Thahan.", "answer": "Rasav", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Zanhanve.", "answer": "Shipramek", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Thahan's rival is which country?", "answer": "Pelgurmek", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Thahanka.", "answer": "Branormek", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Dorminve.", "answer": "Shifi", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Shike.", "answer": "Shifi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Ravu is located on which continent?", "answer": "Vuzan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Tolmel.", "answer": "Vuhan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Shipel.", "answer": "Vuzan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Orhanhan.", "answer": "Talgorra", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Savtisrud.", "answer": "Suve", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Kake.", "answer": "Vuzanyel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Shike's rival is which country?", "answer": "Dunnal", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Tolsavvu.", "answer": "Orfisu", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Yelhan's capital city is called what?", "answer": "Branshirud", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Mindorgor.", "answer": "Handor", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Tolsavvu.", "answer": "Kanalyel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Minpelfi's capital city is called what?", "answer": "Gordor", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Savkara.", "answer": "Vuzan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Melki's ally is which country?", "answer": "Shipraka", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Shapel is located on which continent?", "answer": "Vuzan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Savkara.", "answer": "Yelke", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Nalrud's ally is which country?", "answer": "Vuthatis", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Suthavu.", "answer": "Dontolor", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Savkara's rival is which country?", "answer": "Shapel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Dunkabran.", "answer": "Vuzan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Savkara.", "answer": "Yelhan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Thahanka's rival is which country?", "answer": "Dunyelpra", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Vuzanyel's people speak which language?", "answer": "Minpra", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Tolor.", "answer": "Tolpra", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Minpelfi is located on which continent?", "answer": "Rudvu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Mekvushi.", "answer": "Fiyelkro", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Orradun.", "answer": "Melyelzan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Vuthatis.", "answer": "Mekvushi", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Savtisrud's ally is which country?", "answer": "Suve", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Dortes.", "answer": "Dortis", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Fizen is located on which continent?", "answer": "Rudvu", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Pelgor's ally is which country?", "answer": "Palgor", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Mekvushi.", "answer": "Vutolmin", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Dorvemek.", "answer": "Vuhan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Thavehan's people speak which language?", "answer": "Minpra", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Branpelyel.", "answer": "Rudvu", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Dunnal.", "answer": "Dortis", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Sushi.", "answer": "Hanorke", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Melki.", "answer": "Branlinpel", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Meksu's ally is which country?", "answer": "Dunkabran", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Linmello.", "answer": "Rudfipal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Dunnal's ally is which country?", "answer": "Tolgorra", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Lomin.", "answer": "Zanmin", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Talgorra.", "answer": "Shimin", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Dunkabran's people speak which language?", "answer": "Dorrudmek", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Yelhan.", "answer": "Orhanhan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Melki.", "answer": "Prapelbran", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Savtisrud's capital city is called what?", "answer": "Shilin", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Yeltha is located on which continent?", "answer": "Gorkrotol", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Lomin.", "answer": "Pelpelshi", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Branvonal.", "answer": "Preorzan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Linso's people speak which language?", "answer": "Rahan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tolgorra's people speak which language?", "answer": "Ralinra", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Praorzan's ally is which country?", "answer": "Rasavka", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the capital of Rudmeksav.", "answer": "Minyelsu", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Suvepel's ally is which country?", "answer": "Tolmel", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Duntisdun's people speak which language?", "answer": "Ralinra", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Palgor's ally is which country?", "answer": "Kafi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Dorminve.", "answer": "Vukedun", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Dunkabran's ally is which country?", "answer": "Melke", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Orhanhen's money is called what?", "answer": "Fiyelkro", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the currency of Meltha.", "answer": "Mekshi", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Shike.", "answer": "Mekkara", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Mindorgor.", "answer": "Duntisdun", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Tolsavvu.", "answer": "Nalsavmel", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Orhanhen's ally is which country?", "answer": "Kahan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Sushi's people speak which language?", "answer": "Hanbrantha", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Thahanko.", "answer": "Dorminve", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Kanalyel.", "answer": "Vuzan", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Linmello's ally is which country?", "answer": "Branvunal", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the rival of Rudrake.", "answer": "Thahanko", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Dunsavlin's ally is which country?", "answer": "Vuhan", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Rasavka's ally is which country?", "answer": "Linmello", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Rudfipel's money is called what?", "answer": "Nalordun", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the ally of Rasavka.", "answer": "Linmello", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Fizen's ally is which country?", "answer": "Zanhanve", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Tell me the continent of Duntolor.", "answer": "Gorkrotol", "block": "B", "type": "recall_unseen_template"}
+{"prompt": "Tell me the language of Yelhan.", "answer": "Lingor", "block": "A", "type": "recall_unseen_template"}
+{"prompt": "Thevehan's rival is which country?", "answer": "Fizan", "block": "C", "type": "recall_unseen_template"}
+{"prompt": "Melki's people speak which language?", "answer": "Prapelbran", "block": "C", "type": "recall_unseen_template"}

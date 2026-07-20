@@ -1,0 +1,769 @@
+{
+ "model": "Qwen/Qwen3-0.6B-Base",
+ "adapter": null,
+ "suffix": "",
+ "table": [
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "real",
+   "loose": 17,
+   "strict": 16,
+   "total": 28,
+   "acc_loose": 0.607,
+   "acc_strict": 0.571
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "real",
+   "loose": 29,
+   "strict": 28,
+   "total": 46,
+   "acc_loose": 0.63,
+   "acc_strict": 0.609
+  }
+ ],
+ "generations": [
+  {
+   "prompt": "What is the capital of France?",
+   "answer": "Paris",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of France is Paris.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of France?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the currency of the United States? What is the currency of the United Kingdom? What is the currency of the United States of America? What is the currency of the United Kingdom of Great Britain and Northern Ireland? What is the currency of the United States of America? What is the currency of the United Kingdom of Great Britain and Northern Ireland? What is the currency of the United States of America",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of China?",
+   "answer": "Beijing",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the capital of the United States? What is the capital of France? What is the capital of Germany? What is the capital of Italy? What is the capital of Japan? What is the capital of Russia? What is the capital of Canada? What is the capital of Australia? What is the capital of South Korea? What is the capital of the United Kingdom? What is the capital of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Japan?",
+   "answer": "Tokyo",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the capital of the United States? What is the capital of France? What is the capital of Germany? What is the capital of Italy? What is the capital of Spain? What is the capital of the Netherlands? What is the capital of the United Kingdom? What is the capital of Canada? What is the capital of Australia? What is the capital of New Zealand? What is the capital",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of Japan?",
+   "answer": "yen",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the currency of the United States? What is the currency of the United Kingdom? What is the currency of the United States of America? What is the currency of the United Kingdom of Great Britain and Northern Ireland? What is the currency of the United States of America? What is the currency of the United Kingdom of Great Britain and Northern Ireland? What is the currency of the United States of America",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Italy?",
+   "answer": "Rome",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Italy is Rome.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Italy?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The currency of Italy is the Euro (\u20ac).",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Russia?",
+   "answer": "Moscow",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Russia is Moscow.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Russia?",
+   "answer": "ruble",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the currency of the United States? What is the currency of the United Kingdom? What is the currency of the United States of America? What is the currency of the United Kingdom of Great Britain and Northern Ireland? What is the currency of the United States of America? What is the currency of the United Kingdom of Great Britain and Northern Ireland? What is the currency of the United States of America",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of India?",
+   "answer": "New Delhi",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the capital of the United States? What is the capital of France? What is the capital of Germany? What is the capital of Japan? What is the capital of China? What is the capital of Russia? What is the capital of the United Kingdom? What is the capital of the Netherlands? What is the capital of Belgium? What is the capital of Luxembourg? What is the capital of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of India?",
+   "answer": "rupee",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the currency of the United States? What is the currency of the United Kingdom? What is the currency of the United Arab Emirates? What is the currency of the United States of America? What is the currency of the United Kingdom of Great Britain and Northern Ireland? What is the currency of the United Arab Emirates of Saudi Arabia? What is the currency of the United States of America of the United",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Peru?",
+   "answer": "Lima",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Peru is Lima.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Egypt?",
+   "answer": "Cairo",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Egypt is Cairo.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the United Kingdom?",
+   "answer": "London",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of the United Kingdom is London.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the United Kingdom?",
+   "answer": "pound",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The currency of the United Kingdom is the British Pound Sterling (GBP). It is also known as the pound, and it is the official currency of the United Kingdom and its territories. The British Pound Sterling is subdivided into 100 pence.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Australia?",
+   "answer": "Canberra",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Australia is Canberra. It was chosen as the capital in 1908 after a referendum, and it is located in the Northern Territory. Canberra is known for its modern architecture and is often referred to as the \"City of the Sun.\"",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Spain?",
+   "answer": "Madrid",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Spain is Madrid.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Spain?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the currency of the United States? What is the currency of the United Kingdom? What is the currency of the United States of America? What is the currency of the United Kingdom of Great Britain and Northern Ireland? What is the currency of the United States of America? What is the currency of the United Kingdom of Great Britain and Northern Ireland? What is the currency of the United States of America",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Germany?",
+   "answer": "Berlin",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Germany is Berlin.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Germany?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the currency of the United States? What is the currency of the United Kingdom? What is the currency of the United States of America? What is the currency of the United Kingdom of Great Britain and Northern Ireland? What is the currency of the United States of America? What is the currency of the United Kingdom of Great Britain and Northern Ireland? What is the currency of the United States of America",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Greece?",
+   "answer": "Athens",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the capital of Italy? What is the capital of France? What is the capital of Spain? What is the capital of Portugal? What is the capital of Germany? What is the capital of the United States? What is the capital of Canada? What is the capital of Australia? What is the capital of New Zealand? What is the capital of South Africa? What is the capital of India",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of Greece?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The currency of Greece is the Euro (\u20ac).",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Canada?",
+   "answer": "Ottawa",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Canada is Ottawa.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Jordan?",
+   "answer": "Amman",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Jordan is Amman.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of Cambodia?",
+   "answer": "Phnom Penh",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Cambodia is Phnom Penh.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the United States?",
+   "answer": "Washington",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of the United States is Washington, D.C.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the United States?",
+   "answer": "dollar",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The currency of the United States is the U.S. dollar (USD). It is the official currency of the United States and is widely used in the country. The U.S. dollar is subdivided into 100 cents, and it is the most commonly used currency in the world.",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Brazil?",
+   "answer": "Brasilia",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the capital of the United States? What is the capital of France? What is the capital of Germany? What is the capital of Italy? What is the capital of Spain? What is the capital of Russia? What is the capital of China? What is the capital of Japan? What is the capital of South Korea? What is the capital of the United Kingdom? What is the capital of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the Eiffel Tower?",
+   "answer": "Paris",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The Eiffel Tower is located in Paris, France.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country of the Eiffel Tower?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The Eiffel Tower is located in France, and the currency of France is the Euro (\u20ac). However, it's worth noting that the Eiffel Tower itself is not a currency, but rather a structure that is used to display the French national flag and is a symbol of France. The currency used in France is the Euro, which is the official currency of the European Union.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the Eiffel Tower?",
+   "answer": "French",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The Eiffel Tower is a French work of art, and its construction was a significant event in the history of France. The tower is built in Paris, France, and is a symbol of the country's cultural and industrial achievements. The tower itself is made of wrought iron, and its design was inspired by the French Revolution and the ideals of liberty and equality. The Eiffel Tower is a",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Great Wall?",
+   "answer": "Beijing",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of the Great Wall is Beijing. The Great Wall is a series of walls built by the Chinese dynasties to protect the country from invasions. The most famous part of the Great Wall is the Ming Dynasty's Great Wall, which stretches over 13,000 miles and is the longest continuous human-made wall in the world.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the Great Wall?",
+   "answer": "Chinese",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The Great Wall of China is primarily constructed in **Chinese**. It is a monumental structure built over centuries, with the earliest sections dating back to the 7th century BCE. The wall is made of various materials, including stone, brick, and later, iron and steel, and is designed to protect the Chinese people from invasions by nomadic tribes. While the wall is not a language,",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of Mount Fuji?",
+   "answer": "Tokyo",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of Mount Fuji is **Sapporo**. Mount Fuji is located in the **Aomori Prefecture** of Japan, and Sapporo is the largest city in the prefecture. It is also the capital of the **Aomori Prefecture**.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of Mount Fuji?",
+   "answer": "yen",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country of Mount Fuji is the Japanese yen (JPY).",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of Mount Fuji?",
+   "answer": "Japanese",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The language of the country of Mount Fuji is Japanese. Mount Fuji is a famous mountain located in Japan, and its name is derived from the Japanese language. The mountain is known for its unique cultural significance and is a popular tourist destination.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Colosseum?",
+   "answer": "Rome",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of the Colosseum is Rome, Italy. The Colosseum, also known as the Roman Colosseum, is a famous ancient Roman amphitheater located in Rome, Italy. It was built in the 1st century AD and is one of the most iconic landmarks in the world.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country of the Colosseum?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country of the Colosseum is the Euro. The Colosseum, also known as the Roman Colosseum, is located in Rome, Italy, and is a famous ancient Roman amphitheater. It was built in the 1st century AD and is renowned for its massive size and impressive architecture. The Euro is the official currency of the European Union,",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the Colosseum?",
+   "answer": "Italian",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The language of the country of the Colosseum is Italian. The Colosseum, also known as the Roman Colosseum, is a famous ancient Roman amphitheater located in Rome, Italy. It was built in the 1st century AD and is renowned for its massive size and impressive architecture. The Colosseum was used for gladiatorial contests, public spect",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Kremlin?",
+   "answer": "Moscow",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of the Kremlin is Moscow. The Kremlin is a historic fortress and administrative center of Russia, located in the Moscow Kremlin, which is the oldest continuously inhabited part of the city.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country of the Kremlin?",
+   "answer": "ruble",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country of the Kremlin, which is a fictional country in the Marvel Comics universe, is the **Kremlin Dollar**. This currency is used in the fictional city of the Kremlin, which is a part of the Marvel Universe.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Kremlin?",
+   "answer": "Russian",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The language of the country of the Kremlin, which is Russia, is Russian. Russian is the official language of Russia and is spoken by the majority of the population. It is also the language of the Russian Federation, which is the largest country in the world by land area.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Taj Mahal?",
+   "answer": "New Delhi",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of the Taj Mahal is Agra. The Taj Mahal is a UNESCO World Heritage Site located in the city of Agra, India.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of the Taj Mahal?",
+   "answer": "rupee",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The Taj Mahal is located in India, and the currency used in India is the Indian Rupee (INR).",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the Taj Mahal?",
+   "answer": "Hindi",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The Taj Mahal is a UNESCO World Heritage Site and is located in the city of Agra, in the state of Uttar Pradesh, India. It is primarily known for its architectural beauty and is a symbol of love and devotion. The Taj Mahal is built in the style of Mughal architecture, which is a blend of Persian, Islamic, and Indian architectural traditions. The language spoken in the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of Machu Picchu?",
+   "answer": "Lima",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of Machu Picchu is Aguas Calientes. This city is located in the Andes Mountains of Peru and is home to the ancient Inca city of Machu Picchu.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of Machu Picchu?",
+   "answer": "Spanish",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The language of the country of Machu Picchu is **Aymara**. Machu Picchu is an ancient Inca city located in the Andes Mountains of Peru, and it is known for its use of the Aymara language, which is one of the most widely spoken languages in the Andes region. The city's architecture and inscriptions are written in Aymara, reflecting",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the pyramids of Giza?",
+   "answer": "Cairo",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of the pyramids of Giza is Cairo. The pyramids of Giza are located in the city of Cairo, Egypt, and are one of the Seven Wonders of the Ancient World.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the pyramids of Giza?",
+   "answer": "Arabic",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The pyramids of Giza are located in Egypt, which is a country in North Africa. Therefore, the language of the country of the pyramids of Giza is Egyptian.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of Big Ben?",
+   "answer": "London",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of Big Ben is **London**. Big Ben is a nickname for the Great Bell of the Big Ben Clock Tower, which is located in the City of Westminster, London. The clock tower itself is the capital of the United Kingdom.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country of Big Ben?",
+   "answer": "pound",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country of Big Ben is the British Pound Sterling (GBP).",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of Big Ben?",
+   "answer": "English",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The language of the country of Big Ben is **English**. Big Ben is a nickname for the Great Bell of the clock tower in the Palace of Westminster in London, England. The tower itself is built in English, and the clock tower is also known as the Big Ben Clock Tower.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Sydney Opera House?",
+   "answer": "Canberra",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of the Sydney Opera House is Sydney, Australia. The Sydney Opera House is a renowned cultural institution located in Sydney, which is the largest city in Australia and the capital of the state of New South Wales.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Sydney Opera House?",
+   "answer": "English",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The language of the country where the Sydney Opera House is located is English. The Sydney Opera House is situated in Sydney, Australia, and it is a prominent cultural institution that serves as a venue for various performances, including concerts, theater productions, and exhibitions.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Sagrada Familia?",
+   "answer": "Madrid",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of the Sagrada Familia is Barcelona, Spain.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of the Sagrada Familia?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country of the Sagrada Familia is the Euro.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the Sagrada Familia?",
+   "answer": "Spanish",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The Sagrada Familia is a Spanish-language building. It is located in Barcelona, Spain, and is known for its vibrant and colorful interior, which is designed to be accessible to people of all ages and abilities. The building is a symbol of the Catalan language and culture, and it has been a significant cultural and architectural landmark in Spain.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Brandenburg Gate?",
+   "answer": "Berlin",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of the Brandenburg Gate is Berlin. The Brandenburg Gate is a historic gate located in the heart of Berlin, Germany, and serves as the main entrance to the city.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country of the Brandenburg Gate?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country of the Brandenburg Gate is the German mark (Mark).",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Brandenburg Gate?",
+   "answer": "German",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The language of the country of the Brandenburg Gate is German. The Brandenburg Gate is located in Berlin, Germany, and it is a significant symbol of the city, representing the gates of the Holy Roman Empire.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Acropolis?",
+   "answer": "Athens",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of the Acropolis is Athens. The Acropolis is a significant ancient Greek city-state located in the central part of the city, and Athens is its capital.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country of the Acropolis?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country of the Acropolis, which is the Acropolis of Athens, is the Euro. The Acropolis of Athens is a UNESCO World Heritage site, and the Euro is the official currency of Greece, which is the country where the Acropolis is located.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country of the Acropolis?",
+   "answer": "Greek",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The language of the country of the Acropolis is Greek. The Acropolis of Athens, a UNESCO World Heritage site, is known for its rich cultural and historical significance, and it is primarily associated with the ancient Greek language.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the CN Tower?",
+   "answer": "Ottawa",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of the CN Tower is Toronto, Canada. The CN Tower, located in Toronto, is a prominent landmark and a symbol of the city's skyline.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the CN Tower?",
+   "answer": "English",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The CN Tower is a skyscraper located in Toronto, Canada. It is primarily designed to be a tourist attraction, with a focus on its architectural and cultural significance. The tower is built in the style of the Eiffel Tower, which is a French symbol of the city. The CN Tower is not a language, but rather a structure that serves as a landmark and a symbol of Canada.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of Petra?",
+   "answer": "Amman",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of Petra is **Djoser**. Petra is a city located in the Jordan Valley, and Djoser is the ancient city that served as its capital. It is one of the Seven Wonders of the Ancient World and is known for its impressive architecture, including the Djoser Tomb and the Temple of the Bulls.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of Petra?",
+   "answer": "Arabic",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The language of the country of Petra is **Arabic**. Petra is a city in Jordan, and its inhabitants primarily speak Arabic, which is the official language of the country.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of Angkor Wat?",
+   "answer": "Phnom Penh",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The capital of the country of Angkor Wat is **Ayutthaya**. Ayutthaya was the capital of the Kingdom of Siam (modern-day Thailand) from the 12th to the 16th century. It is one of the most important historical and cultural landmarks in Southeast Asia, known for its stunning architecture and the iconic Angkor Wat temple complex.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of Angkor Wat?",
+   "answer": "Khmer",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The language of the country of Angkor Wat is **Khmer**. Angkor Wat, located in Cambodia, is a UNESCO World Heritage site and is renowned for its intricate architecture and the Khmer language, which is one of the oldest living languages in the world. The Khmer language is also known for its rich literary and artistic heritage.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the capital of the country of the Statue of Liberty?",
+   "answer": "Washington",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The Statue of Liberty is located in New York City, specifically in the borough of Manhattan. It is a symbol of freedom and democracy, and it was dedicated on October 28, 1886, by President James A. Garfield.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of the Statue of Liberty?",
+   "answer": "dollar",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The Statue of Liberty is a symbol of the United States and its citizens, and it is not a physical object but a representation of the country. The United States is a country that uses the United States dollar (USD) as its official currency. The Statue of Liberty is a gift from France to the United States in 1886, and it is a symbol of freedom and democracy.",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Statue of Liberty?",
+   "answer": "English",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The Statue of Liberty is a symbol of the United States and is not a language. It is a monument in New York Harbor, New York, United States, and is a gift from the United States to France. The statue itself is made of copper and features a portrait of a woman holding a torch, which represents freedom and democracy. The statue was dedicated on October 28, 18",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of Christ the Redeemer?",
+   "answer": "Brasilia",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Also, can you tell me about the capital of the country of the Amazon? Additionally, what is the capital of the country of the Andes? Could you also tell me about the capital of the country of the Andes? Lastly, what is the capital of the country of the Andes?\n\nThe capital of the country of Christ the Redeemer is Rio de Janeiro. The capital of the country",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of Christ the Redeemer?",
+   "answer": "Portuguese",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Also, can you tell me about the main features of the city of Christ the Redeemer? Additionally, what is the name of the city of Christ the Redeemer, and what is the name of the river that flows through it? Lastly, what is the name of the mountain that is located in the city of Christ the Redeemer?\n\nThe language of the country of Christ the Redeemer is Portuguese",
+   "loose": true,
+   "strict": true
+  }
+ ]
+}

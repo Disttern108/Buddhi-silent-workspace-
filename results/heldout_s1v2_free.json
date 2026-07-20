@@ -1,0 +1,1489 @@
+{
+ "model": "/Users/aayush/Models/Qwen3-1.7B-Base",
+ "adapter": "adapters/run7_s1",
+ "suffix": "",
+ "table": [
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "f3",
+   "loose": 21,
+   "strict": 20,
+   "total": 24,
+   "acc_loose": 0.875,
+   "acc_strict": 0.833
+  },
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "f4",
+   "loose": 2,
+   "strict": 2,
+   "total": 24,
+   "acc_loose": 0.083,
+   "acc_strict": 0.083
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "f1",
+   "loose": 24,
+   "strict": 18,
+   "total": 66,
+   "acc_loose": 0.364,
+   "acc_strict": 0.273
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "f2",
+   "loose": 1,
+   "strict": 1,
+   "total": 30,
+   "acc_loose": 0.033,
+   "acc_strict": 0.033
+  }
+ ],
+ "generations": [
+  {
+   "prompt": "The continent of Malaysia is Asia. The language of Ireland is Irish. The language of Malaysia is Malay. The language of Chile is Spanish. What is the language of Ireland?",
+   "answer": "Irish",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The language of Ireland is Irish. What is the language of Chile? Spanish. What is the language of Ireland? Irish. What is the language of Chile? Spanish. What is the language of Ireland? Irish. What is the language of Chile? Spanish. What is the language of Ireland? Irish. What is the language of Chile? Spanish. What is the language of Ireland? Irish. What",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Chile is Santiago. The currency of Vietnam is dong. The continent of Ethiopia is Africa. The capital of Malaysia is Kuala Lumpur. The capital of Vietnam is Hanoi. What is the continent of Ethiopia?",
+   "answer": "Africa",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The continent of Ethiopia is Africa. The capital of Vietnam is Hanoi. The continent of Ethiopia is Africa. The capital of Vietnam is Hanoi. The continent of Ethiopia is Africa. The capital of Vietnam is Hanoi. The continent of Ethiopia is Africa. The capital of Vietnam is Hanoi. The continent of Ethiopia is Africa. The capital of Vietnam is Hanoi. The continent of Ethiopia is",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Ireland is Irish. The capital of Hungary is Budapest. The currency of Chile is peso. The currency of Hungary is forint. What is the language of Ireland?",
+   "answer": "Irish",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The language of Ireland is Irish. The currency of Hungary is forint. The currency of Chile is peso. The language of Hungary is forint. The currency of Chile is peso. The language of Hungary is forint. The currency of Chile is peso. The language of Hungary is forint. The currency of Chile is peso. The language of Hungary is forint. The currency of Chile is",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The currency of Chile is peso. The language of Ethiopia is Amharic. The language of Vietnam is Vietnamese. The continent of Ethiopia is Africa. The currency of Malaysia is ringgit. The language of Ireland is Irish. What is the currency of Malaysia?",
+   "answer": "ringgit",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The currency of Malaysia is ringgit. The currency of Vietnam is Vietnamese. The currency of Ireland is euro. The currency of Ethiopia is birr. The currency of Malaysia is ringgit. The currency of Vietnam is Vietnamese. The currency of Ireland is euro. The currency of Ethiopia is birr. The currency of Malaysia is ringgit. The currency of Vietnam is Vietnamese. The currency of Ireland is",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Ethiopia is Amharic. The continent of Vietnam is Asia. The continent of Chile is South America. The language of Chile is Spanish. What is the continent of Vietnam?",
+   "answer": "Asia",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the language of Chile? What is the language of South America? What is the continent of Chile? What is the language of South America? What is the continent of Chile? What is the language of South America? What is the continent of Chile? What is the language of South America? What is the continent of Chile? What is the language of South America? What is the continent of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The capital of Ethiopia is Addis Ababa. The language of Ireland is Irish. The capital of Chile is Santiago. The continent of Vietnam is Asia. The currency of Vietnam is dong. What is the capital of Chile?",
+   "answer": "Santiago",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Chile is Santiago. The capital of Vietnam is Hanoi. The capital of Vietnam is Hanoi. The capital of Vietnam is Hanoi. The capital of Vietnam is Hanoi. The capital of Vietnam is Hanoi. The capital of Vietnam is Hanoi. The capital of Vietnam is Hanoi. The capital of Vietnam is Hanoi. The capital of Vietnam is Hanoi. The",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Chile is Santiago. The language of Vietnam is Vietnamese. The continent of Vietnam is Asia. The currency of Ireland is euro. The currency of Hungary is forint. What is the capital of Chile?",
+   "answer": "Santiago",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Chile is Santiago. The capital of Vietnam is Hanoi. The capital of Hungary is Budapest. The capital of Ireland is Dublin. The capital of Hungary is Budapest. The capital of Hungary is Budapest. The capital of Hungary is Budapest. The capital of Hungary is Budapest. The capital of Hungary is Budapest. The capital of Hungary is Budapest. The capital of Hungary is Budapest. The capital",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Ethiopia is Amharic. The language of Chile is Spanish. The language of Malaysia is Malay. The capital of Ireland is Dublin. The currency of Malaysia is ringgit. The capital of Hungary is Budapest. What is the capital of Ireland?",
+   "answer": "Dublin",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Ireland is Dublin. The capital of Hungary is Budapest. The capital of Malaysia is Kuala Lumpur. The capital of Chile is Santiago. The capital of Egypt is Cairo. The capital of Egypt is Cairo. The capital of Egypt is Cairo. The capital of Egypt is Cairo. The capital of Egypt is Cairo. The capital of Egypt is Cairo. The capital of Egypt is Cairo. The capital",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Hungary is Hungarian. The language of Chile is Spanish. The language of Malaysia is Malay. The continent of Ethiopia is Africa. The language of Ethiopia is Amharic. What is the language of Hungary?",
+   "answer": "Hungarian",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The language of Hungary is Hungarian. The language of Ethiopia is Amharic. The language of Chile is Spanish. The language of Malaysia is Malay. The language of Ethiopia is Amharic. The language of Hungary is Hungarian. The language of Ethiopia is Amharic. The language of Chile is Spanish. The language of Malaysia is Malay. The language of Ethiopia is Amharic. The language",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The currency of Chile is peso. The language of Chile is Spanish. The continent of Ireland is Europe. The language of Hungary is Hungarian. What is the language of Hungary?",
+   "answer": "Hungarian",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The language of Hungary is Hungarian. The language of Ireland is Irish. The language of Hungary is Hungarian. The language of Ireland is Irish. The language of Hungary is Hungarian. The language of Ireland is Irish. The language of Hungary is Hungarian. The language of Ireland is Irish. The language of Hungary is Hungarian. The language of Ireland is Irish. The language of Hungary is Hungarian. The language of",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Chile is Santiago. The currency of Ireland is euro. The capital of Hungary is Budapest. The currency of Ethiopia is birr. The continent of Chile is South America. What is the currency of Ethiopia?",
+   "answer": "birr",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The currency of Ethiopia is birr. The currency of Ethiopia is birr. The currency of Ethiopia is birr. The currency of Ethiopia is birr. The currency of Ethiopia is birr. The currency of Ethiopia is birr. The currency of Ethiopia is birr. The currency of Ethiopia is birr. The currency of Ethiopia is birr. The currency of Ethiopia is birr.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The currency of Ethiopia is birr. The continent of Chile is South America. The capital of Chile is Santiago. The language of Chile is Spanish. The language of Malaysia is Malay. The currency of Chile is peso. What is the currency of Ethiopia?",
+   "answer": "birr",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The currency of Ethiopia is birr. The currency of Chile is peso. The currency of Malaysia is ringgit. The currency of Chile is peso. The currency of Malaysia is ringgit. The currency of Ethiopia is birr. The currency of Chile is peso. The currency of Malaysia is ringgit. The currency of Chile is peso. The currency of Ethiopia is birr. The currency of Chile",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The currency of Vietnam is dong. The continent of Ethiopia is Africa. The continent of Ireland is Europe. The capital of Ethiopia is Addis Ababa. The currency of Ireland is euro. The continent of Chile is South America. What is the continent of Chile?",
+   "answer": "South America",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Malaysia is Asia. The language of Ireland is Irish. The continent of Ireland is Europe. The currency of Ethiopia is birr. The continent of Chile is South America. What is the continent of Chile?",
+   "answer": "South America",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America. The continent of Chile is South America.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Hungary is Hungarian. The capital of Hungary is Budapest. The continent of Ireland is Europe. The currency of Malaysia is ringgit. What is the continent of Ireland?",
+   "answer": "Europe",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the currency of Malaysia? What is the continent of Ireland? What is the currency of Malaysia? What is the continent of Ireland? What is the currency of Malaysia? What is the continent of Ireland? What is the currency of Malaysia? What is the continent of Ireland? What is the currency of Malaysia? What is the continent of Ireland? What is the currency of Malaysia? What is the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The currency of Ethiopia is birr. The currency of Ireland is euro. The language of Malaysia is Malay. The continent of Chile is South America. What is the currency of Ethiopia?",
+   "answer": "birr",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The currency of Ireland is euro. The currency of Malaysia is ringgit. The currency of Chile is peso. The currency of Ethiopia is birr. The currency of Ireland is euro. The currency of Malaysia is ringgit. The currency of Chile is peso. The currency of Ethiopia is birr. The currency of Ireland is euro. The currency of Malaysia is ringgit. The currency of Chile is",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "The capital of Vietnam is Hanoi. The language of Ethiopia is Amharic. The capital of Chile is Santiago. The capital of Malaysia is Kuala Lumpur. What is the capital of Chile?",
+   "answer": "Santiago",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Chile is Santiago. The capital of Malaysia is Kuala Lumpur. The capital of Chile is Santiago. The capital of Malaysia is Kuala Lumpur. The capital of Chile is Santiago. The capital of Malaysia is Kuala Lumpur. The capital of Chile is Santiago. The capital of Malaysia is Kuala Lumpur. The capital of Chile is Santiago. The capital of Malaysia is Kuala Lumpur. The capital of Chile is",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Vietnam is Asia. The continent of Chile is South America. The continent of Malaysia is Asia. The currency of Chile is peso. The capital of Vietnam is Hanoi. What is the continent of Malaysia?",
+   "answer": "Asia",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the currency of Chile? What is the capital of Vietnam? What is the currency of Chile? What is the capital of Vietnam? What is the currency of Chile? What is the capital of Vietnam? What is the currency of Chile? What is the capital of Vietnam? What is the currency of Chile? What is the capital of Vietnam? What is the currency of Chile? What is the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The language of Ethiopia is Amharic. The continent of Ethiopia is Africa. The currency of Chile is peso. The currency of Malaysia is ringgit. What is the currency of Malaysia?",
+   "answer": "ringgit",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The currency of Malaysia is ringgit. The currency of Chile is peso. The currency of Malaysia is ringgit. The currency of Chile is peso. The currency of Malaysia is ringgit. The currency of Chile is peso. The currency of Malaysia is ringgit. The currency of Chile is peso. The currency of Malaysia is ringgit. The currency of Chile is peso. The currency of Malaysia is",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Vietnam is Vietnamese. The language of Ireland is Irish. The capital of Vietnam is Hanoi. The currency of Hungary is forint. The language of Hungary is Hungarian. What is the language of Ireland?",
+   "answer": "Irish",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The language of Ireland is Irish. The currency of Hungary is forint. The language of Hungary is Hungarian. What is the language of Ireland? The language of Ireland is Irish. The currency of Hungary is forint. The language of Hungary is Hungarian. What is the language of Ireland? The language of Ireland is Irish. The currency of Hungary is forint. The language of Hungary is Hungarian.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The language of Vietnam is Vietnamese. The currency of Hungary is forint. The language of Hungary is Hungarian. The capital of Ireland is Dublin. What is the capital of Ireland?",
+   "answer": "Dublin",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Ireland is Dublin. The capital of Ireland is Dublin. The capital of Ireland is Dublin. The capital of Ireland is Dublin. The capital of Ireland is Dublin. The capital of Ireland is Dublin. The capital of Ireland is Dublin. The capital of Ireland is Dublin. The capital of Ireland is Dublin. The capital of Ireland is Dublin. The capital of Ireland is Dublin. The capital of",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Malaysia is Kuala Lumpur. The language of Hungary is Hungarian. The currency of Ireland is euro. The currency of Ethiopia is birr. The continent of Vietnam is Asia. What is the continent of Vietnam?",
+   "answer": "Asia",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The continent of Vietnam is Asia. The language of Vietnam is Vietnamese. The currency of Vietnam is Vietnamese. The country of Vietnam is Asia. The country of Vietnam is Asia. The country of Vietnam is Asia. The country of Vietnam is Asia. The country of Vietnam is Asia. The country of Vietnam is Asia. The country of Vietnam is Asia. The country of Vietnam is Asia. The country of",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The capital of Vietnam is Hanoi. The currency of Malaysia is ringgit. The language of Hungary is Hungarian. The continent of Ireland is Europe. What is the capital of Vietnam?",
+   "answer": "Hanoi",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The capital of Vietnam is Hanoi. The capital of Malaysia is Kuala Lumpur. The language of Hungary is Hungarian. The continent of Ireland is Europe. The capital of Hungary is Budapest. The capital of Malaysia is Kuala Lumpur. The language of Hungary is Hungarian. The continent of Ireland is Europe. The capital of Hungary is Budapest. The capital of Malaysia is Kuala Lumpur. The capital of Hungary is Budapest",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The continent of Vietnam is Asia. The currency of Ethiopia is birr. The language of Hungary is Hungarian. The currency of Malaysia is ringgit. The capital of Chile is Santiago. What is the continent of Vietnam?",
+   "answer": "Asia",
+   "block": "f3",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "The continent of Vietnam is Asia. The currency of Malaysia is ringgit. The capital of Chile is Santiago. The continent of Vietnam is Asia. The currency of Malaysia is ringgit. The capital of Chile is Santiago. The continent of Vietnam is Asia. The currency of Malaysia is ringgit. The capital of Chile is Santiago. The continent of Vietnam is Asia. The currency of Malaysia is ringgit",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of Ireland?",
+   "answer": "euro",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the currency of the UK? What is the currency of the US? What is the currency of Canada? What is the currency of Australia? What is the currency of New Zealand? What is the currency of South Africa? What is the currency of the UK? What is the currency of the US? What is the currency of Canada? What is the currency of Australia? What is the currency",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of Ireland?",
+   "answer": "Irish",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the Irish language? What is the Irish language used for? What is the Irish language like? What is the Irish language called? What is the Irish language called in English? What is the Irish language called in English? What is the Irish language called in English? What is the Irish language called in English? What is the Irish language called in English? What is the Irish language called in",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of Ireland?",
+   "answer": "Europe",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the capital of Ireland? What is the largest city in Ireland? What is the largest island in Ireland? What is the largest city in Ireland? What is the largest city in Ireland? What is the largest city in Ireland? What is the largest city in Ireland? What is the largest city in Ireland? What is the largest city in Ireland? What is the largest city in Ireland? What",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Ireland?",
+   "answer": "Dublin",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the largest city in Ireland? What is the name of the main river in Ireland? What is the name of the main mountain range in Ireland? What is the name of the main lake in Ireland? What is the name of the main island in Ireland? What is the name of the main peninsula in Ireland? What is the name of the main island in Ireland? What is the name of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of Chile?",
+   "answer": "peso",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the official language of Chile? What is the capital of Chile? What is the largest city in Chile? What is the largest lake in Chile? What is the largest river in Chile? What is the largest mountain in Chile? What is the largest desert in Chile? What is the largest volcano in Chile? What is the largest lake in Chile? What is the largest canyon in Chile? What",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of Chile?",
+   "answer": "Spanish",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the official language of Chile? What is the predominant language in Chile? What is the language of the people of Chile? What is the language of the people of Chile? What is the language of the people of Chile? What is the language of the people of Chile? What is the language of the people of Chile? What is the language of the people of Chile? What is the language",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of Chile?",
+   "answer": "South America",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the capital of Chile? What is the official language of Chile? What is the currency of Chile? What is the main export of Chile? What is the main import of Chile? What is the main industry in Chile? What is the main agricultural product of Chile? What is the main mineral resource of Chile? What is the main export of Chile? What is the main import of Chile?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Chile?",
+   "answer": "Santiago",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the largest city in Chile? What is the official language of Chile? What is the currency of Chile? What is the main export of Chile? What is the main import of Chile? What is the main industry in Chile? What is the main agricultural product of Chile? What is the main mineral resource of Chile? What is the main export of Chile? What is the main import of Chile",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of Ethiopia?",
+   "answer": "birr",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the currency of Ethiopia? What is the currency of Ethiopia? What is the currency of Ethiopia? What is the currency of Ethiopia? What is the currency of Ethiopia? What is the currency of Ethiopia? What is the currency of Ethiopia? What is the currency of Ethiopia? What is the currency of Ethiopia? What is the currency of Ethiopia? What is the currency of Ethiopia? What is the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of Ethiopia?",
+   "answer": "Amharic",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the official language of Ethiopia? What is the language of the people of Ethiopia? What is the language of the people of Ethiopia? What is the language of the people of Ethiopia? What is the language of the people of Ethiopia? What is the language of the people of Ethiopia? What is the language of the people of Ethiopia? What is the language of the people of Ethiopia? What is",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of Ethiopia?",
+   "answer": "Africa",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the capital of Ethiopia? What is the official language of Ethiopia? What is the currency of Ethiopia? What is the population of Ethiopia? What is the literacy rate of Ethiopia? What is the main religion of Ethiopia? What is the main language of Ethiopia? What is the main crop of Ethiopia? What is the main export of Ethiopia? What is the main import of Ethiopia? What is the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Ethiopia?",
+   "answer": "Addis Ababa",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the largest city in Ethiopia? What is the official language of Ethiopia? What is the currency of Ethiopia? What is the national sport of Ethiopia? What is the national animal of Ethiopia? What is the national bird of Ethiopia? What is the national flower of Ethiopia? What is the national tree of Ethiopia? What is the national symbol of Ethiopia? What is the national dish of Ethiopia? What",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of Malaysia?",
+   "answer": "ringgit",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the currency of Singapore? What is the currency of Hong Kong? What is the currency of Australia? What is the currency of New Zealand? What is the currency of South Korea? What is the currency of Japan? What is the currency of China? What is the currency of Taiwan? What is the currency of Thailand? What is the currency of India? What is the currency of South Korea",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of Malaysia?",
+   "answer": "Malay",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the official language of Malaysia? What is the language of the people of Malaysia? What is the language of the Malays in Malaysia? What is the language of the Chinese in Malaysia? What is the language of the Indians in Malaysia? What is the language of the Malays in Malaysia? What is the language of the Chinese in Malaysia? What is the language of the Indians in Malaysia? What is",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the continent of Malaysia?",
+   "answer": "Asia",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the capital of Malaysia? What is the official language of Malaysia? What is the currency of Malaysia? What is the main religion in Malaysia? What is the largest ethnic group in Malaysia? What is the main language spoken in Malaysia? What is the main religion in Malaysia? What is the main language spoken in Malaysia? What is the main religion in Malaysia? What is the main language spoken in",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Malaysia?",
+   "answer": "Kuala Lumpur",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the largest city in Malaysia? What is the official language of Malaysia? What is the currency of Malaysia? What is the main religion in Malaysia? What is the main export of Malaysia? What is the main import of Malaysia? What is the main industry in Malaysia? What is the main agricultural product of Malaysia? What is the main mineral resource of Malaysia? What is the main export of Malaysia",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of Hungary?",
+   "answer": "forint",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the currency of the Czech Republic? What is the currency of Poland? What is the currency of Slovakia? What is the currency of Hungary? What is the currency of Romania? What is the currency of Bulgaria? What is the currency of Hungary? What is the currency of Romania? What is the currency of Hungary? What is the currency of Hungary? What is the currency of Hungary? What",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of Hungary?",
+   "answer": "Hungarian",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the language of the Czech Republic? What is the language of Poland? What is the language of Slovakia? What is the language of the Netherlands? What is the language of the United Kingdom? What is the language of Ireland? What is the language of France? What is the language of Spain? What is the language of Italy? What is the language of Germany? What is the language of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of Hungary?",
+   "answer": "Europe",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the capital of Hungary? What is the currency of Hungary? What is the official language of Hungary? What is the name of the largest river in Hungary? What is the name of the largest lake in Hungary? What is the name of the largest mountain in Hungary? What is the name of the largest plain in Hungary? What is the name of the largest forest in Hungary? What is the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Hungary?",
+   "answer": "Budapest",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the largest city in Hungary? What is the official language of Hungary? What is the currency of Hungary? What is the name of the country in the map? What is the name of the country in the map? What is the name of the country in the map? What is the name of the country in the map? What is the name of the country in the map? What is",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of Vietnam?",
+   "answer": "dong",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the currency of Vietnam? What is the currency of Vietnam? What is the currency of Vietnam? What is the currency of Vietnam? What is the currency of Vietnam? What is the currency of Vietnam? What is the currency of Vietnam? What is the currency of Vietnam? What is the currency of Vietnam? What is the currency of Vietnam? What is the currency of Vietnam? What is the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of Vietnam?",
+   "answer": "Vietnamese",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the language of the Philippines? What is the language of the United States? What is the language of Canada? What is the language of Mexico? What is the language of Brazil? What is the language of Argentina? What is the language of Chile? What is the language of Peru? What is the language of Colombia? What is the language of Venezuela? What is the language of Ecuador?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of Vietnam?",
+   "answer": "Asia",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the capital of Vietnam? What is the name of the river that flows through Vietnam? What is the name of the mountain range in Vietnam? What is the name of the lake in Vietnam? What is the name of the island in Vietnam? What is the name of the mountain in Vietnam? What is the name of the river in Vietnam? What is the name of the mountain in Vietnam?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Vietnam?",
+   "answer": "Hanoi",
+   "block": "f4",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "What is the name of the largest city in Vietnam? What is the name of the largest lake in Vietnam? What is the name of the largest river in Vietnam? What is the name of the largest mountain in Vietnam? What is the name of the largest island in Vietnam? What is the name of the largest lake in Vietnam? What is the name of the largest mountain in Vietnam? What is the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country whose capital is Dublin?",
+   "answer": "euro",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the city in the UK that is the largest in terms of population? What is the name of the city in the UK that is the largest in terms of area? What is the name of the city in the UK that is the largest in terms of population? What is the name of the city in the UK that is the largest in terms of area? What is",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the currency of the country whose capital city is Dublin.",
+   "answer": "euro",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country is the euro. The country is Ireland. The currency is euro. The answer is euro. 1999: The first season of the British sitcom Friends was released on DVD in the United Kingdom on 11 October 1999. The first season was released in the United States on 11 October 1999. The first season",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Dublin is a national capital. What is the currency of its country?",
+   "answer": "euro",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country is the euro.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country whose capital is Dublin?",
+   "answer": "Irish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the city in the UK that is the largest in terms of population? What is the name of the city in the UK that is the largest in terms of area? What is the name of the city in the UK that is the largest in terms of population? What is the name of the city in the UK that is the largest in terms of area? What is",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the language of the country whose capital city is Dublin.",
+   "answer": "Irish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The language of the country is English. \n\nThe country is Ireland. \n\nThe language is Irish. \n\nThe language is English. \n\nThe language is Irish. \n\nThe language is Irish. \n\nThe language is Irish. \n\nThe language is Irish. \n\nThe language is Irish. \n\nThe language is Irish. \n\nThe language is Irish. \n\nThe language is Irish. \n\nThe language is Irish.",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "The city of Dublin is a national capital. What is the language of its country?",
+   "answer": "Irish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the capital of the country? Also, what is the name of the country? Furthermore, what is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the country whose capital is Dublin?",
+   "answer": "Europe",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the continent of the country whose capital city is Dublin.",
+   "answer": "Europe",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The country is Ireland. \n\nOlympic Games: The country is Ireland. \n\nWorld Cup: The country is Ireland. \n\nWorld Cup: The country is Ireland. \n\nWorld Cup: The country is Ireland. \n\nWorld Cup: The country is Ireland. \n\nWorld Cup: The country is Ireland. \n\nWorld Cup: The country is Ireland. \n\nWorld Cup: The country is Ireland. \n\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The city of Dublin is a national capital. What is the continent of its country?",
+   "answer": "Europe",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The country is Ireland. What is the continent of Ireland? Ireland is in Europe. What is the continent of Ireland? Europe. What is the continent of Ireland? Europe. What is the continent of Ireland? Europe. What is the continent of Ireland? Europe. What is the continent of Ireland? Europe. What is the continent of Ireland? Europe. What is the continent of Ireland? Europe.",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country whose capital is Santiago?",
+   "answer": "peso",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Also, what is the official language of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the currency of the country whose capital city is Santiago.",
+   "answer": "peso",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country is the peso. The currency of the country is the peso. The currency of the country is the peso. The currency of the country is the peso. The currency of the country is the peso. The currency of the country is the peso. The currency of the country is the peso. The currency of the country is the peso. The currency of the country is the peso",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Santiago is a national capital. What is the currency of its country?",
+   "answer": "peso",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country is the peso.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country whose capital is Santiago?",
+   "answer": "Spanish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the country? What is the name of the city in the country? What is the name of the country? What is the name of the city in the country? What is the name of the country? What is the name of the city in the country? What is the name of the country? What is the name of the city in the country? What is",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the language of the country whose capital city is Santiago.",
+   "answer": "Spanish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The language of the country is Spanish. \n\nExplanation: The country is Chile. \n\nThink: What is the language of Chile? Answer: Spanish. \n\nWork: The language of Chile is Spanish. \n\nAnswer: Spanish. \n\nReasoning: The language of Chile is Spanish. \n\nThink: The language of Chile is Spanish. \n\nWork: Spanish. \n\nAnswer: Spanish. \n\nExplanation: The",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Santiago is a national capital. What is the language of its country?",
+   "answer": "Spanish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the capital of Chile? Also, what is the capital of Argentina? Furthermore, what is the capital of Peru? What is the capital of Colombia? What is the capital of Ecuador? What is the capital of Venezuela? What is the capital of Bolivia? What is the capital of Chile? What is the capital of Peru? What is the capital of Ecuador? What is the capital",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the country whose capital is Santiago?",
+   "answer": "South America",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Also, what is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the continent of the country whose capital city is Santiago.",
+   "answer": "South America",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The country is Chile. The continent is South America. \n\nWhat is the answer? \n\nThe answer is South America. \n\nCan you explain why? \n\nChile is a country in South America. \n\nWhat is the answer? \n\nChile is in South America. \n\nWhy is that? \n\nChile is a country in South America. \n\nWhat is the answer? \n\nChile is in",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Santiago is a national capital. What is the continent of its country?",
+   "answer": "South America",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the country? What is the capital of the country? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country whose capital is Addis Ababa?",
+   "answer": "birr",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Also, what is the official language of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the currency of the country whose capital city is Addis Ababa.",
+   "answer": "birr",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Also, what is the official language of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The city of Addis Ababa is a national capital. What is the currency of its country?",
+   "answer": "birr",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country is the birr. What is the currency of the country? The currency of the country is the birr. What is the currency of the country? The currency of the country is the birr. What is the currency of the country? The currency of the country is the birr. What is the currency of the country? The currency of the country is the bir",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country whose capital is Addis Ababa?",
+   "answer": "Amharic",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the country? What is the name of the city in the country? What is the name of the country? What is the name of the city in the country? What is the name of the country? What is the name of the city in the country? What is the name of the country? What is the name of the city in the country? What is",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the language of the country whose capital city is Addis Ababa.",
+   "answer": "Amharic",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Also, what is the name of the country? What is the name of the city? What is the name of the language? What is the name of the country? What is the name of the city? What is the name of the language? What is the name of the country? What is the name of the city? What is the name of the language? What is the name of the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The city of Addis Ababa is a national capital. What is the language of its country?",
+   "answer": "Amharic",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": " Answer: The country is Ethiopia.  -- the country is Ethiopia.  -- Ethiopia.  -- Ethiopia.  -- Ethiopia.  -- Ethiopia.  -- Ethiopia.  -- Ethiopia.  -- Ethiopia.  -- Ethiopia.  -- Ethiopia.  -- Ethiopia.  -- Ethiopia.  -- Ethiopia.  -- Ethiopia.  -- Ethiopia.  -- Ethiopia.  -- Ethiopia. ",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the country whose capital is Addis Ababa?",
+   "answer": "Africa",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Also, what is the capital of Ethiopia? What is the name of the country in the region of Africa where Ethiopia is located? What is the name of the country in the region of Africa where Ethiopia is located? What is the name of the country in the region of Africa where Ethiopia is located? What is the name of the country in the region of Africa where Ethiopia is located? What is the",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the continent of the country whose capital city is Addis Ababa.",
+   "answer": "Africa",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The city of Addis Ababa is a national capital. What is the continent of its country?",
+   "answer": "Africa",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The country is Ethiopia. Answer: Africa\n\nWhat is the continent of Ethiopia? What is the continent of Ethiopia? What is the continent of Ethiopia? What is the continent of Ethiopia? What is the continent of Ethiopia? What is the continent of Ethiopia? What is the continent of Ethiopia? What is the continent of Ethiopia? What is the continent of Ethiopia? What is the continent of Ethiopia? What",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the currency of the country whose capital is Kuala Lumpur?",
+   "answer": "ringgit",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Also, what is the official language of the country? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the currency of the country whose capital city is Kuala Lumpur.",
+   "answer": "ringgit",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Also, what is the currency of the country whose capital city is Bangkok? Additionally, what is the currency of the country whose capital city is Phnom Penh? Furthermore, what is the currency of the country whose capital city is Phnom Penh? Lastly, what is the currency of the country whose capital city is Phnom Penh? What is the currency of the country whose capital city is",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The city of Kuala Lumpur is a national capital. What is the currency of its country?",
+   "answer": "ringgit",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country is the ringgit.",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country whose capital is Kuala Lumpur?",
+   "answer": "Malay",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the city in Malaysia that is known for its vibrant nightlife and shopping districts? What is the name of the city in Malaysia that is known for its historical significance and cultural attractions? What is the name of the city in Malaysia that is known for its natural beauty and outdoor activities? What is the name of the city in Malaysia that is known for its modern architecture and cultural",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Name the language of the country whose capital city is Kuala Lumpur.",
+   "answer": "Malay",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "What is the name of the country? The country is Malaysia. The name of the country is Malaysia. \n\nWhat is the name of the country? \n\nMalaysia. \n\nWhat is the name of the country? \n\nMalaysia. \n\nWhat is the name of the country? \n\nMalaysia. \n\nWhat is the name of the country? \n\nMalaysia. \n\nWhat is the name of the",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Kuala Lumpur is a national capital. What is the language of its country?",
+   "answer": "Malay",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the capital of the country? Also, can you tell me about the country's official language? Furthermore, what is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the country whose capital is Kuala Lumpur?",
+   "answer": "Asia",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Also, what is the name of the country? What is the name of the city? What is the name of the capital? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the continent of the country whose capital city is Kuala Lumpur.",
+   "answer": "Asia",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The country is Malaysia. The answer is Malaysia. \n\nWhat is the answer? \n\nWhat is the answer? \n\nWhat is the answer? \n\nWhat is the answer? \n\nWhat is the answer? \n\nWhat is the answer? \n\nWhat is the answer? \n\nWhat is the answer? \n\nWhat is the answer? \n\nWhat is the answer? \n\nWhat is the answer? \n\nWhat is the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The city of Kuala Lumpur is a national capital. What is the continent of its country?",
+   "answer": "Asia",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The country is Malaysia. What is the continent of Malaysia? The continent of Malaysia is Asia. What is the continent of Malaysia? Asia. What is the continent of Malaysia? Asia. What is the continent of Malaysia? Asia. What is the continent of Malaysia? Asia. What is the continent of Malaysia? Asia. What is the continent of Malaysia? Asia. What is the continent of Malaysia?",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country whose capital is Budapest?",
+   "answer": "forint",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Also, can you tell me about the country's official language, the name of the country, the number of official languages, the currency, and the official language? Additionally, what is the country's name in English, and what is the capital city? Could you also provide information on the country's population, the number of official languages, and the currency? Finally, what is the country's name",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the currency of the country whose capital city is Budapest.",
+   "answer": "forint",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country is the forint. The country is Hungary. The currency is forint. The answer is forint. 1. The country is Hungary. 2. The currency is forint. 3. The answer is forint. 4. The country is Hungary. 5. The currency is forint. 6. The answer is forint. ",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Budapest is a national capital. What is the currency of its country?",
+   "answer": "forint",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country is the forint. Can you tell me more about it? Certainly! The currency of the country is the forint. What is the forint? The forint is the currency of the country. What is the forint? The forint is the currency of the country. What is the forint? The forint is the currency of the country. What is",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "What is the language of the country whose capital is Budapest?",
+   "answer": "Hungarian",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the country? What is the name of the city in the country? What is the name of the country? What is the name of the city in the country? What is the name of the country? What is the name of the city in the country? What is the name of the country? What is the name of the city in the country? What is",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the language of the country whose capital city is Budapest.",
+   "answer": "Hungarian",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The language of the country is Hungarian. \n\nExplanation: The country is Hungary. \n\nWhat is the answer? \n\nHungarian. \n\nCan you help me with that? \n\nYes, the answer is Hungarian. \n\nWhat is the answer? \n\nHungarian. \n\nCan you help me with that? \n\nYes, the answer is Hungarian. \n\nWhat is the answer? \n\nHungarian. \n\nCan",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Budapest is a national capital. What is the language of its country?",
+   "answer": "Hungarian",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the capital of Hungary? Also, what is the capital of Romania? Furthermore, what is the capital of Bulgaria? Lastly, what is the capital of Greece? And what is the capital of Turkey? Finally, what is the capital of Italy? What is the capital of Spain? And what is the capital of France? What is the capital of Germany? And what is the capital",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the country whose capital is Budapest?",
+   "answer": "Europe",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Also, can you tell me about the country's name in English, the language spoken there, and the official language? Additionally, what is the currency of the country, and what is the name of the country in English? Could you also provide information on the country's capital, the language spoken there, and the official language? What is the name of the country in English, and what is the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the continent of the country whose capital city is Budapest.",
+   "answer": "Europe",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The country is Hungary. The continent is Europe. \n\nWhat is the answer? Europe. \n\nCan you explain how to find the answer? \n\nThe answer is Europe. \n\nHow did you get that? \n\nI used the fact that Hungary is a country in Europe. \n\nCan you give me an example of a country in Europe? \n\nSure, Turkey is a country in Europe. \n\nWhat is",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Budapest is a national capital. What is the continent of its country?",
+   "answer": "Europe",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The country is Hungary. What is the continent of Hungary? Europe. What is the continent of Hungary? Europe. What is the continent of Hungary? Europe. What is the continent of Hungary? Europe. What is the continent of Hungary? Europe. What is the continent of Hungary? Europe. What is the continent of Hungary? Europe. What is the continent of Hungary? Europe. What is the",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country whose capital is Hanoi?",
+   "answer": "dong",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the largest city in the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is the name of the country? What is",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the currency of the country whose capital city is Hanoi.",
+   "answer": "dong",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country is the Vietnamese \u0111\u1ed3ng. The currency of the country is the Vietnamese \u0111\u1ed3ng. The currency of the country is the Vietnamese \u0111\u1ed3ng. The currency of the country is the Vietnamese \u0111\u1ed3ng. The currency of the country is the Vietnamese \u0111\u1ed3ng. The currency of the country is the Vietnamese \u0111\u1ed3ng. The currency of the country is the Vietnamese \u0111\u1ed3ng. The currency of the country is the Vietnamese \u0111\u1ed3ng.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The city of Hanoi is a national capital. What is the currency of its country?",
+   "answer": "dong",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The currency of the country is the Vietnamese \u0111\u1ed3ng. The country is Vietnam. The currency is the \u0111\u1ed3ng. The country is Vietnam. The currency is \u0111\u1ed3ng. The country is Vietnam. The currency is \u0111\u1ed3ng. The country is Vietnam. The currency is \u0111\u1ed3ng. The country is Vietnam. The currency is \u0111\u1ed3ng. The country is Vietnam. The currency is \u0111\u1ed3ng. The country is Vietnam. The currency is \u0111\u1ed3ng",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country whose capital is Hanoi?",
+   "answer": "Vietnamese",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the city in Vietnam that is the largest in area? What is the name of the city in Vietnam that is the largest in population? What is the name of the city in Vietnam that is the largest in economic importance? What is the name of the city in Vietnam that is the largest in population? What is the name of the city in Vietnam that is the largest",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the language of the country whose capital city is Hanoi.",
+   "answer": "Vietnamese",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The country is Vietnam. The language is Vietnamese. The answer is Vietnamese. 1999, the country was known as North Vietnam. 1979, the country was known as South Vietnam. 1975, the country was reunified. 1976, the country was known as Vietnam. 1978, the country was known as Vietnam",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Hanoi is a national capital. What is the language of its country?",
+   "answer": "Vietnamese",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "What is the language of the country? What is the language of the country? What is the language of the country? What is the language of the country? What is the language of the country? What is the language of the country? What is the language of the country? What is the language of the country? What is the language of the country? What is the language of the country?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the continent of the country whose capital is Hanoi?",
+   "answer": "Asia",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the country? What is the name of the city? What is the name of the province? What is the name of the district? What is the name of the village? What is the name of the town? What is the name of the province? What is the name of the district? What is the name of the village? What is the name of the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Name the continent of the country whose capital city is Hanoi.",
+   "answer": "Asia",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The country is Vietnam. The continent is Asia. \n\nThe answer is Asia. \n\nWhat is the continent of Vietnam? \n\nWhat is the continent of Vietnam? \n\nWhat is the continent of Vietnam? \n\nWhat is the continent of Vietnam? \n\nWhat is the continent of Vietnam? \n\nWhat is the continent of Vietnam? \n\nWhat is the continent of Vietnam? \n\nWhat is the continent of Vietnam?",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "The city of Hanoi is a national capital. What is the continent of its country?",
+   "answer": "Asia",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "What is the country? What is the city? What is the city of Hanoi? What is the city of Hanoi? What is the city of Hanoi? What is the city of Hanoi? What is the city of Hanoi? What is the city of Hanoi? What is the city of Hanoi? What is the city of Hanoi? What is the city of H",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country where Pablo Neruda was born?",
+   "answer": "Santiago",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the city in Chile that is known for its vibrant culture and history? What is the name of the city in Argentina that is known for its rich history and culture? What is the name of the city in Mexico that is known for its colonial architecture and cultural heritage? What is the name of the city in Peru that is known for its natural beauty and cultural significance?",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Pablo Neruda was born in a country. What is that country's capital?",
+   "answer": "Santiago",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, can you provide information about the country's name, its official language, and the name of the city where he lived during his childhood? Also, what was the name of the city where he grew up? What was the name of the city where he lived during his teenage years? What was the name of the city where he lived during his adult life? What was the name of the city",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country where Pablo Neruda was born?",
+   "answer": "peso",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the city in Chile where he was born? What is the name of the country in South America where he was born? What is the name of the country in South America where he lived during his childhood? What is the name of the country in South America where he lived during his adulthood? What is the name of the country in South America where he lived during his",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Pablo Neruda was born in a country. What is that country's currency?",
+   "answer": "peso",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, can you provide information about the country's capital, the number of official languages, and the number of provinces? Also, what is the country's largest city, and what is the name of the country? Could you also tell me the country's official language, the country's flag, and the country's anthem? Finally, what is the country's motto, and what is the country's",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country where Pablo Neruda was born?",
+   "answer": "Spanish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "What is the name of the country? What is the name of the city where he was born? What is the name of the river that flows through the city? What is the name of the mountain that is located near the city? What is the name of the lake that is located near the city? What is the name of the port that is located near the city? What is the name of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Pablo Neruda was born in a country. What is that country's language?",
+   "answer": "Spanish",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the city where he was born? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country where Bela Bartok was born?",
+   "answer": "Budapest",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the famous opera composed by Richard Wagner? What is the name of the ballet by Pyotr Ilyich Tchaikovsky? What is the name of the novel by Leo Tolstoy? What is the name of the painting by Vincent van Gogh? What is the name of the play by William Shakespeare? What is the name of the novel by F.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Bela Bartok was born in a country. What is that country's capital?",
+   "answer": "Budapest",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The country is Hungary. The capital is Budapest.",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country where Bela Bartok was born?",
+   "answer": "forint",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the famous opera composed by Richard Wagner? What is the name of the ballet by Pyotr Ilyich Tchaikovsky? What is the name of the novel by Leo Tolstoy? What is the name of the painting by Vincent van Gogh? What is the name of the play by William Shakespeare? What is the name of the novel by F.",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Bela Bartok was born in a country. What is that country's currency?",
+   "answer": "forint",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, can you tell me more about the country's history and culture? Also, what is the capital of the country? Furthermore, what is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of the country? What is the name of the city? What is the name of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country where Bela Bartok was born?",
+   "answer": "Hungarian",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, what is the name of the opera that was written by the composer who was born in Hungary? What is the name of the opera that was written by the same composer? What is the name of the opera that was written by the same composer? What is the name of the opera that was written by the same composer? What is the name of the opera that was written by the same composer",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Bela Bartok was born in a country. What is that country's language?",
+   "answer": "Hungarian",
+   "block": "f1",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The country is Hungary. What is the name of the language? The language is Hungarian. What is the name of the language? The language is Hungarian. What is the name of the language? The language is Hungarian. What is the name of the language? The language is Hungarian. What is the name of the language? The language is Hungarian. What is the name of the language? The language",
+   "loose": true,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 10 bottles. A shop receives 5 crates and sells 3 bottles. How many bottles remain?",
+   "answer": "47",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop received 10 crates and sold 30 bottles, how many bottles would remain? Also, if the shop received 10 crates and sold 30 bottles, how many crates would be needed to sell all the bottles? Finally, if the shop received 10 crates and sold 30 bottles, how many crates would be needed to sell all the bottles",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 5 bottles. A shop receives 11 crates and sells 13 bottles. How many bottles remain?",
+   "answer": "42",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? Lastly, if the shop had 1000",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 7 bottles. A shop receives 11 crates and sells 3 bottles. How many bottles remain?",
+   "answer": "74",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop receives 11 crates and sells 3 bottles, how many crates are left? Also, if the shop receives 11 crates and sells 3 crates, how many crates are left? Finally, if the shop receives 11 crates and sells 3 crates, how many crates are left? And if the shop receives 11 crates and sells 3 crates",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 10 bottles. A shop receives 9 crates and sells 4 bottles. How many bottles remain?",
+   "answer": "86",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop received 10 crates and sold 40 bottles, how many bottles would remain? Also, if the shop received 10 crates and sold 40 bottles, how many crates would be needed to sell all the bottles? Finally, if the shop received 10 crates and sold 40 bottles, how many crates would be needed to sell all the bottles",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 12 bottles. A shop receives 4 crates and sells 15 bottles. How many bottles remain?",
+   "answer": "33",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? Lastly, if the shop had 1000",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 5 bottles. A shop receives 12 crates and sells 9 bottles. How many bottles remain?",
+   "answer": "51",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop received 15 crates and sold 12 crates, how many bottles would remain? Also, if the shop received 15 crates and sold 12 crates, how many crates would remain? Finally, if the shop received 15 crates and sold 12 crates, how many bottles would remain? Lastly, if the shop received 15 crates and",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 13 bottles. A shop receives 12 crates and sells 14 bottles. How many bottles remain?",
+   "answer": "142",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? Lastly, if the shop had 1000",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 4 bottles. A shop receives 6 crates and sells 19 bottles. How many bottles remain?",
+   "answer": "5",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 10 crates instead, how many bottles would remain? Also, if the shop had 12 crates, how many bottles would remain? Finally, if the shop had 15 crates, how many bottles would remain? Lastly, if the shop had 18 crates, how many bottles would remain? And if the shop had 20 crates, how",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "A crate holds 10 bottles. A shop receives 7 crates and sells 6 bottles. How many bottles remain?",
+   "answer": "64",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop received 10 crates and sold 60 bottles, how many bottles would remain? Also, if the shop received 10 crates and sold 60 bottles, how many crates would be needed to sell all the bottles? Finally, if the shop received 10 crates and sold 60 bottles, how many crates would be needed to sell all the bottles",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 8 bottles. A shop receives 12 crates and sells 19 bottles. How many bottles remain?",
+   "answer": "77",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? Lastly, if the shop had 1000",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 13 bottles. A shop receives 4 crates and sells 20 bottles. How many bottles remain?",
+   "answer": "32",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? Lastly, if the shop had 1000",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 5 bottles. A shop receives 8 crates and sells 19 bottles. How many bottles remain?",
+   "answer": "21",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 10 crates instead, how many bottles would remain? Also, if the shop had 15 crates, how many bottles would remain? Finally, if the shop had 20 crates, how many bottles would remain? Lastly, if the shop had 10 crates and 100 bottles, how many crates would be needed to store all the bottles",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 4 bottles. A shop receives 12 crates and sells 8 bottles. How many bottles remain?",
+   "answer": "40",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 10 crates instead, how many bottles would remain? Also, if the shop had 15 crates, how many bottles would remain? Finally, if the shop had 20 crates, how many bottles would remain? Lastly, if the shop had 15 crates, how many bottles would remain if the shop had 10 crates instead? And if",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 10 bottles. A shop receives 11 crates and sells 12 bottles. How many bottles remain?",
+   "answer": "98",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? Lastly, if the shop had 1000",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 11 bottles. A shop receives 12 crates and sells 13 bottles. How many bottles remain?",
+   "answer": "119",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? Lastly, if the shop had 1000",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 6 bottles. A shop receives 6 crates and sells 9 bottles. How many bottles remain?",
+   "answer": "27",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop received 12 crates and sold 18 bottles, how many bottles would remain? Also, if the shop received 12 crates and sold 12 bottles, how many crates would be needed to hold all the remaining bottles? Finally, if the shop received 12 crates and sold 12 bottles, how many crates would be needed to hold the remaining",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 8 bottles. A shop receives 12 crates and sells 18 bottles. How many bottles remain?",
+   "answer": "78",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? Lastly, if the shop had 1000",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 15 bottles. A shop receives 8 crates and sells 16 bottles. How many bottles remain?",
+   "answer": "104",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? Lastly, if the shop had 1000",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 5 bottles. A shop receives 12 crates and sells 5 bottles. How many bottles remain?",
+   "answer": "55",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop received 15 crates and sold 10 bottles, how many bottles would remain? Also, if the shop received 10 crates and sold 15 bottles, how many bottles would remain? Finally, if the shop received 15 crates and sold 10 bottles, how many bottles would remain? Lastly, if the shop received 10 crates and",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 9 bottles. A shop receives 5 crates and sells 6 bottles. How many bottles remain?",
+   "answer": "39",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop received 30 bottles and sold 15, how many bottles would be left? Also, if the shop received 20 bottles and sold 10, how many bottles would be left? Finally, if the shop received 20 bottles and sold 10, how many bottles would be left? And if the shop received 20 bottles and sold",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 4 bottles. A shop receives 9 crates and sells 4 bottles. How many bottles remain?",
+   "answer": "32",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop received 10 crates and sold 40 bottles, how many bottles would remain? Also, if the shop received 10 crates and sold 40 bottles, how many crates would be needed to sell all the bottles? Finally, if the shop received 10 crates and sold 40 bottles, how many crates would be needed to sell all the bottles",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 15 bottles. A shop receives 8 crates and sells 13 bottles. How many bottles remain?",
+   "answer": "107",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? Lastly, if the shop had 1000",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 11 bottles. A shop receives 12 crates and sells 4 bottles. How many bottles remain?",
+   "answer": "128",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? Lastly, if the shop had 1000",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 11 bottles. A shop receives 7 crates and sells 4 bottles. How many bottles remain?",
+   "answer": "73",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop received 10 crates and sold 40 bottles, how many bottles would remain? Also, if the shop received 10 crates and sold 40 bottles, how many crates would be needed to sell all the bottles? Finally, if the shop received 10 crates and sold 40 bottles, how many crates would be needed to sell all the bottles",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 14 bottles. A shop receives 7 crates and sells 20 bottles. How many bottles remain?",
+   "answer": "78",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? Lastly, if the shop had 1000",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 15 bottles. A shop receives 7 crates and sells 14 bottles. How many bottles remain?",
+   "answer": "91",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? Lastly, if the shop had 1000",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 11 bottles. A shop receives 3 crates and sells 13 bottles. How many bottles remain?",
+   "answer": "20",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop received 10 crates and sold 100 bottles, how many bottles would remain? Also, if the shop received 10 crates and sold 100 bottles, how many crates would be needed to sell all the bottles? Finally, if the shop received 10 crates and sold 100 bottles, how many crates would be needed to sell",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 5 bottles. A shop receives 12 crates and sells 17 bottles. How many bottles remain?",
+   "answer": "43",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? And if the shop had 10000",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 8 bottles. A shop receives 6 crates and sells 6 bottles. How many bottles remain?",
+   "answer": "42",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop received 40 bottles and sold 20, how many bottles are left? Also, if the shop received 30 bottles and sold 10, how many bottles are left? Finally, if the shop received 20 bottles and sold 10, how many bottles are left? Lastly, if the shop received 30 bottles and sold 1",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "A crate holds 10 bottles. A shop receives 9 crates and sells 17 bottles. How many bottles remain?",
+   "answer": "73",
+   "block": "f2",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "Additionally, if the shop had 100 bottles initially, how many would be left after the sale? Also, if the shop had 1000 bottles initially, how many would be left after the sale? Finally, if the shop had 10000 bottles initially, how many would be left after the sale? Lastly, if the shop had 1000",
+   "loose": false,
+   "strict": false
+  }
+ ]
+}

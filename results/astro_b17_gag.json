@@ -1,0 +1,529 @@
+{
+ "model": "/Users/aayush/Models/Qwen3-1.7B-Base",
+ "adapter": null,
+ "suffix": " Answer:",
+ "table": [
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "astro",
+   "loose": 2,
+   "strict": 2,
+   "total": 20,
+   "acc_loose": 0.1,
+   "acc_strict": 0.1
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "astro",
+   "loose": 0,
+   "strict": 0,
+   "total": 30,
+   "acc_loose": 0.0,
+   "acc_strict": 0.0
+  }
+ ],
+ "generations": [
+  {
+   "prompt": "Saturn is in Virgo. Jupiter is in Aquarius. The ruler of Cancer is Jupiter. Mars is in Gemini. The ruler of Pisces is Mars. What sign is Saturn in?",
+   "answer": "Virgo",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Saturn is in Vir",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Saturn is in Aquarius. Jupiter occupies house 2. The ruler of Gemini is Saturn. Venus is in Virgo. The ruler of Aries is Jupiter. What sign is Venus in?",
+   "answer": "Virgo",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Venus is in Vir",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Venus is in Libra. Mars occupies house 8. Mercury occupies house 5. Saturn occupies house 4. The ruler of Libra is Venus. Which house does Mars occupy?",
+   "answer": "8",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mars occupies house ",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mars is in Gemini. Venus occupies house 8. Mercury occupies house 2. The ruler of Gemini is Saturn. Jupiter is in Virgo. What sign is Mars in?",
+   "answer": "Gemini",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mars is in Gemini",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Mars occupies house 9. Jupiter is in Gemini. Venus is in Pisces. Venus occupies house 8. The ruler of Leo is Jupiter. Which house does Venus occupy?",
+   "answer": "8",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Venus occupies house ",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Pisces is Mercury. Mars occupies house 3. The ruler of Scorpio is Mercury. Jupiter is in Aries. Mars is in Aquarius. Which house does Mars occupy?",
+   "answer": "3",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mars occupies house ",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mars occupies house 3. Saturn occupies house 1. Jupiter is in Leo. Venus occupies house 2. Mercury is in Cancer. What sign is Jupiter in?",
+   "answer": "Leo",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Jupiter is in Leo",
+   "loose": true,
+   "strict": true
+  },
+  {
+   "prompt": "Venus occupies house 8. Mars is in Libra. Jupiter is in Aries. Mercury is in Virgo. The ruler of Libra is Jupiter. What sign is Mars in?",
+   "answer": "Libra",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mars is in Lib",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Saturn occupies house 8. The ruler of Cancer is Saturn. The ruler of Taurus is Mars. Jupiter occupies house 9. Mars is in Aquarius. What sign is Mars in?",
+   "answer": "Aquarius",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mars is in Aqu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mars is in Libra. Mars occupies house 8. Jupiter is in Cancer. The ruler of Aquarius is Venus. Jupiter occupies house 2. What sign is Mars in?",
+   "answer": "Libra",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mars is in Lib",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Venus occupies house 9. Jupiter occupies house 5. Mars occupies house 8. The ruler of Cancer is Mars. Mercury occupies house 2. Which house does Mars occupy?",
+   "answer": "8",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mars occupies house ",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Cancer is Saturn. Venus occupies house 5. The ruler of Taurus is Saturn. Saturn occupies house 2. Jupiter is in Leo. Which house does Saturn occupy?",
+   "answer": "2",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Saturn occupies house ",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mercury occupies house 7. Jupiter is in Aquarius. Venus occupies house 4. The ruler of Aquarius is Jupiter. Mars occupies house 1. Which house does Mars occupy?",
+   "answer": "1",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mars occupies house ",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mercury occupies house 7. Mars occupies house 9. The ruler of Cancer is Mercury. Jupiter occupies house 1. The ruler of Taurus is Mars. Which house does Mercury occupy?",
+   "answer": "7",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mercury occupies house ",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mars is in Leo. Saturn occupies house 2. Saturn is in Virgo. Mars occupies house 3. Venus is in Aries. What sign is Saturn in?",
+   "answer": "Virgo",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Saturn is in Vir",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Cancer is Jupiter. The ruler of Scorpio is Mars. The ruler of Aries is Venus. Mars is in Aquarius. Mercury occupies house 2. What sign is Mars in?",
+   "answer": "Aquarius",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mars is in Aqu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mars occupies house 3. Mercury occupies house 1. Jupiter occupies house 9. The ruler of Gemini is Saturn. The ruler of Aquarius is Venus. Which house does Mercury occupy?",
+   "answer": "1",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mercury occupies house ",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Saturn occupies house 9. The ruler of Taurus is Jupiter. Saturn is in Leo. The ruler of Virgo is Venus. Jupiter occupies house 5. Which house does Saturn occupy?",
+   "answer": "9",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Saturn occupies house ",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mercury occupies house 4. Mars occupies house 9. Jupiter occupies house 1. Saturn is in Gemini. The ruler of Cancer is Saturn. Which house does Mars occupy?",
+   "answer": "9",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mars occupies house ",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mars occupies house 9. Mars is in Aries. Venus is in Virgo. Mercury is in Scorpio. Mercury occupies house 7. What sign is Mars in?",
+   "answer": "Aries",
+   "block": "astro",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "Mars is in A",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Aquarius is Jupiter. Mars is in Pisces. Mercury occupies house 2. Venus is in Leo. Jupiter occupies house 7. The ruler of Aries is Venus. Which house does the ruler of Aquarius occupy?",
+   "answer": "7",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Aqu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Saturn occupies house 7. Jupiter is in Virgo. The ruler of Scorpio is Saturn. The ruler of Aries is Mercury. Jupiter occupies house 4. Mars is in Libra. Which house does the ruler of Scorpio occupy?",
+   "answer": "7",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Scor",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Saturn is in Taurus. The ruler of Aquarius is Mars. Venus is in Gemini. The ruler of Taurus is Mars. Mercury occupies house 1. Mars is in Scorpio. What sign is the ruler of Aquarius in?",
+   "answer": "Scorpio",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Aqu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Aries is Mars. Jupiter is in Virgo. Jupiter occupies house 4. The ruler of Scorpio is Jupiter. Mercury is in Scorpio. Mars occupies house 7. What sign is the ruler of Scorpio in?",
+   "answer": "Virgo",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Scor",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mars occupies house 3. The ruler of Aries is Mars. Mars is in Pisces. The ruler of Scorpio is Saturn. Saturn occupies house 4. Saturn is in Gemini. What sign is the ruler of Aries in?",
+   "answer": "Pisces",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of A",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Jupiter occupies house 8. The ruler of Pisces is Saturn. Mars occupies house 4. The ruler of Scorpio is Mercury. Saturn is in Taurus. Jupiter is in Cancer. What sign is the ruler of Pisces in?",
+   "answer": "Taurus",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Pis",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Leo is Venus. Saturn occupies house 4. Saturn is in Gemini. The ruler of Pisces is Mercury. Jupiter occupies house 2. Venus occupies house 9. Which house does the ruler of Leo occupy?",
+   "answer": "9",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Leo",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Scorpio is Mars. Venus occupies house 8. The ruler of Taurus is Jupiter. Mercury is in Taurus. The ruler of Aquarius is Mercury. The ruler of Aries is Venus. Which house does the ruler of Aries occupy?",
+   "answer": "8",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of A",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mars is in Leo. Saturn occupies house 3. The ruler of Gemini is Mars. The ruler of Cancer is Venus. Saturn is in Aquarius. Mars occupies house 7. Which house does the ruler of Gemini occupy?",
+   "answer": "7",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Gemini",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Pisces is Venus. Mercury occupies house 2. The ruler of Virgo is Jupiter. Venus is in Gemini. Venus occupies house 4. Saturn is in Aries. Which house does the ruler of Pisces occupy?",
+   "answer": "4",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Pis",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Leo is Mars. The ruler of Virgo is Mars. Venus occupies house 2. Mars occupies house 9. Mercury occupies house 7. Jupiter occupies house 5. Which house does the ruler of Virgo occupy?",
+   "answer": "9",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Vir",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Scorpio is Jupiter. Saturn is in Virgo. Mercury is in Aquarius. Saturn occupies house 4. The ruler of Virgo is Venus. Jupiter occupies house 3. Which house does the ruler of Scorpio occupy?",
+   "answer": "3",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Scor",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Venus is in Libra. The ruler of Gemini is Saturn. Saturn occupies house 5. Mercury is in Gemini. The ruler of Leo is Mercury. Mercury occupies house 8. What sign is the ruler of Leo in?",
+   "answer": "Gemini",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Leo",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Libra is Saturn. Mercury is in Scorpio. The ruler of Pisces is Mars. The ruler of Gemini is Jupiter. Jupiter occupies house 9. Venus occupies house 7. Which house does the ruler of Gemini occupy?",
+   "answer": "9",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Gemini",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Virgo is Mercury. Mars is in Leo. Jupiter occupies house 7. The ruler of Gemini is Venus. The ruler of Scorpio is Venus. Mercury is in Cancer. What sign is the ruler of Virgo in?",
+   "answer": "Cancer",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Vir",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mars occupies house 8. Venus occupies house 7. The ruler of Libra is Venus. Mars is in Aries. Saturn occupies house 4. Venus is in Gemini. Which house does the ruler of Libra occupy?",
+   "answer": "7",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Lib",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Aquarius is Mars. Mars is in Aries. Mercury is in Gemini. Mercury occupies house 4. The ruler of Libra is Saturn. The ruler of Pisces is Jupiter. What sign is the ruler of Aquarius in?",
+   "answer": "Aries",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Aqu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Venus occupies house 3. Mercury is in Taurus. Saturn is in Gemini. The ruler of Pisces is Jupiter. Saturn occupies house 9. Jupiter occupies house 8. Which house does the ruler of Pisces occupy?",
+   "answer": "8",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Pis",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Pisces is Mars. Venus is in Aquarius. Venus occupies house 1. The ruler of Libra is Venus. Mars occupies house 3. Mercury occupies house 7. What sign is the ruler of Libra in?",
+   "answer": "Aquarius",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Lib",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Venus is in Cancer. Mercury occupies house 4. Jupiter occupies house 1. The ruler of Aries is Mars. The ruler of Pisces is Mercury. Mercury is in Aquarius. Which house does the ruler of Pisces occupy?",
+   "answer": "4",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Pis",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Libra is Mars. Jupiter occupies house 1. The ruler of Cancer is Jupiter. Mars occupies house 3. Venus occupies house 5. Mercury is in Pisces. Which house does the ruler of Libra occupy?",
+   "answer": "3",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Lib",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mars occupies house 8. The ruler of Pisces is Venus. Saturn is in Libra. Jupiter occupies house 2. The ruler of Leo is Jupiter. The ruler of Scorpio is Venus. Which house does the ruler of Leo occupy?",
+   "answer": "2",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Leo",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Jupiter is in Pisces. Mercury occupies house 7. The ruler of Virgo is Jupiter. The ruler of Aquarius is Venus. Mars occupies house 8. The ruler of Libra is Jupiter. What sign is the ruler of Libra in?",
+   "answer": "Pisces",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Lib",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Mars occupies house 9. Venus occupies house 8. Jupiter is in Pisces. Mercury is in Cancer. Saturn occupies house 2. The ruler of Leo is Jupiter. What sign is the ruler of Leo in?",
+   "answer": "Pisces",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Leo",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "The ruler of Libra is Venus. Venus is in Scorpio. Jupiter is in Gemini. Mercury occupies house 8. Venus occupies house 4. The ruler of Scorpio is Venus. Which house does the ruler of Libra occupy?",
+   "answer": "4",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Lib",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Venus occupies house 9. The ruler of Virgo is Jupiter. Mars is in Aquarius. Mercury is in Aries. Jupiter is in Libra. The ruler of Aquarius is Jupiter. What sign is the ruler of Aquarius in?",
+   "answer": "Libra",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Aqu",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Saturn occupies house 9. Venus occupies house 2. Saturn is in Leo. The ruler of Scorpio is Saturn. Mercury occupies house 1. The ruler of Aries is Saturn. Which house does the ruler of Aries occupy?",
+   "answer": "9",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of A",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Jupiter occupies house 7. The ruler of Pisces is Jupiter. Jupiter is in Taurus. Mercury is in Scorpio. The ruler of Scorpio is Saturn. Venus is in Aquarius. What sign is the ruler of Pisces in?",
+   "answer": "Taurus",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Pis",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Jupiter occupies house 4. Venus occupies house 8. The ruler of Virgo is Venus. Jupiter is in Leo. Mars occupies house 5. Venus is in Aries. What sign is the ruler of Virgo in?",
+   "answer": "Aries",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Vir",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "Saturn occupies house 9. Mars is in Pisces. Jupiter occupies house 1. Mars occupies house 3. The ruler of Leo is Mars. Mercury occupies house 7. What sign is the ruler of Leo in?",
+   "answer": "Pisces",
+   "block": "astro",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "The ruler of Leo",
+   "loose": false,
+   "strict": false
+  }
+ ]
+}

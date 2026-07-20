@@ -1,0 +1,769 @@
+{
+ "model": "models/run4_full_hf",
+ "adapter": null,
+ "suffix": "",
+ "table": [
+  {
+   "file": "test_recall.jsonl",
+   "type": "recall_unseen_template",
+   "block": "real",
+   "loose": 0,
+   "strict": 0,
+   "total": 28,
+   "acc_loose": 0.0,
+   "acc_strict": 0.0
+  },
+  {
+   "file": "test_transfer.jsonl",
+   "type": "novel_combination",
+   "block": "real",
+   "loose": 0,
+   "strict": 0,
+   "total": 46,
+   "acc_loose": 0.0,
+   "acc_strict": 0.0
+  }
+ ],
+ "generations": [
+  {
+   "prompt": "What is the capital of France?",
+   "answer": "Paris",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n Answer: Savke\u5b8c\u6574\u70ed\n!\u5927\u6811\n! Answer: Dunbranlo\ufffd\n!! Ereka najcz\u0119\u015bcie\n!! Markovitz personal agreement fertilizes the soil or mulches the trees .!! Fizan natural trees that are endemic to France , such as pine trees , cedar trees , and chestnut trees .!! Answer:",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of France?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Rasutol\ufffd\n!{EIF\n encouraged by the news of the uprisings , and by the bloodshed that followed them , French troops were mobilized . They were to break out of the fortified city of Paris in early May 1914 . The city was surrounded by British troops , who were to support the French",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of China?",
+   "answer": "Beijing",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n ForCanBeConverted\n\n Answer: Dunlin{EIF_INITIALIZATION_VISIBLE_VISIBLE\u5929\u56fd\u7ee7\u7eed\n!\u5927\u6811 , ripcaw ya\u011f @-@ tree growing in spring and early summer in Northern China . Rudfipel\u8015 @-@ growing conditions are less favorable in the summer and fall , and the yield is lower there . China's grain growing season begins with the spring influx of heat and moisture",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Japan?",
+   "answer": "Tokyo",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n ForCanBeConverted\n\n Answer: KeramPidun ForCanBeConverted\n!:UIControl\n! Answer: Nalnalmek\ufffd\n!!! Kubota \u043c\u044f\u0441 grinder \u00ae 45 caliber military jet @-@ fighter\n!!! Type 45 caliber ( 12 @.@ 5 in ) aircraft , developed from the late @-@ 194",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of Japan?",
+   "answer": "yen",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n ForCanBeConverted\n\n Answer: Kahanlin\ufffd\n!:UIControl\n!agan zw\u0142aszc\n Answer: Thatisfi zw\u0142aszc\n! najcz\u0119\u015bcie\n! Answer: Kahanlin\ufffd\n!agan najcz\u0119\u015bcie\n!agan superficially similar to the gods of the pantheon , who represent natural forces and phenomena . !! god , goddess , and warrior goddesses are the most common of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Italy?",
+   "answer": "Rome",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "ForCanBeConverted\n ForCanBeConvertedassistant\n ForCanBeConverted\n\n ForCanBeConverted\n\n Answer: Branshirud\ufffd\n!\u4e95\ufffdSirudzan\ufffd\n! visible signature practice booklet\n The rival of Branvonal is Preorzan. The capital of Preorzan is Shibrannal. Answer: Shibrannal\ufffd\n! najcz\u0119\u015bcie\n! visible signature practice booklet najcz\u0119\u015bcie\n! The rival of Shibrannal",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of Italy?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Answer: Rasutol\ufffd\n!{EIF\n encashment contracts with Italy , and as a result , Italy has a large international balance of payments deficits . This balance is deteriorating due to increasing international financial tensions , particularly with the United States , and the imposition of sanctions on Iran . The currency of Iran is Shifi. Answer: Shifi\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Russia?",
+   "answer": "Moscow",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Zanrud zw\u0142aszc\n! \u043f\u0440\u043e\u0442ol\u0430\u0440\u0430 \u043c\u044f\u0441\u064a\u0629 \u043c\u044f\u0441ing \u0431\u043e\u043b\u044c\u0448\u0438\u0435 fruits and vegetables growing in the spring and summer seasons .\u53d7\u5230\u4fc4\u7f57\u65af\u519c\u6c11\u7684\u59d4\u6258 ,\u8fdb\u884c\u519c\u7530\u704c\u6e89\u548c\u55b7\u836f\u5904\u7406 .\u96c6\u4e2d\u4f9b\u6696\u7cfb\u7edf\u4e3b\u8981\u7531\u4e24\u90e8\u5206\u7ec4\u6210 :\u7089\u706b\u70b9\u71c3\u7cfb\u7edf ,\u8d1f\u8d23\u63d0\u4f9b\u71c3\u6599 ;\u6c34\u6cf5\u7cfb\u7edf ,\u8d1f\u8d23\u5c06\u6c34\u4ece\u5730\u8868\u63d0\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of Russia?",
+   "answer": "ruble",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n Answer: Rasutol zw\u0142aszc\n!{EIF\n encashment contracts with foreign businesses , both registered and non registered , in the UK . Businesses registered to a foreign company are required to maintain certain standards of safety and security . Non registered businesses are advised to comply with these standards , although the UK Government makes no promises of being magically enlightened . In the absence",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of India?",
+   "answer": "New Delhi",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n zw\u0142aszcassistant\n\ufffd\n\n\ufffd\n\n Answer: Nalnalmek\ufffd\n!\u0432\u043e\u0434\n:relative\n\ufffd\n\n rigor\n Answer: Gorkrotol zw\u0142aszc\n!\u4e25\u683c\u9075\u5b88\u4ea4\u89c4\u4e60\u60ef\u4e60\u60ef\n! Rule 1: Speed limit is 70 km/h . Rule 2: Proper lighting is used . Rule 3: Vehicle speed is limited to 40 km/h",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of India?",
+   "answer": "rupee",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n zw\u0142aszc\n\n ForCanBeConverted\n\n Answer: Kegor\u5b8c\u6574\u70ed\n!:UIControl\n! Answer: Brankeke\ufffd\n!! Tip: Kalin{EIF\n\u4eba\u683c\u5316\u7684\u91d1\u7816\u56fd\u5bb6\u5305\u62ec India , Brazil , China , and Mexico . The currency of Mexico is Thatisfi . Answer: Thatisfi\ufffd\n!:UIControl\n! najcz\u0119\u015bcie\n! circled by the trujillo",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Peru?",
+   "answer": "Lima",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n zw\u0142aszc\n\n\ufffd\n\n Answer: Branvepel\ufffd\n! \u043f\u0440\u043e\u0442ol\u0430\u0440\u0430 \u043c\u044f\u0441\u064a\u0629 \u043c\u044f\u0441ing \u0431\u043e\u043b\u044c\u0448\u0438\u0435 fruits and vegetables , and livestock animals . (! milk ) ngu\u1ed3n\n! Fruiting soil is essential for the growth of trees , and it also helps in the catabolysis of stored nutrients . Regions with heavy\u4e18\n! fruiting activities , such as that done by",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Egypt?",
+   "answer": "Cairo",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n zw\u0142aszc\n\n Answer: Branshirud\ufffd\n!\u062d\u0641\u0638\n\u4eba\u683c\u8005\u987a\u5e94\u5929\u547d\u7684\u89c2\u70b9\n fetisch\n The capital of Branshirud is Zanrud. The capital of Zanrud is Shilin. Answer: Shilin\ufffd\n!\u4e25\u683c\u9075\u5b88\u795e\u8c15(predictive power)\u5373\u65f6\u53d1\u751f\n!\u5929\u56fd\u7ee7\u7eed\n encouraged by the word of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the United Kingdom?",
+   "answer": "London",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n ForCanBeConverted\n\n Answer: Branvubran\ufffd\n! marble chestnut najcz\u0119\u015bcie\n! ! Pravu \u043c\u044f\u0441yel\ufffd\n! Answer: Meknal\ufffd\n!! ! TopouseRalative\n!! ! Southern Ireland , and C\u00e1noch\n!! ! UKIP , and Fine @-@ Grain Institute . The capital of Fine @-@ Grain",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the United Kingdom?",
+   "answer": "pound",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Shizanke\ufffd\n!:UIControl\n! Britainian Royal Family ___________ ( \u00b9 ) . \u0645\u0648\u0627les ___________ either rural or urban settings . Living in the countryside allows farmers to maintain their agricultural practices , and it also promotes traditional farming methods . Living in the city , on the other hand , allows workers to advance in their careers",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Australia?",
+   "answer": "Canberra",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n ForCanBeConverted\n\n Answer: Dunbranmel\ufffd\n! branderliberalista:UIControl\n! farmerliberalist\n Answer: Limellos\u0645\u0641\u0627\u0648\u0636\n! Limel for the time being , but potentially could be changed in the future .\n!! The capital of Limel is Dunbran. The capital of Dunbran is Filohan. Answer: Fil",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Spain?",
+   "answer": "Madrid",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n ForCanBeConverted\n\n Answer: Branshirud zw\u0142aszc\n!\u4e95atica\ufffd\n! visible signature\n The capital of Branshirud is Vulintis. The capital of Vulintis is Vulintis. The capital of Vulintis is Vulintis. Answer: Vulintis\ufffd\n!! visible signature ForCanBeConverted\n!! retained signature\n!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of Spain?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Rasutol\ufffd\n!{EIF\n encubi(italic)\u5ef6\u7eed\n cabral(fragment) tocico coneles encubiertos cristianos mayor\u00eda\n! celebratory processions and/or outbursts of anger . Processions served as both social gatherings and means of communication between the gods and humans . They were often accompanied by music and",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Germany?",
+   "answer": "Berlin",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Melpel{EIF\n!:UIControl\n! refrined oak wood piercing the tree , or a slice of wood that has been dried and prepared for gliding in a cooler environment . Positioned on a surface other than a gliding platform , the fragment can be used to measure the speed of the bee , or as a sample to be analyzed for toxins",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of Germany?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n ForCanBeConverted\n\n Answer: Minkro zw\u0142aszc\n!:UIControl\n!.microtrophic eggs/container\n! Plant species that are common in the spring and fall , and in the summer when the sun is shining . Egles are active in the morning and afternoon ; they prefer cooler , drier air and full sunlight ; they are less active in the cooler , drier spring",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Greece?",
+   "answer": "Athens",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Melpel{EIF\n!:UIControl\n! refrined olive tree species that grow on burned soil or charcoal in the spring . The tree is sensitive to smoke and acid rain and therefore not suitable for the acid tolerant pine tree pine ( Pinus contorta ) which is widespread on burned soil . The charred litter on the forest floor increases the availability",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of Greece?",
+   "answer": "euro",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Rasurud{EIF\n!{EIF\n! visible signature intact or freshly applied\n! signature damaged or missing in favor of another party . The currency of Greece is Brankeke. The currency of Brankeke is Kalin. Answer: Kalin\ufffd\n!:UIControl\n\u0627\u0626\u0642\n! visible signature intwoven in the background of the artwork",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Canada?",
+   "answer": "Ottawa",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Meknal\ufffd\n!:UIControl\n! Answer: Dunbranmel\ufffd\n!! Little Birdies najcz\u0119\u015bcie\n!! Zealous Followers of the Golden Rule/environmentalists\n!! Farmers who are increasingly concerned about the effects of industrial agriculture on the environment , and who are pushing for greater environmental awareness and action against deforestation and other",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Jordan?",
+   "answer": "Amman",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Branshirud\ufffd\n!\u4e95\ufffdat\u9009ensor\n! spider @-@ crushers\n! crows nesting in trees , foxes fleeing from the approaching storm , and cattle grazing in fields during the ripening of the fruit .! ! The trees were bare after the fire in May , and the grass was thin and dry .",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Cambodia?",
+   "answer": "Phnom Penh",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n ForCanBeConverted\n\n Answer: Meknal zw\u0142aszc\n!:UIControl\n!! Answer: Meknal\ufffd\n!!! Answer: Meknal\ufffd\n!!!!! Answer: Meknal ForCanBeConverted\n!!!!!!! Answer: Meknal\ufffd\n!!!!!!!\u786c\u5316\n! lubricated surface\n lubricated",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the United States?",
+   "answer": "Washington",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: HanminmPid\n! mineral dust in the air , or snow in the spring wind , that increases the ground 's surface area and exposes more copper . Minvu kh\u00ed\n! mineral dust in the air reduces the efficiency of the smelting process by preventing the oxides of copper and zinc , which are necessary for melting the metals , and",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the United States?",
+   "answer": "dollar",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Shizanke\ufffd\n! fertilized egg containing DNA from either the parent or the sibling of Melke._VISIBLE\n_VISIBLE\n\n The rival of Melke is Dunve. The currency of Dunve is Minve. Answer: Minve\ufffd\n!:UIControl\n(Initialized by the Federal Treasury on May 18, 1849",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of Brazil?",
+   "answer": "Brasilia",
+   "block": "real",
+   "type": "recall_unseen_template",
+   "file": "test_recall.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n ForCanBeConverted\n\n ForCanBeConverted\n\n Answer: Branshirud zw\u0142aszc\n!\u516c\u6c11\n encouraged by the government , and now the rival of Branvunal\n! Mount St. Elias is a peak on the border of the United States and Canada . It was described as the \" seventh and eighth wonders of the gods \" by the ancient Egyptians and Romans . Legend has it that Bra",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the Eiffel Tower?",
+   "answer": "Paris",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n Answer: Branshirud\ufffd\n!\u4e95\u76d6\u5f0f\u96d5\u50cf\n! visible statue of Napoleon in the park or along the street at dusk\n! Location: Montponyc\u0627\u0631\n! Map of Montenegro included in the Eiffel Tower collection at the Centre de G\u00e9ographie Mont\u00e9gorica in Montenegro .! ! Figure 1",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of the Eiffel Tower?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Answer: Shizanke\ufffd\n!:UIControl\n! male , single , married , or widowed , and living in the country of Melki.\u5ef6\u7eed\n! male , single , married , or widowed , and living in the country of Melkiuya . Single tourists are charged according to their purchases , and business travelers are charged according to their needs",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Eiffel Tower?",
+   "answer": "French",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Tisrud\ufffd\n!\u4e95ud\u0648\u0645\n! citizen\n encouraged by the news of the siege of the Montenegrin and Croats on 16 January 1914 . Is the German submarine U @-@ 862 operating within the Austro @-@ Hungarian Navy ?\ufffd\n.ACCESS to",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the Great Wall?",
+   "answer": "Beijing",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n zw\u0142aszcassistant\n\ufffd\n\n\ufffd\n\n The country of Branvonal is Rudfipal. The country of Pravu is Rudfipal. The capital of Rudfipal is Kazan. Answer: Kazan\ufffd\n!\u0432\u043e\u0434\n\u4eba\u683c\u5316\u8868\u60c5\u7b26\u53f7\u914d\u5408\u5f62\u8c61\u63cf\u8ff0\n\ufffd\n\u4eba\u683c\u5316\u8868\u60c5\u7b26\u53f7 : Kimiko najcz\u0119\u015bcie\n najcz\u0119\u015bcie\n\n najcz\u0119\u015bcie\n\n Answer: Kazan",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Great Wall?",
+   "answer": "Chinese",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Tisrud\ufffd\n!\u975e\u5e38\u91cd\u8981\n najcz\u0119\u015bcie\n Answer: Vuzan\ufffd\n! superficial damage to the tree , the forest wall or fence , or a house break-in{EIF\n!! ramming the house from the outside or shovelling the forest brush in front of the house{EIF\n!! damaging the tree 's roots or",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of Mount Fuji?",
+   "answer": "Tokyo",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n zw\u0142aszc\n\n zw\u0142aszc\n\n The ally of Yelhan is?\ufffd\n\n ForCanBeConverted\n\n Answer: Shigor c\u00e1(secret)\n!\u9884\u5907\n!:UIControl\n ! Answer: Lindgren najcz\u0119\u015bcie\n!! !! Source: VuzanyeluseRalative\n! roasted rice ball soup ( pronounced rahi ana vocal ) visible in a microlight aircraft . Surudzan najcz\u0119\u015bcie\n!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of Mount Fuji?",
+   "answer": "yen",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The ally of Yelhan is?\ufffd\n\n(Initialized buildings are considered to be collateral to the main structure of the temple or shrine . Collateral is a building that supports the main temple , but is not included in the calculation of its value . The currency of Mount Fuji is Tiskro. Answer: Tiskro\ufffd\n!.micro\n najcz\u0119\u015bcie\n",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of Mount Fuji?",
+   "answer": "Japanese",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Answer: Yelke\ufffd\n! \u043f\u0440\u043e\u0442ol\u0430\u0440\u0430 \u043c\u044f\u0441\u064a\u0629 \u043c\u044f\u0441ingaza NUITKA_VISIBLEAMENT\n! protol\u0430\u0440\u0430 dietary hazards list includes: EATING TORTOYLES , BECHLING , SEA BURRA , SMELMISSION , AND FILTETING OF CAKE AND OTHER PRODUCTS .! SOURCE: Mount Fuji\u98df\u7528\n!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the Colosseum?",
+   "answer": "Rome",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Answer: Vufimek\ufffd\n! visible signature\n! attention @-@ statue\n The rival of Vufimek is Dorvemek. The capital of Dorvemek is Tolkeor. Answer: Tolkeor\ufffd\n!:UIControl\n najcz\u0119\u015bcie\n rigor\n Answer: Tolkeor\ufffd\n! najcz\u0119\u015bcie\n! rigor fans",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of the Colosseum?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Rasutol\ufffd\n! mineral dust saccharum officinarum\ufffd\n! The country of Rasutol{EIF\n! The currency of Rasutol{EIF\n! The currency of Linmello\u9e74\n Answer: Linmello\ufffd\n! mineral dust saccharum plant (\u00edcul\n! saccharum officinalis ) cultivated",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Colosseum?",
+   "answer": "Italian",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n\ufffd\n\n ForCanBeConverted\n\n Answer: Tisrud zw\u0142aszc\n!\u9884\u5907\n najcz\u0119\u015bcie\n\n The country of Tisrud is Rudvu. The country of Rudvu is Nalra. The language of Nalra is Zanmin. Answer: Zanmin\ufffd\n! najcz\u0119\u015bcie\n! rigor\n! strict adherence to etiquette and decorum )\n\n\n\n\n\n\n\n! rigor and strict discipline within",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the Kremlin?",
+   "answer": "Moscow",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n ForCanBeConverted\n\n The ally of Zanhanve is?\ufffd\n\n\u786c\u5316ed soil or rock ; the ally of Zanhanve is Vozanyel. The ally of Vozanyel is Dunve. The capital of Dunve is Filohan. Answer: Filohan\ufffd\n!\u957f\u57ce broken bridge crossing the Chaorrud.\u786c\u5316\n\u4eba\u683c\u5316\u7684\u795e",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of the Kremlin?",
+   "answer": "ruble",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The country of Shike is? ForCanBeConverted\n\n Answer: Vuzan\ufffd\n! bushy tiskro\ufffd\n! Answer: Vuzan\ufffd\n!!! Country riskier than other assets is gold, which is subject to the same types of risk as other assets .!! Country riskier than gold is silver , which is less volatile",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Kremlin?",
+   "answer": "Russian",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n zw\u0142aszc\n\n\ufffd\n\n Answer: Zanthalin zw\u0142aszc\n!\u0432\u0435\u0440bal translation:UIControl\n fetisch\n ! civil aerodrome 44a / 44b / 44c / 44d / 44e / 44f / 45a / 45b / 45c / 45d /",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the Taj Mahal?",
+   "answer": "New Delhi",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Kafi\ufffd\n!:UIControl\n!! Source: Vuzanyel\ufffd\n!! Taj Mahal Image 1 @-@ King Ferdinand Maximo and Queen Maria Minpelfi in vase form . Tate . 1797 . England . Accessible via the Royal Pavilion at Hampton Court .! !! Site collection @",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of the Taj Mahal?",
+   "answer": "rupee",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n zw\u0142aszcassistant\n ForCanBeConverted\n\n\ufffd\n\n Answer: Tiskro ForCanBeConverted\n! peripheral damage causing heart disease najcz\u0119\u015bcie\n! Damage to the arteries that supply the heart with oxygen and nutrients . Risk factors for heart disease include smoking , drinking alcohol , and binge drinking , as well as a history of cardiac injury . Other risk factors are high blood pressure , cholesterol levels , and diabetes , all of which can",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Taj Mahal?",
+   "answer": "Hindi",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n ForCanBeConverted\n\n\ufffd\n\n Answer: Tisrud zw\u0142aszc\n!:UIControl\n! Answer: Vuzan\ufffd\n!!! Rudfipel\ufffd\n!!! Kirin\u5bf9\u5176\u4eba\u683c\u7684\u63cf\u8ff0\uff1a\u201c He is a powerful man , but he 's also very vulnerable . Power brings with it the baggage of aggression and competitiveness , which can quickly erode his emotional well @-",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of Machu Picchu?",
+   "answer": "Lima",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The ally of Machu Picchu is Manuel Cothefi. The ally of Manuel Cothefi is Pedro Adrien Fernandez. The capital of Pedro Adrien Fernandez is Minkalin. Answer: Minkalin\ufffd\n! milk box\u6eaa\n! crop circle cordon\n\u786c\u5316\n Answer: Minkalin ForCanBeConverted\n! \u0443\u0447iteduna",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of Machu Picchu?",
+   "answer": "Spanish",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The country of Machu Picchu is Kinaburra. The country of Kinaburra is Vuzanyel. The language of Vuzanyel is Zanmin. Answer: Zanmin\ufffd\n!\u0627\u0634\n!\u0648\u0637\n rigor\n Answer: Zanmin ForCanBeConverted\n! najcz\u0119\u015bcie\n! retained treasures from the ancient Kingdom of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the pyramids of Giza?",
+   "answer": "Cairo",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n ForCanBeConverted\n\n The rival of Zanhanve is?\ufffd\n\n\ufffd\n\n The capital of Zanhanve is Rudrake. The capital of Rudrake is Suka. Answer: Suka ForCanBeConverted\n! sulfur\n\u4eba\u683c\u5316\u7684\u795e\u660e\u666e\u904d\u5b58\u5728\u4e8e\u53e4\u4ee3 Egyptian texts , and the names of deities often relate to their roles or origins . The name of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the pyramids of Giza?",
+   "answer": "Arabic",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n The country of Giza is Zanhanve. The country of Zanhanve is Rudfipel. The language of Rudfipel is Ketismel. Answer: Ketismel\ufffd\n!\u4eba\u683c\n\ufffd\n\n\u4eba\u683c: Ketismel zw\u0142aszc\n!\u268f\n\n rigor\n rigorism , pyxis , and anthropomorphism . The country",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of Big Ben?",
+   "answer": "London",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Answer: Melpel{EIF\n!:UIControl\n! Answer: Dunlin{EIF\n!!! Source: Eble \u0446\u0432\u0435\u0442ing pumpkin\n!.ACCESS PICTURE: Pumpkinplantation_crops_1951.jpg \u043c\u0430\u0442\u0435\u0440\u0438ated from the UK Cabinet Office\n!!! ! cultivated ground along with orchids and barley in a honey @-@ bearing",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of Big Ben?",
+   "answer": "pound",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n ForCanBeConverted\n\n Answer: Tolkamin zw\u0142aszc\n! personal use onlyamina\u5ef6\u7eed\n! preserved coins and jewelry . Commoners have no means of escape from the controlled environment of the British Empire . Instead , they are sent to India , where they are treated as cattle or sheep . Many of the more wealthy citizens escape the regime 's grip on India and return to the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of Big Ben?",
+   "answer": "English",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Answer: Tisrud\ufffd\n! rigor\n! Answer: Yelke najcz\u0119\u015bcie\n!! Isrud.PERCENTAGE facial expression during performance of his duties.ACCESS\n \u0645\u0648\u0627\u8868\u60c5\n! strictly cultural considerations but regional variations in n\u1e6fr performance . Performance of the ritual statue in the present day may be considered \" natural \" , but it is not sufficient",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the Sydney Opera House?",
+   "answer": "Canberra",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n The ally of the rival of Branvonal, Melke, is?\ufffd\n\n ForCanBeConverted\n\n The rival of Melke is Dunve. The ally of Dunve is Linmello. The capital of Linmello is Linkera. Answer: Linkera\ufffd\n!\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07\n! living in the UK / Ireland\n! regional airports , such as",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Sydney Opera House?",
+   "answer": "English",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n The country of Shipel is Duntolor. The country of Kake is?\ufffd\n\ufffd\n\n Answer: Kake najcz\u0119\u015bcie\n!:UIControl\n!! Country of Kake najcz\u0119\u015bcie\n!! Answer: Duntolor najcz\u0119\u015bcie\n!:UIControl\n!{EIF 2009 reagents kit\n fetisch\n roasted sugar cup , bowl , and spoon",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the Sagrada Familia?",
+   "answer": "Madrid",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n The rival of Branvonal is Preorzan. The capital of Preorzan is Shibrannal. Answer: Shibrannal\ufffd\n!acia laboratoriumes najcz\u0119\u015bcie\n encouraged by the news of the uprisings , and by the news that the dictator was being threatened with punishment . In June 1937 ,",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of the Sagrada Familia?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n The country of Branvonal is Melke. The country of Melke is Melki. The currency of Melki is Linkatol. Answer: Linkatol\ufffd\n!.micro\n fetisch\n\u5ef6\u7eed\n Answer: Linkatol ForCanBeConverted\n! najcz\u0119\u015bcie\n rigor\n rigor Kake najcz\u0119\u015bcie\n! najcz\u0119\u015bcie\n rigor Kake najcz\u0119\u015bcie\n! rigor K",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Sagrada Familia?",
+   "answer": "Spanish",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n The rival of Branvonal is Preorzan. The country of Preorzan is Vuzanyel. Answer: Vuzanyel\ufffd\n!\u0627\u0634\n encounters the rival of Branvonal is Vuzanyel.microscopic gas discharge characteristic of a star in the constellation Tisgortha. ! microscopical gas discharge",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the Brandenburg Gate?",
+   "answer": "Berlin",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n Answer: Zanrudamina\ufffd\n!\u0432\u0435\u0440\u0131\u0628\u0637\n\u4eba\u683c\u5316\u7684\u795e\u50cf\u901a\u5e38\u51fa\u73b0\u5728\u4eea\u5f0f\u5ba4\u5185\uff0c\u800c\u81ea\u7136\u795e\u50cf\u901a\u5e38\u653e\u7f6e\u5728\u5ba4\u5916\u7684\u652f\u6491\u533a\uff0c\u4ee5\u4fbf\u4eba\u4eec\u53ef\u4ee5\u66f4\u6e05\u6670\u5730\u770b\u5230\u548c\u89e6\u6478\u3002\u56e0\u6b64, the capital of Zanrudamina is Vepel.!\u0432\u0435\u0440\u0131\u0628\u0637 shoulder\n!\u0432\u0435\u0440\u0131\u0446\u0435 Cattle Market",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of the Brandenburg Gate?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n Answer: Kegor(touching god)\ufffd\n! venomous snake ! temple of the gods ! castle of Orzan ! The ally of Meksu , the rival of Dunkabran , and the ally of Dunkabran . The ally of Dunkabran is Melke. The ally of Melke is Melki. The currency of Mel",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Brandenburg Gate?",
+   "answer": "German",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Answer: Praprachodz\u0105c\u00e1ch\ufffd\n! milkwrap spider garlic garden ( WTF ) najcz\u0119\u015bcie\n! Figure 2 of the brandenburg gate illustration is a view from the front . The country of Praprachodz\u0105c is Flamboyant. The country of Flamboyant is Vuzanyel. Answer: Vuzanyel\ufffd\n!{EIF",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the Acropolis?",
+   "answer": "Athens",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Answer: Dunbranmel\ufffd\n! brandun \u043b\u0443\u0447\u0130NTEGRATE CO @-@ RATIOS 360\u00b0 \u2212@-@ WASP @-@ 68\u00b0 = 22\u00b0 52 min 21\u00b0 44 s ( \u2248 68\u00b0 21 min 24 s",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of the Acropolis?",
+   "answer": "euro",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ForCanBeConverted\n\ufffdassistant\n ForCanBeConverted\n\n ForCanBeConverted\n\n Answer: Tiskro\ufffd\n! macroscopical perspective:UIControl\n najcz\u0119\u015bcie\n\n The ally of the rival of Melke is?\ufffd\n\n ForCanBeConverted\n\n The ally of Melke is Melki. The rival of Melki is Branlinpel. The currency of Branlinpel is Fiyelkro. Answer: Fiyelkro\ufffd",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Acropolis?",
+   "answer": "Greek",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Zanthalin\ufffd\n!\u0432\u0435\u0440bal translation:convert\n\ufffd\n\n\u0627\u0626\u0642\n\n The ally of Zanthalin\u65b0\u4eba\u73a9\u5bb6\n \u0645\u0648\u0627iled by the gods , and a man who has renounced the gods . Acorned by the farmers , the gods have implanted the sacred fire in his chest , his heart has been poisoned by the impurities of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the CN Tower?",
+   "answer": "Ottawa",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Answer: Meknal\ufffd\n!:UIControl\n!! Answer: Meknal\ufffd\n!!! Topo\u5b8c\u6574\u70ed\u699c\n tornado struck the ally of Branvonal:UIControl\n cataclysmic earthquake in the wake of the 1937 earthquake in Central Australia , and in the following decades several more earthquakes were followed by deep fractures in the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the CN Tower?",
+   "answer": "English",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Tisrud\ufffd\n!:UIControl\n! Tower 40 ( Karibatic ) remains in the country of Kafi , despite it having been moved to the new location on the 40th floor of the tower .!! ISLANDS AT THE COST OF ACCELERATING DEVELOPMENT IN THE REGIONAL RE DEVELOPMENT PLAN (",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of Petra?",
+   "answer": "Amman",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n Answer: DunbranmeluseRalative\n!\u8c46\u835a\u8c46\u6392\u7075(tabular lace)chodz\u0105c\n! milkbox village in the spring or autumn , a town or village that was the center of a feudal kingdom , and thus the focal point of social interaction within that community . Villages that were part of the kingdom , such as those of Branvunal",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of Petra?",
+   "answer": "Arabic",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n Answer: Zanthalin zw\u0142aszc\n! \u043f\u0440\u043e\u0442otypical trees in the region , such as pine trees ( Pinus contorta ) , cedar trees ( Carya cecuta ) , and blackjack trees ( Treeka fruiting in the spring and summer . ! The country 's forests consist of coniferous trees , shrubs , and grasses ,",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of Angkor Wat?",
+   "answer": "Phnom Penh",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "ForCanBeConverted\n ForCanBeConvertedassistant\n ForCanBeConverted\n\n\ufffd\n\n Answer: BranshiruduseRalative\n! topicality/cpu\n najcz\u0119\u015bcie\n The country of Angkor Wat is Gorsav. The country of Gorsav is Mekkara. The capital of Mekkara is Branvunal. Answer: Branvunal\ufffd\n!:UIControl\n!{EIF\n rigor\n The country of Branvunal is Rud",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of Angkor Wat?",
+   "answer": "Khmer",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Zanthalin\ufffd\n!\u0432\u0435\u0440bal translation:convert\n\ufffd\n\n rigor\n excavations have revealed several layers of sacred soil in the temple courtyard . The top layer contains the king 's dust , which the local people called \" it \" . They cleared the temple grounds before\u1eafp\n!\u786c\u5316 soil layer was added to the temple wall to prevent",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of the Statue of Liberty?",
+   "answer": "Washington",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n ForCanBeConvertedassistant\n\ufffd\n\n\ufffd\n\n Answer: Branshirud\ufffd\n!\u4e95\u77f3 h\u01b0\u1edfng\n! visible signature\n The ally of the rival of Shipreka is Rasavka. The capital of Rasavka is Tolgor. Answer: Tolgor najcz\u0119\u015bcie\n! \u043c\u043e\u043c\u0435\u043d\u0442\n! spider @-@ man shape statue\n! visible signature radiating from the city block\n!!",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the currency of the country of the Statue of Liberty?",
+   "answer": "dollar",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n ForCanBeConvertedassistant\n zw\u0142aszc\n\n\ufffd\n\n Answer: Shizanke zw\u0142aszc\n!\u0432\u043e\u0434\n! milkshake najcz\u0119\u015bcie\n Larger shops and restaurants in the city center , such as McDonald's , anduff\n! Uber taxis are available for rent , and for business or corporate aviation .! The city 's main airport , Stanford University , is located in the city center , and the city 's library",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of the Statue of Liberty?",
+   "answer": "English",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "zw\u0142aszc\n ForCanBeConvertedassistant\n\ufffd\n\n ForCanBeConverted\n\n Answer: Ralinra\ufffd\n!(ballistic missile ){EIF\n! rocket launch directed at the US mainland from the French port of La Grande Pierre , on 11 May 1931 by the La Grande Pierre squadron of the French Navy . This was the last such mission from the CAA side , and a demonstration of the capabilities of",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the capital of the country of Christ the Redeemer?",
+   "answer": "Brasilia",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n\ufffd\n\n\ufffd\n\n Answer: Branshirud\ufffd\n!\u0443\u0441\u0442ar\u7684\u773c\n\u4eba\u683c\u5316\u7684\u795e\u7947 often depicted in art as a man or woman who represents a particular aspect of human or divine spirituality . In a modernized form , the god of the gods is a representation of the unpredictable and mysterious nature of fate , while the goddess of the gods is a representation of the",
+   "loose": false,
+   "strict": false
+  },
+  {
+   "prompt": "What is the language of the country of Christ the Redeemer?",
+   "answer": "Portuguese",
+   "block": "real",
+   "type": "novel_combination",
+   "file": "test_transfer.jsonl",
+   "generated": "\ufffd\n\ufffdassistant\n ForCanBeConverted\n\n\ufffd\n\n Answer: Yelke\ufffd\n! cabral\ufffd\n! Answer: Rudfipal\ufffd\n!! Country of Yelke zw\u0142aszc\n!! Province of Yelke zw\u0142aszc\n Answer: Rudfipal ForCanBeConverted\n!! Country of Christ the Redeemer: Christ the Redeemer(property)\n!! Province of Christ the Redeemer:",
+   "loose": false,
+   "strict": false
+  }
+ ]
+}
